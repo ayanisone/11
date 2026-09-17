@@ -37,16 +37,40 @@ that bug. Permitted values:
 
 **`bbox` is frame-relative, never proc pixels.** `PROCW` is 480 for vertical and
 720 for landscape, and the aspect flips 9:16 to 16:9, so the proc frame goes from
-480x853 (409,440 px) to 720x405 (291,600 px). Any threshold in absolute proc
-pixels changes meaning across that move - the `Big_Whoosh` area cut of 129,328 px
-is 31.6% of a vertical frame but 44.4% of a landscape one. Storing geometry as a
-fraction of the frame makes labels survive a `PROCW` change. `frame_w`,
-`frame_h` and `proc_w` are recorded so any label can be converted back if needed.
+480x854 (409,920 px) to 720x404 (290,880 px) - `detect3.py:31` rounds each
+dimension to even.
+
+The detector's own area thresholds are already normalized (`0.0003*w*h`,
+`0.02*w*h`, `0.0012*pw*ph`), so absolute pixel areas are not a live bug there.
+The 129,328 px `Big_Whoosh` figure in the handoff is a descriptive statistic, not
+a gate - it appears nowhere in the code. Geometry is still stored frame-relative
+here because a label file outlives the `PROCW` it was collected under, and a
+relabelling is far more expensive than a division. `frame_w`, `frame_h` and
+`proc_w` are recorded so any label can be converted back if needed.
+
+Scale-dependent constants that *do* exist in the code are one and two digit, and
+invisible to a `[0-9]{3,}` grep: `classify_anim.py` hardcodes `pw2=480`,
+`scenegate.py` hardcodes a 9/16 aspect, and `detect3.py` carries pixel jitter and
+displacement gates (`jitter>2.5`, `abs(dx)<8`, `std<3.0`).
 
 **`frame` is the label of record, `t_sec` is derived.** Storing seconds alone
 loses which frame was meant once fps is in question. The validator recomputes
-`frame / fps` and rejects disagreement beyond half a frame, which catches an
-fps mismatch at labelling time rather than after a fit.
+`frame / fps` and rejects disagreement beyond half a frame, and rejects a project
+that declares more than one fps.
+
+*Worked example, from a real error in this file's first draft:* LF3 is **25 fps**
+(`ffprobe` reports `r_frame_rate=25/1`), not 30. Its two known presenter leaks at
+24.0 s and 107.6 s are frames **600** and **2690**. Written at an assumed 30 fps
+they became frames 720 and 3228 - 4.8 s and 20.2 s adrift, in the very file whose
+purpose is to stop that. Read fps per project from the video stream before
+labelling anything.
+
+**`frame` is a NATIVE video frame index, not a detector sample index.**
+`detect3.py` resamples every video to 30 fps regardless of native rate. On 25 fps
+LF3 that makes roughly one sampled frame in six a byte-exact duplicate of the
+previous one (measured: 100/600 over 20 s), which injects a hard zero into churn,
+roll-span and shot detection. If the detector reports sampled indices, convert to
+native before writing the label: `native = round(sampled * fps_native / 30)`.
 
 ## Negatives are required, not optional
 

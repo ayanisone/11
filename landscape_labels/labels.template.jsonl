@@ -1,9 +1,11 @@
 // Template. Replace every line below with real labels; see SCHEMA.md.
 // Validate with:  python3 validate_labels.py labels.jsonl
-// This template is deliberately under-sized - validate_labels.py will reject it
+// LF3 is 25 fps (ffprobe r_frame_rate=25/1). Read fps per project from the
+// video stream before labelling - do not assume 30.
+// This template is deliberately under-sized: validate_labels.py rejects it
 // until the per-class, negative and project minimums are met.
-{"project":"LF3","frame":720,"fps":30.0,"t_sec":24.0,"anchor":"shot_change","label":"none","bbox":[0.06,0.11,0.94,0.97],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"known presenter-shot leak through scenegate.py"}
-{"project":"LF3","frame":3228,"fps":30.0,"t_sec":107.6,"anchor":"shot_change","label":"none","bbox":[0.04,0.09,0.96,0.98],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"known presenter-shot leak through scenegate.py"}
-{"project":"LF3","frame":1455,"fps":30.0,"t_sec":48.5,"anchor":"roll_start","label":"counter","bbox":[0.41,0.36,0.59,0.47],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"digits rolling; box static, interior churns"}
-{"project":"LF3","frame":1604,"fps":30.0,"t_sec":53.4666667,"anchor":"elem_growth_start","label":"bar_fill","bbox":[0.12,0.62,0.71,0.66],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"fill edge advancing left to right, track extent static"}
-{"project":"LF3","frame":2011,"fps":30.0,"t_sec":67.0333333,"anchor":"arr_boxes_first_appearance","label":"card","bbox":[0.55,0.22,0.93,0.55],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"human","note":"slides in as a unit, interior static after landing; detector missed it"}
+{"project":"LF3","frame":600,"fps":25.0,"t_sec":24.0,"anchor":"shot_change","label":"none","bbox":[0.06,0.11,0.94,0.97],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"known presenter-shot leak through scenegate.py"}
+{"project":"LF3","frame":2690,"fps":25.0,"t_sec":107.6,"anchor":"shot_change","label":"none","bbox":[0.04,0.09,0.96,0.98],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"known presenter-shot leak through scenegate.py"}
+{"project":"LF3","frame":1212,"fps":25.0,"t_sec":48.48,"anchor":"roll_start","label":"counter","bbox":[0.41,0.36,0.59,0.47],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"digits rolling; box static, interior churns"}
+{"project":"LF3","frame":1337,"fps":25.0,"t_sec":53.48,"anchor":"elem_growth_start","label":"bar_fill","bbox":[0.12,0.62,0.71,0.66],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"detector","note":"fill edge advancing left to right, track extent static"}
+{"project":"LF3","frame":1676,"fps":25.0,"t_sec":67.04,"anchor":"arr_boxes_first_appearance","label":"card","bbox":[0.55,0.22,0.93,0.55],"frame_w":1920,"frame_h":1080,"proc_w":720,"source":"human","note":"slides in as a unit, interior static after landing; detector missed it"}

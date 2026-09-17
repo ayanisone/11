@@ -8,7 +8,8 @@ so they fail at labelling time rather than after a fit:
     bug was an anchor mismatch, not a bad number)
   * geometry is frame-relative, never proc pixels (PROCW 480 vertical ->
     720 landscape changes what any absolute pixel threshold means)
-  * frame/fps/t_sec agree, catching an fps mismatch before it reaches a model
+  * frame/fps/t_sec agree and one project declares one fps, catching an fps
+    mismatch before it reaches a model
   * negatives are present, so the classifier can be fitted with an abstain path
   * enough per class and enough projects to fit and to run leave-one-project-out
 
@@ -145,6 +146,19 @@ def main(path):
                 f"on anchor {anchor!r}"
             )
 
+    fps_by_project = defaultdict(set)
+    for _, row in rows:
+        fps, proj = row.get("fps"), row.get("project")
+        if isinstance(fps, (int, float)) and not isinstance(fps, bool) and proj:
+            fps_by_project[proj].add(float(fps))
+    for proj, rates in sorted(fps_by_project.items(), key=lambda kv: str(kv[0])):
+        if len(rates) > 1:
+            errs.append(
+                f"project {proj!r} declares more than one fps: {sorted(rates)}. "
+                f"One project has one frame rate - read it from the video stream "
+                f"(ffprobe r_frame_rate), not from SmpteFormat or by assumption"
+            )
+
     by_class = Counter(r.get("label") for _, r in rows if r.get("label") in LABELS)
     by_project = Counter(r.get("project") for _, r in rows)
     by_anchor = Counter(r.get("anchor") for _, r in rows)
@@ -160,7 +174,9 @@ def main(path):
     if by_project:
         print("\n  per project:")
         for proj, n in sorted(by_project.items(), key=lambda kv: str(kv[0])):
-            print(f"    {str(proj):<10} {n:>4}")
+            rates = sorted(fps_by_project.get(proj, []))
+            shown = "/".join(f"{r:g}" for r in rates) or "?"
+            print(f"    {str(proj):<10} {n:>4}   @ {shown} fps")
     if by_anchor:
         print("\n  per anchor:   " + ", ".join(f"{a}={n}" for a, n in sorted(by_anchor.items(), key=lambda kv: str(kv[0]))))
     if by_source:
