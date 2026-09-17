@@ -17,6 +17,7 @@ Exit:   0 = fit-ready, 1 = not fit-ready, 2 = could not read the file
 """
 
 import json
+import signal
 import sys
 from collections import Counter, defaultdict
 
@@ -201,6 +202,11 @@ def main(path):
 
 
 if __name__ == "__main__":
+    # Behave like a normal unix tool under `| head` / `| less q` instead of
+    # dumping a BrokenPipeError traceback.
+    if hasattr(signal, "SIGPIPE"):
+        signal.signal(signal.SIGPIPE, signal.SIG_DFL)
+
     if len(sys.argv) != 2:
         print(__doc__)
         sys.exit(2)
