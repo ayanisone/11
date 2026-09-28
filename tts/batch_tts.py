@@ -4,11 +4,19 @@
 Usage:
     export ELEVENLABS_API_KEY=...        # never commit this
     python3 tts/batch_tts.py names.csv [--settings tts/settings.json] [--out tts/output] [--limit N]
+    python3 tts/batch_tts.py --list-effects    # show the filter presets and environments you can use
 
 CSV columns:
     name           required; substituted into text_template as {name}
     pronunciation  optional; if filled, spoken instead of `name` (file is still named after `name`)
     text           optional; if filled, spoken as-is instead of the template
+
+settings.json mirrors the ElevenLabs web panel:
+    model_id        Model
+    voice_settings  Stability (0 = Creative .. 1 = Robust), Similarity (similarity_boost, 0 = Low .. 1 = High)
+    language_code   Language: "auto" (detect from text) or an ISO 639-1 code such as "en", "hi"
+    audio_effects   Audio effects: filter_preset_id, environment_id (reverb), distance (0..1), send_level (0..1)
+    output_format   Output Format, e.g. "mp3_44100_192", "wav_48000"
 
 Files that already exist in the output folder are skipped, so a failed run can be re-run safely.
 """
@@ -21,7 +29,8 @@ import sys
 import urllib.error
 import urllib.request
 
-API = "https://api.elevenlabs.io/v1/text-to-speech/{voice_id}?output_format={output_format}"
+BASE = "https://api.elevenlabs.io/v1"
+API = BASE + "/text-to-speech/{voice_id}?output_format={output_format}"
 
 
 def extension(output_format):
@@ -33,14 +42,26 @@ def slug(value):
     return re.sub(r"[^A-Za-z0-9_-]+", "_", value).strip("_") or "row"
 
 
+def effects_spec(settings):
+    """Return the audio_effects block, or None when no effect is switched on (keeps the take dry)."""
+    fx = {k: v for k, v in (settings.get("audio_effects") or {}).items() if v is not None}
+    if not (fx.get("filter_preset_id") or fx.get("environment_id") or fx.get("distance")):
+        return None
+    return fx
+
+
 def synthesize(api_key, settings, text):
     body = {
         "text": text,
         "model_id": settings["model_id"],
         "voice_settings": settings["voice_settings"],
     }
-    if settings.get("language_code"):
-        body["language_code"] = settings["language_code"]
+    language = (settings.get("language_code") or "").strip()
+    if language and language.lower() != "auto":
+        body["language_code"] = language
+    fx = effects_spec(settings)
+    if fx:
+        body["audio_effects"] = fx
     url = API.format(voice_id=settings["voice_id"], output_format=settings["output_format"])
     request = urllib.request.Request(
         url,
@@ -52,17 +73,38 @@ def synthesize(api_key, settings, text):
         return response.read(), response.headers.get("character-cost")
 
 
+def list_effects(api_key):
+    """Print the effect IDs this account can use, straight from the API."""
+    for path, id_key, label in (
+        ("/audio-effects/presets", "preset_id", "filter_preset_id"),
+        ("/audio-effects/environments", "environment_id", "environment_id"),
+    ):
+        request = urllib.request.Request(BASE + path, headers={"xi-api-key": api_key})
+        with urllib.request.urlopen(request, timeout=30) as response:
+            items = json.load(response)
+        print(f"{label}:")
+        for item in items:
+            print(f"  {item[id_key]:<20} {item.get('description', '')}")
+        print()
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("csv_path")
+    parser.add_argument("csv_path", nargs="?")
     parser.add_argument("--settings", default=os.path.join(os.path.dirname(__file__), "settings.json"))
     parser.add_argument("--out", default=os.path.join(os.path.dirname(__file__), "output"))
     parser.add_argument("--limit", type=int, help="only render the first N rows (for a test pass)")
+    parser.add_argument("--list-effects", action="store_true", help="list available filter presets and environments")
     args = parser.parse_args()
 
     api_key = os.environ.get("ELEVENLABS_API_KEY") or os.environ.get("XI_API_KEY")
     if not api_key:
         sys.exit("Set ELEVENLABS_API_KEY in your environment first.")
+    if args.list_effects:
+        list_effects(api_key)
+        return
+    if not args.csv_path:
+        parser.error("csv_path is required unless --list-effects is given")
 
     with open(args.settings) as f:
         settings = json.load(f)

@@ -1,12 +1,17 @@
 {
   "voice_id": "J43at3qxlssEkJkJGaD4",
   "model_id": "eleven_v4",
-  "language_code": "en",
-  "output_format": "wav_44100",
+  "language_code": "auto",
+  "output_format": "mp3_44100_192",
   "text_template": "Hi {name}, welcome aboard.",
   "voice_settings": {
     "stability": 0.5,
-    "similarity_boost": 0.75,
-    "speed": 1.0
+    "similarity_boost": 0.75
+  },
+  "audio_effects": {
+    "filter_preset_id": null,
+    "environment_id": null,
+    "distance": 0.0,
+    "send_level": 1.0
   }
 }
