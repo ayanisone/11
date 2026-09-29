@@ -5,7 +5,7 @@ Waves API (`POST https://api.smallest.ai/waves/v1/tts`) with the **Suri** voice.
 
 | Setting | Value | API field |
 |---|---|---|
-| Voice | Suri (looked up via `GET /waves/v1/lightning-v3.1/get_voices`) | `voice_id` |
+| Voice | Suri (`lightning_v3.1_pro` pool, auto-detected) | `voice_id`, `model` |
 | Language | auto | `language` |
 | Number pronunciation | auto | `number_pronunciation_language` |
 | Speed | 1.0 | `speed` |
@@ -28,8 +28,8 @@ python3 generate_dataset.py --limit 3     # soundcheck: listen to these first
 python3 generate_dataset.py               # full run (skips clips already made)
 ```
 
-If the soundcheck clips sound wrong or garbled, Suri is probably in the Pro
-pool; delete `output/suri` and re-run with `--model lightning_v3.1_pro`.
+Suri lives in the Lightning v3.1 **Pro** catalog; `--model auto` (default)
+finds the voice in the Pro or standard catalog and routes to that pool.
 
 ## Output
 

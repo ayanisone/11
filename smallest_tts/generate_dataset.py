@@ -128,19 +128,24 @@ class Client:
             print(f"  retry {attempt}/{self.max_attempts - 1} in {delay:.1f}s ({reason})", file=sys.stderr)
             time.sleep(delay)
 
-    def find_voice(self, name):
-        payload = json.loads(self._request("GET", "/lightning-v3.1/get_voices"))
-        voices = payload.get("voices") or []
-        wanted = name.strip().lower()
-        for v in voices:
-            if wanted in (str(v.get("voiceId", "")).lower(), str(v.get("displayName", "")).lower()):
-                return v
-        close = sorted(
+    def find_voice(self, name, model):
+        """Look the voice up in the catalog(s) and return (voice, model)."""
+        catalogs = {"lightning_v3.1": "lightning-v3.1", "lightning_v3.1_pro": "lightning-v3.1-pro"}
+        order = [model] if model in catalogs else ["lightning_v3.1_pro", "lightning_v3.1"]
+        wanted, seen = name.strip().lower(), []
+        for m in order:
+            payload = json.loads(self._request("GET", f"/{catalogs[m]}/get_voices"))
+            voices = payload.get("voices") or []
+            seen += voices
+            for v in voices:
+                if wanted in (str(v.get("voiceId", "")).lower(), str(v.get("displayName", "")).lower()):
+                    return v, m
+        close = sorted({
             f"{v.get('voiceId')} ({v.get('displayName')})"
-            for v in voices
+            for v in seen
             if wanted[:2] in str(v.get("voiceId", "")).lower()
-        )
-        sys.exit(f"Voice {name!r} not found among {len(voices)} voices. Similar: {', '.join(close) or 'none'}")
+        })
+        sys.exit(f"Voice {name!r} not found in {', '.join(order)}. Similar: {', '.join(close) or 'none'}")
 
     def synthesize(self, payload):
         return self._request("POST", "/tts", body=payload, accept="audio/wav")
@@ -150,8 +155,8 @@ def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("inputs", nargs="*", type=Path, default=DEFAULT_INPUTS, help="CSV files (default: both files in data/)")
     p.add_argument("--voice", default="suri", help="voice_id or display name (default: suri)")
-    p.add_argument("--model", default="lightning_v3.1", choices=["lightning_v3.1", "lightning_v3.1_pro"],
-                   help="model pool the voice belongs to (default: lightning_v3.1)")
+    p.add_argument("--model", default="auto", choices=["auto", "lightning_v3.1", "lightning_v3.1_pro"],
+                   help="model pool; auto picks the pool whose catalog has the voice (default: auto)")
     p.add_argument("--language", default="auto")
     p.add_argument("--number-pronunciation", default="auto", help="number_pronunciation_language (default: auto)")
     p.add_argument("--speed", type=float, default=1.0)
@@ -193,8 +198,11 @@ def main():
 
     client = Client(args.base_url, args.api_key, args.rpm, args.max_attempts)
     voice_id = args.voice
-    if not args.skip_voice_check:
-        voice = client.find_voice(args.voice)
+    if args.skip_voice_check:
+        if args.model == "auto":
+            sys.exit("--skip-voice-check needs an explicit --model.")
+    else:
+        voice, args.model = client.find_voice(args.voice, args.model)
         voice_id = voice["voiceId"]
         print(f"Voice: {voice_id} ({voice.get('displayName')}) tags={json.dumps(voice.get('tags'), ensure_ascii=False)}")
     print(f"Model: {args.model}  language={args.language}  numbers={args.number_pronunciation}  "
