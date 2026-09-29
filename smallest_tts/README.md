@@ -43,3 +43,17 @@ output/suri/
 Re-running is safe: finished clips are validated and skipped. 429/5xx
 responses are retried with backoff; requests are capped at 90/min by default
 (`--rpm`, `--workers` to tune).
+
+## Consolidated ~1-minute tracks
+
+```bash
+python3 consolidate.py --src ../suri_dataset --out ../suri_dataset/consolidated
+```
+
+Joins the clips in `metadata.csv` order into 45–60 s tracks. Each clip's
+built-in head/tail silence (~350–450 ms) is trimmed to a 50 ms pad with 5 ms
+fades, then a 400 ms gap is inserted, so lines are ~500 ms apart. A clip that
+would push a track past 60 s starts the next track (clips are never cut), and
+the last few tracks are rebalanced so none falls under 45 s. Outputs
+`track_NNN.wav`, `track_NNN.txt` (transcript), and `tracks.csv` (per-clip
+start/end times). Tune with `--gap-ms`, `--min-sec`, `--max-sec`.
