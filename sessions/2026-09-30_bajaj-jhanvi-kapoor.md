@@ -51,4 +51,6 @@ shift is needed.
 | Split audio | false |
 | Export format | WAV |
 | Output file | `1a0f3299fdc_content_Bajaj_Jhanvi_Kapoor_1a0f3299fdc.wav` (0.65 MB) |
+| Output format | WAV PCM, 48 kHz, 16-bit, mono, 6.72 s |
+| Output levels | peak −5.53 dBFS, RMS −23.83 dBFS, 0 clipped samples |
 | Inference time | 11.7 s |
