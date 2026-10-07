@@ -1,0 +1,9 @@
+{
+  "name": "claude-mods",
+  "owner": { "name": "ayanisone" },
+  "plugins": [
+    { "name": "session-relay", "source": "./mods/session-relay", "description": "Pair two sessions (planner/builder) and pass work between them" },
+    { "name": "agent-dashboard", "source": "./mods/agent-dashboard", "description": "Live /dashboard pane: agents, activity, messages, cost, notes" },
+    { "name": "model-router", "source": "./mods/model-router", "description": "Route simple prompts to a cheaper model" }
+  ]
+}

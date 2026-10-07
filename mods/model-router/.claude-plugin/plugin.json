@@ -1,0 +1,20 @@
+{
+  "name": "model-router",
+  "version": "0.1.0",
+  "description": "Routes simple prompts to a cheaper model so easy tasks stop eating your limits; /route to control it, !cheap or !main to force a prompt",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cheapModel": {
+      "type": "string",
+      "title": "Cheap model",
+      "description": "Model id simple prompts are sent to",
+      "default": "claude-haiku-4-5-20251001"
+    },
+    "maxContextTokens": {
+      "type": "number",
+      "title": "Max context for routing",
+      "description": "Only route while the conversation is under this many tokens: past it, re-reading the whole context uncached on the cheap model can cost more than the main model's cache hit",
+      "default": 60000
+    }
+  }
+}

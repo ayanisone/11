@@ -1,0 +1,14 @@
+{
+  "name": "agent-dashboard",
+  "version": "0.1.0",
+  "description": "A live /dashboard pane: your agents, their tool activity, session messages, cost and context, and your notes folder",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "notesDir": {
+      "type": "string",
+      "title": "Notes folder",
+      "description": "Absolute path of your notes / second-brain folder; its newest files show in the dashboard. Leave empty to hide that section.",
+      "default": ""
+    }
+  }
+}

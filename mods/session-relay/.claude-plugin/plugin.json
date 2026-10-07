@@ -1,0 +1,6 @@
+{
+  "name": "session-relay",
+  "version": "0.1.0",
+  "description": "Pair two Claude Code sessions (planner/builder) and pass work between them with /pair, /handoff, /send and /inbox",
+  "types": "./types/index.d.ts"
+}
