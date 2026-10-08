@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate the Canara HSBC Life "AI Roast Me" voice lines (A01-A22) with ElevenLabs.
 
-Settings: voice PpXxSapWoo4j3JoF2LPQ, model eleven_v4, stability 0.50,
+Settings: voice $VOICE_ID (default PpXxSapWoo4j3JoF2LPQ), model eleven_v4, stability 0.50,
 similarity 0.65, style 0, speaker boost off, language auto-detect,
 WAV 48 kHz.
 
@@ -9,7 +9,7 @@ Each line must come in under its MAX length. A take that runs long is
 regenerated (up to MAX_ATTEMPTS times); if no take fits, the shortest one is
 time-stretched with Rubber Band (tempo only, pitch and formants untouched).
 
-Usage: ELEVENLABS_API_KEY=... python3 generate_lines.py [OUT_DIR] [LINE_ID ...]
+Usage: ELEVENLABS_API_KEY=... [VOICE_ID=...] python3 generate_lines.py [OUT_DIR] [LINE_ID ...]
 """
 import json
 import os
@@ -19,7 +19,7 @@ import tempfile
 
 import requests
 
-VOICE_ID = "PpXxSapWoo4j3JoF2LPQ"
+VOICE_ID = os.environ.get("VOICE_ID", "PpXxSapWoo4j3JoF2LPQ")
 MODEL_ID = "eleven_v4"
 VOICE_SETTINGS = {
     "stability": 0.50,
