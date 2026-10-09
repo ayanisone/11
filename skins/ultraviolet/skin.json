@@ -1,0 +1,25 @@
+{
+  "action": "save",
+  "name": "ultraviolet",
+  "label": "Ultraviolet",
+  "base": "dracula",
+  "palette": {
+    "user": "#e84bff",
+    "read": "#c0a8ff",
+    "write": "#ffcdda",
+    "run": "#8c9eff",
+    "search": "#b07cff",
+    "web": "#f28dff",
+    "mcp": "#d7c9ff",
+    "other": "#ede6ff",
+    "fg": "#f4eeff",
+    "muted": "#a397c9",
+    "surface": "#151c42",
+    "zebra": "#1a1230",
+    "ok": "#7fe3b4",
+    "err": "#ff5c8a",
+    "warn": "#ffd48a"
+  },
+  "spinner": ["Glowing", "Shimmering", "Dreaming", "Drifting", "Sparkling", "Humming"],
+  "done": ["Glowed", "Dreamt", "Lit", "Charged"]
+}
