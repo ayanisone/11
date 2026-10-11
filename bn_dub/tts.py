@@ -14,18 +14,23 @@ from .project import Project, Segment
 _LANG_ENFORCING = {"eleven_turbo_v2_5", "eleven_flash_v2_5"}
 
 
-def _voice_settings(stability: float = 0.5):
+def _voice_settings(similarity: float = 0.6, stability: float = 0.5):
+    """`similarity` is the Dubbing-v2-style knob: 0 = natural in the target language, 1 = cling to the original
+    speaker's timbre/accent. Mapped onto similarity_boost 0.3..1.0; speaker boost on only at the top of the range."""
     from elevenlabs.types import VoiceSettings
 
-    return VoiceSettings(stability=stability, similarity_boost=0.8, style=0.0, use_speaker_boost=True)
+    s = min(1.0, max(0.0, similarity))
+    return VoiceSettings(stability=stability, similarity_boost=round(0.3 + 0.7 * s, 2), style=0.0,
+                         use_speaker_boost=s >= 0.5)
 
 
 def synthesize(text: str, voice_id: str, dst: Path, *, language: Optional[str] = None,
-               model_id: Optional[str] = None, stability: float = 0.5) -> Path:
+               model_id: Optional[str] = None, similarity: float = 0.6, stability: float = 0.5) -> Path:
     """Generate one clip. Returns a mono wav at the project sample rate."""
     client = elevenlabs()
     model_id = model_id or settings.tts_model
-    kwargs = dict(text=text, model_id=model_id, output_format="mp3_44100_128", voice_settings=_voice_settings(stability))
+    kwargs = dict(text=text, model_id=model_id, output_format="mp3_44100_128",
+                  voice_settings=_voice_settings(similarity, stability))
     if language and model_id in _LANG_ENFORCING:
         kwargs["language_code"] = language
     audio = client.text_to_speech.convert(voice_id, **kwargs)
@@ -92,7 +97,8 @@ def generate_segment(project: Project, seg: Segment, *, allow_reshorten: bool = 
     seg_dir.mkdir(parents=True, exist_ok=True)
     attempts = settings.max_tts_attempts if allow_reshorten else 1
     for attempt in range(attempts):
-        raw = synthesize(seg.target_text, voice, seg_dir / f"{seg.id:04d}.tts.wav", language=project.target_lang)
+        raw = synthesize(seg.target_text, voice, seg_dir / f"{seg.id:04d}.tts.wav", language=project.target_lang,
+                         similarity=project.speaker_similarity)
         seg.tts_path = str(raw)
         seg.tts_duration = round(media.duration(raw), 3)
         plan = fit_segment(project, seg)

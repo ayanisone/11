@@ -59,7 +59,8 @@ def _summary(p: Project) -> str:
     parts = ", ".join(f"{k}: {v}" for k, v in sorted(by.items()))
     voices = ", ".join(f"{sp.id}→{sp.voice_name or sp.voice_id or '∅'}" for sp in p.speakers)
     return (f"**{p.name}** · {p.duration:.1f}s · {'video' if p.has_video else 'audio'} · {p.source_lang}→{p.target_lang} · "
-            f"bg: {p.background_mode}\n\n{n} lines ({parts or 'none'})\n\nVoices: {voices or '—'}")
+            f"bg: {p.background_mode} · similarity: {p.speaker_similarity:.2f}\n\n{n} lines ({parts or 'none'})\n\n"
+            f"Voices: {voices or '—'}")
 
 
 def _load(name: str) -> Project:
@@ -81,7 +82,29 @@ def _guard(fn):
 
 
 def _refresh(p: Project):
-    return p.name, _summary(p), _rows(p), _speaker_rows(p)
+    return p.name, _summary(p), _rows(p), _speaker_rows(p), p.speaker_similarity
+
+
+# ---------- keys ----------
+
+def key_status() -> str:
+    e = "✅" if settings.elevenlabs_api_key else "❌"
+    a = "✅" if settings.anthropic_api_key else "❌"
+    return f"ElevenLabs key {e} · Anthropic key {a}"
+
+
+@_guard
+def set_keys(eleven: str, anth: str):
+    settings.set_keys(eleven or "", anth or "")
+    return key_status(), "", ""
+
+
+@_guard
+def set_similarity(name: str, value: float):
+    p = _load(name)
+    p.speaker_similarity = float(value)
+    p.save()
+    return _summary(p)
 
 
 # ---------- tab 1: session ----------
@@ -279,6 +302,12 @@ def build() -> gr.Blocks:
         project_name = gr.State("")
         voice_choices = gr.State([])
 
+        with gr.Accordion("API keys", open=not (settings.elevenlabs_api_key and settings.anthropic_api_key)):
+            with gr.Row():
+                key_eleven = gr.Textbox(label="ELEVENLABS_API_KEY", type="password")
+                key_anth = gr.Textbox(label="ANTHROPIC_API_KEY", type="password")
+                key_btn = gr.Button("Set keys")
+            key_md = gr.Markdown(key_status())
         with gr.Row():
             summary = gr.Markdown("_No project loaded._")
 
@@ -309,6 +338,9 @@ def build() -> gr.Blocks:
                     voices_btn = gr.Button("Fetch voices")
                     assign_btn = gr.Button("Assign")
                     clone_btn = gr.Button("Clone this speaker (IVC)")
+                similarity = gr.Slider(0.0, 1.0, value=0.6, step=0.05, label="Speaker similarity",
+                                       info="Natural in Bengali ◄──► more like the original speaker. Sets the voice's "
+                                            "similarity_boost; only meaningful on a cloned voice. Applies to the next Generate.")
                 speaker_table = gr.Dataframe(headers=SPEAKER_HEADERS, datatype=["str", "str", "str"], type="array",
                                              interactive=True, label="Speakers (voice_id editable)")
                 save_speakers_btn = gr.Button("Save speaker table")
@@ -354,7 +386,9 @@ def build() -> gr.Blocks:
                 out_files = gr.File(label="Download", file_count="multiple")
 
         # ----- wiring
-        refresh_outputs = [project_name, summary, table, speaker_table]
+        key_btn.click(set_keys, [key_eleven, key_anth], [key_md, key_eleven, key_anth])
+        similarity.release(set_similarity, [project_name, similarity], summary)
+        refresh_outputs = [project_name, summary, table, speaker_table, similarity]
         create_btn.click(create_project, [new_name, new_file, src_lang, bg_mode], refresh_outputs) \
             .then(speaker_choices, project_name, speaker_dd) \
             .then(lambda: gr.update(choices=Project.list_names()), None, existing)

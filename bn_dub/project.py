@@ -59,6 +59,8 @@ class Project:
     background_mode: str = "isolate"  # isolate | demucs | duck | none
     segments: list[Segment] = field(default_factory=list)
     speakers: list[Speaker] = field(default_factory=list)
+    # 0 = natural in Bengali, 1 = as close to the original speaker as the voice allows (ElevenLabs similarity_boost)
+    speaker_similarity: float = 0.6
     # Mix settings (dB)
     vocal_gain_db: float = 0.0
     background_gain_db: float = -3.0

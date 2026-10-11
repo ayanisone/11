@@ -24,9 +24,6 @@ _load_dotenv()
 
 @dataclass
 class Settings:
-    elevenlabs_api_key: str = field(default_factory=lambda: os.environ.get("ELEVENLABS_API_KEY", ""))
-    anthropic_api_key: str = field(default_factory=lambda: os.environ.get("ANTHROPIC_API_KEY", ""))
-
     tts_model: str = field(default_factory=lambda: os.environ.get("BN_DUB_TTS_MODEL", "eleven_v3"))
     stt_model: str = field(default_factory=lambda: os.environ.get("BN_DUB_STT_MODEL", "scribe_v1"))
     claude_model: str = field(default_factory=lambda: os.environ.get("BN_DUB_CLAUDE_MODEL", "claude-opus-5-5"))
@@ -52,6 +49,25 @@ class Settings:
     # QA
     min_similarity: float = 0.72
     max_tts_attempts: int = 3
+
+    # Keys are read live so they can be set after import (Colab secrets cell, UI key fields).
+    @property
+    def elevenlabs_api_key(self) -> str:
+        return os.environ.get("ELEVENLABS_API_KEY", "").strip()
+
+    @property
+    def anthropic_api_key(self) -> str:
+        return os.environ.get("ANTHROPIC_API_KEY", "").strip()
+
+    def set_keys(self, elevenlabs: str = "", anthropic: str = "") -> None:
+        if elevenlabs.strip():
+            os.environ["ELEVENLABS_API_KEY"] = elevenlabs.strip()
+        if anthropic.strip():
+            os.environ["ANTHROPIC_API_KEY"] = anthropic.strip()
+        from . import clients
+
+        clients.elevenlabs.cache_clear()
+        clients.anthropic.cache_clear()
 
     def require_elevenlabs(self) -> str:
         if not self.elevenlabs_api_key:
