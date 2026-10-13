@@ -45,6 +45,8 @@ class Speaker:
     voice_id: str = ""
     voice_name: str = ""
     label: str = ""
+    is_clone: bool = False
+    clone_error: str = ""  # last IVC failure, so the UI can show why we fell back
 
 
 @dataclass

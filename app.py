@@ -43,7 +43,25 @@ def _rows(p: Project) -> list[list]:
 
 
 def _speaker_rows(p: Project) -> list[list]:
-    return [[sp.id, sp.voice_name or "", sp.voice_id] for sp in p.speakers]
+    rows = []
+    for sp in p.speakers:
+        if sp.is_clone:
+            name = f"✅ clone of {sp.id}"
+        elif sp.clone_error:
+            name = f"⚠️ CLONE FAILED — fallback: {sp.voice_name}  ({sp.clone_error})"
+        else:
+            name = sp.voice_name or ""
+        rows.append([sp.id, name, sp.voice_id])
+    return rows
+
+
+def _clone_warning(p: Project) -> str:
+    bad = [sp for sp in p.speakers if sp.clone_error and not sp.is_clone]
+    if not bad:
+        return ""
+    lines = "\n".join(f"- **{sp.id}**: {sp.clone_error}" for sp in bad)
+    return ("\n\n⚠️ **Voice cloning failed — a library voice is standing in.** Fix the cause and press *Retry cloning*, "
+            "or paste a voice_id in the Voices table.\n" + lines)
 
 
 def _summary(p: Project) -> str:
@@ -108,21 +126,35 @@ def prepare(file, similarity: float, progress=gr.Progress()):
     steps = iter([0.15, 0.35, 0.6, 0.8])
     pipeline.prepare(p, progress=lambda m: progress(next(steps, 0.9), m))
     progress(0.9, "cloning speakers")
-    warn = _auto_clone(p)
+    _auto_clone(p)
     p.save()
-    note = _summary(p) + (f"\n\n⚠️ {warn}" if warn else "")
-    return p.name, note, _rows(p), _speaker_rows(p)
+    return p.name, _summary(p) + _clone_warning(p), _rows(p), _speaker_rows(p)
 
 
-def _auto_clone(p: Project) -> str:
-    """One instant clone per speaker from their own isolated lines. Falls back to the first library voice."""
-    problems = []
+def _explain_clone_error(e: Exception) -> str:
+    """Pull the useful sentence out of an ElevenLabs ApiError; otherwise the exception text."""
+    body = getattr(e, "body", None)
+    if isinstance(body, dict):
+        detail = body.get("detail", body)
+        if isinstance(detail, dict):
+            msg = detail.get("message") or detail.get("status") or str(detail)
+            code = detail.get("status") or detail.get("code") or ""
+            if "voice_add" in str(code) or "cloning" in str(msg).lower() or "subscription" in str(msg).lower():
+                msg += " — Instant Voice Cloning needs a paid ElevenLabs plan (Starter or above)."
+            return str(msg)[:300]
+    return f"{type(e).__name__}: {str(e)[:300]}"
+
+
+def _auto_clone(p: Project, *, force: bool = False) -> None:
+    """One instant clone per speaker from their own isolated lines. On failure: record why, stand in a library voice."""
     fallback: Optional[tuple[str, str]] = None
     for sp in p.speakers:
-        if sp.voice_id:
+        if sp.is_clone or (sp.voice_id and not force and not sp.clone_error):
             continue
         try:
             segs = sorted((s for s in p.segments if s.speaker == sp.id), key=lambda s: -s.duration)
+            if not segs:
+                raise RuntimeError("no lines for this speaker")
             clip_dir = p.dir / "clone_samples"
             clip_dir.mkdir(exist_ok=True)
             paths, total = [], 0.0
@@ -134,20 +166,33 @@ def _auto_clone(p: Project) -> str:
                 paths.append(dst)
                 total += s.duration
             sp.voice_id = tts.clone_voice(f"{p.name}-{sp.id}", paths)
-            sp.voice_name = f"clone of {sp.id}"
-        except Exception as e:  # noqa: BLE001 — cloning is plan-gated; don't block the session on it
-            if fallback is None:
-                voices = tts.list_voices()
-                fallback = (voices[0][0], voices[0][1]) if voices else ("", "")
-            sp.voice_name, sp.voice_id = fallback
-            problems.append(f"{sp.id}: clone failed ({type(e).__name__}), using {fallback[0] or 'no voice'}")
-    return "; ".join(problems)
+            sp.voice_name, sp.is_clone, sp.clone_error = f"clone of {sp.id}", True, ""
+        except Exception as e:  # noqa: BLE001 — cloning is plan-gated; keep the session usable, but say so loudly
+            sp.clone_error = _explain_clone_error(e)
+            sp.is_clone = False
+            if not sp.voice_id:
+                if fallback is None:
+                    voices = tts.list_voices()
+                    fallback = (voices[0][0], voices[0][1]) if voices else ("", "")
+                sp.voice_name, sp.voice_id = fallback
+
+
+@_guard
+def retry_clone(name: str, progress=gr.Progress()):
+    p = _load(name)
+    progress(0.3, "cloning speakers")
+    _auto_clone(p, force=True)
+    for s in p.segments:  # new voice → previous takes are stale
+        if not s.locked:
+            s.tts_path = s.fit_path = None
+    p.save()
+    return _summary(p) + _clone_warning(p), _speaker_rows(p)
 
 
 @_guard
 def load_project(name: str):
     p = _load(name)
-    return p.name, _summary(p), _rows(p), _speaker_rows(p), p.speaker_similarity
+    return p.name, _summary(p) + _clone_warning(p), _rows(p), _speaker_rows(p), p.speaker_similarity
 
 
 @_guard
@@ -169,7 +214,10 @@ def save_script(name: str, rows, speaker_rows):
     for row in speaker_rows or []:
         if row and row[0]:
             sp = p.speaker(str(row[0]))
-            sp.voice_name, sp.voice_id = str(row[1] or ""), str(row[2] or "").strip()
+            new_id = str(row[2] or "").strip()
+            if new_id != sp.voice_id:  # user pasted their own voice_id: that's the voice now, no more warnings
+                sp.voice_id, sp.voice_name = new_id, "custom"
+                sp.is_clone, sp.clone_error = False, ""
     p.save()
     return _summary(p), _rows(p), _speaker_rows(p)
 
@@ -250,9 +298,10 @@ def build() -> gr.Blocks:
                     "Tick **lock** on lines you're happy with. `fit` = dub length ÷ slot.")
         table = gr.Dataframe(headers=HEADERS, datatype=DTYPES, type="array", interactive=True, wrap=True,
                              column_widths=["4%", "7%", "7%", "9%", "26%", "30%", "5%", "7%", "5%"])
-        with gr.Accordion("Voices (auto-cloned per speaker — edit if needed)", open=False):
-            speakers = gr.Dataframe(headers=["speaker", "voice", "voice_id"], datatype=["str", "str", "str"],
-                                    type="array", interactive=True)
+        with gr.Accordion("Voices (auto-cloned per speaker)", open=True):
+            speakers = gr.Dataframe(headers=["speaker", "voice", "voice_id (paste your own to override)"],
+                                    datatype=["str", "str", "str"], type="array", interactive=True)
+            retry_btn = gr.Button("Retry cloning")
         with gr.Row():
             save_btn = gr.Button("Save edits")
             gen_btn = gr.Button("Generate dub  (speak · fit · verify · mix)", variant="primary", scale=3)
@@ -278,6 +327,7 @@ def build() -> gr.Blocks:
             .then(lambda: gr.update(choices=Project.list_names()), None, existing)
         load_btn.click(load_project, existing, [project_name, summary, table, speakers, similarity])
         save_btn.click(save_script, [project_name, table, speakers], [summary, table, speakers])
+        retry_btn.click(retry_clone, project_name, [summary, speakers])
         gen_btn.click(generate, [project_name, table, speakers], [summary, table, out_video, out_audio, out_files])
         aud_btn.click(audition, [project_name, aud_id], [aud_orig, aud_dub, aud_info])
     return demo
