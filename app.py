@@ -17,7 +17,8 @@ from bn_dub import media, pipeline, tts
 from bn_dub.config import settings
 from bn_dub.project import Project
 
-HEADERS = ["id", "start", "end", "speaker", "original", "bengali (edit here)", "fit", "status", "lock"]
+HEADERS = ["id", "start", "end", "speaker", "original", "translation (edit here)", "fit", "status", "lock"]
+TARGETS = {"Bengali": "bn", "Odia": "or"}
 DTYPES = ["number", "number", "number", "str", "str", "str", "str", "str", "bool"]
 
 CSS = """
@@ -92,9 +93,9 @@ def _guard(fn):
 
 def similarity_note(v: float) -> str:
     if v < 0.34:
-        txt = "The dubbed voice sounds fully natural in Bengali; the original speaker's accent is not carried over."
+        txt = "The dubbed voice sounds fully natural in the target language; the original speaker's accent is not carried over."
     elif v < 0.67:
-        txt = "The dubbed voice sounds natural in Bengali with light hints of the original speaker's accent coming through."
+        txt = "The dubbed voice sounds natural in the target language with light hints of the original speaker's accent coming through."
     else:
         txt = "The dubbed voice closely mimics the original speaker, including their accent and delivery quirks."
     return f'<div class="sim-note">{txt}</div>'
@@ -115,13 +116,13 @@ def set_keys(eleven: str, anth: str):
 
 
 @_guard
-def prepare(file, similarity: float, progress=gr.Progress()):
+def prepare(file, similarity: float, target: str, progress=gr.Progress()):
     """File → stems → transcript → translation → direction. Then auto-clone every speaker."""
     if not file:
         raise gr.Error("Drop a video or audio file first.")
     name = "".join(c if c.isalnum() or c in "-_" else "_" for c in Path(file).stem)[:40] or "project"
     progress(0.05, "ingesting")
-    p = pipeline.create(name, file)
+    p = pipeline.create(name, file, target_lang=TARGETS.get(target, "bn"))
     p.speaker_similarity = float(similarity)
     steps = iter([0.15, 0.35, 0.6, 0.8])
     pipeline.prepare(p, progress=lambda m: progress(next(steps, 0.9), m))
@@ -188,7 +189,8 @@ def retry_clone(name: str, progress=gr.Progress()):
 @_guard
 def load_project(name: str):
     p = _load(name)
-    return p.name, _summary(p) + _clone_warning(p), _rows(p), _speaker_rows(p), p.speaker_similarity
+    target = next((k for k, v in TARGETS.items() if v == p.target_lang), "Bengali")
+    return p.name, _summary(p) + _clone_warning(p), _rows(p), _speaker_rows(p), p.speaker_similarity, target
 
 
 @_guard
@@ -265,7 +267,7 @@ LAUNCH_STYLE = {"theme": THEME, "css": CSS}  # Gradio 6 takes these on launch();
 
 def build() -> gr.Blocks:
     with gr.Blocks(title="bn-dub", **({} if _GR6 else LAUNCH_STYLE)) as demo:
-        gr.Markdown("# bn-dub · Bengali dubbing")
+        gr.Markdown("# bn-dub · Bengali / Odia dubbing")
         project_name = gr.State("")
 
         with gr.Accordion("API keys", open=not (settings.elevenlabs_api_key and settings.anthropic_api_key)):
@@ -279,6 +281,7 @@ def build() -> gr.Blocks:
         with gr.Row():
             with gr.Column(scale=2):
                 src = gr.File(label="Video or audio", type="filepath")
+                target = gr.Radio(label="Dub into", choices=list(TARGETS), value="Bengali")
             with gr.Column(scale=3):
                 gr.Markdown("**Speaker similarity**  \nControls how closely the dubbed voice mimics the original speaker. "
                             "Higher values preserve the source accent; lower values sound more natural in the target language.")
@@ -294,7 +297,7 @@ def build() -> gr.Blocks:
         summary = gr.Markdown("_Drop a file to start._")
 
         # ----- 2 · script
-        gr.Markdown("### Script\nEdit the Bengali column freely — `[tags]` direct the delivery, `…` is a pause. "
+        gr.Markdown("### Script\nEdit the translation column freely — `[tags]` direct the delivery, `…` is a pause. "
                     "Tick **lock** on lines you're happy with. `fit` = dub length ÷ slot.")
         table = gr.Dataframe(headers=HEADERS, datatype=DTYPES, type="array", interactive=True, wrap=True,
                              column_widths=["4%", "7%", "7%", "9%", "26%", "30%", "5%", "7%", "5%"])
@@ -323,9 +326,9 @@ def build() -> gr.Blocks:
         # ----- wiring
         key_btn.click(set_keys, [key_eleven, key_anth], [key_md, key_eleven, key_anth])
         similarity.change(set_similarity, [project_name, similarity], sim_note)
-        prepare_btn.click(prepare, [src, similarity], [project_name, summary, table, speakers]) \
+        prepare_btn.click(prepare, [src, similarity, target], [project_name, summary, table, speakers]) \
             .then(lambda: gr.update(choices=Project.list_names()), None, existing)
-        load_btn.click(load_project, existing, [project_name, summary, table, speakers, similarity])
+        load_btn.click(load_project, existing, [project_name, summary, table, speakers, similarity, target])
         save_btn.click(save_script, [project_name, table, speakers], [summary, table, speakers])
         retry_btn.click(retry_clone, project_name, [summary, speakers])
         gen_btn.click(generate, [project_name, table, speakers], [summary, table, out_video, out_audio, out_files])
