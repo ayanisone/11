@@ -5,13 +5,14 @@ from __future__ import annotations
 import argparse
 import sys
 
-from . import mix, pipeline, separate, transcribe, translate, tts, verify
+from . import direct, mix, pipeline, separate, transcribe, translate, tts, verify
 from .project import Project
 
 STAGES = {
     "separate": lambda p, a: separate.run(p, a.background),
     "transcribe": lambda p, a: transcribe.run(p),
     "translate": lambda p, a: translate.run(p, a.ids),
+    "direct": lambda p, a: direct.run(p, a.ids),
     "tts": lambda p, a: tts.run(p, a.ids),
     "verify": lambda p, a: verify.run(p, a.ids, fix=not a.no_fix),
     "mix": lambda p, a: mix.render(p),
@@ -29,7 +30,7 @@ def main(argv: list[str] | None = None) -> int:
     c = sub.add_parser("create", help="ingest a file into a new project")
     c.add_argument("name")
     c.add_argument("source")
-    c.add_argument("--source-lang", default="en")
+    c.add_argument("--source-lang", default="auto")
     c.add_argument("--target-lang", default=None)
     c.add_argument("--background", default="isolate", choices=["isolate", "demucs", "duck", "none"])
 

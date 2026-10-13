@@ -19,20 +19,26 @@ class Word:
     speaker: str
 
 
-def scribe_words(audio_path: Path, language: Optional[str] = None, *, diarize: bool = True) -> list[Word]:
+def scribe(audio_path: Path, language: Optional[str] = None, *, diarize: bool = True) -> tuple[list[Word], str]:
+    """Words with timestamps + the language Scribe detected (ISO code)."""
     client = elevenlabs()
     with open(audio_path, "rb") as f:
         kwargs = dict(model_id=settings.stt_model, file=f, timestamps_granularity="word", diarize=diarize,
                       tag_audio_events=False)
-        if language:
+        if language and language != "auto":
             kwargs["language_code"] = language
         result = client.speech_to_text.convert(**kwargs)
+    detected = (getattr(result, "language_code", None) or language or "auto").lower()
     words: list[Word] = []
     for w in getattr(result, "words", None) or []:
         if getattr(w, "type", "word") != "word" or w.start is None or w.end is None:
             continue
         words.append(Word(text=w.text, start=float(w.start), end=float(w.end), speaker=w.speaker_id or "speaker_0"))
-    return words
+    return words, detected
+
+
+def scribe_words(audio_path: Path, language: Optional[str] = None, *, diarize: bool = True) -> list[Word]:
+    return scribe(audio_path, language, diarize=diarize)[0]
 
 
 _SENTENCE_END = (".", "?", "!", "।", "…")
@@ -57,7 +63,8 @@ def segment_words(words: list[Word], *, max_secs: Optional[float] = None, max_ch
             return
         text = " ".join(w.text for w in cur).strip()
         segments.append(Segment(id=len(segments) + 1, start=cur[0].start, end=cur[-1].end,
-                                speaker=cur[0].speaker, source_text=text))
+                                speaker=cur[0].speaker, source_text=text,
+                                words=[{"text": x.text, "start": x.start, "end": x.end} for x in cur]))
         cur.clear()
 
     for w in words:
@@ -77,7 +84,9 @@ def segment_words(words: list[Word], *, max_secs: Optional[float] = None, max_ch
 
 def run(project: Project) -> Project:
     src = Path(project.vocals_path or project.audio_path)
-    words = scribe_words(src, project.source_lang)
+    words, detected = scribe(src, project.source_lang)
+    if detected and detected != "auto":
+        project.source_lang = detected[:2] if "-" not in detected else detected.split("-")[0]
     project.segments = segment_words(words)
     for seg in project.segments:
         project.speaker(seg.speaker)

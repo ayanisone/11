@@ -5,9 +5,10 @@ channel strip from the individual processors ElevenLabs *does* sell for Bengali,
 translation, and puts a Gradio console on top so you can edit the cue sheet between stages.
 
 ```
-source ─► stem split ─► Scribe STT ─► Claude translate ─► Eleven v3 TTS ─► fit to slot ─► Scribe QA ─► mix ─► mux
-          (vocals /     (words +      (length-aware,       (one clip per    (atempo, or     (back-        (vocals +
-           background)   speakers)     spoken Bengali)      line, bn)        re-translate)   transcribe)   bg stem)
+source ─► stem split ─► Scribe STT ─► Claude translate ─► direct ─► Eleven v4 TTS ─► fit ─► Scribe QA ─► mix ─► mux
+          (vocals /     (words, speakers, (length-aware     (measure the    (one clip     (atempo or   (back-
+           background)   language)         spoken Bengali)   original take,  per line)     re-translate) transcribe)
+                                                             write [tags])
 ```
 
 Swap it out for ElevenLabs' own dubbing the day they ship Bengali on v2; the project file keeps your edits.
@@ -31,17 +32,16 @@ python app.py            # http://127.0.0.1:7860
 bn-dub ui --port 7860
 ```
 
-**Tab 1 · Session** — name the project, drop a video/audio file, pick the source language and background
-mode, hit *Create*. It extracts the mix, splits stems, transcribes with speaker labels. Then fetch voices
-and assign one per speaker (or *Clone this speaker* to IVC a voice from their own isolated lines).
+One page, three moves:
 
-**Tab 2 · Script** — the cue sheet. Each row is one line: `start`, `end`, `speaker`, `source`, `target`,
-`romanised`, `ratio`, `status`, `locked`, `notes`. *Translate* fills `target`; edit anything, *Save edits*;
-*Generate* speaks and fits; *Verify* back-transcribes and flags misses. Tick `locked` on lines you've
-approved so later passes leave them alone. *Audition* plays the original slot and the fitted dub side by side.
-
-**Tab 3 · Mix** — dub vocal gain, background gain, duck amount; *Render* writes `projects/<name>/out/dub.wav`
-and `dubbed.mp4` (video stream copied, not re-encoded).
+1. **Drop a file**, set *Speaker similarity* (natural Bengali ◄──► like the original speaker), press
+   **Prepare script**. It splits stems, transcribes (language auto-detected), translates, directs the
+   performance, and instant-clones one voice per speaker from their own isolated lines (falls back to a
+   library voice if your plan has no IVC).
+2. **Edit the Bengali column** where needed — `[tags]` direct delivery, `…` is a pause. Tick *lock* on lines
+   you're happy with.
+3. **Generate dub** — speaks (Eleven v4, stability 0.5, no language override), fits each line to its slot,
+   verifies, mixes, muxes. Download `dubbed.mp4`. *Audition a line* plays original vs dub.
 
 ## CLI (batch)
 
@@ -68,9 +68,17 @@ After TTS, `ratio = clip length ÷ slot`:
 
 Tune `max_stretch`, `hard_stretch`, `slot_pad` in `bn_dub/config.py`.
 
+## Voice direction
+
+Before TTS, each line's original take is measured from the isolated vocal — pauses (from the waveform, labelled
+by the word they follow), words/sec, loudness and pitch range, terminal contour, words hit harder or held
+longer — relative to that speaker's own average. Claude turns the numbers into ElevenLabs performance tags
+(`[calm]`, `[urgent]`, `[quiet intensity]`, …) and punctuation on the Bengali line, words untouched. The
+measurements outrank any impression of the audio; a model guessing from sound alone invents deliveries.
+
 ## QA gate
 
-Eleven v3 can repeat or false-start on Indic scripts. *Verify* transcribes each generated clip back with
+Eleven v4 can repeat or false-start on Indic scripts. *Verify* transcribes each generated clip back with
 Scribe and scores it against the script (punctuation/case-insensitive similarity, threshold 0.72). On a miss
 it applies a punctuation-first fix (commas, sentence breaks — never a rewrite), regenerates, and re-checks.
 Lines that still miss are marked `warn` with what Scribe heard, so you can fix them by ear.
@@ -109,6 +117,6 @@ stages are thin wrappers and are exercised by running a project.
 
 - Lip-sync is not attempted; audio timing only.
 - The `isolate` background is a phase-inverted subtraction — see the ghost note above.
-- v3/v4 infer the language from the script; `language_code` is only sent for the v2.5 models.
+- v4 infers the language from the script; no `language_code` is sent. Scribe detects the source language.
 - Costs: Scribe per minute (×2 with Verify), TTS per character, Claude per token. Instant voice cloning needs
   an ElevenLabs plan that includes IVC.

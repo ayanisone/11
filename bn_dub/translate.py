@@ -38,6 +38,7 @@ Rules:
   script inside the {lang} sentence; do not transliterate them.
 - Numbers, dates and units: write them the way a {lang} speaker says them aloud.
 - Punctuate for breath: commas where the speaker pauses, a full stop at the end. Avoid very long words.
+- If the current translation carries [square-bracket tags], keep them in the shortened version.
 - `romanised` is a plain Latin-script rendering of the {lang} line for the engineer to follow along.
 Return every input id exactly once."""
 
@@ -54,7 +55,8 @@ def _format_lines(project: Project, segs: list[Segment], shorten: dict[int, int]
     rows = []
     for s in segs:
         tag = f" SHORTEN BY {shorten[s.id]}%" if s.id in shorten else ""
-        rows.append(f"[{s.id}] slot={_slot(project, s):.1f}s speaker={s.speaker}{tag}\n{s.source_text}")
+        current = f"\nCurrent translation (too long): {s.target_text}" if s.id in shorten and s.target_text else ""
+        rows.append(f"[{s.id}] slot={_slot(project, s):.1f}s speaker={s.speaker}{tag}\n{s.source_text}{current}")
     return "\n\n".join(rows)
 
 
@@ -84,6 +86,7 @@ def tighten_for_tts(project: Project, seg: Segment) -> str:
     """v3 hallucination fix: punctuation-first, minimal change. Used after a QA failure, never as a rewrite."""
     client = anthropic()
     prompt = (f"This {_lang(project.target_lang)} line made a text-to-speech voice stumble (repeats or false starts).\n"
+              "Square-bracketed performance tags are allowed and must be kept where they are.\n"
               "Fix it with the smallest possible change: add commas where a speaker would breathe, or break one long "
               "sentence into short fragments. Split a very long word in two only as a last resort. Do not change the "
               "wording otherwise. Return only the fixed line.\n\n" + seg.target_text)
@@ -104,6 +107,7 @@ def run(project: Project, ids: Optional[list[int]] = None, *, batch_size: int = 
                 s.notes = "translator returned no line"
                 continue
             s.target_text, s.romanised = line.target, line.romanised
+            s.direction = ""
             s.status = "translated"
             s.tts_path = s.fit_path = None
         project.save()

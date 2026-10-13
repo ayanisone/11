@@ -24,7 +24,7 @@ _load_dotenv()
 
 @dataclass
 class Settings:
-    tts_model: str = field(default_factory=lambda: os.environ.get("BN_DUB_TTS_MODEL", "eleven_v3"))
+    tts_model: str = field(default_factory=lambda: os.environ.get("BN_DUB_TTS_MODEL", "eleven_v4"))
     stt_model: str = field(default_factory=lambda: os.environ.get("BN_DUB_STT_MODEL", "scribe_v1"))
     claude_model: str = field(default_factory=lambda: os.environ.get("BN_DUB_CLAUDE_MODEL", "claude-opus-5-5"))
 

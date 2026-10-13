@@ -14,10 +14,16 @@ from .project import Project, Segment
 from .transcribe import scribe_words
 
 _PUNCT = re.compile(r"[\s\.,!?;:।\-–—\"'()\[\]…]+")
+_TAG = re.compile(r"\[[^\]]*\]")
+
+
+def strip_tags(text: str) -> str:
+    """Remove [performance tags] so QA compares spoken words only."""
+    return " ".join(_TAG.sub(" ", text).split())
 
 
 def normalise(text: str) -> str:
-    text = unicodedata.normalize("NFC", text).lower()
+    text = unicodedata.normalize("NFC", strip_tags(text)).lower()
     return " ".join(t for t in _PUNCT.split(text) if t)
 
 

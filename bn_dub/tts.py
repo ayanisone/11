@@ -10,13 +10,14 @@ from .clients import elevenlabs
 from .config import settings
 from .project import Project, Segment
 
-# Models that accept `language_code`. v3/v4 auto-detect from the script; the SDK rejects the field on some.
+# No language override: v4/v3 detect the language from the script itself. Only the v2.5 models take the field.
 _LANG_ENFORCING = {"eleven_turbo_v2_5", "eleven_flash_v2_5"}
 
 
 def _voice_settings(similarity: float = 0.6, stability: float = 0.5):
     """`similarity` is the Dubbing-v2-style knob: 0 = natural in the target language, 1 = cling to the original
-    speaker's timbre/accent. Mapped onto similarity_boost 0.3..1.0; speaker boost on only at the top of the range."""
+    speaker's timbre/accent. Mapped onto similarity_boost 0.3..1.0; speaker boost on only at the top of the range.
+    Stability stays at 0.5 (v4's "natural" setting)."""
     from elevenlabs.types import VoiceSettings
 
     s = min(1.0, max(0.0, similarity))

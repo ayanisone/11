@@ -1,9 +1,6 @@
-"""Gradio console for the Bengali dubbing chain.
+"""bn-dub console — one page, in signal-flow order:
 
-Three tabs, in signal-flow order:
-  1. Session  — load media, split stems, transcribe, assign a voice per speaker
-  2. Script   — the editable cue sheet: review/edit translations, generate, verify, audition per line
-  3. Mix      — gains, ducking, render, download
+  file in → (stems · transcribe · translate · direct)  →  script you can edit  →  Generate dub  →  download
 
 Run:  python app.py   (or  bn-dub ui)
 """
@@ -16,82 +13,82 @@ from typing import Optional
 
 import gradio as gr
 
-from bn_dub import mix, pipeline, separate, transcribe, translate, tts, verify
-from bn_dub import media
+from bn_dub import media, pipeline, tts
 from bn_dub.config import settings
 from bn_dub.project import Project
 
-HEADERS = ["id", "start", "end", "speaker", "source", "target", "romanised", "ratio", "status", "locked", "notes"]
-SPEAKER_HEADERS = ["speaker", "voice_id", "voice_name"]
+HEADERS = ["id", "start", "end", "speaker", "original", "bengali (edit here)", "fit", "status", "lock"]
+DTYPES = ["number", "number", "number", "str", "str", "str", "str", "str", "bool"]
+
+CSS = """
+:root, .gradio-container { --grad: linear-gradient(90deg, #7c3aed 0%, #c026d3 55%, #ec4899 100%); }
+.gradio-container h1 { background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
+                       font-weight: 800; letter-spacing: -0.01em; }
+button.primary { background: var(--grad) !important; border: none !important; color: #fff !important; }
+button.primary:hover { filter: brightness(1.08); }
+input[type=range] { accent-color: #c026d3; }
+input[type=range]::-webkit-slider-runnable-track { background: var(--grad); height: 6px; border-radius: 3px; }
+input[type=range]::-moz-range-track { background: var(--grad); height: 6px; border-radius: 3px; }
+.sim-note { background: rgba(124,58,237,.08); border-radius: 10px; padding: 10px 14px; }
+"""
+
+THEME = gr.themes.Soft(primary_hue="purple", secondary_hue="pink", neutral_hue="slate")
 
 
 # ---------- helpers ----------
 
 def _rows(p: Project) -> list[list]:
-    return [[s.id, round(s.start, 2), round(s.end, 2), s.speaker, s.source_text, s.target_text, s.romanised,
-             s.fit_ratio if s.fit_ratio is not None else "", s.status, bool(s.locked), s.notes] for s in p.segments]
+    return [[s.id, round(s.start, 2), round(s.end, 2), s.speaker, s.source_text, s.target_text,
+             f"{s.fit_ratio:.2f}" if s.fit_ratio is not None else "", s.status, bool(s.locked)] for s in p.segments]
 
 
 def _speaker_rows(p: Project) -> list[list]:
-    return [[sp.id, sp.voice_id, sp.voice_name] for sp in p.speakers]
-
-
-def _ids(text: str) -> Optional[list[int]]:
-    text = (text or "").strip()
-    if not text:
-        return None
-    out: list[int] = []
-    for part in text.replace(";", ",").split(","):
-        part = part.strip()
-        if "-" in part:
-            a, b = part.split("-", 1)
-            out.extend(range(int(a), int(b) + 1))
-        elif part:
-            out.append(int(part))
-    return out
+    return [[sp.id, sp.voice_name or "", sp.voice_id] for sp in p.speakers]
 
 
 def _summary(p: Project) -> str:
-    n = len(p.segments)
-    by = {}
+    by: dict[str, int] = {}
     for s in p.segments:
         by[s.status] = by.get(s.status, 0) + 1
-    parts = ", ".join(f"{k}: {v}" for k, v in sorted(by.items()))
-    voices = ", ".join(f"{sp.id}→{sp.voice_name or sp.voice_id or '∅'}" for sp in p.speakers)
-    return (f"**{p.name}** · {p.duration:.1f}s · {'video' if p.has_video else 'audio'} · {p.source_lang}→{p.target_lang} · "
-            f"bg: {p.background_mode} · similarity: {p.speaker_similarity:.2f}\n\n{n} lines ({parts or 'none'})\n\n"
-            f"Voices: {voices or '—'}")
+    parts = " · ".join(f"{k} {v}" for k, v in sorted(by.items()))
+    return (f"**{p.name}** — {p.duration:.1f}s {'video' if p.has_video else 'audio'} — detected **{p.source_lang}** → bn — "
+            f"{len(p.segments)} lines ({parts or 'none'})")
 
 
 def _load(name: str) -> Project:
     if not name or not Project.exists(name):
-        raise gr.Error("Load or create a project first.")
+        raise gr.Error("Drop a file and press *Prepare script* first.")
     return Project.load(name)
 
 
 def _guard(fn):
-    """Turn exceptions into a readable log line instead of a red toast with no detail."""
     def wrapped(*args):
         try:
             return fn(*args)
         except gr.Error:
             raise
         except Exception as e:  # noqa: BLE001
-            raise gr.Error(f"{type(e).__name__}: {e}\n{traceback.format_exc()[-600:]}") from e
+            raise gr.Error(f"{type(e).__name__}: {e}\n{traceback.format_exc()[-500:]}") from e
     return wrapped
 
 
-def _refresh(p: Project):
-    return p.name, _summary(p), _rows(p), _speaker_rows(p), p.speaker_similarity
+def similarity_note(v: float) -> str:
+    if v < 0.34:
+        txt = "The dubbed voice sounds fully natural in Bengali; the original speaker's accent is not carried over."
+    elif v < 0.67:
+        txt = "The dubbed voice sounds natural in Bengali with light hints of the original speaker's accent coming through."
+    else:
+        txt = "The dubbed voice closely mimics the original speaker, including their accent and delivery quirks."
+    return f'<div class="sim-note">{txt}</div>'
 
-
-# ---------- keys ----------
 
 def key_status() -> str:
     e = "✅" if settings.elevenlabs_api_key else "❌"
     a = "✅" if settings.anthropic_api_key else "❌"
-    return f"ElevenLabs key {e} · Anthropic key {a}"
+    return f"ElevenLabs {e} · Anthropic {a}"
 
+
+# ---------- actions ----------
 
 @_guard
 def set_keys(eleven: str, anth: str):
@@ -100,207 +97,128 @@ def set_keys(eleven: str, anth: str):
 
 
 @_guard
-def set_similarity(name: str, value: float):
-    p = _load(name)
-    p.speaker_similarity = float(value)
-    p.save()
-    return _summary(p)
-
-
-# ---------- tab 1: session ----------
-
-@_guard
-def create_project(name: str, file, source_lang: str, bg_mode: str, progress=gr.Progress()):
-    if not name or not file:
-        raise gr.Error("Give the project a name and upload a file.")
-    name = "".join(c if c.isalnum() or c in "-_" else "_" for c in name.strip())
+def prepare(file, similarity: float, progress=gr.Progress()):
+    """File → stems → transcript → translation → direction. Then auto-clone every speaker."""
+    if not file:
+        raise gr.Error("Drop a video or audio file first.")
+    name = "".join(c if c.isalnum() or c in "-_" else "_" for c in Path(file).stem)[:40] or "project"
     progress(0.05, "ingesting")
-    p = pipeline.create(name, file, source_lang=source_lang, background_mode=bg_mode)
-    progress(0.25, "separating stems")
-    separate.run(p)
-    progress(0.6, "transcribing")
-    transcribe.run(p)
-    progress(1.0, "done")
-    return _refresh(p)
+    p = pipeline.create(name, file)
+    p.speaker_similarity = float(similarity)
+    steps = iter([0.15, 0.35, 0.6, 0.8])
+    pipeline.prepare(p, progress=lambda m: progress(next(steps, 0.9), m))
+    progress(0.9, "cloning speakers")
+    warn = _auto_clone(p)
+    p.save()
+    note = _summary(p) + (f"\n\n⚠️ {warn}" if warn else "")
+    return p.name, note, _rows(p), _speaker_rows(p)
+
+
+def _auto_clone(p: Project) -> str:
+    """One instant clone per speaker from their own isolated lines. Falls back to the first library voice."""
+    problems = []
+    fallback: Optional[tuple[str, str]] = None
+    for sp in p.speakers:
+        if sp.voice_id:
+            continue
+        try:
+            segs = sorted((s for s in p.segments if s.speaker == sp.id), key=lambda s: -s.duration)
+            clip_dir = p.dir / "clone_samples"
+            clip_dir.mkdir(exist_ok=True)
+            paths, total = [], 0.0
+            for s in segs:
+                if total > 60:
+                    break
+                dst = clip_dir / f"{sp.id}_{s.id:04d}.wav"
+                media.trim(p.vocals_path, dst, s.start, s.end)
+                paths.append(dst)
+                total += s.duration
+            sp.voice_id = tts.clone_voice(f"{p.name}-{sp.id}", paths)
+            sp.voice_name = f"clone of {sp.id}"
+        except Exception as e:  # noqa: BLE001 — cloning is plan-gated; don't block the session on it
+            if fallback is None:
+                voices = tts.list_voices()
+                fallback = (voices[0][0], voices[0][1]) if voices else ("", "")
+            sp.voice_name, sp.voice_id = fallback
+            problems.append(f"{sp.id}: clone failed ({type(e).__name__}), using {fallback[0] or 'no voice'}")
+    return "; ".join(problems)
 
 
 @_guard
 def load_project(name: str):
-    return _refresh(_load(name))
-
-
-@_guard
-def refresh_voices():
-    choices = tts.list_voices()
-    return gr.update(choices=choices, value=choices[0][1] if choices else None)
-
-
-@_guard
-def assign_voice(name: str, speaker: str, voice_id: str, voice_choices_state):
     p = _load(name)
-    if not speaker or not voice_id:
-        raise gr.Error("Pick a speaker and a voice.")
-    sp = p.speaker(speaker)
-    sp.voice_id = voice_id
-    sp.voice_name = next((lbl for lbl, vid in (voice_choices_state or []) if vid == voice_id), voice_id)
-    p.save()
-    return _summary(p), _speaker_rows(p)
+    return p.name, _summary(p), _rows(p), _speaker_rows(p), p.speaker_similarity
 
 
 @_guard
-def save_speakers(name: str, rows):
-    p = _load(name)
-    for row in rows or []:
-        if not row or not row[0]:
-            continue
-        sp = p.speaker(str(row[0]))
-        sp.voice_id = str(row[1] or "").strip()
-        sp.voice_name = str(row[2] or "").strip() or sp.voice_id
-    p.save()
-    return _summary(p), _speaker_rows(p)
-
-
-@_guard
-def clone_speaker(name: str, speaker: str, progress=gr.Progress()):
-    """Instant voice clone from up to ~60s of the speaker's own isolated lines."""
-    p = _load(name)
-    if not speaker:
-        raise gr.Error("Pick a speaker.")
-    segs = sorted((s for s in p.segments if s.speaker == speaker), key=lambda s: -s.duration)
-    if not segs:
-        raise gr.Error(f"No lines for {speaker}.")
-    clip_dir = p.dir / "clone_samples"
-    clip_dir.mkdir(exist_ok=True)
-    paths, total = [], 0.0
-    for s in segs:
-        if total > 60:
-            break
-        dst = clip_dir / f"{speaker}_{s.id:04d}.wav"
-        media.trim(p.vocals_path, dst, s.start, s.end)
-        paths.append(dst)
-        total += s.duration
-    progress(0.5, "cloning")
-    voice_id = tts.clone_voice(f"{p.name}-{speaker}", paths, description=f"IVC from {p.name}")
-    sp = p.speaker(speaker)
-    sp.voice_id, sp.voice_name = voice_id, f"clone:{speaker}"
-    p.save()
-    return _summary(p), _speaker_rows(p)
-
-
-def speaker_choices(name: str):
-    if not name or not Project.exists(name):
-        return gr.update(choices=[])
-    p = Project.load(name)
-    ids = [sp.id for sp in p.speakers]
-    return gr.update(choices=ids, value=ids[0] if ids else None)
-
-
-# ---------- tab 2: script ----------
-
-@_guard
-def save_edits(name: str, rows):
-    """Write the cue sheet back. Only text, times, speaker, lock are user-editable; the rest is derived."""
+def save_script(name: str, rows, speaker_rows):
     p = _load(name)
     for row in rows or []:
         try:
             seg = p.segment(int(row[0]))
         except (KeyError, ValueError, TypeError):
             continue
-        new_target = str(row[5] or "")
-        if new_target != seg.target_text:
-            seg.target_text = new_target
-            seg.status = "translated" if new_target else "new"
+        new = str(row[5] or "")
+        if new != seg.target_text:
+            seg.target_text, seg.status = new, ("translated" if new else "new")
             seg.tts_path = seg.fit_path = None
-        seg.romanised = str(row[6] or "")
         seg.start, seg.end = float(row[1]), float(row[2])
         seg.speaker = str(row[3] or seg.speaker)
-        seg.locked = str(row[9]).lower() in {"true", "1", "yes"}
+        seg.locked = str(row[8]).lower() in {"true", "1", "yes"}
         p.speaker(seg.speaker)
+    for row in speaker_rows or []:
+        if row and row[0]:
+            sp = p.speaker(str(row[0]))
+            sp.voice_name, sp.voice_id = str(row[1] or ""), str(row[2] or "").strip()
     p.save()
     return _summary(p), _rows(p), _speaker_rows(p)
 
 
 @_guard
-def do_translate(name: str, ids_text: str, progress=gr.Progress()):
-    p = _load(name)
-    progress(0.1, "translating")
-    translate.run(p, _ids(ids_text))
-    return _summary(p), _rows(p)
-
-
-@_guard
-def do_generate(name: str, ids_text: str, progress=gr.Progress()):
-    p = _load(name)
-    ids = _ids(ids_text)
-    todo = [s for s in p.segments if ids is None or s.id in ids]
-    for i, s in enumerate(todo):
-        progress(i / max(1, len(todo)), f"line {s.id}")
-        if s.locked and s.fit_path:
-            continue
-        tts.generate_segment(p, s)
+def set_similarity(name: str, value: float):
+    if name and Project.exists(name):
+        p = Project.load(name)
+        p.speaker_similarity = float(value)
         p.save()
-    return _summary(p), _rows(p)
+    return similarity_note(value)
 
 
 @_guard
-def do_verify(name: str, ids_text: str, fix: bool, progress=gr.Progress()):
+def generate(name: str, rows, speaker_rows, progress=gr.Progress()):
+    """Save edits, then speak → fit → verify → mix."""
+    save_script(name, rows, speaker_rows)
     p = _load(name)
-    progress(0.1, "back-transcribing")
-    verify.run(p, _ids(ids_text), fix=fix)
-    return _summary(p), _rows(p)
+    steps = iter([0.2, 0.6, 0.85])
+    pipeline.produce(p, progress=lambda m: progress(next(steps, 0.9), m))
+    warn = [s.id for s in p.segments if s.status in {"warn", "failed"}]
+    note = _summary(p) + (f"\n\n⚠️ check lines {warn} (see *status*; audition them below)" if warn else "\n\n✅ dub rendered")
+    return note, _rows(p), p.output_video, p.output_audio, [f for f in (p.output_video, p.output_audio) if f]
 
 
 @_guard
 def audition(name: str, seg_id: float):
-    """Original slot vs. fitted dub for one line, side by side."""
     p = _load(name)
     seg = p.segment(int(seg_id))
     orig = p.dir / "audition" / f"{seg.id:04d}.orig.wav"
     orig.parent.mkdir(exist_ok=True)
     media.trim(p.vocals_path or p.audio_path, orig, seg.start, seg.end)
-    info = (f"**{seg.id}** {seg.speaker} · slot {seg.duration:.2f}s · tts {seg.tts_duration or 0:.2f}s · "
-            f"ratio {seg.fit_ratio or '—'} · {seg.status}\n\n{seg.source_text}\n\n**{seg.target_text}**\n\n"
-            f"_{seg.romanised}_\n\nQA heard: {seg.qa_heard or '—'} ({seg.qa_similarity if seg.qa_similarity is not None else '—'})")
+    info = (f"**Line {seg.id}** · {seg.speaker} · slot {seg.duration:.2f}s · dub {seg.tts_duration or 0:.2f}s · {seg.status}"
+            f"{' · ' + seg.notes if seg.notes else ''}\n\n{seg.source_text}\n\n**{seg.target_text}**\n\n_{seg.romanised}_"
+            + (f"\n\n🎬 {seg.direction}" if seg.direction else "")
+            + (f"\n\n👂 heard: {seg.qa_heard} ({seg.qa_similarity})" if seg.qa_heard else ""))
     return str(orig), (seg.fit_path or None), info
-
-
-# ---------- tab 3: mix ----------
-
-@_guard
-def set_background(name: str, bg_mode: str, progress=gr.Progress()):
-    p = _load(name)
-    progress(0.2, f"re-separating ({bg_mode})")
-    separate.run(p, bg_mode)
-    return _summary(p)
-
-
-@_guard
-def do_render(name: str, vocal_db: float, bg_db: float, duck_db: float, progress=gr.Progress()):
-    p = _load(name)
-    p.vocal_gain_db, p.background_gain_db, p.duck_db = float(vocal_db), float(bg_db), float(duck_db)
-    missing = [s.id for s in p.segments if not s.fit_path]
-    progress(0.2, "rendering")
-    mix.render(p)
-    note = f"Rendered. {len(p.segments) - len(missing)} lines placed." + (f" Missing audio for: {missing}" if missing else "")
-    return note, p.output_audio, p.output_video, [f for f in (p.output_audio, p.output_video) if f]
-
-
-@_guard
-def do_run_all(name: str, progress=gr.Progress()):
-    p = _load(name)
-    steps = iter([0.1, 0.3, 0.5, 0.7, 0.9, 1.0])
-    pipeline.run_all(p, progress=lambda msg: progress(next(steps, 1.0), msg))
-    return _summary(p), _rows(p), p.output_audio, p.output_video
 
 
 # ---------- UI ----------
 
+_GR6 = int(gr.__version__.split(".")[0]) >= 6
+LAUNCH_STYLE = {"theme": THEME, "css": CSS}  # Gradio 6 takes these on launch(); 5 takes them on Blocks()
+
+
 def build() -> gr.Blocks:
-    with gr.Blocks(title="bn-dub · Bengali dubbing console") as demo:
-        gr.Markdown("# bn-dub — Bengali dubbing console\n"
-                    "Separate → transcribe → translate → speak → fit → verify → mix. Edit the cue sheet between any two stages.")
+    with gr.Blocks(title="bn-dub", **({} if _GR6 else LAUNCH_STYLE)) as demo:
+        gr.Markdown("# bn-dub · Bengali dubbing")
         project_name = gr.State("")
-        voice_choices = gr.State([])
 
         with gr.Accordion("API keys", open=not (settings.elevenlabs_api_key and settings.anthropic_api_key)):
             with gr.Row():
@@ -308,110 +226,69 @@ def build() -> gr.Blocks:
                 key_anth = gr.Textbox(label="ANTHROPIC_API_KEY", type="password")
                 key_btn = gr.Button("Set keys")
             key_md = gr.Markdown(key_status())
+
+        # ----- 1 · input
         with gr.Row():
-            summary = gr.Markdown("_No project loaded._")
+            with gr.Column(scale=2):
+                src = gr.File(label="Video or audio", type="filepath")
+            with gr.Column(scale=3):
+                gr.Markdown("**Speaker similarity**  \nControls how closely the dubbed voice mimics the original speaker. "
+                            "Higher values preserve the source accent; lower values sound more natural in the target language.")
+                similarity = gr.Slider(0.0, 1.0, value=0.6, step=0.05, show_label=False)
+                with gr.Row():
+                    gr.Markdown("<small>Natural in target language</small>")
+                    gr.Markdown("<small style='float:right'>More like the original speaker</small>")
+                sim_note = gr.HTML(similarity_note(0.6))
+        with gr.Row():
+            prepare_btn = gr.Button("Prepare script  (separate · transcribe · translate · direct)", variant="primary", scale=3)
+            existing = gr.Dropdown(label="or reopen", choices=Project.list_names(), allow_custom_value=True, scale=1)
+            load_btn = gr.Button("Open", scale=0)
+        summary = gr.Markdown("_Drop a file to start._")
 
-        with gr.Tabs():
-            # ----- tab 1
-            with gr.Tab("1 · Session"):
-                with gr.Row():
-                    with gr.Column():
-                        gr.Markdown("### New project")
-                        new_name = gr.Textbox(label="Project name", placeholder="ep01_heart_health")
-                        new_file = gr.File(label="Source video or audio", type="filepath")
-                        src_lang = gr.Dropdown(label="Source language", choices=["en", "hi", "mr", "as", "ta", "te", "kn",
-                                               "ml", "gu", "pa", "or"], value="en")
-                        bg_mode = gr.Radio(label="Background stem", choices=["isolate", "demucs", "duck", "none"], value="isolate",
-                                           info="isolate: ElevenLabs voice isolator, background = mix − vocals · demucs: local, "
-                                                "cleaner · duck: keep original mix, duck under new VO · none: VO only")
-                        create_btn = gr.Button("Create → separate → transcribe", variant="primary")
-                    with gr.Column():
-                        gr.Markdown("### Existing project")
-                        existing = gr.Dropdown(label="Project", choices=Project.list_names(), allow_custom_value=True)
-                        load_btn = gr.Button("Load")
-                        run_all_btn = gr.Button("Run everything (translate → speak → verify → mix)", variant="secondary")
+        # ----- 2 · script
+        gr.Markdown("### Script\nEdit the Bengali column freely — `[tags]` direct the delivery, `…` is a pause. "
+                    "Tick **lock** on lines you're happy with. `fit` = dub length ÷ slot.")
+        table = gr.Dataframe(headers=HEADERS, datatype=DTYPES, type="array", interactive=True, wrap=True,
+                             column_widths=["4%", "7%", "7%", "9%", "26%", "30%", "5%", "7%", "5%"])
+        with gr.Accordion("Voices (auto-cloned per speaker — edit if needed)", open=False):
+            speakers = gr.Dataframe(headers=["speaker", "voice", "voice_id"], datatype=["str", "str", "str"],
+                                    type="array", interactive=True)
+        with gr.Row():
+            save_btn = gr.Button("Save edits")
+            gen_btn = gr.Button("Generate dub  (speak · fit · verify · mix)", variant="primary", scale=3)
 
-                gr.Markdown("### Voices per speaker")
-                with gr.Row():
-                    speaker_dd = gr.Dropdown(label="Speaker", choices=[])
-                    voice_dd = gr.Dropdown(label="Voice", choices=[], allow_custom_value=True)
-                    voices_btn = gr.Button("Fetch voices")
-                    assign_btn = gr.Button("Assign")
-                    clone_btn = gr.Button("Clone this speaker (IVC)")
-                similarity = gr.Slider(0.0, 1.0, value=0.6, step=0.05, label="Speaker similarity",
-                                       info="Natural in Bengali ◄──► more like the original speaker. Sets the voice's "
-                                            "similarity_boost; only meaningful on a cloned voice. Applies to the next Generate.")
-                speaker_table = gr.Dataframe(headers=SPEAKER_HEADERS, datatype=["str", "str", "str"], type="array",
-                                             interactive=True, label="Speakers (voice_id editable)")
-                save_speakers_btn = gr.Button("Save speaker table")
+        # ----- 3 · output
+        with gr.Row():
+            out_video = gr.Video(label="Dubbed video")
+            out_audio = gr.Audio(label="Dub mix", type="filepath")
+        out_files = gr.File(label="Download", file_count="multiple")
 
-            # ----- tab 2
-            with gr.Tab("2 · Script"):
-                gr.Markdown("Edit **target**, **romanised**, **start/end**, **speaker**, **locked**; then *Save edits*. "
-                            "Locked lines are never re-translated or regenerated. `ratio` = TTS length ÷ slot "
-                            f"(≤ {settings.max_stretch} is fitted by time-stretch; above that the translator is asked for a shorter line).")
-                table = gr.Dataframe(headers=HEADERS,
-                                     datatype=["number", "number", "number", "str", "str", "str", "str", "str", "str", "bool", "str"],
-                                     type="array", interactive=True, wrap=True, label="Cue sheet",
-                                     column_widths=["4%", "6%", "6%", "8%", "18%", "18%", "14%", "5%", "7%", "5%", "9%"])
-                with gr.Row():
-                    save_btn = gr.Button("Save edits", variant="primary")
-                    ids_box = gr.Textbox(label="Line ids (blank = all; e.g. 3, 7-9)", scale=2)
-                    translate_btn = gr.Button("Translate")
-                    generate_btn = gr.Button("Generate")
-                    fix_chk = gr.Checkbox(label="auto-fix on QA miss", value=True)
-                    verify_btn = gr.Button("Verify")
-                gr.Markdown("### Audition")
-                with gr.Row():
-                    aud_id = gr.Number(label="Line id", value=1, precision=0)
-                    aud_btn = gr.Button("Load line")
-                with gr.Row():
-                    aud_orig = gr.Audio(label="Original (isolated vocal)", type="filepath")
-                    aud_dub = gr.Audio(label="Dub (fitted)", type="filepath")
-                aud_info = gr.Markdown()
-
-            # ----- tab 3
-            with gr.Tab("3 · Mix"):
-                with gr.Row():
-                    bg_mode2 = gr.Radio(label="Background stem", choices=["isolate", "demucs", "duck", "none"], value="isolate")
-                    bg_btn = gr.Button("Re-separate")
-                with gr.Row():
-                    vocal_db = gr.Slider(-12, 12, value=0, step=0.5, label="Dub vocal gain (dB)")
-                    bg_db = gr.Slider(-30, 6, value=-3, step=0.5, label="Background gain (dB)")
-                    duck_db = gr.Slider(-30, 0, value=-12, step=1, label="Duck amount (dB, 'duck' mode only)")
-                render_btn = gr.Button("Render", variant="primary")
-                render_note = gr.Markdown()
-                out_audio = gr.Audio(label="Dub mix", type="filepath")
-                out_video = gr.Video(label="Dubbed video")
-                out_files = gr.File(label="Download", file_count="multiple")
+        with gr.Accordion("Audition a line", open=False):
+            with gr.Row():
+                aud_id = gr.Number(label="Line", value=1, precision=0, scale=0)
+                aud_btn = gr.Button("Play", scale=0)
+                aud_orig = gr.Audio(label="Original", type="filepath")
+                aud_dub = gr.Audio(label="Dub", type="filepath")
+            aud_info = gr.Markdown()
 
         # ----- wiring
         key_btn.click(set_keys, [key_eleven, key_anth], [key_md, key_eleven, key_anth])
-        similarity.release(set_similarity, [project_name, similarity], summary)
-        refresh_outputs = [project_name, summary, table, speaker_table, similarity]
-        create_btn.click(create_project, [new_name, new_file, src_lang, bg_mode], refresh_outputs) \
-            .then(speaker_choices, project_name, speaker_dd) \
+        similarity.change(set_similarity, [project_name, similarity], sim_note)
+        prepare_btn.click(prepare, [src, similarity], [project_name, summary, table, speakers]) \
             .then(lambda: gr.update(choices=Project.list_names()), None, existing)
-        load_btn.click(load_project, existing, refresh_outputs).then(speaker_choices, project_name, speaker_dd)
-        voices_btn.click(refresh_voices, None, voice_dd).then(lambda: tts.list_voices(), None, voice_choices)
-        assign_btn.click(assign_voice, [project_name, speaker_dd, voice_dd, voice_choices], [summary, speaker_table])
-        save_speakers_btn.click(save_speakers, [project_name, speaker_table], [summary, speaker_table])
-        clone_btn.click(clone_speaker, [project_name, speaker_dd], [summary, speaker_table])
-        run_all_btn.click(do_run_all, project_name, [summary, table, out_audio, out_video])
-
-        save_btn.click(save_edits, [project_name, table], [summary, table, speaker_table])
-        translate_btn.click(do_translate, [project_name, ids_box], [summary, table])
-        generate_btn.click(do_generate, [project_name, ids_box], [summary, table])
-        verify_btn.click(do_verify, [project_name, ids_box, fix_chk], [summary, table])
+        load_btn.click(load_project, existing, [project_name, summary, table, speakers, similarity])
+        save_btn.click(save_script, [project_name, table, speakers], [summary, table, speakers])
+        gen_btn.click(generate, [project_name, table, speakers], [summary, table, out_video, out_audio, out_files])
         aud_btn.click(audition, [project_name, aud_id], [aud_orig, aud_dub, aud_info])
-
-        bg_btn.click(set_background, [project_name, bg_mode2], summary)
-        render_btn.click(do_render, [project_name, vocal_db, bg_db, duck_db], [render_note, out_audio, out_video, out_files])
     return demo
 
 
+def launch(demo: gr.Blocks, **kwargs):
+    return demo.launch(show_error=True, **(LAUNCH_STYLE if _GR6 else {}), **kwargs)
+
+
 def main(server_port: int = 7860, share: bool = False) -> None:
-    build().launch(server_port=server_port, share=share, show_error=True)
+    launch(build(), server_port=server_port, share=share)
 
 
 if __name__ == "__main__":

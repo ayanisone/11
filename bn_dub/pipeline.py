@@ -6,7 +6,7 @@ import shutil
 from pathlib import Path
 from typing import Callable, Optional
 
-from . import media, mix, separate, transcribe, translate, tts, verify
+from . import direct, media, mix, separate, transcribe, translate, tts, verify
 from .config import settings
 from .project import Project
 
@@ -17,7 +17,7 @@ def _noop(_: str) -> None:
     pass
 
 
-def create(name: str, source: str | Path, *, source_lang: str = "en", target_lang: Optional[str] = None,
+def create(name: str, source: str | Path, *, source_lang: str = "auto", target_lang: Optional[str] = None,
            background_mode: str = "isolate") -> Project:
     """Ingest: copy the source into the project folder, extract the full mix as wav."""
     source = Path(source)
@@ -42,6 +42,8 @@ def run_all(project: Project, *, progress: Progress = _noop, do_verify: bool = T
     transcribe.run(project)
     progress(f"translating {len(project.segments)} lines")
     translate.run(project)
+    progress("directing performance")
+    direct.run(project)
     progress("generating speech")
     tts.run(project)
     if do_verify:
@@ -50,4 +52,28 @@ def run_all(project: Project, *, progress: Progress = _noop, do_verify: bool = T
     progress("mixing")
     mix.render(project)
     progress("done")
+    return project
+
+
+def prepare(project: Project, *, progress: Progress = _noop) -> Project:
+    """Everything up to the editable script: separate -> transcribe -> translate -> direct."""
+    progress("separating vocals from background")
+    separate.run(project)
+    progress("transcribing")
+    transcribe.run(project)
+    progress(f"translating {len(project.segments)} lines")
+    translate.run(project)
+    progress("directing performance")
+    direct.run(project)
+    return project
+
+
+def produce(project: Project, *, progress: Progress = _noop, ids: Optional[list[int]] = None) -> Project:
+    """Script -> dub: speak, fit, verify, mix."""
+    progress("generating speech")
+    tts.run(project, ids)
+    progress("verifying")
+    verify.run(project, ids)
+    progress("mixing")
+    mix.render(project)
     return project

@@ -19,8 +19,10 @@ class Segment:
     end: float
     speaker: str
     source_text: str
-    target_text: str = ""
+    target_text: str = ""          # the Bengali line as sent to TTS (performance tags inline)
     romanised: str = ""
+    direction: str = ""            # director's note on why the tags/pauses were placed
+    words: list = field(default_factory=list)  # [{text,start,end}] from Scribe, absolute times
     # Filled by the TTS / fit stages
     tts_path: Optional[str] = None  # raw TTS clip (as generated)
     fit_path: Optional[str] = None  # clip after time-stretch to the slot
@@ -49,7 +51,7 @@ class Speaker:
 class Project:
     name: str
     source_path: str
-    source_lang: str = "en"
+    source_lang: str = "auto"      # detected by Scribe on transcribe
     target_lang: str = settings.target_lang
     duration: float = 0.0
     has_video: bool = False
