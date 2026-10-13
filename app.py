@@ -48,20 +48,20 @@ def _speaker_rows(p: Project) -> list[list]:
         if sp.is_clone:
             name = f"✅ clone of {sp.id}"
         elif sp.clone_error:
-            name = f"⚠️ CLONE FAILED — fallback: {sp.voice_name}  ({sp.clone_error})"
+            name = f"❌ CLONE FAILED — {sp.clone_error}"
         else:
-            name = sp.voice_name or ""
+            name = sp.voice_name or "— not cloned yet —"
         rows.append([sp.id, name, sp.voice_id])
     return rows
 
 
 def _clone_warning(p: Project) -> str:
-    bad = [sp for sp in p.speakers if sp.clone_error and not sp.is_clone]
+    bad = [sp for sp in p.speakers if not sp.is_clone and not sp.voice_id]
     if not bad:
         return ""
-    lines = "\n".join(f"- **{sp.id}**: {sp.clone_error}" for sp in bad)
-    return ("\n\n⚠️ **Voice cloning failed — a library voice is standing in.** Fix the cause and press *Retry cloning*, "
-            "or paste a voice_id in the Voices table.\n" + lines)
+    lines = "\n".join(f"- **{sp.id}**: {sp.clone_error or 'not cloned'}" for sp in bad)
+    return ("\n\n❌ **Voice cloning failed — Generate is blocked until every speaker has a clone.** "
+            "Fix the cause and press *Retry cloning*.\n" + lines)
 
 
 def _summary(p: Project) -> str:
@@ -146,8 +146,8 @@ def _explain_clone_error(e: Exception) -> str:
 
 
 def _auto_clone(p: Project, *, force: bool = False) -> None:
-    """One instant clone per speaker from their own isolated lines. On failure: record why, stand in a library voice."""
-    fallback: Optional[tuple[str, str]] = None
+    """One instant clone per speaker from their own isolated lines. No stand-in voice: a failed clone leaves the
+    speaker without a voice and Generate refuses to run until it's fixed."""
     for sp in p.speakers:
         if sp.is_clone or (sp.voice_id and not force and not sp.clone_error):
             continue
@@ -167,14 +167,10 @@ def _auto_clone(p: Project, *, force: bool = False) -> None:
                 total += s.duration
             sp.voice_id = tts.clone_voice(f"{p.name}-{sp.id}", paths)
             sp.voice_name, sp.is_clone, sp.clone_error = f"clone of {sp.id}", True, ""
-        except Exception as e:  # noqa: BLE001 — cloning is plan-gated; keep the session usable, but say so loudly
+        except Exception as e:  # noqa: BLE001 — cloning is plan-gated; record why, leave the voice empty
             sp.clone_error = _explain_clone_error(e)
             sp.is_clone = False
-            if not sp.voice_id:
-                if fallback is None:
-                    voices = tts.list_voices()
-                    fallback = (voices[0][0], voices[0][1]) if voices else ("", "")
-                sp.voice_name, sp.voice_id = fallback
+            sp.voice_id, sp.voice_name = "", ""
 
 
 @_guard
@@ -236,6 +232,10 @@ def generate(name: str, rows, speaker_rows, progress=gr.Progress()):
     """Save edits, then speak → fit → verify → mix."""
     save_script(name, rows, speaker_rows)
     p = _load(name)
+    missing = [sp for sp in p.speakers if not sp.voice_id]
+    if missing:
+        raise gr.Error("No cloned voice for: " + ", ".join(f"{sp.id} ({sp.clone_error or 'not cloned'})" for sp in missing)
+                       + ". Press *Retry cloning* once the cause is fixed.")
     steps = iter([0.2, 0.6, 0.85])
     pipeline.produce(p, progress=lambda m: progress(next(steps, 0.9), m))
     warn = [s.id for s in p.segments if s.status in {"warn", "failed"}]
@@ -299,7 +299,7 @@ def build() -> gr.Blocks:
         table = gr.Dataframe(headers=HEADERS, datatype=DTYPES, type="array", interactive=True, wrap=True,
                              column_widths=["4%", "7%", "7%", "9%", "26%", "30%", "5%", "7%", "5%"])
         with gr.Accordion("Voices (auto-cloned per speaker)", open=True):
-            speakers = gr.Dataframe(headers=["speaker", "voice", "voice_id (paste your own to override)"],
+            speakers = gr.Dataframe(headers=["speaker", "voice", "voice_id"],
                                     datatype=["str", "str", "str"], type="array", interactive=True)
             retry_btn = gr.Button("Retry cloning")
         with gr.Row():
