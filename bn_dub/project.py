@@ -58,7 +58,7 @@ class Project:
     audio_path: Optional[str] = None  # extracted full-mix wav
     vocals_path: Optional[str] = None
     background_path: Optional[str] = None
-    background_mode: str = "isolate"  # isolate | demucs | duck | none
+    background_mode: str = "auto"  # auto | isolate | demucs | duck | none
     segments: list[Segment] = field(default_factory=list)
     speakers: list[Speaker] = field(default_factory=list)
     # 0 = natural in Bengali, 1 = as close to the original speaker as the voice allows (ElevenLabs similarity_boost)
@@ -67,6 +67,8 @@ class Project:
     vocal_gain_db: float = 0.0
     background_gain_db: float = -3.0
     duck_db: float = -12.0
+    # Extra attenuation of the bed inside the original dialogue slots (kills isolator residue under the dub).
+    slot_duck_db: float = -6.0
     output_audio: Optional[str] = None
     output_video: Optional[str] = None
     schema_version: int = SCHEMA_VERSION

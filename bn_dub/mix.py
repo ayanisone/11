@@ -29,6 +29,9 @@ def render(project: Project) -> Project:
         bg = bg[:len(out)] * media.db_to_gain(project.background_gain_db)
         if project.background_mode == "duck":
             bg = media.duck(bg, vocals, rate=rate, amount_db=project.duck_db)
+        elif project.background_mode == "isolate" and project.slot_duck_db < 0:
+            regions = [(s.start, s.end) for s in project.segments]
+            bg = media.attenuate_regions(bg, regions, rate=rate, amount_db=project.slot_duck_db)
         out = out + bg
 
     out = media.limit(out, ceiling_db=-1.0)

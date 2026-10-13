@@ -32,7 +32,7 @@ def main(argv: list[str] | None = None) -> int:
     c.add_argument("source")
     c.add_argument("--source-lang", default="auto")
     c.add_argument("--target-lang", default=None)
-    c.add_argument("--background", default="isolate", choices=["isolate", "demucs", "duck", "none"])
+    c.add_argument("--background", default="auto", choices=["auto", "isolate", "demucs", "duck", "none"])
 
     v = sub.add_parser("voice", help="assign a voice_id to a speaker")
     v.add_argument("name")

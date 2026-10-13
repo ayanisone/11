@@ -37,8 +37,15 @@ def demucs_split(audio_path: Path, out_dir: Path) -> tuple[Path, Path]:
     return track / "vocals.wav", track / "no_vocals.wav"
 
 
+def resolve_mode(mode: str) -> str:
+    """'auto' → demucs when installed (real separation), else the isolator + spectral subtraction route."""
+    if mode == "auto":
+        return "demucs" if shutil.which("demucs") else "isolate"
+    return mode
+
+
 def run(project: Project, mode: str | None = None) -> Project:
-    mode = mode or project.background_mode
+    mode = resolve_mode(mode or project.background_mode)
     project.background_mode = mode
     audio = Path(project.audio_path)
     vocals_path = project.dir / "vocals.wav"
@@ -52,7 +59,7 @@ def run(project: Project, mode: str | None = None) -> Project:
         isolate_vocals(audio, vocals_path)
         full = media.decode(audio, channels=2)
         voc = media.decode(vocals_path, channels=2)
-        media.write_wav(bg_path, media.subtract_aligned(full, voc, rate=settings.sample_rate))
+        media.write_wav(bg_path, media.spectral_subtract(full, voc, rate=settings.sample_rate))
     elif mode == "duck":
         # Keep the original mix as the bed; the mix stage ducks it under the new vocals.
         media.write_wav(vocals_path, media.decode(audio, channels=1))

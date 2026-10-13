@@ -199,6 +199,78 @@ def subtract_aligned(full_mix: np.ndarray, vocals: np.ndarray, *, rate: int) -> 
     return (full_mix - vocals).astype(np.float32)
 
 
+def _stft(x: np.ndarray, n_fft: int, hop: int) -> np.ndarray:
+    win = np.hanning(n_fft + 1)[:-1].astype(np.float32)
+    pad = n_fft // 2
+    xp = np.pad(x, (pad, pad))
+    n = 1 + (len(xp) - n_fft) // hop
+    idx = np.arange(n_fft)[None, :] + hop * np.arange(n)[:, None]
+    return np.fft.rfft(xp[idx] * win, axis=1)
+
+
+def _istft(spec: np.ndarray, n_fft: int, hop: int, length: int) -> np.ndarray:
+    win = np.hanning(n_fft + 1)[:-1].astype(np.float32)
+    frames = np.fft.irfft(spec, n=n_fft, axis=1) * win
+    out = np.zeros(hop * (len(frames) - 1) + n_fft, dtype=np.float64)
+    norm = np.zeros_like(out)
+    for i, fr in enumerate(frames):
+        out[i * hop:i * hop + n_fft] += fr
+        norm[i * hop:i * hop + n_fft] += win ** 2
+    out /= np.maximum(norm, 1e-3)
+    pad = n_fft // 2
+    return out[pad:pad + length].astype(np.float32)
+
+
+def spectral_subtract(full_mix: np.ndarray, vocals: np.ndarray, *, rate: int, over: float = 1.6, floor_db: float = -30.0,
+                      n_fft: int = 2048, hop: int = 512) -> np.ndarray:
+    """Background ≈ mix with the vocal's *magnitude* removed per STFT bin, keeping the mix's phase.
+
+    Unlike a phase-inverted sum this survives codec delay, re-synthesis and level mismatch from the isolator:
+    `over` > 1 over-subtracts to kill the vocal ghost, `floor_db` caps how deep a bin can be cut (musical-noise
+    guard). Expect some breathing on dense mixes; demucs is the cleaner tool when it's available.
+    """
+    full_mix = to_stereo(full_mix)
+    vocals = to_stereo(vocals)
+    n = min(len(full_mix), len(vocals))
+    full_mix, vocals = full_mix[:n], vocals[:n]
+    lag = find_lag(full_mix, vocals, rate=rate)
+    vocals = shift(vocals, -lag)
+    floor = db_to_gain(floor_db)
+    out = np.zeros_like(full_mix)
+    for ch in range(full_mix.shape[1]):
+        M = _stft(full_mix[:, ch], n_fft, hop)
+        V = _stft(vocals[:, ch], n_fft, hop)
+        mag = np.abs(M)
+        # per-frame level match so an isolator that returns the vocal 2 dB hot/cold still nulls
+        vm = np.abs(V)
+        scale = np.sum(mag * vm, axis=1, keepdims=True) / np.maximum(np.sum(vm * vm, axis=1, keepdims=True), 1e-9)
+        vm = vm * np.clip(scale, 0.5, 2.0)
+        new_mag = np.maximum(mag - over * vm, floor * mag)
+        out[:, ch] = _istft(new_mag * np.exp(1j * np.angle(M)), n_fft, hop, n)
+    return out
+
+
+def attenuate_regions(audio: np.ndarray, regions: list[tuple[float, float]], *, rate: int, amount_db: float,
+                      fade_ms: float = 60.0) -> np.ndarray:
+    """Dialogue-slot duck: pull the bed down by `amount_db` inside each (start, end), with raised-cosine edges."""
+    out = to_stereo(audio).copy()
+    gain = np.ones(len(out), dtype=np.float32)
+    g = db_to_gain(amount_db)
+    fade = max(1, int(fade_ms * rate / 1000))
+    ramp = (0.5 - 0.5 * np.cos(np.linspace(0, np.pi, fade))).astype(np.float32)
+    for start, end in regions:
+        a, b = max(0, int(start * rate) - fade), min(len(out), int(end * rate) + fade)
+        if b <= a:
+            continue
+        seg = np.full(b - a, g, dtype=np.float32)
+        k = min(fade, len(seg))
+        seg[:k] = 1 - (1 - g) * ramp[:k]
+        seg[-k:] = np.minimum(seg[-k:], 1 - (1 - g) * ramp[::-1][:k])
+        gain[a:b] = np.minimum(gain[a:b], seg)
+    out *= gain[:, None]
+    return out
+
+
 def assemble(clips: list[tuple[float, np.ndarray]], total_secs: float, *, rate: int,
              fade_ms: float = 8.0) -> np.ndarray:
     """Lay mono clips onto a silent mono timeline at their start offsets. Short fades avoid clicks."""

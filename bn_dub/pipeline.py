@@ -18,7 +18,7 @@ def _noop(_: str) -> None:
 
 
 def create(name: str, source: str | Path, *, source_lang: str = "auto", target_lang: Optional[str] = None,
-           background_mode: str = "isolate") -> Project:
+           background_mode: str = "auto") -> Project:
     """Ingest: copy the source into the project folder, extract the full mix as wav."""
     source = Path(source)
     project = Project(name=name, source_path="", source_lang=source_lang,
