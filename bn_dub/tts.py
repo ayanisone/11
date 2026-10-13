@@ -48,8 +48,12 @@ def clone_voice(name: str, sample_paths: list[Path], description: str = "") -> s
     """Instant voice clone from the speaker's own isolated audio. Needs a plan that includes IVC."""
     client = elevenlabs()
     files = [(p.name, p.read_bytes(), "audio/wav") for p in sample_paths]
-    resp = client.voices.ivc.create(name=name, files=files, description=description or None,
-                                   remove_background_noise=True)
+    # The SDK json.dumps(labels) unconditionally, so an omitted value reaches the API as an invalid string
+    # ("Labels must be serialized dictionary object"). Always send a real dict.
+    kwargs = dict(name=name, files=files, remove_background_noise=True, labels={"source": "bn-dub"})
+    if description:
+        kwargs["description"] = description
+    resp = client.voices.ivc.create(**kwargs)
     return resp.voice_id
 
 
