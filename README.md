@@ -31,3 +31,8 @@ Notes:
 - With all effects off (`null` / `0`), no effects are sent and takes come back dry (mono). Turning on an environment returns stereo audio with a reverb tail.
 - The effects endpoints (`audio_effects`, `/v1/audio-effects/*`) work on the live API but are not yet in ElevenLabs' published API reference, so they could change.
 - `language_code` is ignored by `eleven_multilingual_v2` (it auto-detects). `style` and `use_speaker_boost` only take effect on models that support them (e.g. `eleven_multilingual_v2`), not `eleven_v4`.
+
+## Forced alignment QA and SFX research
+
+See `docs/elevenlabs-forced-alignment-sfx-use-cases.md` for verified API facts and ranked use cases.
+`tools/align_qa.py qa takes.csv` flags dropped or garbled words in batch TTS takes; `tools/align_qa.py cut` gives splice points for one word.
