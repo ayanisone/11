@@ -77,3 +77,14 @@ def test_limit_only_scales_when_over_ceiling():
     assert np.array_equal(media.limit(x, -1.0), x)
     y = media.limit(np.array([1.5, -0.5], dtype=np.float32), -1.0)
     assert media.peak(y) == pytest.approx(media.db_to_gain(-1.0))
+
+
+def test_build_clone_sample_splices_short_lines(tmp_path):
+    from bn_dub import tts
+    voc = media.write_wav(tmp_path / "v.wav", tone(200, 12.0, 0.3))
+    # six 1.5 s lines: individually too short for IVC, together 9 s + gaps
+    spans = [(i * 2.0, i * 2.0 + 1.5) for i in range(6)]
+    out = tts.build_clone_sample(voc, spans, tmp_path / "s.wav")
+    assert media.duration(out) == pytest.approx(6 * 1.5 + 6 * 0.15, abs=0.05)
+    with pytest.raises(RuntimeError):
+        tts.build_clone_sample(voc, [(0.0, 2.0)], tmp_path / "short.wav")

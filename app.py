@@ -158,15 +158,11 @@ def _auto_clone(p: Project, *, force: bool = False) -> None:
                 raise RuntimeError("no lines for this speaker")
             clip_dir = p.dir / "clone_samples"
             clip_dir.mkdir(exist_ok=True)
-            paths, total = [], 0.0
-            for s in segs:
-                if total > 60:
-                    break
-                dst = clip_dir / f"{sp.id}_{s.id:04d}.wav"
-                media.trim(p.vocals_path, dst, s.start, s.end)
-                paths.append(dst)
-                total += s.duration
-            sp.voice_id = tts.clone_voice(f"{p.name}-{sp.id}", paths)
+            # IVC rejects any sample under 4.6 s, so splice the speaker's lines into one continuous take
+            # (in timeline order, 150 ms of silence between lines) instead of sending each line on its own.
+            sample = tts.build_clone_sample(p.vocals_path, [(s.start, s.end) for s in segs],
+                                            clip_dir / f"{sp.id}.wav", max_secs=60.0)
+            sp.voice_id = tts.clone_voice(f"{p.name}-{sp.id}", [sample])
             sp.voice_name, sp.is_clone, sp.clone_error = f"clone of {sp.id}", True, ""
         except Exception as e:  # noqa: BLE001 — cloning is plan-gated; record why, leave the voice empty
             sp.clone_error = _explain_clone_error(e)

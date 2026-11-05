@@ -44,6 +44,39 @@ def synthesize(text: str, voice_id: str, dst: Path, *, language: Optional[str] =
     return dst
 
 
+MIN_CLONE_SAMPLE_SECS = 5.0  # ElevenLabs IVC rejects samples under 4.6 s
+
+
+def build_clone_sample(vocals_path: str | Path, spans: list[tuple[float, float]], dst: Path, *,
+                       max_secs: float = 60.0, gap_secs: float = 0.15) -> Path:
+    """Splice a speaker's lines (longest first, then re-sorted into timeline order) into one take for IVC.
+
+    One file ≥ MIN_CLONE_SAMPLE_SECS is what the API wants; many short per-line files are rejected.
+    """
+    import numpy as np
+
+    rate = settings.sample_rate
+    vocals = media.decode(vocals_path, channels=1)
+    picked, total = [], 0.0
+    for start, end in sorted(spans, key=lambda se: -(se[1] - se[0])):
+        if total >= max_secs:
+            break
+        picked.append((start, end))
+        total += end - start
+    picked.sort()
+    gap = np.zeros(int(gap_secs * rate), dtype=np.float32)
+    parts = []
+    for start, end in picked:
+        a, b = int(start * rate), min(len(vocals), int(end * rate))
+        if b > a:
+            parts.extend([vocals[a:b], gap])
+    take = np.concatenate(parts) if parts else np.zeros(0, dtype=np.float32)
+    if len(take) / rate < MIN_CLONE_SAMPLE_SECS:
+        raise RuntimeError(f"only {len(take) / rate:.1f}s of speech for this speaker; cloning needs at least "
+                           f"{MIN_CLONE_SAMPLE_SECS:.0f}s — merge them with another speaker in the cue sheet or use a longer source")
+    return media.write_wav(dst, take)
+
+
 def clone_voice(name: str, sample_paths: list[Path], description: str = "") -> str:
     """Instant voice clone from the speaker's own isolated audio. Needs a plan that includes IVC."""
     client = elevenlabs()
