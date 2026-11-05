@@ -38,12 +38,19 @@ def has_video(path: str | Path) -> bool:
     return any(s.get("codec_type") == "video" for s in probe(path).get("streams", []))
 
 
-def extract_audio(src: str | Path, dst: str | Path, *, channels: int = 2, rate: Optional[int] = None) -> Path:
-    """Pull the full mix out of a media file as a PCM wav."""
+def extract_audio(src: str | Path, dst: str | Path, *, channels: int = 2, rate: Optional[int] = None,
+                  ceiling_db: float = -1.0) -> Path:
+    """Pull the full mix out of a media file as a PCM wav, gain-staged so nothing clips.
+
+    Decodes to float first: lossy files mastered hot (MP3/AAC routinely decode past 0 dBFS) would
+    otherwise hard-clip on the way to 16-bit. If the peak is over `ceiling_db` the whole file is
+    turned down to it — one static gain change, no limiting.
+    """
     rate = rate or settings.sample_rate
-    _run([FFMPEG, "-y", "-v", "error", "-i", str(src), "-vn", "-ac", str(channels), "-ar", str(rate),
-          "-c:a", "pcm_s16le", str(dst)])
-    return Path(dst)
+    audio = decode(src, channels=channels, rate=rate)
+    if audio.size == 0:
+        raise RuntimeError(f"no audio stream found in {Path(src).name}")
+    return write_wav(dst, limit(audio, ceiling_db), rate=rate)
 
 
 def decode(path: str | Path, *, channels: int = 1, rate: Optional[int] = None) -> np.ndarray:

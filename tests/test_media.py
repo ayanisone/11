@@ -88,3 +88,16 @@ def test_build_clone_sample_splices_short_lines(tmp_path):
     assert media.duration(out) == pytest.approx(6 * 1.5 + 6 * 0.15, abs=0.05)
     with pytest.raises(RuntimeError):
         tts.build_clone_sample(voc, [(0.0, 2.0)], tmp_path / "short.wav")
+
+
+def test_extract_audio_gain_stages_hot_input(tmp_path):
+    import subprocess
+    hot = tmp_path / "hot.mp3"
+    # +6 dB over a full-scale sine: decodes well past 0 dBFS
+    subprocess.run([media.FFMPEG, "-y", "-v", "error", "-f", "lavfi", "-i", "sine=frequency=440:duration=2",
+                    "-af", "volume=6dB", "-c:a", "libmp3lame", "-b:a", "160k", str(hot)], check=True)
+    out = media.extract_audio(hot, tmp_path / "mix.wav")
+    y = media.decode(out, channels=2)
+    assert media.peak(y) <= media.db_to_gain(-1.0) + 1e-3
+    # no flat-topped samples: a clipped sine would sit at the rail for many consecutive samples
+    assert np.sum(np.abs(y[:, 0]) > 0.995) == 0

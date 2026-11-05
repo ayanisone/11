@@ -87,8 +87,33 @@ def run(project: Project) -> Project:
     words, detected = scribe(src, project.source_lang)
     if detected and detected != "auto":
         project.source_lang = detected[:2] if "-" not in detected else detected.split("-")[0]
-    project.segments = segment_words(words)
+    project.segments = fold_minor_speakers(segment_words(words))
+    project.speakers = []
     for seg in project.segments:
         project.speaker(seg.speaker)
     project.save()
     return project
+
+
+MIN_SPEAKER_SECS = 5.0  # below this a voice can't be cloned (ElevenLabs needs ≥ 4.6 s)
+
+
+def fold_minor_speakers(segments: list[Segment], min_secs: float = MIN_SPEAKER_SECS) -> list[Segment]:
+    """Reassign lines of any speaker with < `min_secs` of speech to the speaker with the most speech.
+
+    Diarization often splits one voice into several ids (a single-speaker stem from a voice separator
+    is the classic case). Each fragment would then be too short to clone. A real second speaker with
+    under 5 s total couldn't be cloned anyway, so they are voiced by the main speaker; the cue sheet's
+    speaker column can still be edited by hand.
+    """
+    totals: dict[str, float] = {}
+    for s in segments:
+        totals[s.speaker] = totals.get(s.speaker, 0.0) + s.duration
+    if len(totals) < 2:
+        return segments
+    main = max(totals, key=totals.get)
+    minor = {sp for sp, t in totals.items() if t < min_secs and sp != main}
+    for s in segments:
+        if s.speaker in minor:
+            s.speaker = main
+    return segments

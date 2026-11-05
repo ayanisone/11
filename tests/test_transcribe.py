@@ -29,3 +29,17 @@ def test_splits_when_too_long_preferring_sentence_end():
 
 def test_empty():
     assert segment_words([]) == []
+
+
+def test_fold_minor_speakers_merges_fragments_into_main():
+    from bn_dub.transcribe import fold_minor_speakers
+    words = [w("a", 0, 4, "A"), w("b.", 4.1, 8, "A"), w("x", 9, 10, "B"), w("c", 11, 14, "A"),
+             w("y", 15, 16.5, "C"), w("long", 18, 24, "D")]
+    segs = fold_minor_speakers(segment_words(words, split_gap=0.6))
+    assert {s.speaker for s in segs} == {"A", "D"}  # B and C had < 5 s each; D has 6 s and stays
+
+
+def test_fold_minor_speakers_single_speaker_untouched():
+    from bn_dub.transcribe import fold_minor_speakers
+    segs = fold_minor_speakers(segment_words([w("a", 0, 1, "A")]))
+    assert [s.speaker for s in segs] == ["A"]
