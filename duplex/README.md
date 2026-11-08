@@ -115,16 +115,45 @@ The `analyze` command reports the same stats, so a render can be compared agains
 - **Radio and podcast-style ads:** host + guest banter, with backchannels baked in.
 - **Live "Riff" agent:** a brainstorming partner for the creative team, a sales and booth demo, or the base for voice-led brand experiences (contests, quizzes). Swap the prompt and voice per brand.
 
-## 6. Towards a Dessa-like agent
+## 6. `duplex live`: the Dessa-style agent (pseudo-duplex)
 
-Riff (section 3) is a cascade, so it can't backchannel or come in while you're still talking. There are two ways past that:
+Riff (section 3) is a cascade: it can't make a sound while you talk. `duplex live` is our own agent that can.
+It keeps the mic open the whole time and decides, every 40 ms, what to do with its mouth.
 
-| | Pseudo-duplex on ElevenLabs + Claude | True full-duplex model |
-|---|---|---|
-| How | Our own client keeps the mic open while the agent talks. Scribe v2 Realtime streams partial transcripts. A Claude Haiku 5.5 "listener" judges every partial and chooses: stay quiet, backchannel, laugh, finish your sentence, or cut in. Backchannels come from a pre-rendered bank in the agent's own voice (`eleven_v4`, tagged), so they play with zero synthesis delay. Replies stream on `eleven_v4_turbo` | Self-host an open full-duplex speech-to-speech model: NVIDIA PersonaPlex-7B (built on Kyutai Moshi; MIT code, NVIDIA Open Model License weights) |
-| Gets | "mm-hmm" / "haan" / laughs under your sentence, sentence completion, cut-ins, our ElevenLabs voices and Indian English/Hinglish | The real thing: listens and speaks at once, with learned timing |
-| Doesn't get | Timing is rules + prediction, not learned. A real reply still lands roughly 0.5–1 s after you stop (to be measured). Echo cancellation is needed (headphones are simplest) | Our voices and languages: expect English-first, and fine-tuning needs a lot of two-speaker conversational audio plus GPU time. Check the licence before any commercial use |
-| Effort | A browser prototype, roughly a week | A demo on a rented GPU in days; months to make it ours |
+```
+browser mic ─► local voice detector ─────────────────────────────┐  (fast: ~40-120 ms)
+          └──► Scribe v2 Realtime ─► live transcript ─► Claude Haiku 5.5 "listener"  (slow: ~0.5-1.5 s)
+                                                        │ continuing / hesitating / finishing / done,
+                                                        │ which backchannel fits, is it funny, how it ends
+                                                        ▼
+                                                    Floor manager (the knobs) ── every 40 ms decides:
+   backchannel ◄── pre-rendered bank (eleven_v4, in the browser: zero delay)     · murmur "mm-hmm" / "haan" / laugh
+   reply       ◄── Claude Haiku 5.5 brain ─► clauses ─► eleven_v4_turbo stream  · draft a reply early, behind a gate
+                                                                                 · open the gate (or come in before you finish)
+   stop        ◄── you talk over it with real words (not "yeah") for > 0.3 s    · cut itself off, remember what you heard
+```
+
+```bash
+cd duplex && pip install -e '.[live]'
+export ELEVENLABS_API_KEY=...  ANTHROPIC_API_KEY=...
+duplex live                       # then open http://127.0.0.1:8000, headphones on, press Start
+duplex live --voice <voice_id> --language en --set eot_unsure=0.9
+```
+
+- On first run it renders the backchannel bank for the voice with `eleven_v4`: 11 sounds × 2 takes, trimmed and peak-normalised. They're cached in `~/.duplex/bank/<voice>/`, so they cost nothing after that.
+- The page shows the live transcript, what the listener thinks (`finishing · ~1 word left · would say "haan"`), each response gap in ms, and sliders for the floor knobs. Every session is saved to `sessions/` with its turn-taking stats, in the same format as `duplex analyze`.
+- Scribe authenticates with a single-use token, so the API key never rides on the WebSocket.
+
+**Verified here** with the real ElevenLabs services, in headless Chrome with a generated recording as the mic. Claude was replaced by a scripted stand-in, because this sandbox can't call the Anthropic API.
+
+- Backchannels landed in the pauses ("mm-hmm" at 6.5 s, "haan" at 12.4 s) and a laugh came after the funny line.
+- The reply started 670–700 ms after the speech ended: about 290 ms of the agent's own wait, plus streaming TTS through this sandbox's proxy.
+- Interrupting it with "Wait, wait, what if it's the grandma…" stopped it within about 0.5 s, and the next reply followed the new idea.
+- With real Claude, expect a few hundred ms more whenever a reply couldn't be drafted early. The page measures this, so check it on your own setup.
+
+**What it still can't do:** its timing comes from rules plus Claude's judgement, not from learning. It hears you through a transcript that lags 0.5–1 s, so the "before you finish" start only fires when the listener is confident. Each dropped draft costs one short Haiku call and a short TTS clip. Use headphones, or keep the mic ducking on.
+
+**The true full-duplex route** is still open: NVIDIA PersonaPlex-7B (built on Kyutai Moshi; MIT code, NVIDIA Open Model License weights) can be self-hosted on a GPU. It's English-first, our voices and Hinglish would need fine-tuning, and the licence needs checking before commercial use.
 
 ## 7. Tests
 
@@ -132,4 +161,4 @@ Riff (section 3) is a cascade, so it can't backchannel or come in while you're s
 cd duplex && pip install -e '.[dev]' && pytest
 ```
 
-The tests cover anchor resolution, the v4 tag checks, interruptions, the self-overlap check, stems summing to the mix, 24-bit WAV round-trips, backchannel detection, lifting a reference's timing into a score and re-creating it exactly, and an end-to-end render of the example with a faked TTS (including the cache). The API calls themselves were not run here, because this sandbox has no ElevenLabs/Anthropic keys.
+The tests cover the live floor manager's timing rules (fake clock), the live session wiring (fakes), anchor resolution, the v4 tag checks, interruptions, the self-overlap check, stems summing to the mix, 24-bit WAV round-trips, backchannel detection, lifting a reference's timing into a score and re-creating it exactly, and an end-to-end render of the example with a faked TTS (including the cache). The ElevenLabs calls (TTS with timestamps, streaming TTS, Scribe Realtime, the bank) were also run against the live API; the Claude calls were not, because this sandbox can't reach the Anthropic API with a key, so run `duplex write` and `duplex live` once with your key before relying on them.

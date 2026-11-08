@@ -45,8 +45,9 @@ next tag, so change tags only where the delivery changes; one or two per line is
 person with one of these; the timeline places it, the tag makes it SOUND like it was said over someone.
   Rules: tags describe how a line is SPOKEN, never what the speaker does ([grinning], [pacing], [music] are \
 not performed). Plain words, no hyphens ([high voice], not [high-pitched]). Capitalise a word sparingly for \
-emphasis ("there's only ONE Goa"). Keep numbers exactly as the brief wrote them. Reactions with no words \
-use kind="reaction" (e.g. text "[laughs]").
+emphasis ("there's only ONE Goa"). Keep numbers exactly as the brief wrote them. Reactions use \
+kind="reaction" and must still contain a spoken sound after the tag, because v4 rejects tag-only text: \
+"[laughs] haha.", "[gasps] oh!", "[sighs] hmm."
 - In Indian-English or Hinglish dialogue, natural fillers like "haan", "achha", "arre", "yaar" are welcome \
 when the brief's audience speaks that way.
 

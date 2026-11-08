@@ -33,6 +33,18 @@ def strip_tags(text: str) -> str:
     return re.sub(r"\s+", " ", TAG_RE.sub(" ", text)).strip()
 
 
+_VOCABLES = (("laugh", "haha."), ("chuckle", "heh."), ("giggle", "hehe."), ("gasp", "oh!"), ("sigh", "hmm."),
+             ("exhale", "hmm."), ("snort", "hah."), ("clears throat", "ahem."))
+
+
+def speakable(text: str) -> str:
+    """Eleven v4 rejects text that is only tags: give a tag-only reaction a minimal sound to carry it."""
+    if strip_tags(text):
+        return text
+    tags = " ".join(TAG_RE.findall(text)).lower()
+    return f"{text} {next((v for k, v in _VOCABLES if k in tags), 'hmm.')}".strip()
+
+
 def norm(token: str) -> str:
     return re.sub(r"[\W_]+", "", token.lower())
 

@@ -13,7 +13,7 @@ from typing import Optional
 from . import eleven
 from .score import Score
 from .timeline import (TAG_RE, Clip, Word, conversation_stats, energy_bounds, estimate_words, mixdown, overlaps_of, place,
-                       read_wav, spans_from_timeline, strip_tags, timecode, words_from_chars, write_wav)
+                       read_wav, spans_from_timeline, speakable, strip_tags, timecode, words_from_chars, write_wav)
 
 
 def _clip_key(**parts) -> str:
@@ -93,7 +93,10 @@ def render(score: Score, out_dir: Path, *, voices: dict[str, str], model_id: str
     clips: dict[str, Clip] = {}
     prev_text: Optional[str] = None
     for line in score.lines:
-        clips[line.id] = synth_line(line.text, cast[line.speaker], model_id=model_id, output_format=output_format,
+        text = speakable(line.text)
+        if text != line.text:
+            log.append(f"{line.id}: tag-only line rendered as {text!r} (v4 needs at least one spoken sound)")
+        clips[line.id] = synth_line(text, cast[line.speaker], model_id=model_id, output_format=output_format,
                                     previous_text=prev_text if context else None, seed=seed, cache=cache, log=log)
         if line.kind == "line":
             prev_text = strip_tags(line.text) or prev_text

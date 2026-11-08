@@ -62,6 +62,11 @@ def cmd_analyze(a: argparse.Namespace) -> None:
 
 
 def main(argv=None) -> None:
+    argv = sys.argv[1:] if argv is None else argv
+    if argv[:1] == ["live"]:
+        from .live.server import main as live_main
+
+        return live_main(argv[1:])
     ap = argparse.ArgumentParser(prog="duplex", description="Natural, overlapping two-person dialogue for ads.")
     sub = ap.add_subparsers(required=True)
 
@@ -91,6 +96,8 @@ def main(argv=None) -> None:
     z.add_argument("--language", default=None)
     z.add_argument("--score", help="also write an overlap score that reproduces this recording's timing")
     z.set_defaults(fn=cmd_analyze)
+
+    sub.add_parser("live", help="pseudo-duplex voice agent in the browser (see duplex live --help)")
 
     a = ap.parse_args(argv)
     if getattr(a, "model", "") is None:

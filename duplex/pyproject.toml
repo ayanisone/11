@@ -15,13 +15,20 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=8"]
+live = ["aiohttp>=3.9"]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "aiohttp>=3.9"]
 
 [project.scripts]
 duplex = "duplex.cli:main"
+duplex-live = "duplex.live.server:main"
 
 [tool.setuptools.packages.find]
 include = ["duplex*"]
 
+[tool.setuptools.package-data]
+"duplex.live" = ["static/*"]
+
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
