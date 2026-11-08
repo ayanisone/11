@@ -1,0 +1,36 @@
+{
+  "title": "Goa trip – 30s, two flatmates (demo, fictional app 'TripKit')",
+  "language": "en",
+  "speakers": [
+    {"speaker": "A", "casting": "Kabir, 26, warm, a bit chaotic, quick laugh", "voice_id": "2i7LhYjvw41fgbcqlf3Z"},
+    {"speaker": "B", "casting": "Meera, 27, dry wit, the organised one", "voice_id": "EQajdcMa8fccc3KCqwGO"}
+  ],
+  "lines": [
+    {"id": "l1", "speaker": "A", "text": "[excited] Okay so. Goa. December. Just the four of us, no parents, no office calls—"},
+    {"id": "b1", "speaker": "B", "kind": "backchannel", "gain_db": -6, "text": "[softly] mm-hmm",
+     "start": {"ref": "l1", "at": "word", "word": "December", "edge": "end", "offset_ms": 120}},
+    {"id": "l2", "speaker": "B", "text": "[jumping in] —no 'quick five-minute' calls. [laughs]",
+     "start": {"ref": "l1", "at": "end", "offset_ms": -280}},
+    {"id": "l3", "speaker": "A", "text": "Exactly! But who's booking? Because last time Rohan booked this tiny little—",
+     "start": {"ref": "l2", "at": "end", "offset_ms": 60}},
+    {"id": "l4", "speaker": "B", "interrupts": true, "yield_ms": 150,
+     "text": "[sarcastic] —a hostel in the wrong Goa.",
+     "start": {"ref": "l3", "at": "word", "word": "booked", "edge": "end", "offset_ms": 40}},
+    {"id": "l5", "speaker": "A", "text": "[laughs] There's only ONE Goa!",
+     "start": {"ref": "l4", "at": "end", "offset_ms": -150}},
+    {"id": "l6", "speaker": "B", "text": "[chuckles] Tell him that. Anyway— I've already made a shared trip on TripKit.",
+     "start": {"ref": "l5", "at": "end", "offset_ms": 120}},
+    {"id": "b2", "speaker": "A", "kind": "backchannel", "gain_db": -5, "text": "[curious] oh?",
+     "start": {"ref": "l6", "at": "word", "word": "shared", "edge": "start", "offset_ms": 150}},
+    {"id": "l7", "speaker": "A", "text": "Wait, so everyone can see it?",
+     "start": {"ref": "l6", "at": "end", "offset_ms": 180}},
+    {"id": "l8", "speaker": "B", "text": "Flights, the stay, who owes what... [warmly] all in one place.",
+     "start": {"ref": "l7", "at": "end", "offset_ms": -120}},
+    {"id": "b3", "speaker": "A", "kind": "backchannel", "gain_db": -5, "text": "[laughs] haan",
+     "start": {"ref": "l8", "at": "word", "word": "owes", "edge": "end", "offset_ms": 80}},
+    {"id": "l9", "speaker": "A", "text": "Okay that's... actually genius.",
+     "start": {"ref": "l8", "at": "end", "offset_ms": 80}},
+    {"id": "l10", "speaker": "B", "text": "I know. [laughs] Pack your bags.",
+     "start": {"ref": "l9", "at": "end", "offset_ms": -200}}
+  ]
+}
