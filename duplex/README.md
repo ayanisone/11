@@ -102,7 +102,9 @@ The `analyze` command reports the same stats, so a render can be compared agains
 
 - Each line is a separate `/v1/text-to-speech/{voice}/with-timestamps` call on `eleven_v4` (default). The previous line's words are sent as `previous_text`, so an answer sounds like an answer. If the model rejects that field, the call is retried without it.
 - Word timings come from the character alignment, with audio tags stripped. If none come back, the fallback is `/v1/forced-alignment`, then a loudness-based estimate (flagged in the report).
-- v4 dialogue tags (`[jumping in]`, `[interrupting]`, `[overlapping]`) shape the **delivery**. The timeline does the **placement**. Both are needed: a line rendered alone and then overlapped still sounds like a solo read unless it's tagged.
+- v4 dialogue tags (`[jumping in]`, `[interrupting]`, `[overlapping]`) shape the **delivery**. The timeline does the **placement**. Both are needed: a line rendered alone and then overlapped still sounds like a solo read unless it's tagged. `report.json` warns about any line that starts over another speaker without one of these tags, and about hyphenated tags.
+- The writer uses the full Eleven v4 tag set (emotion, delivery, non-verbal, pauses, dialogue timing) and follows v4's rules. A tag holds until the next tag. Tags describe how a line is spoken, not stage directions, so `[grinning]` is not performed. Capitals give emphasis, and numbers stay as written.
+- Offline renders use `eleven_v4`. Turbo only matters for live agents.
 
 ## 5. Where we can use this
 
@@ -113,10 +115,21 @@ The `analyze` command reports the same stats, so a render can be compared agains
 - **Radio and podcast-style ads:** host + guest banter, with backchannels baked in.
 - **Live "Riff" agent:** a brainstorming partner for the creative team, a sales and booth demo, or the base for voice-led brand experiences (contests, quizzes). Swap the prompt and voice per brand.
 
-## 6. Tests
+## 6. Towards a Dessa-like agent
+
+Riff (section 3) is a cascade, so it can't backchannel or come in while you're still talking. There are two ways past that:
+
+| | Pseudo-duplex on ElevenLabs + Claude | True full-duplex model |
+|---|---|---|
+| How | Our own client keeps the mic open while the agent talks. Scribe v2 Realtime streams partial transcripts. A Claude Haiku 5.5 "listener" judges every partial and chooses: stay quiet, backchannel, laugh, finish your sentence, or cut in. Backchannels come from a pre-rendered bank in the agent's own voice (`eleven_v4`, tagged), so they play with zero synthesis delay. Replies stream on `eleven_v4_turbo` | Self-host an open full-duplex speech-to-speech model: NVIDIA PersonaPlex-7B (built on Kyutai Moshi; MIT code, NVIDIA Open Model License weights) |
+| Gets | "mm-hmm" / "haan" / laughs under your sentence, sentence completion, cut-ins, our ElevenLabs voices and Indian English/Hinglish | The real thing: listens and speaks at once, with learned timing |
+| Doesn't get | Timing is rules + prediction, not learned. A real reply still lands roughly 0.5–1 s after you stop (to be measured). Echo cancellation is needed (headphones are simplest) | Our voices and languages: expect English-first, and fine-tuning needs a lot of two-speaker conversational audio plus GPU time. Check the licence before any commercial use |
+| Effort | A browser prototype, roughly a week | A demo on a rented GPU in days; months to make it ours |
+
+## 7. Tests
 
 ```bash
 cd duplex && pip install -e '.[dev]' && pytest
 ```
 
-The tests cover anchor resolution, interruptions, the self-overlap check, stems summing to the mix, 24-bit WAV round-trips, backchannel detection, lifting a reference's timing into a score and re-creating it exactly, and an end-to-end render of the example with a faked TTS (including the cache). The API calls themselves were not run here, because this sandbox has no ElevenLabs/Anthropic keys.
+The tests cover anchor resolution, the v4 tag checks, interruptions, the self-overlap check, stems summing to the mix, 24-bit WAV round-trips, backchannel detection, lifting a reference's timing into a score and re-creating it exactly, and an end-to-end render of the example with a faked TTS (including the cache). The API calls themselves were not run here, because this sandbox has no ElevenLabs/Anthropic keys.

@@ -12,7 +12,7 @@ from typing import Optional
 
 from . import eleven
 from .score import Score
-from .timeline import (Clip, Word, conversation_stats, energy_bounds, estimate_words, mixdown, overlaps_of, place,
+from .timeline import (TAG_RE, Clip, Word, conversation_stats, energy_bounds, estimate_words, mixdown, overlaps_of, place,
                        read_wav, spans_from_timeline, strip_tags, timecode, words_from_chars, write_wav)
 
 
@@ -59,6 +59,26 @@ def synth_line(text: str, voice_id: str, *, model_id: str, output_format: str, p
     return Clip(audio, rate, words)
 
 
+TIMING_TAGS = ("interrupting", "jumping in", "overlapping")
+
+
+def tag_warnings(score: Score, tl) -> list[str]:
+    """v4 tag hygiene: hyphenated tags, and lines that start over someone without a dialogue-timing tag."""
+    out = []
+    for line in score.lines:
+        tags = [t.strip("[]").lower() for t in TAG_RE.findall(line.text)]
+        out += [f"{line.id}: tag [{t}] has a hyphen; v4 reads plain words better" for t in tags if "-" in t]
+        if line.kind != "line" or any(t in TIMING_TAGS for t in tags):
+            continue
+        p = tl.placed[line.id]
+        talking = [o.line.id for o in tl.placed.values()
+                   if o.line.speaker != line.speaker and o.line.kind == "line" and o.onset < p.onset < o.speech_end]
+        if talking:
+            out.append(f"{line.id}: starts over {', '.join(talking)} but has no [jumping in] / [interrupting] / "
+                       f"[overlapping] tag, so the take may sound like a solo read")
+    return out
+
+
 def render(score: Score, out_dir: Path, *, voices: dict[str, str], model_id: str = "eleven_v4",
            output_format: str = "pcm_44100", context: bool = True, seed: Optional[int] = None,
            cache: Optional[Path] = None, fps: int = 25, bits: int = 24) -> dict:
@@ -98,6 +118,6 @@ def render(score: Score, out_dir: Path, *, voices: dict[str, str], model_id: str
 
     report = {"title": score.title, "sample_rate": rate, "bits": bits, "model_id": model_id,
               "voices": cast, "safety_gain_db": round(20 * math.log10(gain), 2),
-              "stats": conversation_stats(spans), "warnings": tl.warnings + log}
+              "stats": conversation_stats(spans), "warnings": tl.warnings + tag_warnings(score, tl) + log}
     (out_dir / "report.json").write_text(json.dumps(report, indent=2, ensure_ascii=False))
     return report

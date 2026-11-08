@@ -77,7 +77,7 @@ def main(argv=None) -> None:
     r.add_argument("score")
     r.add_argument("-o", "--out", default="out")
     r.add_argument("--voice", action="append", help="SPEAKER=VOICE_ID (repeat per speaker)")
-    r.add_argument("--model", default="eleven_v4", help="ElevenLabs TTS model (eleven_v4, eleven_v4_turbo, ...)")
+    r.add_argument("--model", default="eleven_v4", help="ElevenLabs TTS model (default eleven_v4; Turbo only matters for live agents)")
     r.add_argument("--format", default="pcm_44100", help="pcm_* output format; pcm_44100/48000 need a paid tier")
     r.add_argument("--no-context", action="store_true", help="don't send the previous line as previous_text")
     r.add_argument("--seed", type=int, default=None)

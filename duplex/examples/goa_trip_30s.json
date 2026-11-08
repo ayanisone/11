@@ -14,9 +14,9 @@
     {"id": "l3", "speaker": "A", "text": "Exactly! But who's booking? Because last time Rohan booked this tiny little—",
      "start": {"ref": "l2", "at": "end", "offset_ms": 60}},
     {"id": "l4", "speaker": "B", "interrupts": true, "yield_ms": 150,
-     "text": "[sarcastic] —a hostel in the wrong Goa.",
+     "text": "[interrupting] [sarcastic] —a hostel in the wrong Goa.",
      "start": {"ref": "l3", "at": "word", "word": "booked", "edge": "end", "offset_ms": 40}},
-    {"id": "l5", "speaker": "A", "text": "[laughs] There's only ONE Goa!",
+    {"id": "l5", "speaker": "A", "text": "[overlapping] [laughs] There's only ONE Goa!",
      "start": {"ref": "l4", "at": "end", "offset_ms": -150}},
     {"id": "l6", "speaker": "B", "text": "[chuckles] Tell him that. Anyway— I've already made a shared trip on TripKit.",
      "start": {"ref": "l5", "at": "end", "offset_ms": 120}},
@@ -24,13 +24,13 @@
      "start": {"ref": "l6", "at": "word", "word": "shared", "edge": "start", "offset_ms": 150}},
     {"id": "l7", "speaker": "A", "text": "Wait, so everyone can see it?",
      "start": {"ref": "l6", "at": "end", "offset_ms": 180}},
-    {"id": "l8", "speaker": "B", "text": "Flights, the stay, who owes what... [warmly] all in one place.",
+    {"id": "l8", "speaker": "B", "text": "[jumping in] Flights, the stay, who owes what... [warmly] all in one place.",
      "start": {"ref": "l7", "at": "end", "offset_ms": -120}},
     {"id": "b3", "speaker": "A", "kind": "backchannel", "gain_db": -5, "text": "[laughs] haan",
      "start": {"ref": "l8", "at": "word", "word": "owes", "edge": "end", "offset_ms": 80}},
     {"id": "l9", "speaker": "A", "text": "Okay that's... actually genius.",
      "start": {"ref": "l8", "at": "end", "offset_ms": 80}},
-    {"id": "l10", "speaker": "B", "text": "I know. [laughs] Pack your bags.",
+    {"id": "l10", "speaker": "B", "text": "[overlapping] I know. [laughs] Pack your bags.",
      "start": {"ref": "l9", "at": "end", "offset_ms": -200}}
   ]
 }

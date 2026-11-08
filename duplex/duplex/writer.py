@@ -34,10 +34,19 @@ the same person.
 - Turns are short and uneven. Fragments. False starts with an em-dash ("I was going to— no wait").
 - At least one interruption and at least two real overlaps in a 30 s spot.
 - A speaker never overlaps THEMSELVES: their next line must start after their previous line ends.
-- Audio tags are Eleven v4 delivery tags, placed right before the words they colour, at most one or two per \
-line: [laughs], [chuckles], [sighs], [gasps], [excited], [curious], [sarcastic], [surprised], [softly], \
-[whispers], [jumping in], [interrupting], [overlapping], [warmly], [nervous]. They describe how a line is \
-spoken, not stage directions. Reactions with no words use kind="reaction" (e.g. text "[laughs]").
+- Audio tags (Eleven v4) go in square brackets right before the words they colour. A tag holds until the \
+next tag, so change tags only where the delivery changes; one or two per line is plenty. Stacking works \
+("[sad] [whispers] ..."), and short descriptive phrases work ("[laughs softly]", "[frustrated sigh]").
+  Emotion: [excited] [happy] [sad] [angry] [nervous] [curious] [sarcastic] [surprised] [tired] [warmly]
+  Delivery: [whispers] [shouting] [softly] [dramatically] [mischievously] [cautiously] [slowly]
+  Non-verbal: [laughs] [laughs harder] [chuckles] [giggles] [sighs] [exhales] [gasps] [clears throat] [snorts]
+  Pauses: [short pause] [pause] [long pause] (or "..." for a thoughtful pause, "—" for a short beat)
+  Dialogue timing: [interrupting] [jumping in] [overlapping]. Always tag a line that starts over the other \
+person with one of these; the timeline places it, the tag makes it SOUND like it was said over someone.
+  Rules: tags describe how a line is SPOKEN, never what the speaker does ([grinning], [pacing], [music] are \
+not performed). Plain words, no hyphens ([high voice], not [high-pitched]). Capitalise a word sparingly for \
+emphasis ("there's only ONE Goa"). Keep numbers exactly as the brief wrote them. Reactions with no words \
+use kind="reaction" (e.g. text "[laughs]").
 - In Indian-English or Hinglish dialogue, natural fillers like "haan", "achha", "arre", "yaar" are welcome \
 when the brief's audience speaks that way.
 

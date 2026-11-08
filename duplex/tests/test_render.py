@@ -41,7 +41,7 @@ def test_example_renders_and_caches(tmp_path, monkeypatch):
 
     assert len(calls) == len(score.lines)
     assert calls[1][1] is not None  # previous line sent as context
-    assert not [w for w in report["warnings"] if "talks over themselves" in w], report["warnings"]
+    assert not report["warnings"], report["warnings"]  # no self-overlap, no untagged overlaps, all cuts land
     stats = report["stats"]
     assert stats["backchannels"] == 3 and stats["changes_with_overlap_share"] > 0
 
@@ -58,3 +58,16 @@ def test_example_renders_and_caches(tmp_path, monkeypatch):
     render(score, tmp_path, voices={}, output_format="pcm_24000")  # re-time / re-render: all from cache
     assert len(calls) == len(score.lines)
     assert json.loads((tmp_path / "report.json").read_text())["stats"] == stats
+
+
+def test_tag_lint_flags_untagged_overlap_and_hyphens(tmp_path, monkeypatch):
+    monkeypatch.setattr(eleven, "tts_with_timestamps", fake_tts([]))
+    score = Score.model_validate({
+        "title": "t", "speakers": [{"speaker": "A", "casting": "x", "voice_id": "a"},
+                                   {"speaker": "B", "casting": "y", "voice_id": "b"}],
+        "lines": [{"id": "l1", "speaker": "A", "text": "[high-pitched] so we went all the way there"},
+                  {"id": "l2", "speaker": "B", "text": "and it rained",
+                   "start": {"ref": "l1", "at": "end", "offset_ms": -400}}]})
+    warnings = render(score, tmp_path, voices={}, output_format="pcm_24000")["warnings"]
+    assert any("hyphen" in w for w in warnings)
+    assert any(w.startswith("l2: starts over l1") for w in warnings)
