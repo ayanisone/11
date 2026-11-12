@@ -176,6 +176,7 @@ Extend per language: Hindi/Bollywood (`haan, arre, aaja, o re, ho ho`); Tamil/Te
 - **Keep lines short** (≤ ~12 syllables) and the total under the density limits in §1.3.
 - **Spell out symbols** the way they should be sung: `F equals m a`, not `F = ma`.
 - **Put the must-remember line in the chorus.** Chorus lines were the most reliably sung lines in every failing take.
+- **Open the lyric sheet with a `[Hook]` section, and say "No instrumental intro: the song opens directly with the vocal hook" in the prompt.** Without this, the model often plays a 20–28 s instrumental intro (ignoring "2-second intro"), runs out of time and drops the second verse, or stretches the song to 58 s. With the hook at the top, every take in our elements test came back at exactly 40 s with vocals starting in the first 0–8 s.
 
 ### 4.3 Process
 
@@ -198,6 +199,9 @@ Extend per language: Hindi/Bollywood (`haan, arre, aaja, o re, ho ho`); Tamil/Te
 | Newton full, Bollywood take 1 | ~130 syl, sung | Chorus only, starting at 0:24 | FAIL (omission) |
 | Newton full, Bollywood rap-verse test | ~165 syl, hybrid | Almost all lines, but "a body at rest stays at inertia" inserted; 50 s long | FAIL (new content words), duration over limit |
 | **Newton short, pop take 2** | **~115 syl, sung** | Every line; "remain, remain to rest"; extra "a is acceleration" fragment | **PASS with REVIEW items** (stutter-restart = allowed; inflection = review) |
+
+| Elements 1–20, round 1 (verse first), 8 takes | ~119 syl | Intros of 20–28 s; 3 takes stretched to 58 s; most dropped elements 11–20 or Calcium; 2 empty transcripts | 1 near-pass in 8 |
+| Elements 1–20, round 2 (`[Hook]` first, "no instrumental intro"), 8 takes | ~119 syl | All 40 s; vocals start 0–8 s; 5 of 8 sang all 20 name + symbol pairs | 5 PASS / REVIEW, 3 FAIL |
 
 **Takeaways**
 
