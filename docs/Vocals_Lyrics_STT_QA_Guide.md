@@ -202,6 +202,7 @@ Extend per language: Hindi/Bollywood (`haan, arre, aaja, o re, ho ho`); Tamil/Te
 
 | Elements 1–20, round 1 (verse first), 8 takes | ~119 syl | Intros of 20–28 s; 3 takes stretched to 58 s; most dropped elements 11–20 or Calcium; 2 empty transcripts | 1 near-pass in 8 |
 | Elements 1–20, round 2 (`[Hook]` first, "no instrumental intro"), 8 takes | ~119 syl | All 40 s; vocals start 0–8 s; 5 of 8 sang all 20 name + symbol pairs | 5 PASS / REVIEW, 3 FAIL |
+| Probability catchy (call-and-response, hook bookend), 8 takes: stomp-clap pop, stadium rock, party rap, Bollywood dance | ~120 syl | All 40 s; vocals start 0–7 s; Q&A lines and closing hook sung in 7 of 8; rock t1 skipped "Rolling a four"; rap t2 dropped "Science, statistics" and inserted "Markets"; Bollywood t2 cut off on the last hook | 6 PASS / REVIEW, 2 FAIL |
 
 **Takeaways**
 
