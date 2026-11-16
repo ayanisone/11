@@ -1,0 +1,5047 @@
+{
+ "scribe_mix": {
+  "text": "[singing] Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, maximum displacement from the neutral position. Displacement of a particular point in the medium, the position. Wavelength, two successive identical parts. The distance between amplitude represents the energy. The energy. The energy. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, F, repetitions per second in hertz. The speed of a light wave C. C. C. Waves, waves, an energy transport phenomenon. Amplitude, V. Period, frequency, shun. Wavelength, period. Period, frequency, speed. Amplitude. The energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves. Examples. Examples. A stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electro waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric fields. [upbeat music] Wave speed formula, distance covered over time taken. Speed, how fast the distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds, or minutes. Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. [upbeat music]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[singing]",
+    "s": 0.0,
+    "e": 9.08,
+    "type": "audio_event"
+   },
+   {
+    "w": "Waves,",
+    "s": 9.18,
+    "e": 9.98,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 10.32,
+    "e": 11.04,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 11.3,
+    "e": 11.42,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 11.48,
+    "e": 11.8,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 11.82,
+    "e": 12.36,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 12.4,
+    "e": 13.38,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 13.78,
+    "e": 14.76,
+    "type": "word"
+   },
+   {
+    "w": "wavelength,",
+    "s": 14.9,
+    "e": 15.9,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 16.04,
+    "e": 16.98,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 17.12,
+    "e": 17.96,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 18.26,
+    "e": 18.82,
+    "type": "word"
+   },
+   {
+    "w": "Greater",
+    "s": 19.98,
+    "e": 20.32,
+    "type": "word"
+   },
+   {
+    "w": "amplitude",
+    "s": 20.5,
+    "e": 21.2,
+    "type": "word"
+   },
+   {
+    "w": "carries",
+    "s": 21.3,
+    "e": 21.68,
+    "type": "word"
+   },
+   {
+    "w": "greater",
+    "s": 21.72,
+    "e": 22.24,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 22.4,
+    "e": 23.12,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 27.5,
+    "e": 28.22,
+    "type": "word"
+   },
+   {
+    "w": "maximum",
+    "s": 28.56,
+    "e": 28.94,
+    "type": "word"
+   },
+   {
+    "w": "displacement",
+    "s": 28.98,
+    "e": 29.64,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 29.7,
+    "e": 29.82,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 29.88,
+    "e": 29.94,
+    "type": "word"
+   },
+   {
+    "w": "neutral",
+    "s": 30.02,
+    "e": 30.48,
+    "type": "word"
+   },
+   {
+    "w": "position.",
+    "s": 30.58,
+    "e": 31.54,
+    "type": "word"
+   },
+   {
+    "w": "Displacement",
+    "s": 31.72,
+    "e": 32.7,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 32.78,
+    "e": 32.86,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 32.92,
+    "e": 32.96,
+    "type": "word"
+   },
+   {
+    "w": "particular",
+    "s": 33.0,
+    "e": 33.66,
+    "type": "word"
+   },
+   {
+    "w": "point",
+    "s": 33.74,
+    "e": 34.0,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 34.06,
+    "e": 34.14,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 34.16,
+    "e": 34.22,
+    "type": "word"
+   },
+   {
+    "w": "medium,",
+    "s": 34.3,
+    "e": 34.82,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 35.0,
+    "e": 35.08,
+    "type": "word"
+   },
+   {
+    "w": "position.",
+    "s": 35.16,
+    "e": 36.42,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 36.58,
+    "e": 37.3,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 37.7,
+    "e": 37.9,
+    "type": "word"
+   },
+   {
+    "w": "successive",
+    "s": 38.02,
+    "e": 38.7,
+    "type": "word"
+   },
+   {
+    "w": "identical",
+    "s": 38.76,
+    "e": 39.2,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 39.32,
+    "e": 39.64,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 39.86,
+    "e": 39.96,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 40.02,
+    "e": 40.52,
+    "type": "word"
+   },
+   {
+    "w": "between",
+    "s": 40.58,
+    "e": 41.1,
+    "type": "word"
+   },
+   {
+    "w": "amplitude",
+    "s": 41.24,
+    "e": 42.22,
+    "type": "word"
+   },
+   {
+    "w": "represents",
+    "s": 42.32,
+    "e": 43.1,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 43.18,
+    "e": 43.4,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 43.52,
+    "e": 44.68,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 49.44,
+    "e": 49.66,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 49.82,
+    "e": 50.68,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 58.6,
+    "e": 58.82,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 58.96,
+    "e": 59.82,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 64.04,
+    "e": 64.7,
+    "type": "word"
+   },
+   {
+    "w": "T,",
+    "s": 65.16,
+    "e": 65.4,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 66.16,
+    "e": 66.24,
+    "type": "word"
+   },
+   {
+    "w": "time",
+    "s": 66.3,
+    "e": 66.42,
+    "type": "word"
+   },
+   {
+    "w": "for",
+    "s": 66.46,
+    "e": 66.56,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 66.62,
+    "e": 66.8,
+    "type": "word"
+   },
+   {
+    "w": "wavelength",
+    "s": 66.88,
+    "e": 67.38,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 67.44,
+    "e": 67.54,
+    "type": "word"
+   },
+   {
+    "w": "pass",
+    "s": 67.6,
+    "e": 67.86,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 67.92,
+    "e": 67.98,
+    "type": "word"
+   },
+   {
+    "w": "point.",
+    "s": 68.06,
+    "e": 68.4,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 68.44,
+    "e": 69.24,
+    "type": "word"
+   },
+   {
+    "w": "V,",
+    "s": 69.76,
+    "e": 70.1,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 70.72,
+    "e": 70.78,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 70.84,
+    "e": 71.04,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 71.12,
+    "e": 71.14,
+    "type": "word"
+   },
+   {
+    "w": "specific",
+    "s": 71.24,
+    "e": 71.66,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 71.74,
+    "e": 71.96,
+    "type": "word"
+   },
+   {
+    "w": "passes",
+    "s": 72.0,
+    "e": 72.44,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 72.5,
+    "e": 72.54,
+    "type": "word"
+   },
+   {
+    "w": "point.",
+    "s": 72.62,
+    "e": 73.04,
+    "type": "word"
+   },
+   {
+    "w": "Frequency,",
+    "s": 73.12,
+    "e": 73.8,
+    "type": "word"
+   },
+   {
+    "w": "F,",
+    "s": 74.52,
+    "e": 74.54,
+    "type": "word"
+   },
+   {
+    "w": "repetitions",
+    "s": 75.32,
+    "e": 76.24,
+    "type": "word"
+   },
+   {
+    "w": "per",
+    "s": 76.3,
+    "e": 76.46,
+    "type": "word"
+   },
+   {
+    "w": "second",
+    "s": 76.56,
+    "e": 77.3,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 77.38,
+    "e": 77.52,
+    "type": "word"
+   },
+   {
+    "w": "hertz.",
+    "s": 77.6,
+    "e": 78.26,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 79.26,
+    "e": 79.34,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 79.4,
+    "e": 79.58,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.64,
+    "e": 79.74,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 79.8,
+    "e": 79.84,
+    "type": "word"
+   },
+   {
+    "w": "light",
+    "s": 80.02,
+    "e": 80.52,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 80.6,
+    "e": 80.94,
+    "type": "word"
+   },
+   {
+    "w": "C.",
+    "s": 81.04,
+    "e": 81.06,
+    "type": "word"
+   },
+   {
+    "w": "C.",
+    "s": 83.4,
+    "e": 83.46,
+    "type": "word"
+   },
+   {
+    "w": "C.",
+    "s": 87.98,
+    "e": 88.04,
+    "type": "word"
+   },
+   {
+    "w": "Waves,",
+    "s": 91.48,
+    "e": 91.98,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 92.32,
+    "e": 93.08,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 93.62,
+    "e": 93.7,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 93.78,
+    "e": 94.2,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 94.26,
+    "e": 94.66,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 94.7,
+    "e": 95.68,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 96.08,
+    "e": 96.8,
+    "type": "word"
+   },
+   {
+    "w": "V.",
+    "s": 97.18,
+    "e": 97.4,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 98.3,
+    "e": 98.9,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 98.98,
+    "e": 99.54,
+    "type": "word"
+   },
+   {
+    "w": "shun.",
+    "s": 99.66,
+    "e": 100.4,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 100.58,
+    "e": 101.38,
+    "type": "word"
+   },
+   {
+    "w": "period.",
+    "s": 101.4,
+    "e": 102.1,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 102.88,
+    "e": 103.56,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 103.96,
+    "e": 104.68,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 104.82,
+    "e": 105.14,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude.",
+    "s": 105.28,
+    "e": 106.26,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 108.88,
+    "e": 109.08,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 109.24,
+    "e": 109.96,
+    "type": "word"
+   },
+   {
+    "w": "Transverse",
+    "s": 111.96,
+    "e": 112.54,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 112.62,
+    "e": 113.06,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 113.58,
+    "e": 113.66,
+    "type": "word"
+   },
+   {
+    "w": "medium",
+    "s": 113.72,
+    "e": 114.22,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 114.3,
+    "e": 114.84,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 114.9,
+    "e": 115.08,
+    "type": "word"
+   },
+   {
+    "w": "right",
+    "s": 115.14,
+    "e": 115.4,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 115.5,
+    "e": 116.2,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 116.56,
+    "e": 116.68,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 116.72,
+    "e": 116.8,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 116.88,
+    "e": 117.84,
+    "type": "word"
+   },
+   {
+    "w": "Longitudinal,",
+    "s": 118.56,
+    "e": 119.64,
+    "type": "word"
+   },
+   {
+    "w": "movement",
+    "s": 121.14,
+    "e": 121.7,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 121.82,
+    "e": 122.22,
+    "type": "word"
+   },
+   {
+    "w": "particles",
+    "s": 122.28,
+    "e": 123.0,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 123.06,
+    "e": 123.14,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 123.18,
+    "e": 123.32,
+    "type": "word"
+   },
+   {
+    "w": "same",
+    "s": 123.42,
+    "e": 123.66,
+    "type": "word"
+   },
+   {
+    "w": "dimension",
+    "s": 123.72,
+    "e": 124.68,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 125.76,
+    "e": 125.84,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 125.88,
+    "e": 125.96,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 126.02,
+    "e": 126.98,
+    "type": "word"
+   },
+   {
+    "w": "Mechanical",
+    "s": 127.86,
+    "e": 128.419,
+    "type": "word"
+   },
+   {
+    "w": "waves",
+    "s": 128.5,
+    "e": 129.12,
+    "type": "word"
+   },
+   {
+    "w": "need",
+    "s": 130.0,
+    "e": 130.16,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 130.199,
+    "e": 130.24,
+    "type": "word"
+   },
+   {
+    "w": "medium",
+    "s": 130.32,
+    "e": 130.94,
+    "type": "word"
+   },
+   {
+    "w": "for",
+    "s": 131.0,
+    "e": 131.1,
+    "type": "word"
+   },
+   {
+    "w": "propagation.",
+    "s": 131.14,
+    "e": 132.26,
+    "type": "word"
+   },
+   {
+    "w": "Sound",
+    "s": 132.56,
+    "e": 132.94,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 133.02,
+    "e": 133.64,
+    "type": "word"
+   },
+   {
+    "w": "waves",
+    "s": 134.74,
+    "e": 135.14,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 135.18,
+    "e": 135.26,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 135.32,
+    "e": 135.36,
+    "type": "word"
+   },
+   {
+    "w": "slinky,",
+    "s": 135.4,
+    "e": 135.9,
+    "type": "word"
+   },
+   {
+    "w": "water",
+    "s": 136.02,
+    "e": 136.38,
+    "type": "word"
+   },
+   {
+    "w": "waves.",
+    "s": 136.44,
+    "e": 136.96,
+    "type": "word"
+   },
+   {
+    "w": "Examples.",
+    "s": 137.04,
+    "e": 137.98,
+    "type": "word"
+   },
+   {
+    "w": "Examples.",
+    "s": 139.32,
+    "e": 141.12,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 141.58,
+    "e": 141.62,
+    "type": "word"
+   },
+   {
+    "w": "stone",
+    "s": 141.68,
+    "e": 141.96,
+    "type": "word"
+   },
+   {
+    "w": "dropped",
+    "s": 142.0,
+    "e": 142.3,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 142.34,
+    "e": 142.58,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 142.66,
+    "e": 142.78,
+    "type": "word"
+   },
+   {
+    "w": "pond,",
+    "s": 142.86,
+    "e": 143.4,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 143.88,
+    "e": 143.96,
+    "type": "word"
+   },
+   {
+    "w": "water",
+    "s": 144.02,
+    "e": 144.26,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 144.3,
+    "e": 144.38,
+    "type": "word"
+   },
+   {
+    "w": "disturbed",
+    "s": 144.42,
+    "e": 144.86,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 144.92,
+    "e": 145.0,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 145.04,
+    "e": 145.12,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 145.18,
+    "e": 145.46,
+    "type": "word"
+   },
+   {
+    "w": "passes.",
+    "s": 145.58,
+    "e": 146.26,
+    "type": "word"
+   },
+   {
+    "w": "Equilibrium",
+    "s": 146.6,
+    "e": 147.2,
+    "type": "word"
+   },
+   {
+    "w": "position,",
+    "s": 147.28,
+    "e": 147.82,
+    "type": "word"
+   },
+   {
+    "w": "it",
+    "s": 148.3,
+    "e": 148.38,
+    "type": "word"
+   },
+   {
+    "w": "returns",
+    "s": 148.42,
+    "e": 149.0,
+    "type": "word"
+   },
+   {
+    "w": "after",
+    "s": 149.12,
+    "e": 149.52,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 149.58,
+    "e": 149.66,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 149.72,
+    "e": 149.96,
+    "type": "word"
+   },
+   {
+    "w": "has",
+    "s": 150.0,
+    "e": 150.22,
+    "type": "word"
+   },
+   {
+    "w": "passed.",
+    "s": 150.28,
+    "e": 150.94,
+    "type": "word"
+   },
+   {
+    "w": "Matter",
+    "s": 151.44,
+    "e": 151.8,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 151.88,
+    "e": 152.5,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 153.08,
+    "e": 153.36,
+    "type": "word"
+   },
+   {
+    "w": "moving",
+    "s": 153.42,
+    "e": 153.68,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 153.78,
+    "e": 154.1,
+    "type": "word"
+   },
+   {
+    "w": "can",
+    "s": 154.14,
+    "e": 154.26,
+    "type": "word"
+   },
+   {
+    "w": "be",
+    "s": 154.28,
+    "e": 154.36,
+    "type": "word"
+   },
+   {
+    "w": "described",
+    "s": 154.4,
+    "e": 154.86,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 154.92,
+    "e": 155.0,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 155.06,
+    "e": 155.1,
+    "type": "word"
+   },
+   {
+    "w": "wave.",
+    "s": 155.16,
+    "e": 155.4,
+    "type": "word"
+   },
+   {
+    "w": "Electro",
+    "s": 155.76,
+    "e": 156.34,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 156.44,
+    "e": 156.96,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 157.02,
+    "e": 157.08,
+    "type": "word"
+   },
+   {
+    "w": "moving",
+    "s": 157.16,
+    "e": 157.56,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 157.66,
+    "e": 158.08,
+    "type": "word"
+   },
+   {
+    "w": "can",
+    "s": 158.32,
+    "e": 158.52,
+    "type": "word"
+   },
+   {
+    "w": "be",
+    "s": 158.58,
+    "e": 158.66,
+    "type": "word"
+   },
+   {
+    "w": "described",
+    "s": 158.68,
+    "e": 159.14,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 159.2,
+    "e": 159.28,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 159.34,
+    "e": 159.38,
+    "type": "word"
+   },
+   {
+    "w": "wave.",
+    "s": 159.44,
+    "e": 159.68,
+    "type": "word"
+   },
+   {
+    "w": "Electromagnetic",
+    "s": 159.8,
+    "e": 160.9,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 161.0,
+    "e": 161.56,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 162.0,
+    "e": 162.26,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 162.36,
+    "e": 162.52,
+    "type": "word"
+   },
+   {
+    "w": "medium,",
+    "s": 162.56,
+    "e": 163.06,
+    "type": "word"
+   },
+   {
+    "w": "travel",
+    "s": 163.4,
+    "e": 163.66,
+    "type": "word"
+   },
+   {
+    "w": "through",
+    "s": 163.68,
+    "e": 163.82,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 163.88,
+    "e": 163.96,
+    "type": "word"
+   },
+   {
+    "w": "vacuum.",
+    "s": 164.02,
+    "e": 164.64,
+    "type": "word"
+   },
+   {
+    "w": "Periodic",
+    "s": 165.14,
+    "e": 165.66,
+    "type": "word"
+   },
+   {
+    "w": "changes",
+    "s": 165.7,
+    "e": 166.26,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 166.58,
+    "e": 166.66,
+    "type": "word"
+   },
+   {
+    "w": "magnetic",
+    "s": 166.7,
+    "e": 167.2,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 167.5,
+    "e": 167.7,
+    "type": "word"
+   },
+   {
+    "w": "electric",
+    "s": 167.8,
+    "e": 168.52,
+    "type": "word"
+   },
+   {
+    "w": "fields.",
+    "s": 168.84,
+    "e": 169.54,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat music]",
+    "s": 169.54,
+    "e": 178.76,
+    "type": "audio_event"
+   },
+   {
+    "w": "Wave",
+    "s": 178.84,
+    "e": 179.02,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 179.12,
+    "e": 179.34,
+    "type": "word"
+   },
+   {
+    "w": "formula,",
+    "s": 179.44,
+    "e": 180.1,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 180.58,
+    "e": 181.06,
+    "type": "word"
+   },
+   {
+    "w": "covered",
+    "s": 181.16,
+    "e": 181.44,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 181.5,
+    "e": 181.66,
+    "type": "word"
+   },
+   {
+    "w": "time",
+    "s": 181.74,
+    "e": 182.06,
+    "type": "word"
+   },
+   {
+    "w": "taken.",
+    "s": 182.16,
+    "e": 182.82,
+    "type": "word"
+   },
+   {
+    "w": "Speed,",
+    "s": 183.4,
+    "e": 183.8,
+    "type": "word"
+   },
+   {
+    "w": "how",
+    "s": 184.28,
+    "e": 184.4,
+    "type": "word"
+   },
+   {
+    "w": "fast",
+    "s": 184.56,
+    "e": 184.94,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 185.0,
+    "e": 185.1,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 185.14,
+    "e": 185.42,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 185.46,
+    "e": 185.5,
+    "type": "word"
+   },
+   {
+    "w": "crest",
+    "s": 185.54,
+    "e": 185.7,
+    "type": "word"
+   },
+   {
+    "w": "traveled",
+    "s": 185.74,
+    "e": 186.0,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 186.06,
+    "e": 186.12,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 186.16,
+    "e": 186.26,
+    "type": "word"
+   },
+   {
+    "w": "interval",
+    "s": 186.32,
+    "e": 186.68,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 186.74,
+    "e": 186.82,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 186.88,
+    "e": 187.36,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 188.08,
+    "e": 188.94,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 189.58,
+    "e": 189.66,
+    "type": "word"
+   },
+   {
+    "w": "height",
+    "s": 189.74,
+    "e": 189.98,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 190.04,
+    "e": 190.12,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 190.18,
+    "e": 190.26,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 190.32,
+    "e": 190.8,
+    "type": "word"
+   },
+   {
+    "w": "measured",
+    "s": 190.88,
+    "e": 191.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 191.22,
+    "e": 191.36,
+    "type": "word"
+   },
+   {
+    "w": "meters.",
+    "s": 191.44,
+    "e": 192.26,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 192.58,
+    "e": 193.22,
+    "type": "word"
+   },
+   {
+    "w": "identical",
+    "s": 193.62,
+    "e": 194.06,
+    "type": "word"
+   },
+   {
+    "w": "points",
+    "s": 194.16,
+    "e": 194.54,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 194.62,
+    "e": 194.7,
+    "type": "word"
+   },
+   {
+    "w": "adjacent",
+    "s": 194.76,
+    "e": 195.32,
+    "type": "word"
+   },
+   {
+    "w": "crests",
+    "s": 195.4,
+    "e": 195.72,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 195.8,
+    "e": 195.94,
+    "type": "word"
+   },
+   {
+    "w": "meters.",
+    "s": 196.0,
+    "e": 196.8,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 197.14,
+    "e": 197.6,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 197.78,
+    "e": 197.94,
+    "type": "word"
+   },
+   {
+    "w": "complete",
+    "s": 198.0,
+    "e": 198.52,
+    "type": "word"
+   },
+   {
+    "w": "vibrational",
+    "s": 198.6,
+    "e": 199.34,
+    "type": "word"
+   },
+   {
+    "w": "cycle,",
+    "s": 199.42,
+    "e": 199.84,
+    "type": "word"
+   },
+   {
+    "w": "seconds,",
+    "s": 199.98,
+    "e": 200.3,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 200.36,
+    "e": 200.5,
+    "type": "word"
+   },
+   {
+    "w": "minutes.",
+    "s": 200.6,
+    "e": 201.12,
+    "type": "word"
+   },
+   {
+    "w": "Frequency,",
+    "s": 201.7,
+    "e": 202.26,
+    "type": "word"
+   },
+   {
+    "w": "hertz,",
+    "s": 202.42,
+    "e": 202.82,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 203.22,
+    "e": 203.4,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 203.48,
+    "e": 203.8,
+    "type": "word"
+   },
+   {
+    "w": "per",
+    "s": 203.86,
+    "e": 203.96,
+    "type": "word"
+   },
+   {
+    "w": "second.",
+    "s": 204.02,
+    "e": 204.9,
+    "type": "word"
+   },
+   {
+    "w": "Waves,",
+    "s": 206.32,
+    "e": 206.76,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 206.9,
+    "e": 207.4,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 207.78,
+    "e": 207.96,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 208.06,
+    "e": 208.42,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 208.54,
+    "e": 209.06,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 209.12,
+    "e": 210.12,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 210.36,
+    "e": 211.18,
+    "type": "word"
+   },
+   {
+    "w": "wavelength,",
+    "s": 211.44,
+    "e": 212.04,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 212.56,
+    "e": 213.04,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 213.12,
+    "e": 213.9,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 214.26,
+    "e": 214.84,
+    "type": "word"
+   },
+   {
+    "w": "Greater",
+    "s": 216.86,
+    "e": 217.1,
+    "type": "word"
+   },
+   {
+    "w": "amplitude",
+    "s": 217.26,
+    "e": 217.92,
+    "type": "word"
+   },
+   {
+    "w": "carries",
+    "s": 218.04,
+    "e": 218.3,
+    "type": "word"
+   },
+   {
+    "w": "greater",
+    "s": 218.34,
+    "e": 218.76,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 218.92,
+    "e": 219.4,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat music]",
+    "s": 219.68,
+    "e": 225.94,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "scribe_vocals_1": {
+  "text": "[singing] Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, maximum displacement from the neutral position. Displacement of a particular point in the medium, the position. Wavelength, two successive identical parts. The distance between amplitudes represents the am-energy. The energy. The energy. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, F, repetitions per second in hertz. The speed of a light wave, C. C. Waves, waves, an energy transport phenomenon. Amplitude, V, period, frequency, speed. Wavelength, period, period, frequency, speed. Amplitude. The energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky. Water waves, examples. Examples. A stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electro waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric fields. Wave speed formula, distance covered over time taken. Speed, how fast the distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. [singing]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[singing]",
+    "s": 0.0,
+    "e": 9.08,
+    "type": "audio_event"
+   },
+   {
+    "w": "Waves,",
+    "s": 9.18,
+    "e": 10.12,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 10.34,
+    "e": 11.06,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 11.32,
+    "e": 11.44,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 11.52,
+    "e": 11.82,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 11.86,
+    "e": 12.36,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 12.42,
+    "e": 13.4,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 13.76,
+    "e": 14.82,
+    "type": "word"
+   },
+   {
+    "w": "wavelength,",
+    "s": 14.92,
+    "e": 15.8,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 16.04,
+    "e": 17.06,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 17.14,
+    "e": 18.1,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 18.28,
+    "e": 18.86,
+    "type": "word"
+   },
+   {
+    "w": "Greater",
+    "s": 20.0,
+    "e": 20.42,
+    "type": "word"
+   },
+   {
+    "w": "amplitude",
+    "s": 20.54,
+    "e": 21.24,
+    "type": "word"
+   },
+   {
+    "w": "carries",
+    "s": 21.32,
+    "e": 21.7,
+    "type": "word"
+   },
+   {
+    "w": "greater",
+    "s": 21.72,
+    "e": 22.28,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 22.44,
+    "e": 23.06,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 27.52,
+    "e": 28.26,
+    "type": "word"
+   },
+   {
+    "w": "maximum",
+    "s": 28.58,
+    "e": 28.96,
+    "type": "word"
+   },
+   {
+    "w": "displacement",
+    "s": 29.0,
+    "e": 29.66,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 29.72,
+    "e": 29.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 29.9,
+    "e": 29.98,
+    "type": "word"
+   },
+   {
+    "w": "neutral",
+    "s": 30.04,
+    "e": 30.48,
+    "type": "word"
+   },
+   {
+    "w": "position.",
+    "s": 30.6,
+    "e": 31.44,
+    "type": "word"
+   },
+   {
+    "w": "Displacement",
+    "s": 31.74,
+    "e": 32.72,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 32.8,
+    "e": 32.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 32.94,
+    "e": 32.98,
+    "type": "word"
+   },
+   {
+    "w": "particular",
+    "s": 33.04,
+    "e": 33.68,
+    "type": "word"
+   },
+   {
+    "w": "point",
+    "s": 33.76,
+    "e": 34.02,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 34.08,
+    "e": 34.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 34.18,
+    "e": 34.26,
+    "type": "word"
+   },
+   {
+    "w": "medium,",
+    "s": 34.32,
+    "e": 34.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 35.04,
+    "e": 35.12,
+    "type": "word"
+   },
+   {
+    "w": "position.",
+    "s": 35.18,
+    "e": 36.52,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 36.62,
+    "e": 37.42,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 37.74,
+    "e": 37.88,
+    "type": "word"
+   },
+   {
+    "w": "successive",
+    "s": 38.02,
+    "e": 38.72,
+    "type": "word"
+   },
+   {
+    "w": "identical",
+    "s": 38.78,
+    "e": 39.22,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 39.32,
+    "e": 39.66,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 39.88,
+    "e": 39.98,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 40.04,
+    "e": 40.54,
+    "type": "word"
+   },
+   {
+    "w": "between",
+    "s": 40.6,
+    "e": 41.14,
+    "type": "word"
+   },
+   {
+    "w": "amplitudes",
+    "s": 41.28,
+    "e": 42.24,
+    "type": "word"
+   },
+   {
+    "w": "represents",
+    "s": 42.34,
+    "e": 43.12,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 43.2,
+    "e": 43.34,
+    "type": "word"
+   },
+   {
+    "w": "am-energy.",
+    "s": 43.52,
+    "e": 44.66,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 49.48,
+    "e": 49.68,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 49.88,
+    "e": 50.5,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 58.6,
+    "e": 58.84,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 59.02,
+    "e": 59.9,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 64.04,
+    "e": 64.739,
+    "type": "word"
+   },
+   {
+    "w": "T,",
+    "s": 65.18,
+    "e": 65.54,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 66.18,
+    "e": 66.26,
+    "type": "word"
+   },
+   {
+    "w": "time",
+    "s": 66.32,
+    "e": 66.44,
+    "type": "word"
+   },
+   {
+    "w": "for",
+    "s": 66.48,
+    "e": 66.6,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 66.68,
+    "e": 66.84,
+    "type": "word"
+   },
+   {
+    "w": "wavelength",
+    "s": 66.9,
+    "e": 67.4,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 67.46,
+    "e": 67.58,
+    "type": "word"
+   },
+   {
+    "w": "pass",
+    "s": 67.62,
+    "e": 67.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 67.94,
+    "e": 68.02,
+    "type": "word"
+   },
+   {
+    "w": "point.",
+    "s": 68.08,
+    "e": 68.36,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 68.48,
+    "e": 69.24,
+    "type": "word"
+   },
+   {
+    "w": "V,",
+    "s": 69.76,
+    "e": 70.14,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 70.74,
+    "e": 70.8,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 70.86,
+    "e": 71.06,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 71.14,
+    "e": 71.18,
+    "type": "word"
+   },
+   {
+    "w": "specific",
+    "s": 71.28,
+    "e": 71.68,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 71.74,
+    "e": 71.98,
+    "type": "word"
+   },
+   {
+    "w": "passes",
+    "s": 72.02,
+    "e": 72.46,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 72.52,
+    "e": 72.56,
+    "type": "word"
+   },
+   {
+    "w": "point.",
+    "s": 72.64,
+    "e": 73.08,
+    "type": "word"
+   },
+   {
+    "w": "Frequency,",
+    "s": 73.16,
+    "e": 73.82,
+    "type": "word"
+   },
+   {
+    "w": "F,",
+    "s": 74.56,
+    "e": 74.66,
+    "type": "word"
+   },
+   {
+    "w": "repetitions",
+    "s": 75.34,
+    "e": 76.26,
+    "type": "word"
+   },
+   {
+    "w": "per",
+    "s": 76.32,
+    "e": 76.5,
+    "type": "word"
+   },
+   {
+    "w": "second",
+    "s": 76.6,
+    "e": 77.32,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 77.4,
+    "e": 77.54,
+    "type": "word"
+   },
+   {
+    "w": "hertz.",
+    "s": 77.62,
+    "e": 78.3,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 79.28,
+    "e": 79.36,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 79.42,
+    "e": 79.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.66,
+    "e": 79.76,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 79.84,
+    "e": 79.92,
+    "type": "word"
+   },
+   {
+    "w": "light",
+    "s": 80.04,
+    "e": 80.54,
+    "type": "word"
+   },
+   {
+    "w": "wave,",
+    "s": 80.62,
+    "e": 80.94,
+    "type": "word"
+   },
+   {
+    "w": "C.",
+    "s": 81.08,
+    "e": 81.08,
+    "type": "word"
+   },
+   {
+    "w": "C.",
+    "s": 83.44,
+    "e": 83.48,
+    "type": "word"
+   },
+   {
+    "w": "Waves,",
+    "s": 91.46,
+    "e": 92.0,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 92.34,
+    "e": 93.1,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 93.64,
+    "e": 93.74,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 93.8,
+    "e": 94.2,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 94.28,
+    "e": 94.68,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 94.72,
+    "e": 95.6,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 96.06,
+    "e": 96.84,
+    "type": "word"
+   },
+   {
+    "w": "V,",
+    "s": 97.2,
+    "e": 97.56,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 98.32,
+    "e": 98.92,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 99.0,
+    "e": 99.56,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 99.68,
+    "e": 100.44,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 100.6,
+    "e": 101.3,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 101.44,
+    "e": 102.0,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 102.88,
+    "e": 103.62,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 104.0,
+    "e": 104.7,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 104.84,
+    "e": 105.24,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude.",
+    "s": 105.3,
+    "e": 106.32,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 108.88,
+    "e": 109.1,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 109.28,
+    "e": 110.06,
+    "type": "word"
+   },
+   {
+    "w": "Transverse",
+    "s": 111.98,
+    "e": 112.56,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 112.64,
+    "e": 113.08,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 113.6,
+    "e": 113.68,
+    "type": "word"
+   },
+   {
+    "w": "medium",
+    "s": 113.74,
+    "e": 114.26,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 114.34,
+    "e": 114.86,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 114.9,
+    "e": 115.1,
+    "type": "word"
+   },
+   {
+    "w": "right",
+    "s": 115.18,
+    "e": 115.42,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 115.52,
+    "e": 116.22,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 116.6,
+    "e": 116.7,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 116.76,
+    "e": 116.82,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 116.9,
+    "e": 118.0,
+    "type": "word"
+   },
+   {
+    "w": "Longitudinal,",
+    "s": 118.56,
+    "e": 119.7,
+    "type": "word"
+   },
+   {
+    "w": "movement",
+    "s": 121.16,
+    "e": 121.74,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 121.88,
+    "e": 122.22,
+    "type": "word"
+   },
+   {
+    "w": "particles",
+    "s": 122.3,
+    "e": 123.02,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 123.08,
+    "e": 123.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 123.2,
+    "e": 123.32,
+    "type": "word"
+   },
+   {
+    "w": "same",
+    "s": 123.44,
+    "e": 123.68,
+    "type": "word"
+   },
+   {
+    "w": "dimension",
+    "s": 123.74,
+    "e": 124.7,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 125.76,
+    "e": 125.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 125.9,
+    "e": 125.98,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 126.04,
+    "e": 127.0,
+    "type": "word"
+   },
+   {
+    "w": "Mechanical",
+    "s": 127.88,
+    "e": 128.46,
+    "type": "word"
+   },
+   {
+    "w": "waves",
+    "s": 128.52,
+    "e": 129.259,
+    "type": "word"
+   },
+   {
+    "w": "need",
+    "s": 130.02,
+    "e": 130.18,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 130.24,
+    "e": 130.259,
+    "type": "word"
+   },
+   {
+    "w": "medium",
+    "s": 130.34,
+    "e": 130.96,
+    "type": "word"
+   },
+   {
+    "w": "for",
+    "s": 131.02,
+    "e": 131.12,
+    "type": "word"
+   },
+   {
+    "w": "propagation.",
+    "s": 131.16,
+    "e": 132.28,
+    "type": "word"
+   },
+   {
+    "w": "Sound",
+    "s": 132.6,
+    "e": 132.96,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 133.04,
+    "e": 133.66,
+    "type": "word"
+   },
+   {
+    "w": "waves",
+    "s": 134.76,
+    "e": 135.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 135.22,
+    "e": 135.28,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 135.32,
+    "e": 135.36,
+    "type": "word"
+   },
+   {
+    "w": "slinky.",
+    "s": 135.44,
+    "e": 135.96,
+    "type": "word"
+   },
+   {
+    "w": "Water",
+    "s": 136.04,
+    "e": 136.4,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 136.46,
+    "e": 136.96,
+    "type": "word"
+   },
+   {
+    "w": "examples.",
+    "s": 137.06,
+    "e": 138.08,
+    "type": "word"
+   },
+   {
+    "w": "Examples.",
+    "s": 139.34,
+    "e": 141.14,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 141.6,
+    "e": 141.64,
+    "type": "word"
+   },
+   {
+    "w": "stone",
+    "s": 141.7,
+    "e": 141.98,
+    "type": "word"
+   },
+   {
+    "w": "dropped",
+    "s": 142.02,
+    "e": 142.32,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 142.38,
+    "e": 142.6,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 142.7,
+    "e": 142.8,
+    "type": "word"
+   },
+   {
+    "w": "pond,",
+    "s": 142.88,
+    "e": 143.44,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 143.9,
+    "e": 143.98,
+    "type": "word"
+   },
+   {
+    "w": "water",
+    "s": 144.04,
+    "e": 144.28,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 144.32,
+    "e": 144.4,
+    "type": "word"
+   },
+   {
+    "w": "disturbed",
+    "s": 144.44,
+    "e": 144.88,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 144.94,
+    "e": 145.02,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 145.06,
+    "e": 145.14,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 145.2,
+    "e": 145.48,
+    "type": "word"
+   },
+   {
+    "w": "passes.",
+    "s": 145.6,
+    "e": 146.28,
+    "type": "word"
+   },
+   {
+    "w": "Equilibrium",
+    "s": 146.64,
+    "e": 147.22,
+    "type": "word"
+   },
+   {
+    "w": "position,",
+    "s": 147.3,
+    "e": 147.88,
+    "type": "word"
+   },
+   {
+    "w": "it",
+    "s": 148.32,
+    "e": 148.4,
+    "type": "word"
+   },
+   {
+    "w": "returns",
+    "s": 148.44,
+    "e": 149.02,
+    "type": "word"
+   },
+   {
+    "w": "after",
+    "s": 149.14,
+    "e": 149.54,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 149.6,
+    "e": 149.68,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 149.74,
+    "e": 149.98,
+    "type": "word"
+   },
+   {
+    "w": "has",
+    "s": 150.04,
+    "e": 150.24,
+    "type": "word"
+   },
+   {
+    "w": "passed.",
+    "s": 150.32,
+    "e": 150.92,
+    "type": "word"
+   },
+   {
+    "w": "Matter",
+    "s": 151.46,
+    "e": 151.84,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 151.92,
+    "e": 152.52,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 153.12,
+    "e": 153.38,
+    "type": "word"
+   },
+   {
+    "w": "moving",
+    "s": 153.44,
+    "e": 153.72,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 153.8,
+    "e": 154.12,
+    "type": "word"
+   },
+   {
+    "w": "can",
+    "s": 154.16,
+    "e": 154.28,
+    "type": "word"
+   },
+   {
+    "w": "be",
+    "s": 154.32,
+    "e": 154.38,
+    "type": "word"
+   },
+   {
+    "w": "described",
+    "s": 154.42,
+    "e": 154.88,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 154.94,
+    "e": 155.02,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 155.08,
+    "e": 155.14,
+    "type": "word"
+   },
+   {
+    "w": "wave.",
+    "s": 155.18,
+    "e": 155.48,
+    "type": "word"
+   },
+   {
+    "w": "Electro",
+    "s": 155.86,
+    "e": 156.4,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 156.48,
+    "e": 157.0,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 157.04,
+    "e": 157.12,
+    "type": "word"
+   },
+   {
+    "w": "moving",
+    "s": 157.18,
+    "e": 157.58,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 157.7,
+    "e": 158.26,
+    "type": "word"
+   },
+   {
+    "w": "can",
+    "s": 158.32,
+    "e": 158.56,
+    "type": "word"
+   },
+   {
+    "w": "be",
+    "s": 158.6,
+    "e": 158.68,
+    "type": "word"
+   },
+   {
+    "w": "described",
+    "s": 158.72,
+    "e": 159.16,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 159.22,
+    "e": 159.3,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 159.36,
+    "e": 159.42,
+    "type": "word"
+   },
+   {
+    "w": "wave.",
+    "s": 159.46,
+    "e": 159.7,
+    "type": "word"
+   },
+   {
+    "w": "Electromagnetic",
+    "s": 159.92,
+    "e": 160.94,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 161.04,
+    "e": 161.58,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 162.02,
+    "e": 162.3,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 162.38,
+    "e": 162.54,
+    "type": "word"
+   },
+   {
+    "w": "medium,",
+    "s": 162.6,
+    "e": 163.08,
+    "type": "word"
+   },
+   {
+    "w": "travel",
+    "s": 163.42,
+    "e": 163.68,
+    "type": "word"
+   },
+   {
+    "w": "through",
+    "s": 163.7,
+    "e": 163.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 163.9,
+    "e": 163.98,
+    "type": "word"
+   },
+   {
+    "w": "vacuum.",
+    "s": 164.04,
+    "e": 164.7,
+    "type": "word"
+   },
+   {
+    "w": "Periodic",
+    "s": 165.16,
+    "e": 165.68,
+    "type": "word"
+   },
+   {
+    "w": "changes",
+    "s": 165.74,
+    "e": 166.54,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 166.62,
+    "e": 166.68,
+    "type": "word"
+   },
+   {
+    "w": "magnetic",
+    "s": 166.72,
+    "e": 167.4,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 167.52,
+    "e": 167.74,
+    "type": "word"
+   },
+   {
+    "w": "electric",
+    "s": 167.82,
+    "e": 168.56,
+    "type": "word"
+   },
+   {
+    "w": "fields.",
+    "s": 168.88,
+    "e": 169.58,
+    "type": "word"
+   },
+   {
+    "w": "Wave",
+    "s": 178.88,
+    "e": 179.06,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 179.14,
+    "e": 179.4,
+    "type": "word"
+   },
+   {
+    "w": "formula,",
+    "s": 179.46,
+    "e": 180.14,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 180.6,
+    "e": 181.12,
+    "type": "word"
+   },
+   {
+    "w": "covered",
+    "s": 181.18,
+    "e": 181.46,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 181.54,
+    "e": 181.68,
+    "type": "word"
+   },
+   {
+    "w": "time",
+    "s": 181.76,
+    "e": 182.12,
+    "type": "word"
+   },
+   {
+    "w": "taken.",
+    "s": 182.2,
+    "e": 182.86,
+    "type": "word"
+   },
+   {
+    "w": "Speed,",
+    "s": 183.44,
+    "e": 183.86,
+    "type": "word"
+   },
+   {
+    "w": "how",
+    "s": 184.3,
+    "e": 184.52,
+    "type": "word"
+   },
+   {
+    "w": "fast",
+    "s": 184.6,
+    "e": 184.98,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 185.02,
+    "e": 185.12,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 185.16,
+    "e": 185.44,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 185.5,
+    "e": 185.52,
+    "type": "word"
+   },
+   {
+    "w": "crest",
+    "s": 185.56,
+    "e": 185.72,
+    "type": "word"
+   },
+   {
+    "w": "traveled",
+    "s": 185.76,
+    "e": 186.04,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 186.08,
+    "e": 186.14,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 186.18,
+    "e": 186.28,
+    "type": "word"
+   },
+   {
+    "w": "interval",
+    "s": 186.34,
+    "e": 186.72,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 186.76,
+    "e": 186.84,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 186.9,
+    "e": 187.4,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 188.1,
+    "e": 188.98,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 189.6,
+    "e": 189.68,
+    "type": "word"
+   },
+   {
+    "w": "height",
+    "s": 189.74,
+    "e": 190.02,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 190.06,
+    "e": 190.14,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 190.2,
+    "e": 190.28,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 190.34,
+    "e": 190.82,
+    "type": "word"
+   },
+   {
+    "w": "measured",
+    "s": 190.9,
+    "e": 191.18,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 191.24,
+    "e": 191.4,
+    "type": "word"
+   },
+   {
+    "w": "meters.",
+    "s": 191.46,
+    "e": 192.3,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 192.62,
+    "e": 193.26,
+    "type": "word"
+   },
+   {
+    "w": "identical",
+    "s": 193.64,
+    "e": 194.12,
+    "type": "word"
+   },
+   {
+    "w": "points",
+    "s": 194.18,
+    "e": 194.56,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 194.66,
+    "e": 194.72,
+    "type": "word"
+   },
+   {
+    "w": "adjacent",
+    "s": 194.8,
+    "e": 195.34,
+    "type": "word"
+   },
+   {
+    "w": "crests",
+    "s": 195.42,
+    "e": 195.76,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 195.82,
+    "e": 195.96,
+    "type": "word"
+   },
+   {
+    "w": "meters.",
+    "s": 196.04,
+    "e": 196.74,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 197.18,
+    "e": 197.64,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 197.8,
+    "e": 197.96,
+    "type": "word"
+   },
+   {
+    "w": "complete",
+    "s": 198.02,
+    "e": 198.52,
+    "type": "word"
+   },
+   {
+    "w": "vibrational",
+    "s": 198.62,
+    "e": 199.36,
+    "type": "word"
+   },
+   {
+    "w": "cycle,",
+    "s": 199.46,
+    "e": 199.86,
+    "type": "word"
+   },
+   {
+    "w": "seconds",
+    "s": 200.0,
+    "e": 200.34,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 200.38,
+    "e": 200.5,
+    "type": "word"
+   },
+   {
+    "w": "minutes.",
+    "s": 200.62,
+    "e": 201.16,
+    "type": "word"
+   },
+   {
+    "w": "Frequency,",
+    "s": 201.72,
+    "e": 202.36,
+    "type": "word"
+   },
+   {
+    "w": "hertz,",
+    "s": 202.44,
+    "e": 202.84,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 203.24,
+    "e": 203.42,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 203.5,
+    "e": 203.84,
+    "type": "word"
+   },
+   {
+    "w": "per",
+    "s": 203.88,
+    "e": 203.98,
+    "type": "word"
+   },
+   {
+    "w": "second.",
+    "s": 204.04,
+    "e": 206.22,
+    "type": "word"
+   },
+   {
+    "w": "Waves,",
+    "s": 206.34,
+    "e": 206.78,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 206.9,
+    "e": 207.42,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 207.78,
+    "e": 207.98,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 208.08,
+    "e": 208.48,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 208.56,
+    "e": 209.1,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 209.14,
+    "e": 210.06,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 210.38,
+    "e": 211.2,
+    "type": "word"
+   },
+   {
+    "w": "wavelength,",
+    "s": 211.46,
+    "e": 212.0,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 212.58,
+    "e": 213.06,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 213.16,
+    "e": 213.92,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 214.28,
+    "e": 214.7,
+    "type": "word"
+   },
+   {
+    "w": "Greater",
+    "s": 216.88,
+    "e": 217.16,
+    "type": "word"
+   },
+   {
+    "w": "amplitude",
+    "s": 217.28,
+    "e": 217.98,
+    "type": "word"
+   },
+   {
+    "w": "carries",
+    "s": 218.06,
+    "e": 218.32,
+    "type": "word"
+   },
+   {
+    "w": "greater",
+    "s": 218.36,
+    "e": 218.86,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 218.94,
+    "e": 219.6,
+    "type": "word"
+   },
+   {
+    "w": "[singing]",
+    "s": 219.72,
+    "e": 225.98,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "scribe_vocals_2": {
+  "text": "[singing] Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, maximum displacement from the neutral position. Displacement of a particular point in the medium, the position. Wavelength, two successive identical parts, the distance between. Amplitude represents the am-energy. The energy. The energy. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, F, repetitions per second in hertz. The speed of a light wave, C. C. Waves, waves, an energy transport phenomenon. Amplitude, V, period, frequency, speed. Wavelength, period. Period, frequency, speed. Amplitude. The energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky. Water waves, examples. Examples. A stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electro waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric fields. Wave speed formula, distance covered over time taken. Speed, how fast the distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. [singing]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[singing]",
+    "s": 0.0,
+    "e": 9.08,
+    "type": "audio_event"
+   },
+   {
+    "w": "Waves,",
+    "s": 9.18,
+    "e": 10.12,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 10.34,
+    "e": 11.06,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 11.32,
+    "e": 11.44,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 11.52,
+    "e": 11.82,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 11.86,
+    "e": 12.38,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 12.42,
+    "e": 13.4,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 13.76,
+    "e": 14.82,
+    "type": "word"
+   },
+   {
+    "w": "wavelength,",
+    "s": 14.92,
+    "e": 15.8,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 16.059,
+    "e": 17.06,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 17.16,
+    "e": 18.1,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 18.28,
+    "e": 18.86,
+    "type": "word"
+   },
+   {
+    "w": "Greater",
+    "s": 20.0,
+    "e": 20.34,
+    "type": "word"
+   },
+   {
+    "w": "amplitude",
+    "s": 20.54,
+    "e": 21.24,
+    "type": "word"
+   },
+   {
+    "w": "carries",
+    "s": 21.32,
+    "e": 21.7,
+    "type": "word"
+   },
+   {
+    "w": "greater",
+    "s": 21.72,
+    "e": 22.28,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 22.44,
+    "e": 23.06,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 27.52,
+    "e": 28.26,
+    "type": "word"
+   },
+   {
+    "w": "maximum",
+    "s": 28.58,
+    "e": 28.96,
+    "type": "word"
+   },
+   {
+    "w": "displacement",
+    "s": 29.0,
+    "e": 29.66,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 29.72,
+    "e": 29.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 29.9,
+    "e": 29.98,
+    "type": "word"
+   },
+   {
+    "w": "neutral",
+    "s": 30.04,
+    "e": 30.48,
+    "type": "word"
+   },
+   {
+    "w": "position.",
+    "s": 30.6,
+    "e": 31.44,
+    "type": "word"
+   },
+   {
+    "w": "Displacement",
+    "s": 31.74,
+    "e": 32.72,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 32.8,
+    "e": 32.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 32.94,
+    "e": 32.98,
+    "type": "word"
+   },
+   {
+    "w": "particular",
+    "s": 33.02,
+    "e": 33.68,
+    "type": "word"
+   },
+   {
+    "w": "point",
+    "s": 33.76,
+    "e": 34.02,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 34.08,
+    "e": 34.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 34.18,
+    "e": 34.26,
+    "type": "word"
+   },
+   {
+    "w": "medium,",
+    "s": 34.32,
+    "e": 34.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 35.04,
+    "e": 35.12,
+    "type": "word"
+   },
+   {
+    "w": "position.",
+    "s": 35.18,
+    "e": 36.52,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 36.62,
+    "e": 37.42,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 37.74,
+    "e": 37.88,
+    "type": "word"
+   },
+   {
+    "w": "successive",
+    "s": 38.02,
+    "e": 38.72,
+    "type": "word"
+   },
+   {
+    "w": "identical",
+    "s": 38.78,
+    "e": 39.22,
+    "type": "word"
+   },
+   {
+    "w": "parts,",
+    "s": 39.32,
+    "e": 39.64,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 39.88,
+    "e": 39.98,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 40.04,
+    "e": 40.54,
+    "type": "word"
+   },
+   {
+    "w": "between.",
+    "s": 40.6,
+    "e": 41.18,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude",
+    "s": 41.28,
+    "e": 42.14,
+    "type": "word"
+   },
+   {
+    "w": "represents",
+    "s": 42.34,
+    "e": 43.12,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 43.2,
+    "e": 43.34,
+    "type": "word"
+   },
+   {
+    "w": "am-energy.",
+    "s": 43.52,
+    "e": 44.66,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 49.46,
+    "e": 49.68,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 49.88,
+    "e": 50.5,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 58.6,
+    "e": 58.84,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 59.02,
+    "e": 59.84,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 64.04,
+    "e": 64.739,
+    "type": "word"
+   },
+   {
+    "w": "T,",
+    "s": 65.18,
+    "e": 65.54,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 66.18,
+    "e": 66.26,
+    "type": "word"
+   },
+   {
+    "w": "time",
+    "s": 66.32,
+    "e": 66.44,
+    "type": "word"
+   },
+   {
+    "w": "for",
+    "s": 66.48,
+    "e": 66.6,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 66.68,
+    "e": 66.84,
+    "type": "word"
+   },
+   {
+    "w": "wavelength",
+    "s": 66.9,
+    "e": 67.4,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 67.46,
+    "e": 67.58,
+    "type": "word"
+   },
+   {
+    "w": "pass",
+    "s": 67.64,
+    "e": 67.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 67.94,
+    "e": 68.02,
+    "type": "word"
+   },
+   {
+    "w": "point.",
+    "s": 68.08,
+    "e": 68.34,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 68.48,
+    "e": 69.24,
+    "type": "word"
+   },
+   {
+    "w": "V,",
+    "s": 69.76,
+    "e": 70.14,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 70.74,
+    "e": 70.8,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 70.86,
+    "e": 71.06,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 71.14,
+    "e": 71.18,
+    "type": "word"
+   },
+   {
+    "w": "specific",
+    "s": 71.28,
+    "e": 71.68,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 71.74,
+    "e": 71.98,
+    "type": "word"
+   },
+   {
+    "w": "passes",
+    "s": 72.02,
+    "e": 72.46,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 72.52,
+    "e": 72.56,
+    "type": "word"
+   },
+   {
+    "w": "point.",
+    "s": 72.64,
+    "e": 73.06,
+    "type": "word"
+   },
+   {
+    "w": "Frequency,",
+    "s": 73.16,
+    "e": 73.82,
+    "type": "word"
+   },
+   {
+    "w": "F,",
+    "s": 74.56,
+    "e": 74.66,
+    "type": "word"
+   },
+   {
+    "w": "repetitions",
+    "s": 75.34,
+    "e": 76.26,
+    "type": "word"
+   },
+   {
+    "w": "per",
+    "s": 76.32,
+    "e": 76.5,
+    "type": "word"
+   },
+   {
+    "w": "second",
+    "s": 76.6,
+    "e": 77.32,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 77.4,
+    "e": 77.54,
+    "type": "word"
+   },
+   {
+    "w": "hertz.",
+    "s": 77.62,
+    "e": 78.3,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 79.28,
+    "e": 79.36,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 79.42,
+    "e": 79.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.66,
+    "e": 79.76,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 79.86,
+    "e": 79.92,
+    "type": "word"
+   },
+   {
+    "w": "light",
+    "s": 80.04,
+    "e": 80.54,
+    "type": "word"
+   },
+   {
+    "w": "wave,",
+    "s": 80.62,
+    "e": 80.94,
+    "type": "word"
+   },
+   {
+    "w": "C.",
+    "s": 81.08,
+    "e": 81.08,
+    "type": "word"
+   },
+   {
+    "w": "C.",
+    "s": 83.44,
+    "e": 83.48,
+    "type": "word"
+   },
+   {
+    "w": "Waves,",
+    "s": 91.46,
+    "e": 92.0,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 92.34,
+    "e": 93.1,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 93.64,
+    "e": 93.74,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 93.8,
+    "e": 94.2,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 94.28,
+    "e": 94.68,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 94.72,
+    "e": 95.6,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 96.1,
+    "e": 96.84,
+    "type": "word"
+   },
+   {
+    "w": "V,",
+    "s": 97.2,
+    "e": 97.56,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 98.32,
+    "e": 98.92,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 99.0,
+    "e": 99.56,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 99.68,
+    "e": 100.44,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 100.6,
+    "e": 101.3,
+    "type": "word"
+   },
+   {
+    "w": "period.",
+    "s": 101.44,
+    "e": 102.06,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 102.88,
+    "e": 103.62,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 104.0,
+    "e": 104.7,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 104.84,
+    "e": 105.24,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude.",
+    "s": 105.3,
+    "e": 106.32,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 108.88,
+    "e": 109.1,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 109.28,
+    "e": 110.06,
+    "type": "word"
+   },
+   {
+    "w": "Transverse",
+    "s": 111.98,
+    "e": 112.56,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 112.64,
+    "e": 113.08,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 113.6,
+    "e": 113.68,
+    "type": "word"
+   },
+   {
+    "w": "medium",
+    "s": 113.74,
+    "e": 114.26,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 114.34,
+    "e": 114.86,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 114.9,
+    "e": 115.1,
+    "type": "word"
+   },
+   {
+    "w": "right",
+    "s": 115.18,
+    "e": 115.42,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 115.52,
+    "e": 116.22,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 116.58,
+    "e": 116.7,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 116.76,
+    "e": 116.82,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 116.9,
+    "e": 118.0,
+    "type": "word"
+   },
+   {
+    "w": "Longitudinal,",
+    "s": 118.56,
+    "e": 119.7,
+    "type": "word"
+   },
+   {
+    "w": "movement",
+    "s": 121.16,
+    "e": 121.74,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 121.88,
+    "e": 122.22,
+    "type": "word"
+   },
+   {
+    "w": "particles",
+    "s": 122.3,
+    "e": 123.02,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 123.08,
+    "e": 123.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 123.2,
+    "e": 123.32,
+    "type": "word"
+   },
+   {
+    "w": "same",
+    "s": 123.44,
+    "e": 123.68,
+    "type": "word"
+   },
+   {
+    "w": "dimension",
+    "s": 123.74,
+    "e": 124.7,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 125.76,
+    "e": 125.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 125.9,
+    "e": 125.98,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 126.04,
+    "e": 127.0,
+    "type": "word"
+   },
+   {
+    "w": "Mechanical",
+    "s": 127.88,
+    "e": 128.46,
+    "type": "word"
+   },
+   {
+    "w": "waves",
+    "s": 128.52,
+    "e": 129.259,
+    "type": "word"
+   },
+   {
+    "w": "need",
+    "s": 130.02,
+    "e": 130.18,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 130.24,
+    "e": 130.259,
+    "type": "word"
+   },
+   {
+    "w": "medium",
+    "s": 130.34,
+    "e": 130.96,
+    "type": "word"
+   },
+   {
+    "w": "for",
+    "s": 131.02,
+    "e": 131.12,
+    "type": "word"
+   },
+   {
+    "w": "propagation.",
+    "s": 131.16,
+    "e": 132.28,
+    "type": "word"
+   },
+   {
+    "w": "Sound",
+    "s": 132.6,
+    "e": 132.96,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 133.04,
+    "e": 133.66,
+    "type": "word"
+   },
+   {
+    "w": "waves",
+    "s": 134.76,
+    "e": 135.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 135.22,
+    "e": 135.28,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 135.32,
+    "e": 135.36,
+    "type": "word"
+   },
+   {
+    "w": "slinky.",
+    "s": 135.44,
+    "e": 135.96,
+    "type": "word"
+   },
+   {
+    "w": "Water",
+    "s": 136.04,
+    "e": 136.4,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 136.46,
+    "e": 136.96,
+    "type": "word"
+   },
+   {
+    "w": "examples.",
+    "s": 137.06,
+    "e": 138.08,
+    "type": "word"
+   },
+   {
+    "w": "Examples.",
+    "s": 139.34,
+    "e": 141.14,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 141.6,
+    "e": 141.64,
+    "type": "word"
+   },
+   {
+    "w": "stone",
+    "s": 141.7,
+    "e": 141.98,
+    "type": "word"
+   },
+   {
+    "w": "dropped",
+    "s": 142.02,
+    "e": 142.32,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 142.38,
+    "e": 142.6,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 142.7,
+    "e": 142.8,
+    "type": "word"
+   },
+   {
+    "w": "pond,",
+    "s": 142.88,
+    "e": 143.44,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 143.9,
+    "e": 143.98,
+    "type": "word"
+   },
+   {
+    "w": "water",
+    "s": 144.04,
+    "e": 144.28,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 144.32,
+    "e": 144.4,
+    "type": "word"
+   },
+   {
+    "w": "disturbed",
+    "s": 144.44,
+    "e": 144.88,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 144.94,
+    "e": 145.02,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 145.06,
+    "e": 145.14,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 145.2,
+    "e": 145.48,
+    "type": "word"
+   },
+   {
+    "w": "passes.",
+    "s": 145.6,
+    "e": 146.28,
+    "type": "word"
+   },
+   {
+    "w": "Equilibrium",
+    "s": 146.64,
+    "e": 147.22,
+    "type": "word"
+   },
+   {
+    "w": "position,",
+    "s": 147.3,
+    "e": 147.88,
+    "type": "word"
+   },
+   {
+    "w": "it",
+    "s": 148.32,
+    "e": 148.4,
+    "type": "word"
+   },
+   {
+    "w": "returns",
+    "s": 148.44,
+    "e": 149.02,
+    "type": "word"
+   },
+   {
+    "w": "after",
+    "s": 149.14,
+    "e": 149.54,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 149.6,
+    "e": 149.68,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 149.74,
+    "e": 149.98,
+    "type": "word"
+   },
+   {
+    "w": "has",
+    "s": 150.04,
+    "e": 150.24,
+    "type": "word"
+   },
+   {
+    "w": "passed.",
+    "s": 150.32,
+    "e": 150.92,
+    "type": "word"
+   },
+   {
+    "w": "Matter",
+    "s": 151.46,
+    "e": 151.84,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 151.92,
+    "e": 152.52,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 153.12,
+    "e": 153.38,
+    "type": "word"
+   },
+   {
+    "w": "moving",
+    "s": 153.44,
+    "e": 153.72,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 153.8,
+    "e": 154.12,
+    "type": "word"
+   },
+   {
+    "w": "can",
+    "s": 154.16,
+    "e": 154.28,
+    "type": "word"
+   },
+   {
+    "w": "be",
+    "s": 154.32,
+    "e": 154.38,
+    "type": "word"
+   },
+   {
+    "w": "described",
+    "s": 154.42,
+    "e": 154.88,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 154.94,
+    "e": 155.02,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 155.08,
+    "e": 155.14,
+    "type": "word"
+   },
+   {
+    "w": "wave.",
+    "s": 155.18,
+    "e": 155.48,
+    "type": "word"
+   },
+   {
+    "w": "Electro",
+    "s": 155.86,
+    "e": 156.4,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 156.48,
+    "e": 157.0,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 157.04,
+    "e": 157.12,
+    "type": "word"
+   },
+   {
+    "w": "moving",
+    "s": 157.18,
+    "e": 157.58,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 157.7,
+    "e": 158.26,
+    "type": "word"
+   },
+   {
+    "w": "can",
+    "s": 158.32,
+    "e": 158.56,
+    "type": "word"
+   },
+   {
+    "w": "be",
+    "s": 158.6,
+    "e": 158.68,
+    "type": "word"
+   },
+   {
+    "w": "described",
+    "s": 158.72,
+    "e": 159.16,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 159.22,
+    "e": 159.3,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 159.36,
+    "e": 159.42,
+    "type": "word"
+   },
+   {
+    "w": "wave.",
+    "s": 159.46,
+    "e": 159.7,
+    "type": "word"
+   },
+   {
+    "w": "Electromagnetic",
+    "s": 159.92,
+    "e": 160.94,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 161.04,
+    "e": 161.58,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 162.02,
+    "e": 162.3,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 162.38,
+    "e": 162.54,
+    "type": "word"
+   },
+   {
+    "w": "medium,",
+    "s": 162.6,
+    "e": 163.08,
+    "type": "word"
+   },
+   {
+    "w": "travel",
+    "s": 163.42,
+    "e": 163.68,
+    "type": "word"
+   },
+   {
+    "w": "through",
+    "s": 163.7,
+    "e": 163.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 163.9,
+    "e": 163.98,
+    "type": "word"
+   },
+   {
+    "w": "vacuum.",
+    "s": 164.04,
+    "e": 164.7,
+    "type": "word"
+   },
+   {
+    "w": "Periodic",
+    "s": 165.16,
+    "e": 165.68,
+    "type": "word"
+   },
+   {
+    "w": "changes",
+    "s": 165.74,
+    "e": 166.54,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 166.62,
+    "e": 166.68,
+    "type": "word"
+   },
+   {
+    "w": "magnetic",
+    "s": 166.72,
+    "e": 167.4,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 167.52,
+    "e": 167.74,
+    "type": "word"
+   },
+   {
+    "w": "electric",
+    "s": 167.82,
+    "e": 168.56,
+    "type": "word"
+   },
+   {
+    "w": "fields.",
+    "s": 168.88,
+    "e": 169.58,
+    "type": "word"
+   },
+   {
+    "w": "Wave",
+    "s": 178.88,
+    "e": 179.06,
+    "type": "word"
+   },
+   {
+    "w": "speed",
+    "s": 179.14,
+    "e": 179.4,
+    "type": "word"
+   },
+   {
+    "w": "formula,",
+    "s": 179.46,
+    "e": 180.14,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 180.6,
+    "e": 181.12,
+    "type": "word"
+   },
+   {
+    "w": "covered",
+    "s": 181.18,
+    "e": 181.46,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 181.54,
+    "e": 181.68,
+    "type": "word"
+   },
+   {
+    "w": "time",
+    "s": 181.76,
+    "e": 182.12,
+    "type": "word"
+   },
+   {
+    "w": "taken.",
+    "s": 182.2,
+    "e": 182.86,
+    "type": "word"
+   },
+   {
+    "w": "Speed,",
+    "s": 183.44,
+    "e": 183.86,
+    "type": "word"
+   },
+   {
+    "w": "how",
+    "s": 184.3,
+    "e": 184.52,
+    "type": "word"
+   },
+   {
+    "w": "fast",
+    "s": 184.6,
+    "e": 184.98,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 185.02,
+    "e": 185.12,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 185.16,
+    "e": 185.44,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 185.5,
+    "e": 185.52,
+    "type": "word"
+   },
+   {
+    "w": "crest",
+    "s": 185.56,
+    "e": 185.72,
+    "type": "word"
+   },
+   {
+    "w": "traveled",
+    "s": 185.76,
+    "e": 186.04,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 186.08,
+    "e": 186.14,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 186.18,
+    "e": 186.28,
+    "type": "word"
+   },
+   {
+    "w": "interval",
+    "s": 186.34,
+    "e": 186.72,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 186.76,
+    "e": 186.84,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 186.9,
+    "e": 187.4,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 188.1,
+    "e": 188.98,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 189.6,
+    "e": 189.68,
+    "type": "word"
+   },
+   {
+    "w": "height",
+    "s": 189.74,
+    "e": 190.02,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 190.06,
+    "e": 190.14,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 190.2,
+    "e": 190.28,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 190.34,
+    "e": 190.82,
+    "type": "word"
+   },
+   {
+    "w": "measured",
+    "s": 190.9,
+    "e": 191.18,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 191.24,
+    "e": 191.4,
+    "type": "word"
+   },
+   {
+    "w": "meters.",
+    "s": 191.46,
+    "e": 192.3,
+    "type": "word"
+   },
+   {
+    "w": "Wavelength,",
+    "s": 192.62,
+    "e": 193.26,
+    "type": "word"
+   },
+   {
+    "w": "identical",
+    "s": 193.64,
+    "e": 194.12,
+    "type": "word"
+   },
+   {
+    "w": "points",
+    "s": 194.18,
+    "e": 194.56,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 194.66,
+    "e": 194.72,
+    "type": "word"
+   },
+   {
+    "w": "adjacent",
+    "s": 194.8,
+    "e": 195.34,
+    "type": "word"
+   },
+   {
+    "w": "crests",
+    "s": 195.42,
+    "e": 195.76,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 195.82,
+    "e": 195.96,
+    "type": "word"
+   },
+   {
+    "w": "meters.",
+    "s": 196.04,
+    "e": 196.74,
+    "type": "word"
+   },
+   {
+    "w": "Period,",
+    "s": 197.18,
+    "e": 197.64,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 197.8,
+    "e": 197.96,
+    "type": "word"
+   },
+   {
+    "w": "complete",
+    "s": 198.02,
+    "e": 198.52,
+    "type": "word"
+   },
+   {
+    "w": "vibrational",
+    "s": 198.62,
+    "e": 199.36,
+    "type": "word"
+   },
+   {
+    "w": "cycle,",
+    "s": 199.46,
+    "e": 199.86,
+    "type": "word"
+   },
+   {
+    "w": "seconds",
+    "s": 200.0,
+    "e": 200.34,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 200.38,
+    "e": 200.5,
+    "type": "word"
+   },
+   {
+    "w": "minutes.",
+    "s": 200.62,
+    "e": 201.16,
+    "type": "word"
+   },
+   {
+    "w": "Frequency,",
+    "s": 201.72,
+    "e": 202.36,
+    "type": "word"
+   },
+   {
+    "w": "hertz,",
+    "s": 202.44,
+    "e": 202.84,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 203.24,
+    "e": 203.42,
+    "type": "word"
+   },
+   {
+    "w": "wave",
+    "s": 203.5,
+    "e": 203.84,
+    "type": "word"
+   },
+   {
+    "w": "per",
+    "s": 203.88,
+    "e": 203.98,
+    "type": "word"
+   },
+   {
+    "w": "second.",
+    "s": 204.04,
+    "e": 206.22,
+    "type": "word"
+   },
+   {
+    "w": "Waves,",
+    "s": 206.34,
+    "e": 206.78,
+    "type": "word"
+   },
+   {
+    "w": "waves,",
+    "s": 206.9,
+    "e": 207.42,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 207.78,
+    "e": 207.98,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 208.08,
+    "e": 208.48,
+    "type": "word"
+   },
+   {
+    "w": "transport",
+    "s": 208.56,
+    "e": 209.1,
+    "type": "word"
+   },
+   {
+    "w": "phenomenon.",
+    "s": 209.14,
+    "e": 210.06,
+    "type": "word"
+   },
+   {
+    "w": "Amplitude,",
+    "s": 210.38,
+    "e": 211.2,
+    "type": "word"
+   },
+   {
+    "w": "wavelength,",
+    "s": 211.46,
+    "e": 212.0,
+    "type": "word"
+   },
+   {
+    "w": "period,",
+    "s": 212.58,
+    "e": 213.06,
+    "type": "word"
+   },
+   {
+    "w": "frequency,",
+    "s": 213.16,
+    "e": 213.92,
+    "type": "word"
+   },
+   {
+    "w": "speed.",
+    "s": 214.28,
+    "e": 214.7,
+    "type": "word"
+   },
+   {
+    "w": "Greater",
+    "s": 216.88,
+    "e": 217.16,
+    "type": "word"
+   },
+   {
+    "w": "amplitude",
+    "s": 217.28,
+    "e": 217.98,
+    "type": "word"
+   },
+   {
+    "w": "carries",
+    "s": 218.06,
+    "e": 218.32,
+    "type": "word"
+   },
+   {
+    "w": "greater",
+    "s": 218.36,
+    "e": 218.86,
+    "type": "word"
+   },
+   {
+    "w": "energy.",
+    "s": 218.94,
+    "e": 219.6,
+    "type": "word"
+   },
+   {
+    "w": "[singing]",
+    "s": 219.72,
+    "e": 225.98,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "sarvam_vocals": {
+  "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, maximum displacement from the neutral position. Displacement at a particular point in the medium, the position. Wavelength, 2 successive identical parts. The distance between amplitude represents the energy. The energy. The energy. Period T, the time for one wavelength to pass upon. Velocity V, the speed a specific part passes upon. Frequency F, repetitions per second in hertz. The speed of a light wave C. Single. Sea. Waves, waves, an energy transport phenomenon. Amplitude, period, frequency, wavelength, wavelength, period, period, frequency, amplitude. The energy transverse waves, the medium moves at right angles to the direction longitudinal. Movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves, examples. Examples. A stone dropped into a pond. The water is disturbed as the wave passes. Equilibrium position. It returns after the wave has passed. Matter waves. Any moving object can be described as a wave. Electromagnetic waves. Any moving object can be described as a wave. Electromagnetic waves. Not any medium. Travel through the vacuum. Periodic changes in magnetic and electric fields. Wave speed formula: distance covered over time taken. Speed: how fast the distance a crest traveled in an interval of time. Amplitude. The height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 24.05,
+    "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 24.05,
+    "end": 48.3,
+    "text": "Amplitude, maximum displacement from the neutral position. Displacement at a particular point in the medium, the position. Wavelength, 2 successive identical parts. The distance between amplitude represents the energy.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 48.3,
+    "end": 61.95,
+    "text": "The energy. The energy.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 61.95,
+    "end": 82.5,
+    "text": "Period T, the time for one wavelength to pass upon. Velocity V, the speed a specific part passes upon. Frequency F, repetitions per second in hertz. The speed of a light wave C.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 82.5,
+    "end": 106.95,
+    "text": "Single. Sea. Waves, waves, an energy transport phenomenon. Amplitude, period, frequency, wavelength, wavelength, period, period, frequency, amplitude.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 106.95,
+    "end": 120.8,
+    "text": "The energy transverse waves, the medium moves at right angles to the direction longitudinal.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 120.8,
+    "end": 138.85,
+    "text": "Movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves, examples.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 138.85,
+    "end": 152.7,
+    "text": "Examples. A stone dropped into a pond. The water is disturbed as the wave passes. Equilibrium position. It returns after the wave has passed. Matter waves.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 152.7,
+    "end": 173.55,
+    "text": "Any moving object can be described as a wave. Electromagnetic waves. Any moving object can be described as a wave. Electromagnetic waves. Not any medium. Travel through the vacuum. Periodic changes in magnetic and electric fields.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 173.55,
+    "end": 189.4,
+    "text": "Wave speed formula: distance covered over time taken. Speed: how fast the distance a crest traveled in an interval of time. Amplitude.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 189.4,
+    "end": 205.75,
+    "text": "The height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 205.75,
+    "end": 226.03,
+    "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy.",
+    "lang": "en-IN"
+   }
+  ]
+ },
+ "sarvam_verbatim_vocals": {
+  "error": "TooManyRequestsError()"
+ }
+}
