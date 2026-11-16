@@ -47,6 +47,23 @@ Run `python3 tools/theory_budget.py theory.txt`. It prints the character count, 
 | 121–180 s | Hook · V1 · Pre · Chorus · Break · V2 · Chorus · V3 · Bridge (breakdown) · Break · Final chorus (key lift) |
 | 181–240 s | Hook · V1 · Pre · Chorus · Break · V2 · Chorus · V3 · Bridge · Break · V4 · Chorus · Break · Final chorus (key lift) |
 
-## 5. QA
+## 5. Lyric Fact QC gate (before generation, mandatory)
+
+No song is generated until the lyric sheet passes this gate and the user or client approves it.
+
+1. **Automatic checks:** `python3 tools/lyric_fact_check.py <theory.txt> <lyrics.txt>`
+   - **Numbers:** every number in the theory is sung, and no sung number is missing from the theory (a FAIL means a possible wrong fact). Sung forms are parsed: "five point five" = 5.5, "one hundred twenty" = 120.
+   - **Theory terms not sung:** coverage gaps to confirm.
+   - **Lyric words not in the theory:** the "only theory words" rule. Spoken forms of symbols and units are allowed.
+2. **Claim-by-claim review** (reviewer fills `lyrics/<topic>_factcheck.md`, template: `lyrics/rbc_factcheck.md`):
+   - every factual claim the lyric makes, matched to the theory sentence it comes from (**source match**);
+   - checked against standard subject knowledge for that grade (NCERT and similar) (**science check**). This also catches errors in the theory itself; those go back to the client, never get silently "fixed";
+   - dropped qualifiers that change scope ("in blood", "healthy", "in most mammals", "on an average") are REVIEW;
+   - question-and-answer lines are checked as pairs (the answer must answer that question);
+   - sung form: numbers, units, symbols and formulas written the way they must be sung.
+3. **Verdict:** PASS / APPROVED WITH FIXES / FAIL. Any number or claim that contradicts the theory or the science is a FAIL and gets rewritten.
+4. **Approval:** the user ticks Approved in the report. Only then is the song generated.
+
+## 6. QA
 
 Use the speech-to-text check on every take, as in `Vocals_Lyrics_STT_QA_Guide.md`. For songs over 80 s, also check that each section starts within ±5 s of the planned time, so no section is silently dropped.
