@@ -48,10 +48,10 @@ def structure_for(sec: int):
                  "Instrumental break (~4 s)", "Verse 2",
                  "Bridge (change of feel)", "Final chorus"], 4)
     if sec <= 180:
-        return (["Hook", "Verse 1", "Pre-chorus", "Chorus",
-                 "Instrumental break (~6 s)", "Verse 2", "Chorus",
-                 "Verse 3", "Bridge (breakdown)", "Instrumental break (~6 s)",
-                 "Final chorus (key lift)"], 12)
+        return (["Chorus (opens the song = the hook)", "Verse 1",
+                 "Instrumental break (~5 s)", "Verse 2", "Chorus", "Verse 3",
+                 "Bridge (change of feel)", "Instrumental break (~5 s)", "Verse 4",
+                 "Final chorus (key lift)"], 10)
     return (["Hook", "Verse 1", "Pre-chorus", "Chorus",
              "Instrumental break (~6 s)", "Verse 2", "Chorus", "Verse 3",
              "Bridge (breakdown)", "Instrumental break (~8 s)", "Verse 4",

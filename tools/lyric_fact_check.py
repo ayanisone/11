@@ -59,13 +59,16 @@ def lyric_numbers(text):
     """Parse sung numbers ('five point five', 'one hundred twenty') and digit numbers."""
     text = re.sub(r"^#.*$|\[[^\]]*\]", " ", text, flags=re.M)
     found = {float(x) for x in re.findall(r"\d+(?:\.\d+)?", text)}
-    toks = re.findall(r"[a-z]+", text.lower())
+    # punctuation ends a number: "thirty, forty-five" is 30 and 45, not 75
+    toks = re.findall(r"[a-z]+|[,.;:!?]", text.lower())
     i = 0
     while i < len(toks):
         if toks[i] in ONES or toks[i] in TENS or toks[i] == "hundred":
             total, cur, j = 0, 0, i
             while j < len(toks) and (toks[j] in ONES or toks[j] in TENS or toks[j] in ("hundred", "thousand")):
                 t = toks[j]
+                if (t in TENS and cur % 100) or (t in ONES and cur % 10) or (t in ONES and 10 <= cur % 100 < 20):
+                    break                                   # "sixty ninety", "two three": a new number starts
                 if t in ONES: cur += ONES[t]
                 elif t in TENS: cur += TENS[t]
                 elif t == "hundred": cur = (cur or 1) * 100
