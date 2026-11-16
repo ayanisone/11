@@ -1,0 +1,1377 @@
+{
+ "scribe_mix": {
+  "text": "Newton's three laws of motion. First law, law of inertia. In motion continues in motion. At rest remain, remain to rest. Unless an unbalanced force. Second law, mathematically expressed. F equals ma. F is force, m is mass, a is acceleration. Of class, a is acceleration. Of classical mechanics, the foundation. Action, reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Newton's",
+    "s": 0.26,
+    "e": 0.72,
+    "type": "word"
+   },
+   {
+    "w": "three",
+    "s": 0.76,
+    "e": 0.92,
+    "type": "word"
+   },
+   {
+    "w": "laws",
+    "s": 1.04,
+    "e": 1.4,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 1.44,
+    "e": 1.5,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 1.56,
+    "e": 2.0,
+    "type": "word"
+   },
+   {
+    "w": "First",
+    "s": 2.3,
+    "e": 2.5,
+    "type": "word"
+   },
+   {
+    "w": "law,",
+    "s": 2.58,
+    "e": 2.84,
+    "type": "word"
+   },
+   {
+    "w": "law",
+    "s": 3.08,
+    "e": 3.26,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 3.34,
+    "e": 3.42,
+    "type": "word"
+   },
+   {
+    "w": "inertia.",
+    "s": 3.46,
+    "e": 4.0,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 4.4,
+    "e": 4.52,
+    "type": "word"
+   },
+   {
+    "w": "motion",
+    "s": 4.58,
+    "e": 4.9,
+    "type": "word"
+   },
+   {
+    "w": "continues",
+    "s": 4.94,
+    "e": 5.36,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 5.42,
+    "e": 5.54,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 5.6,
+    "e": 6.08,
+    "type": "word"
+   },
+   {
+    "w": "At",
+    "s": 6.42,
+    "e": 6.56,
+    "type": "word"
+   },
+   {
+    "w": "rest",
+    "s": 6.64,
+    "e": 6.84,
+    "type": "word"
+   },
+   {
+    "w": "remain,",
+    "s": 7.02,
+    "e": 7.18,
+    "type": "word"
+   },
+   {
+    "w": "remain",
+    "s": 7.24,
+    "e": 7.48,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 7.52,
+    "e": 7.58,
+    "type": "word"
+   },
+   {
+    "w": "rest.",
+    "s": 7.66,
+    "e": 8.0,
+    "type": "word"
+   },
+   {
+    "w": "Unless",
+    "s": 8.48,
+    "e": 8.88,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 8.96,
+    "e": 9.12,
+    "type": "word"
+   },
+   {
+    "w": "unbalanced",
+    "s": 9.22,
+    "e": 9.64,
+    "type": "word"
+   },
+   {
+    "w": "force.",
+    "s": 9.7,
+    "e": 9.98,
+    "type": "word"
+   },
+   {
+    "w": "Second",
+    "s": 10.44,
+    "e": 10.64,
+    "type": "word"
+   },
+   {
+    "w": "law,",
+    "s": 10.7,
+    "e": 10.86,
+    "type": "word"
+   },
+   {
+    "w": "mathematically",
+    "s": 10.94,
+    "e": 11.52,
+    "type": "word"
+   },
+   {
+    "w": "expressed.",
+    "s": 11.56,
+    "e": 12.0,
+    "type": "word"
+   },
+   {
+    "w": "F",
+    "s": 12.64,
+    "e": 12.68,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 12.76,
+    "e": 12.96,
+    "type": "word"
+   },
+   {
+    "w": "ma.",
+    "s": 13.1,
+    "e": 13.2,
+    "type": "word"
+   },
+   {
+    "w": "F",
+    "s": 13.44,
+    "e": 13.46,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 13.54,
+    "e": 13.68,
+    "type": "word"
+   },
+   {
+    "w": "force,",
+    "s": 13.74,
+    "e": 14.0,
+    "type": "word"
+   },
+   {
+    "w": "m",
+    "s": 14.4,
+    "e": 14.46,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 14.56,
+    "e": 14.68,
+    "type": "word"
+   },
+   {
+    "w": "mass,",
+    "s": 14.76,
+    "e": 14.94,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 15.08,
+    "e": 15.22,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 15.3,
+    "e": 15.38,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 15.42,
+    "e": 16.1,
+    "type": "word"
+   },
+   {
+    "w": "Of",
+    "s": 16.14,
+    "e": 16.219,
+    "type": "word"
+   },
+   {
+    "w": "class,",
+    "s": 16.26,
+    "e": 16.48,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 16.62,
+    "e": 16.74,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 16.84,
+    "e": 16.92,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 16.96,
+    "e": 17.78,
+    "type": "word"
+   },
+   {
+    "w": "Of",
+    "s": 18.18,
+    "e": 18.24,
+    "type": "word"
+   },
+   {
+    "w": "classical",
+    "s": 18.28,
+    "e": 18.64,
+    "type": "word"
+   },
+   {
+    "w": "mechanics,",
+    "s": 18.68,
+    "e": 19.04,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 19.08,
+    "e": 19.14,
+    "type": "word"
+   },
+   {
+    "w": "foundation.",
+    "s": 19.18,
+    "e": 19.8,
+    "type": "word"
+   },
+   {
+    "w": "Action,",
+    "s": 20.46,
+    "e": 21.02,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 21.14,
+    "e": 22.1,
+    "type": "word"
+   },
+   {
+    "w": "For",
+    "s": 23.66,
+    "e": 23.84,
+    "type": "word"
+   },
+   {
+    "w": "every",
+    "s": 24.04,
+    "e": 24.4,
+    "type": "word"
+   },
+   {
+    "w": "action,",
+    "s": 24.54,
+    "e": 25.16,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 25.26,
+    "e": 25.44,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 25.52,
+    "e": 26.18,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 26.26,
+    "e": 26.44,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 26.56,
+    "e": 27.14,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 27.24,
+    "e": 28.1,
+    "type": "word"
+   },
+   {
+    "w": "Equal",
+    "s": 28.62,
+    "e": 29.22,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 29.3,
+    "e": 29.42,
+    "type": "word"
+   },
+   {
+    "w": "magnitude,",
+    "s": 29.5,
+    "e": 30.4,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 30.62,
+    "e": 31.1,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 31.16,
+    "e": 31.24,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 31.3,
+    "e": 32.24,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 32.299,
+    "e": 32.479,
+    "type": "word"
+   },
+   {
+    "w": "forces,",
+    "s": 32.56,
+    "e": 32.88,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 32.96,
+    "e": 33.14,
+    "type": "word"
+   },
+   {
+    "w": "different",
+    "s": 33.18,
+    "e": 33.56,
+    "type": "word"
+   },
+   {
+    "w": "objects.",
+    "s": 33.66,
+    "e": 34.22,
+    "type": "word"
+   },
+   {
+    "w": "Action,",
+    "s": 34.7,
+    "e": 35.26,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 35.36,
+    "e": 36.34,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_1": {
+  "text": "Newton's three laws of motion. First law, law of inertia. In motion continues in motion. At rest, remains at rest. Unless an unbalanced force. Second law, mathematically expressed. F equals ma. F is force, m is mass, a is acceleration. Of class, a is acceleration. Of classical mechanics, the foundation. Action, reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Newton's",
+    "s": 0.28,
+    "e": 0.74,
+    "type": "word"
+   },
+   {
+    "w": "three",
+    "s": 0.78,
+    "e": 0.94,
+    "type": "word"
+   },
+   {
+    "w": "laws",
+    "s": 1.06,
+    "e": 1.42,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 1.46,
+    "e": 1.52,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 1.58,
+    "e": 2.04,
+    "type": "word"
+   },
+   {
+    "w": "First",
+    "s": 2.32,
+    "e": 2.52,
+    "type": "word"
+   },
+   {
+    "w": "law,",
+    "s": 2.6,
+    "e": 2.86,
+    "type": "word"
+   },
+   {
+    "w": "law",
+    "s": 3.08,
+    "e": 3.3,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 3.36,
+    "e": 3.44,
+    "type": "word"
+   },
+   {
+    "w": "inertia.",
+    "s": 3.5,
+    "e": 4.04,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 4.42,
+    "e": 4.56,
+    "type": "word"
+   },
+   {
+    "w": "motion",
+    "s": 4.6,
+    "e": 4.92,
+    "type": "word"
+   },
+   {
+    "w": "continues",
+    "s": 4.96,
+    "e": 5.38,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 5.44,
+    "e": 5.58,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 5.64,
+    "e": 6.06,
+    "type": "word"
+   },
+   {
+    "w": "At",
+    "s": 6.44,
+    "e": 6.6,
+    "type": "word"
+   },
+   {
+    "w": "rest,",
+    "s": 6.66,
+    "e": 6.88,
+    "type": "word"
+   },
+   {
+    "w": "remains",
+    "s": 7.04,
+    "e": 7.54,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 7.56,
+    "e": 7.62,
+    "type": "word"
+   },
+   {
+    "w": "rest.",
+    "s": 7.68,
+    "e": 7.94,
+    "type": "word"
+   },
+   {
+    "w": "Unless",
+    "s": 8.5,
+    "e": 8.92,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 9.0,
+    "e": 9.16,
+    "type": "word"
+   },
+   {
+    "w": "unbalanced",
+    "s": 9.24,
+    "e": 9.66,
+    "type": "word"
+   },
+   {
+    "w": "force.",
+    "s": 9.72,
+    "e": 10.02,
+    "type": "word"
+   },
+   {
+    "w": "Second",
+    "s": 10.46,
+    "e": 10.68,
+    "type": "word"
+   },
+   {
+    "w": "law,",
+    "s": 10.72,
+    "e": 10.88,
+    "type": "word"
+   },
+   {
+    "w": "mathematically",
+    "s": 10.96,
+    "e": 11.54,
+    "type": "word"
+   },
+   {
+    "w": "expressed.",
+    "s": 11.58,
+    "e": 12.06,
+    "type": "word"
+   },
+   {
+    "w": "F",
+    "s": 12.66,
+    "e": 12.7,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 12.78,
+    "e": 13.0,
+    "type": "word"
+   },
+   {
+    "w": "ma.",
+    "s": 13.12,
+    "e": 13.2,
+    "type": "word"
+   },
+   {
+    "w": "F",
+    "s": 13.46,
+    "e": 13.5,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 13.56,
+    "e": 13.7,
+    "type": "word"
+   },
+   {
+    "w": "force,",
+    "s": 13.76,
+    "e": 14.02,
+    "type": "word"
+   },
+   {
+    "w": "m",
+    "s": 14.42,
+    "e": 14.5,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 14.58,
+    "e": 14.72,
+    "type": "word"
+   },
+   {
+    "w": "mass,",
+    "s": 14.78,
+    "e": 14.96,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 15.1,
+    "e": 15.26,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 15.32,
+    "e": 15.4,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 15.44,
+    "e": 16.12,
+    "type": "word"
+   },
+   {
+    "w": "Of",
+    "s": 16.16,
+    "e": 16.239,
+    "type": "word"
+   },
+   {
+    "w": "class,",
+    "s": 16.28,
+    "e": 16.5,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 16.64,
+    "e": 16.76,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 16.86,
+    "e": 16.94,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 16.98,
+    "e": 17.8,
+    "type": "word"
+   },
+   {
+    "w": "Of",
+    "s": 18.2,
+    "e": 18.26,
+    "type": "word"
+   },
+   {
+    "w": "classical",
+    "s": 18.32,
+    "e": 18.66,
+    "type": "word"
+   },
+   {
+    "w": "mechanics,",
+    "s": 18.7,
+    "e": 19.06,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 19.1,
+    "e": 19.16,
+    "type": "word"
+   },
+   {
+    "w": "foundation.",
+    "s": 19.2,
+    "e": 19.84,
+    "type": "word"
+   },
+   {
+    "w": "Action,",
+    "s": 20.5,
+    "e": 21.04,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 21.16,
+    "e": 22.14,
+    "type": "word"
+   },
+   {
+    "w": "For",
+    "s": 23.66,
+    "e": 23.88,
+    "type": "word"
+   },
+   {
+    "w": "every",
+    "s": 24.06,
+    "e": 24.44,
+    "type": "word"
+   },
+   {
+    "w": "action,",
+    "s": 24.56,
+    "e": 25.18,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 25.3,
+    "e": 25.46,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 25.56,
+    "e": 26.22,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 26.3,
+    "e": 26.46,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 26.58,
+    "e": 27.16,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 27.26,
+    "e": 28.12,
+    "type": "word"
+   },
+   {
+    "w": "Equal",
+    "s": 28.64,
+    "e": 29.24,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 29.32,
+    "e": 29.46,
+    "type": "word"
+   },
+   {
+    "w": "magnitude,",
+    "s": 29.52,
+    "e": 30.42,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 30.64,
+    "e": 31.14,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 31.18,
+    "e": 31.26,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 31.32,
+    "e": 32.119,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 32.32,
+    "e": 32.5,
+    "type": "word"
+   },
+   {
+    "w": "forces,",
+    "s": 32.58,
+    "e": 32.9,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 32.98,
+    "e": 33.1,
+    "type": "word"
+   },
+   {
+    "w": "different",
+    "s": 33.2,
+    "e": 33.6,
+    "type": "word"
+   },
+   {
+    "w": "objects.",
+    "s": 33.68,
+    "e": 34.24,
+    "type": "word"
+   },
+   {
+    "w": "Action,",
+    "s": 34.72,
+    "e": 35.28,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 35.4,
+    "e": 36.26,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_2": {
+  "text": "Newton's three laws of motion. First law, law of inertia. In motion continues in motion. At rest, remains at rest. Unless an unbalanced force. Second law, mathematically expressed. F equals ma. F is force, m is mass, a is acceleration. Of class-- a is acceleration. Of classical mechanics, the foundation. Action, reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Newton's",
+    "s": 0.28,
+    "e": 0.74,
+    "type": "word"
+   },
+   {
+    "w": "three",
+    "s": 0.78,
+    "e": 0.94,
+    "type": "word"
+   },
+   {
+    "w": "laws",
+    "s": 1.06,
+    "e": 1.42,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 1.46,
+    "e": 1.52,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 1.58,
+    "e": 2.04,
+    "type": "word"
+   },
+   {
+    "w": "First",
+    "s": 2.32,
+    "e": 2.52,
+    "type": "word"
+   },
+   {
+    "w": "law,",
+    "s": 2.6,
+    "e": 2.86,
+    "type": "word"
+   },
+   {
+    "w": "law",
+    "s": 3.08,
+    "e": 3.3,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 3.36,
+    "e": 3.44,
+    "type": "word"
+   },
+   {
+    "w": "inertia.",
+    "s": 3.5,
+    "e": 4.04,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 4.42,
+    "e": 4.56,
+    "type": "word"
+   },
+   {
+    "w": "motion",
+    "s": 4.6,
+    "e": 4.92,
+    "type": "word"
+   },
+   {
+    "w": "continues",
+    "s": 4.96,
+    "e": 5.38,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 5.44,
+    "e": 5.58,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 5.62,
+    "e": 6.06,
+    "type": "word"
+   },
+   {
+    "w": "At",
+    "s": 6.44,
+    "e": 6.6,
+    "type": "word"
+   },
+   {
+    "w": "rest,",
+    "s": 6.66,
+    "e": 6.88,
+    "type": "word"
+   },
+   {
+    "w": "remains",
+    "s": 7.04,
+    "e": 7.54,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 7.56,
+    "e": 7.62,
+    "type": "word"
+   },
+   {
+    "w": "rest.",
+    "s": 7.68,
+    "e": 7.94,
+    "type": "word"
+   },
+   {
+    "w": "Unless",
+    "s": 8.5,
+    "e": 8.92,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 9.0,
+    "e": 9.16,
+    "type": "word"
+   },
+   {
+    "w": "unbalanced",
+    "s": 9.24,
+    "e": 9.66,
+    "type": "word"
+   },
+   {
+    "w": "force.",
+    "s": 9.72,
+    "e": 10.02,
+    "type": "word"
+   },
+   {
+    "w": "Second",
+    "s": 10.46,
+    "e": 10.68,
+    "type": "word"
+   },
+   {
+    "w": "law,",
+    "s": 10.72,
+    "e": 10.88,
+    "type": "word"
+   },
+   {
+    "w": "mathematically",
+    "s": 10.96,
+    "e": 11.54,
+    "type": "word"
+   },
+   {
+    "w": "expressed.",
+    "s": 11.58,
+    "e": 12.06,
+    "type": "word"
+   },
+   {
+    "w": "F",
+    "s": 12.66,
+    "e": 12.7,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 12.78,
+    "e": 13.0,
+    "type": "word"
+   },
+   {
+    "w": "ma.",
+    "s": 13.12,
+    "e": 13.24,
+    "type": "word"
+   },
+   {
+    "w": "F",
+    "s": 13.46,
+    "e": 13.5,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 13.56,
+    "e": 13.7,
+    "type": "word"
+   },
+   {
+    "w": "force,",
+    "s": 13.76,
+    "e": 14.02,
+    "type": "word"
+   },
+   {
+    "w": "m",
+    "s": 14.42,
+    "e": 14.5,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 14.58,
+    "e": 14.72,
+    "type": "word"
+   },
+   {
+    "w": "mass,",
+    "s": 14.78,
+    "e": 14.96,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 15.1,
+    "e": 15.26,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 15.32,
+    "e": 15.4,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 15.44,
+    "e": 16.12,
+    "type": "word"
+   },
+   {
+    "w": "Of",
+    "s": 16.16,
+    "e": 16.239,
+    "type": "word"
+   },
+   {
+    "w": "class--",
+    "s": 16.28,
+    "e": 16.5,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 16.64,
+    "e": 16.74,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 16.86,
+    "e": 16.94,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 16.98,
+    "e": 17.8,
+    "type": "word"
+   },
+   {
+    "w": "Of",
+    "s": 18.2,
+    "e": 18.26,
+    "type": "word"
+   },
+   {
+    "w": "classical",
+    "s": 18.32,
+    "e": 18.66,
+    "type": "word"
+   },
+   {
+    "w": "mechanics,",
+    "s": 18.7,
+    "e": 19.06,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 19.1,
+    "e": 19.16,
+    "type": "word"
+   },
+   {
+    "w": "foundation.",
+    "s": 19.2,
+    "e": 19.84,
+    "type": "word"
+   },
+   {
+    "w": "Action,",
+    "s": 20.5,
+    "e": 21.04,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 21.16,
+    "e": 22.14,
+    "type": "word"
+   },
+   {
+    "w": "For",
+    "s": 23.66,
+    "e": 23.88,
+    "type": "word"
+   },
+   {
+    "w": "every",
+    "s": 24.06,
+    "e": 24.44,
+    "type": "word"
+   },
+   {
+    "w": "action,",
+    "s": 24.56,
+    "e": 25.18,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 25.3,
+    "e": 25.46,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 25.56,
+    "e": 26.22,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 26.3,
+    "e": 26.46,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 26.58,
+    "e": 27.16,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 27.26,
+    "e": 28.12,
+    "type": "word"
+   },
+   {
+    "w": "Equal",
+    "s": 28.64,
+    "e": 29.24,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 29.32,
+    "e": 29.46,
+    "type": "word"
+   },
+   {
+    "w": "magnitude,",
+    "s": 29.52,
+    "e": 30.42,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 30.64,
+    "e": 31.14,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 31.18,
+    "e": 31.26,
+    "type": "word"
+   },
+   {
+    "w": "direction.",
+    "s": 31.32,
+    "e": 32.119,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 32.32,
+    "e": 32.5,
+    "type": "word"
+   },
+   {
+    "w": "forces,",
+    "s": 32.58,
+    "e": 32.9,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 32.98,
+    "e": 33.1,
+    "type": "word"
+   },
+   {
+    "w": "different",
+    "s": 33.2,
+    "e": 33.6,
+    "type": "word"
+   },
+   {
+    "w": "objects.",
+    "s": 33.68,
+    "e": 34.24,
+    "type": "word"
+   },
+   {
+    "w": "Action,",
+    "s": 34.72,
+    "e": 35.28,
+    "type": "word"
+   },
+   {
+    "w": "reaction.",
+    "s": 35.38,
+    "e": 36.32,
+    "type": "word"
+   }
+  ]
+ },
+ "sarvam_vocals": {
+  "text": "Newton's 3 laws of motion. First law, law of inertia. In motion continues in motion. At rest, remain at rest. Unless an unbalanced force. Second law mathematically expressed. F equals MA. F is force. M is mass. A is acceleration. Of class A is acceleration. Of classical mechanics the foundation. Action reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. 2 forces, 2 different objects. Action, reaction.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 23.05,
+    "text": "Newton's 3 laws of motion. First law, law of inertia. In motion continues in motion. At rest, remain at rest. Unless an unbalanced force. Second law mathematically expressed. F equals MA. F is force. M is mass. A is acceleration. Of class A is acceleration. Of classical mechanics the foundation. Action reaction.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 23.05,
+    "end": 40.03,
+    "text": "For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. 2 forces, 2 different objects. Action, reaction.",
+    "lang": "en-IN"
+   }
+  ]
+ },
+ "sarvam_verbatim_vocals": {
+  "text": "Newton's three laws of motion.\nFirst law, law of inertia.\nIn motion continues in motion.\nAt rest, remain at rest.\nUnless and unbalanced force.\nSecond law mathematically expressed.\nF equals M A. F is force.\nM is mass, A is acceleration.\nOf classical mechanics, the foundation.\nAction, reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 23.05,
+    "text": "Newton's three laws of motion.\nFirst law, law of inertia.\nIn motion continues in motion.\nAt rest, remain at rest.\nUnless and unbalanced force.\nSecond law mathematically expressed.\nF equals M A. F is force.\nM is mass, A is acceleration.\nOf classical mechanics, the foundation.\nAction, reaction.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 23.05,
+    "end": 40.03,
+    "text": "For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction.",
+    "lang": "en-IN"
+   }
+  ]
+ }
+}

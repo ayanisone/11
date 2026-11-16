@@ -1,0 +1,608 @@
+{
+ "newton_laws_pop_SHORT_english_v2-5": {
+  "scribe_mix": {
+   "coverage": 0.9855072463768116,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "at",
+     "to",
+     7.52,
+     "At rest, remains at rest,"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "remain",
+     7.02
+    ],
+    [
+     "repeat/harmony",
+     "is",
+     14.56
+    ],
+    [
+     "repeat/harmony",
+     "mass",
+     14.76
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     15.08
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     15.42
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     16.14
+    ]
+   ],
+   "onset": 0.26,
+   "text": "Newton's three laws of motion. First law, law of inertia. In motion continues in motion. At rest remain, remain to rest. Unless an unbalanced force. Second law, mathematically expressed. F equals ma. F is force, m is mass, a is acceleration. Of class, a is acceleration. Of classical mechanics, the foundation. Action, reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction."
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "is",
+     14.58
+    ],
+    [
+     "repeat/harmony",
+     "mass",
+     14.78
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     15.1
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     15.44
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     16.16
+    ]
+   ],
+   "onset": 0.28,
+   "text": "Newton's three laws of motion. First law, law of inertia. In motion continues in motion. At rest, remains at rest. Unless an unbalanced force. Second law, mathematically expressed. F equals ma. F is force, m is mass, a is acceleration. Of class, a is acceleration. Of classical mechanics, the foundation. Action, reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "is",
+     14.58
+    ],
+    [
+     "repeat/harmony",
+     "mass",
+     14.78
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     15.1
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     15.44
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     16.16
+    ]
+   ],
+   "onset": 0.28,
+   "text": "Newton's three laws of motion. First law, law of inertia. In motion continues in motion. At rest, remains at rest. Unless an unbalanced force. Second law, mathematically expressed. F equals ma. F is force, m is mass, a is acceleration. Of class-- a is acceleration. Of classical mechanics, the foundation. Action, reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. Two forces, two different objects. Action, reaction."
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "is",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "mass",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     0.0
+    ]
+   ],
+   "onset": null,
+   "text": "Newton's 3 laws of motion. First law, law of inertia. In motion continues in motion. At rest, remain at rest. Unless an unbalanced force. Second law mathematically expressed. F equals MA. F is force. M is mass. A is acceleration. Of class A is acceleration. Of classical mechanics the foundation. Action reaction. For every action, an equal and opposite reaction. Equal in magnitude, opposite in direction. 2 forces, 2 different objects. Action, reaction."
+  }
+ },
+ "pythagoras_bollywood_hindi_v2-5_take3": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "स्थित",
+     15.98,
+     ""
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.86,
+   "text": "[outro music] Right angle triangle में सबसे लंबी side hypotenuse कहलाती। Right angle के opposite स्थित side hypotenuse का square बाकी दो sides के squares के sum के बराबर। A square plus B square equal C square, A square plus B square equal C square। 3, 4 or 5, 9 plus 16, 25 Pythagoras theorem। A square plus B square equal C square। [outro music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "sit",
+     16.04,
+     ""
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.9,
+   "text": "[background music] Right angle triangle में सबसे लंबी side hypotenuse कहलाती। Right angle के opposite sit side hypotenuse का square, बाकी दो sides के squares के sum के बराबर। A square plus B square equal C square। A square plus B square equal C square। Three, four or five, nine plus sixteen, twenty-five. Pythagoras theorem. A square plus B square equal C square। [background music]"
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "sit",
+     16.04,
+     ""
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.9,
+   "text": "[background music] Right angle triangle में सबसे लंबी side hypotenuse कहलाती। Right angle के opposite sit side hypotenuse का square बाकी दो sides के squares के sum के बराबर। A square plus B square equal C square। A square plus B square equal C square। Three, four or five, nine plus sixteen, twenty-five Pythagoras theorem। A square plus B square equal C square। [background music]"
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "है",
+     0.0,
+     ""
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती है। Right angle के opposite side, hypotenuse का square, बाकी दो sides के squares के sum के बराबर।\nA square plus B square equal C square.\nA square plus B square equal C square.\n3, 4 or 5, 9 plus 16, 25, Pythagoras theorem.\nA square plus B square equal C square. "
+  }
+ },
+ "pythagoras_rap_hindi_v2-5_take2": {
+  "scribe_mix": {
+   "coverage": 0.9508196721311475,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "a",
+     "",
+     29.32,
+     "Pythagoras theorem: a square plus b square equals c square"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "के",
+     "",
+     17.96,
+     "Hypotenuse का square, बाकी दो sides के squares के sum के बराबर"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "और",
+     "o",
+     24.02,
+     "Three, four और five"
+    ]
+   ],
+   "allowed": [],
+   "onset": 10.48,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती right angle के opposite side। hypotenuse का square बाकी दो sides के square सम के बराबर a square + b square = c square a square + b square = c square three, four o five nine plus sixteen twenty five। Pythagoras theorem square + b square = c square"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9508196721311475,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "a",
+     "",
+     29.36,
+     "Pythagoras theorem: a square plus b square equals c square"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "के",
+     "",
+     17.98,
+     "Hypotenuse का square, बाकी दो sides के squares के sum के बराबर"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "और",
+     "o",
+     24.04,
+     "Three, four और five"
+    ]
+   ],
+   "allowed": [],
+   "onset": 10.5,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती right angle के opposite side. Hypotenuse का square बाकी दो sides के square sum के बराबर। A square plus B square equal C square. A square plus B square equal C square. Three four o five, nine plus sixteen twenty five. Pythagoras theorem square plus B square equal C square."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9508196721311475,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "a",
+     "",
+     29.36,
+     "Pythagoras theorem: a square plus b square equals c square"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "के",
+     "",
+     17.98,
+     "Hypotenuse का square, बाकी दो sides के squares के sum के बराबर"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "और",
+     "o",
+     24.04,
+     "Three, four और five"
+    ]
+   ],
+   "allowed": [],
+   "onset": 10.5,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती right angle के opposite side. Hypotenuse का square बाकी दो sides के square sum के बराबर। A square plus B square equal C square. A square plus B square equal C square. Three four o five, nine plus sixteen twenty five. Pythagoras theorem square plus B square equal C square."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9672131147540983,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "a",
+     "",
+     21.05,
+     "Pythagoras theorem: a square plus b square equals c square"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "के",
+     "",
+     0.0,
+     "Hypotenuse का square, बाकी दो sides के squares के sum के बराबर"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती। Right angle के opposite side hypotenuse का square बाकी दो sides के square sum के बराबर। a square plus b square equals c square। A square plus B square equals C square. 3, 4 or 5. 9 plus 16, 25. Pythagoras theorem: square plus B square equals C square."
+  }
+ },
+ "pythagoras_rock_hindi_v2-5_take3": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "reorder (section sung elsewhere)",
+     "three four और five nine plus sixteen twenty five",
+     "",
+     16.84,
+     "Three, four और five"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "three",
+     16.84
+    ],
+    [
+     "repeat/harmony",
+     "four",
+     17.36
+    ],
+    [
+     "repeat/harmony",
+     "और",
+     17.64
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     17.84
+    ],
+    [
+     "repeat/harmony",
+     "nine",
+     18.3
+    ],
+    [
+     "repeat/harmony",
+     "plus",
+     18.52
+    ],
+    [
+     "repeat/harmony",
+     "sixteen",
+     18.76
+    ],
+    [
+     "repeat/harmony",
+     "twenty",
+     19.2
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     19.48
+    ]
+   ],
+   "onset": 5.86,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती right angle के opposite side hypotenuse का square बाकी दो sides के squares के sum के बराबर three four और five nine plus sixteen twenty five. a square plus b square equal c square, a square plus b square equal c square. Pythagoras theorem a square plus b square equal c square."
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "reorder (section sung elsewhere)",
+     "three four और five nine plus sixteen twenty five",
+     "",
+     16.86,
+     "Three, four और five"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "three",
+     16.86
+    ],
+    [
+     "repeat/harmony",
+     "four",
+     17.38
+    ],
+    [
+     "repeat/harmony",
+     "or",
+     17.64
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     17.84
+    ],
+    [
+     "repeat/harmony",
+     "nine",
+     18.32
+    ],
+    [
+     "repeat/harmony",
+     "plus",
+     18.54
+    ],
+    [
+     "repeat/harmony",
+     "sixteen",
+     18.78
+    ],
+    [
+     "repeat/harmony",
+     "twenty",
+     19.22
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     19.22
+    ]
+   ],
+   "onset": 5.9,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती right angle के opposite side। hypotenuse का square बाकी दो sides के squares के sum के बराबर three, four or five, nine plus sixteen, twenty-five। A square plus B square equals C square, A square plus B square equals C square. Pythagoras theorem, A square plus B square equals C square."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "reorder (section sung elsewhere)",
+     "three four और five nine plus sixteen twenty five",
+     "",
+     17.1,
+     "Three, four और five"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "three",
+     17.1
+    ],
+    [
+     "repeat/harmony",
+     "four",
+     17.56
+    ],
+    [
+     "repeat/harmony",
+     "or",
+     17.64
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     18.06
+    ],
+    [
+     "repeat/harmony",
+     "nine",
+     18.44
+    ],
+    [
+     "repeat/harmony",
+     "plus",
+     18.54
+    ],
+    [
+     "repeat/harmony",
+     "sixteen",
+     18.78
+    ],
+    [
+     "repeat/harmony",
+     "twenty",
+     19.32
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     19.32
+    ]
+   ],
+   "onset": 5.9,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती right angle के opposite side। hypotenuse का square बाकी दो sides के squares के sum के बराबर 3, 4 or 5, 9 plus 16, 25। A square plus B square equal C square, A square plus B square equal C square. Pythagoras theorem, A square plus B square equal C square."
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "reorder (section sung elsewhere)",
+     "three four और five nine plus sixteen twenty five",
+     "",
+     0.0,
+     "Three, four और five"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "three",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "four",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "और",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "nine",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "plus",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "sixteen",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "twenty",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "five",
+     0.0
+    ]
+   ],
+   "onset": null,
+   "text": "Right angle triangle में सबसे लंबी side hypotenuse कहलाती। Right angle के opposite side hypotenuse का square बाकी दो sides के squares के sum के बराबर। 3, 4 और 5, 9 plus 16, 25। A square plus B square equals C square. A square plus B square equals C square. Pythagoras theorem. A square plus B square equals C square."
+  }
+ }
+}
