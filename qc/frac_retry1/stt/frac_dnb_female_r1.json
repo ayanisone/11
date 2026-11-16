@@ -1,0 +1,4021 @@
+{
+ "scribe_mix": {
+  "text": "[upbeat music] Parts of a whole. Stop what you're doing. A-an object. Oh, ah, ah. The whole, an object or a group of objects. Cut a piece of cake. The portion, the fraction of the cake. Fraction, a word originated from Latin. Fractus means broken, broken. In ancient times, represented using words. Later, introduced in numerical form. Denoted by the symbol a over b. Two over four. The upper part, numerator. The lower part, denominator. Top number, selected or shaded parts of a whole. Bottom number, the total number of parts. Fractions, fractions, parts of a whole. Top number, numerator. The lower part, denominator. A portion, a section of any quantity. A number divided into four parts. X over four, one-fourth of the number X. One in four equal parts. One-fourth, one-fourth. Fractions play an important part in our daily lives. Share that yummy pizza, friends and families. Three people, four slices. Slice an apple into two equal parts. Each part, one over two, one over two. Two parts of fractions, numerator and denominator. Numerator, the upper part, the sections of the fraction. Denominator, the bottom part, the total parts in which the fraction is divided. Three over four. Three, numerator. Four, denominator. Fractions, fractions, parts of a whole. Top number, numerator. Bottom number, denominator. A portion, a section of any quantity. [upbeat music]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[upbeat music]",
+    "s": 0.32,
+    "e": 5.42,
+    "type": "audio_event"
+   },
+   {
+    "w": "Parts",
+    "s": 5.5,
+    "e": 5.9,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 5.94,
+    "e": 6.06,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 6.08,
+    "e": 6.18,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 6.26,
+    "e": 6.7,
+    "type": "word"
+   },
+   {
+    "w": "Stop",
+    "s": 11.08,
+    "e": 11.36,
+    "type": "word"
+   },
+   {
+    "w": "what",
+    "s": 11.4,
+    "e": 16.86,
+    "type": "word"
+   },
+   {
+    "w": "you're",
+    "s": 16.92,
+    "e": 17.04,
+    "type": "word"
+   },
+   {
+    "w": "doing.",
+    "s": 17.08,
+    "e": 17.22,
+    "type": "word"
+   },
+   {
+    "w": "A-an",
+    "s": 17.26,
+    "e": 17.38,
+    "type": "word"
+   },
+   {
+    "w": "object.",
+    "s": 17.38,
+    "e": 17.9,
+    "type": "word"
+   },
+   {
+    "w": "Oh,",
+    "s": 18.68,
+    "e": 18.76,
+    "type": "word"
+   },
+   {
+    "w": "ah,",
+    "s": 19.36,
+    "e": 19.54,
+    "type": "word"
+   },
+   {
+    "w": "ah.",
+    "s": 20.08,
+    "e": 20.32,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 21.94,
+    "e": 22.02,
+    "type": "word"
+   },
+   {
+    "w": "whole,",
+    "s": 22.1,
+    "e": 22.38,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 22.64,
+    "e": 22.76,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 22.84,
+    "e": 23.14,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 23.18,
+    "e": 23.34,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 23.36,
+    "e": 23.42,
+    "type": "word"
+   },
+   {
+    "w": "group",
+    "s": 23.44,
+    "e": 23.64,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 23.68,
+    "e": 23.8,
+    "type": "word"
+   },
+   {
+    "w": "objects.",
+    "s": 23.84,
+    "e": 24.12,
+    "type": "word"
+   },
+   {
+    "w": "Cut",
+    "s": 24.2,
+    "e": 24.34,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 24.38,
+    "e": 24.42,
+    "type": "word"
+   },
+   {
+    "w": "piece",
+    "s": 24.5,
+    "e": 24.66,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 24.7,
+    "e": 24.8,
+    "type": "word"
+   },
+   {
+    "w": "cake.",
+    "s": 24.88,
+    "e": 25.2,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 25.36,
+    "e": 25.42,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 25.52,
+    "e": 25.84,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 25.9,
+    "e": 25.94,
+    "type": "word"
+   },
+   {
+    "w": "fraction",
+    "s": 26.04,
+    "e": 26.58,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 26.64,
+    "e": 26.7,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 26.76,
+    "e": 26.8,
+    "type": "word"
+   },
+   {
+    "w": "cake.",
+    "s": 26.94,
+    "e": 27.22,
+    "type": "word"
+   },
+   {
+    "w": "Fraction,",
+    "s": 27.6,
+    "e": 28.08,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 28.18,
+    "e": 28.22,
+    "type": "word"
+   },
+   {
+    "w": "word",
+    "s": 28.32,
+    "e": 28.64,
+    "type": "word"
+   },
+   {
+    "w": "originated",
+    "s": 28.7,
+    "e": 29.44,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 29.5,
+    "e": 29.62,
+    "type": "word"
+   },
+   {
+    "w": "Latin.",
+    "s": 29.68,
+    "e": 29.98,
+    "type": "word"
+   },
+   {
+    "w": "Fractus",
+    "s": 30.32,
+    "e": 30.92,
+    "type": "word"
+   },
+   {
+    "w": "means",
+    "s": 31.04,
+    "e": 31.36,
+    "type": "word"
+   },
+   {
+    "w": "broken,",
+    "s": 31.76,
+    "e": 32.24,
+    "type": "word"
+   },
+   {
+    "w": "broken.",
+    "s": 32.439,
+    "e": 32.94,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 33.02,
+    "e": 33.08,
+    "type": "word"
+   },
+   {
+    "w": "ancient",
+    "s": 33.22,
+    "e": 33.74,
+    "type": "word"
+   },
+   {
+    "w": "times,",
+    "s": 33.82,
+    "e": 34.1,
+    "type": "word"
+   },
+   {
+    "w": "represented",
+    "s": 34.18,
+    "e": 34.84,
+    "type": "word"
+   },
+   {
+    "w": "using",
+    "s": 34.9,
+    "e": 35.14,
+    "type": "word"
+   },
+   {
+    "w": "words.",
+    "s": 35.2,
+    "e": 35.5,
+    "type": "word"
+   },
+   {
+    "w": "Later,",
+    "s": 35.74,
+    "e": 36.18,
+    "type": "word"
+   },
+   {
+    "w": "introduced",
+    "s": 36.26,
+    "e": 36.76,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 36.8,
+    "e": 36.88,
+    "type": "word"
+   },
+   {
+    "w": "numerical",
+    "s": 36.92,
+    "e": 37.8,
+    "type": "word"
+   },
+   {
+    "w": "form.",
+    "s": 37.98,
+    "e": 39.46,
+    "type": "word"
+   },
+   {
+    "w": "Denoted",
+    "s": 45.38,
+    "e": 45.84,
+    "type": "word"
+   },
+   {
+    "w": "by",
+    "s": 45.9,
+    "e": 46.02,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 46.08,
+    "e": 46.16,
+    "type": "word"
+   },
+   {
+    "w": "symbol",
+    "s": 46.24,
+    "e": 46.64,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 47.02,
+    "e": 47.2,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 47.32,
+    "e": 47.56,
+    "type": "word"
+   },
+   {
+    "w": "b.",
+    "s": 47.64,
+    "e": 47.92,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 49.02,
+    "e": 49.26,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 49.38,
+    "e": 49.62,
+    "type": "word"
+   },
+   {
+    "w": "four.",
+    "s": 49.72,
+    "e": 49.98,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 50.2,
+    "e": 50.32,
+    "type": "word"
+   },
+   {
+    "w": "upper",
+    "s": 50.42,
+    "e": 50.62,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 50.72,
+    "e": 50.94,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 51.4,
+    "e": 52.12,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 52.26,
+    "e": 52.36,
+    "type": "word"
+   },
+   {
+    "w": "lower",
+    "s": 52.44,
+    "e": 52.74,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 52.92,
+    "e": 53.22,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 53.64,
+    "e": 54.98,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 56.22,
+    "e": 56.5,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 56.58,
+    "e": 57.2,
+    "type": "word"
+   },
+   {
+    "w": "selected",
+    "s": 57.78,
+    "e": 58.44,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 58.48,
+    "e": 58.56,
+    "type": "word"
+   },
+   {
+    "w": "shaded",
+    "s": 58.62,
+    "e": 59.08,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 59.14,
+    "e": 59.5,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 59.58,
+    "e": 59.7,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 59.8,
+    "e": 59.88,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 60.02,
+    "e": 60.68,
+    "type": "word"
+   },
+   {
+    "w": "Bottom",
+    "s": 62.78,
+    "e": 63.22,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 63.32,
+    "e": 64.12,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 64.68,
+    "e": 64.78,
+    "type": "word"
+   },
+   {
+    "w": "total",
+    "s": 64.86,
+    "e": 65.16,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 65.22,
+    "e": 65.519,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 65.64,
+    "e": 65.8,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 65.84,
+    "e": 66.42,
+    "type": "word"
+   },
+   {
+    "w": "Fractions,",
+    "s": 67.78,
+    "e": 68.58,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 68.82,
+    "e": 69.52,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 69.66,
+    "e": 70.02,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 70.12,
+    "e": 70.22,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 70.28,
+    "e": 70.32,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 70.4,
+    "e": 71.18,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 72.08,
+    "e": 72.36,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 72.44,
+    "e": 72.96,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 73.46,
+    "e": 74.28,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 74.34,
+    "e": 74.42,
+    "type": "word"
+   },
+   {
+    "w": "lower",
+    "s": 74.5,
+    "e": 74.82,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 75.0,
+    "e": 75.32,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 75.72,
+    "e": 77.06,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 78.32,
+    "e": 78.4,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 78.48,
+    "e": 79.02,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 79.18,
+    "e": 79.24,
+    "type": "word"
+   },
+   {
+    "w": "section",
+    "s": 79.32,
+    "e": 79.84,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.92,
+    "e": 80.04,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 80.16,
+    "e": 80.58,
+    "type": "word"
+   },
+   {
+    "w": "quantity.",
+    "s": 80.66,
+    "e": 81.52,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 82.12,
+    "e": 82.18,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 82.26,
+    "e": 82.54,
+    "type": "word"
+   },
+   {
+    "w": "divided",
+    "s": 82.6,
+    "e": 83.12,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 83.16,
+    "e": 83.4,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 83.48,
+    "e": 83.68,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 83.82,
+    "e": 84.24,
+    "type": "word"
+   },
+   {
+    "w": "X",
+    "s": 84.8,
+    "e": 84.84,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 84.94,
+    "e": 85.14,
+    "type": "word"
+   },
+   {
+    "w": "four,",
+    "s": 85.22,
+    "e": 85.44,
+    "type": "word"
+   },
+   {
+    "w": "one-fourth",
+    "s": 85.92,
+    "e": 86.56,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 86.62,
+    "e": 86.7,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 86.76,
+    "e": 86.84,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 86.92,
+    "e": 87.22,
+    "type": "word"
+   },
+   {
+    "w": "X.",
+    "s": 87.7,
+    "e": 87.74,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 88.68,
+    "e": 88.78,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 88.82,
+    "e": 88.92,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 89.0,
+    "e": 89.28,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 89.42,
+    "e": 89.9,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 90.02,
+    "e": 90.66,
+    "type": "word"
+   },
+   {
+    "w": "One-fourth,",
+    "s": 91.44,
+    "e": 92.04,
+    "type": "word"
+   },
+   {
+    "w": "one-fourth.",
+    "s": 92.82,
+    "e": 98.58,
+    "type": "word"
+   },
+   {
+    "w": "Fractions",
+    "s": 98.62,
+    "e": 99.28,
+    "type": "word"
+   },
+   {
+    "w": "play",
+    "s": 99.34,
+    "e": 99.62,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 99.74,
+    "e": 99.82,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 99.88,
+    "e": 100.48,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 100.56,
+    "e": 100.98,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 101.1,
+    "e": 101.18,
+    "type": "word"
+   },
+   {
+    "w": "our",
+    "s": 101.22,
+    "e": 101.32,
+    "type": "word"
+   },
+   {
+    "w": "daily",
+    "s": 101.38,
+    "e": 101.72,
+    "type": "word"
+   },
+   {
+    "w": "lives.",
+    "s": 101.92,
+    "e": 102.66,
+    "type": "word"
+   },
+   {
+    "w": "Share",
+    "s": 103.4,
+    "e": 103.6,
+    "type": "word"
+   },
+   {
+    "w": "that",
+    "s": 103.64,
+    "e": 103.76,
+    "type": "word"
+   },
+   {
+    "w": "yummy",
+    "s": 103.82,
+    "e": 104.1,
+    "type": "word"
+   },
+   {
+    "w": "pizza,",
+    "s": 104.16,
+    "e": 104.8,
+    "type": "word"
+   },
+   {
+    "w": "friends",
+    "s": 105.34,
+    "e": 105.98,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 106.02,
+    "e": 106.14,
+    "type": "word"
+   },
+   {
+    "w": "families.",
+    "s": 106.22,
+    "e": 106.96,
+    "type": "word"
+   },
+   {
+    "w": "Three",
+    "s": 107.2,
+    "e": 107.44,
+    "type": "word"
+   },
+   {
+    "w": "people,",
+    "s": 107.62,
+    "e": 108.08,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 108.64,
+    "e": 108.86,
+    "type": "word"
+   },
+   {
+    "w": "slices.",
+    "s": 108.94,
+    "e": 109.58,
+    "type": "word"
+   },
+   {
+    "w": "Slice",
+    "s": 109.96,
+    "e": 110.2,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 110.26,
+    "e": 110.34,
+    "type": "word"
+   },
+   {
+    "w": "apple",
+    "s": 110.44,
+    "e": 110.72,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 110.78,
+    "e": 111.0,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 111.08,
+    "e": 111.36,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 111.44,
+    "e": 111.68,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 111.76,
+    "e": 112.22,
+    "type": "word"
+   },
+   {
+    "w": "Each",
+    "s": 112.56,
+    "e": 112.74,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 112.8,
+    "e": 113.04,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 113.16,
+    "e": 113.34,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 113.52,
+    "e": 113.74,
+    "type": "word"
+   },
+   {
+    "w": "two,",
+    "s": 113.84,
+    "e": 114.06,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 114.56,
+    "e": 114.72,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 114.9,
+    "e": 115.1,
+    "type": "word"
+   },
+   {
+    "w": "two.",
+    "s": 115.2,
+    "e": 115.64,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 121.76,
+    "e": 122.12,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 122.28,
+    "e": 122.58,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 122.62,
+    "e": 122.7,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 122.78,
+    "e": 123.48,
+    "type": "word"
+   },
+   {
+    "w": "numerator",
+    "s": 124.5,
+    "e": 125.14,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 125.2,
+    "e": 125.3,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 125.36,
+    "e": 126.24,
+    "type": "word"
+   },
+   {
+    "w": "Numerator,",
+    "s": 127.26,
+    "e": 128.0,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 128.8,
+    "e": 128.919,
+    "type": "word"
+   },
+   {
+    "w": "upper",
+    "s": 129.02,
+    "e": 129.259,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 129.34,
+    "e": 129.639,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 130.86,
+    "e": 130.94,
+    "type": "word"
+   },
+   {
+    "w": "sections",
+    "s": 131.039,
+    "e": 131.38,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 131.46,
+    "e": 131.52,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 131.56,
+    "e": 131.66,
+    "type": "word"
+   },
+   {
+    "w": "fraction.",
+    "s": 131.74,
+    "e": 132.38,
+    "type": "word"
+   },
+   {
+    "w": "Denominator,",
+    "s": 132.6,
+    "e": 133.5,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 134.32,
+    "e": 134.44,
+    "type": "word"
+   },
+   {
+    "w": "bottom",
+    "s": 134.48,
+    "e": 134.76,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 134.84,
+    "e": 135.06,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 135.36,
+    "e": 135.44,
+    "type": "word"
+   },
+   {
+    "w": "total",
+    "s": 135.5,
+    "e": 135.8,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 135.86,
+    "e": 136.06,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 136.1,
+    "e": 136.16,
+    "type": "word"
+   },
+   {
+    "w": "which",
+    "s": 136.2,
+    "e": 136.36,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 136.4,
+    "e": 136.48,
+    "type": "word"
+   },
+   {
+    "w": "fraction",
+    "s": 136.54,
+    "e": 136.9,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 136.96,
+    "e": 137.04,
+    "type": "word"
+   },
+   {
+    "w": "divided.",
+    "s": 137.08,
+    "e": 137.9,
+    "type": "word"
+   },
+   {
+    "w": "Three",
+    "s": 138.24,
+    "e": 138.58,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 138.72,
+    "e": 138.94,
+    "type": "word"
+   },
+   {
+    "w": "four.",
+    "s": 139.16,
+    "e": 139.62,
+    "type": "word"
+   },
+   {
+    "w": "Three,",
+    "s": 139.98,
+    "e": 140.28,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 140.72,
+    "e": 141.66,
+    "type": "word"
+   },
+   {
+    "w": "Four,",
+    "s": 142.08,
+    "e": 142.52,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 142.6,
+    "e": 143.58,
+    "type": "word"
+   },
+   {
+    "w": "Fractions,",
+    "s": 146.18,
+    "e": 147.0,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 147.58,
+    "e": 148.4,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 149.0,
+    "e": 149.32,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 149.42,
+    "e": 149.5,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 149.58,
+    "e": 149.62,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 149.68,
+    "e": 150.16,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 151.72,
+    "e": 152.02,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 152.08,
+    "e": 152.38,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 152.96,
+    "e": 153.66,
+    "type": "word"
+   },
+   {
+    "w": "Bottom",
+    "s": 154.16,
+    "e": 154.42,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 154.5,
+    "e": 154.86,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 155.54,
+    "e": 156.54,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 157.12,
+    "e": 157.2,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 157.28,
+    "e": 157.8,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 158.5,
+    "e": 158.54,
+    "type": "word"
+   },
+   {
+    "w": "section",
+    "s": 158.64,
+    "e": 159.14,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 159.22,
+    "e": 159.32,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 159.42,
+    "e": 159.74,
+    "type": "word"
+   },
+   {
+    "w": "quantity.",
+    "s": 159.8,
+    "e": 161.0,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat music]",
+    "s": 161.02,
+    "e": 181.96,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "scribe_vocals_1": {
+  "text": "[singing] Parts of a whole. Parts of a whole. The whole, an object or a group of objects. Cut a piece of cake. The portion, the fraction of the cake. Fraction, a word originated from Latin. Fractus means broken, broken. In ancient times represented using words, later introduced in numerical form. Denoted by the symbol a over b. Two over four, the upper part, numerator. The lower part, denominator. Top number, selected or shaded parts of a whole. Bottom number, the total number of parts. Fractions, fractions, parts of a whole. Top number, numerator. The lower part, denominator. A portion, a section of any quantity. A number divided into four parts, x over four, one-fourth of the number x. One in four equal parts. One-fourth, one-fourth. Fractions play an important part in our daily lives. Share that yummy pizza, friends and families. Three people, four slices. Slice an apple into two equal parts, each part one over two, one over two. Two parts of fractions, numerator and denominator. Numerator, the upper part, the sections of the fraction. Denominator, the bottom part, the total parts in which the fraction is divided. Three over four. Three, numerator. Four, denominator. Fractions, fractions, parts of a whole. Top number, numerator. Bottom number, denominator. A portion, a section of any quantity.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[singing]",
+    "s": 1.68,
+    "e": 5.5,
+    "type": "audio_event"
+   },
+   {
+    "w": "Parts",
+    "s": 5.54,
+    "e": 5.86,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 5.92,
+    "e": 6.04,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 6.14,
+    "e": 6.24,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 6.28,
+    "e": 6.64,
+    "type": "word"
+   },
+   {
+    "w": "Parts",
+    "s": 11.08,
+    "e": 16.92,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 17.32,
+    "e": 17.52,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 21.76,
+    "e": 21.78,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 21.8,
+    "e": 21.88,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 21.96,
+    "e": 22.06,
+    "type": "word"
+   },
+   {
+    "w": "whole,",
+    "s": 22.14,
+    "e": 22.42,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 22.66,
+    "e": 22.78,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 22.86,
+    "e": 23.12,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 23.2,
+    "e": 23.32,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 23.38,
+    "e": 23.4,
+    "type": "word"
+   },
+   {
+    "w": "group",
+    "s": 23.48,
+    "e": 23.66,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 23.7,
+    "e": 23.82,
+    "type": "word"
+   },
+   {
+    "w": "objects.",
+    "s": 23.88,
+    "e": 24.16,
+    "type": "word"
+   },
+   {
+    "w": "Cut",
+    "s": 24.22,
+    "e": 24.36,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 24.4,
+    "e": 24.46,
+    "type": "word"
+   },
+   {
+    "w": "piece",
+    "s": 24.52,
+    "e": 24.68,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 24.72,
+    "e": 24.82,
+    "type": "word"
+   },
+   {
+    "w": "cake.",
+    "s": 24.9,
+    "e": 25.22,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 25.38,
+    "e": 25.48,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 25.54,
+    "e": 25.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 25.92,
+    "e": 26.0,
+    "type": "word"
+   },
+   {
+    "w": "fraction",
+    "s": 26.06,
+    "e": 26.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 26.66,
+    "e": 26.76,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 26.78,
+    "e": 26.88,
+    "type": "word"
+   },
+   {
+    "w": "cake.",
+    "s": 26.96,
+    "e": 27.26,
+    "type": "word"
+   },
+   {
+    "w": "Fraction,",
+    "s": 27.62,
+    "e": 28.12,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 28.22,
+    "e": 28.26,
+    "type": "word"
+   },
+   {
+    "w": "word",
+    "s": 28.34,
+    "e": 28.64,
+    "type": "word"
+   },
+   {
+    "w": "originated",
+    "s": 28.72,
+    "e": 29.46,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 29.52,
+    "e": 29.64,
+    "type": "word"
+   },
+   {
+    "w": "Latin.",
+    "s": 29.7,
+    "e": 30.08,
+    "type": "word"
+   },
+   {
+    "w": "Fractus",
+    "s": 30.36,
+    "e": 30.98,
+    "type": "word"
+   },
+   {
+    "w": "means",
+    "s": 31.08,
+    "e": 31.4,
+    "type": "word"
+   },
+   {
+    "w": "broken,",
+    "s": 31.78,
+    "e": 32.28,
+    "type": "word"
+   },
+   {
+    "w": "broken.",
+    "s": 32.46,
+    "e": 32.96,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 33.04,
+    "e": 33.12,
+    "type": "word"
+   },
+   {
+    "w": "ancient",
+    "s": 33.26,
+    "e": 33.76,
+    "type": "word"
+   },
+   {
+    "w": "times",
+    "s": 33.84,
+    "e": 34.14,
+    "type": "word"
+   },
+   {
+    "w": "represented",
+    "s": 34.2,
+    "e": 34.86,
+    "type": "word"
+   },
+   {
+    "w": "using",
+    "s": 34.92,
+    "e": 35.18,
+    "type": "word"
+   },
+   {
+    "w": "words,",
+    "s": 35.22,
+    "e": 35.54,
+    "type": "word"
+   },
+   {
+    "w": "later",
+    "s": 35.76,
+    "e": 36.22,
+    "type": "word"
+   },
+   {
+    "w": "introduced",
+    "s": 36.28,
+    "e": 36.78,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 36.84,
+    "e": 36.92,
+    "type": "word"
+   },
+   {
+    "w": "numerical",
+    "s": 36.96,
+    "e": 37.84,
+    "type": "word"
+   },
+   {
+    "w": "form.",
+    "s": 38.0,
+    "e": 39.64,
+    "type": "word"
+   },
+   {
+    "w": "Denoted",
+    "s": 45.4,
+    "e": 45.86,
+    "type": "word"
+   },
+   {
+    "w": "by",
+    "s": 45.92,
+    "e": 46.04,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 46.1,
+    "e": 46.18,
+    "type": "word"
+   },
+   {
+    "w": "symbol",
+    "s": 46.26,
+    "e": 46.68,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 47.04,
+    "e": 47.24,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 47.36,
+    "e": 47.58,
+    "type": "word"
+   },
+   {
+    "w": "b.",
+    "s": 47.68,
+    "e": 48.08,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 49.04,
+    "e": 49.3,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 49.42,
+    "e": 49.64,
+    "type": "word"
+   },
+   {
+    "w": "four,",
+    "s": 49.72,
+    "e": 49.98,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 50.22,
+    "e": 50.36,
+    "type": "word"
+   },
+   {
+    "w": "upper",
+    "s": 50.44,
+    "e": 50.68,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 50.76,
+    "e": 51.04,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 51.4,
+    "e": 52.22,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 52.28,
+    "e": 52.38,
+    "type": "word"
+   },
+   {
+    "w": "lower",
+    "s": 52.46,
+    "e": 52.78,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 52.94,
+    "e": 53.3,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 53.68,
+    "e": 55.0,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 56.24,
+    "e": 56.5,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 56.62,
+    "e": 57.24,
+    "type": "word"
+   },
+   {
+    "w": "selected",
+    "s": 57.8,
+    "e": 58.46,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 58.5,
+    "e": 58.58,
+    "type": "word"
+   },
+   {
+    "w": "shaded",
+    "s": 58.64,
+    "e": 59.1,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 59.16,
+    "e": 59.52,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 59.62,
+    "e": 59.72,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 59.84,
+    "e": 59.92,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 60.02,
+    "e": 61.02,
+    "type": "word"
+   },
+   {
+    "w": "Bottom",
+    "s": 62.82,
+    "e": 63.26,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 63.34,
+    "e": 64.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 64.7,
+    "e": 64.8,
+    "type": "word"
+   },
+   {
+    "w": "total",
+    "s": 64.879,
+    "e": 65.2,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 65.26,
+    "e": 65.54,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 65.62,
+    "e": 65.8,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 65.9,
+    "e": 66.46,
+    "type": "word"
+   },
+   {
+    "w": "Fractions,",
+    "s": 67.8,
+    "e": 68.6,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 68.82,
+    "e": 69.56,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 69.68,
+    "e": 70.02,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 70.16,
+    "e": 70.24,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 70.32,
+    "e": 70.36,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 70.42,
+    "e": 71.2,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 72.1,
+    "e": 72.4,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 72.48,
+    "e": 73.0,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 73.5,
+    "e": 74.28,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 74.36,
+    "e": 74.44,
+    "type": "word"
+   },
+   {
+    "w": "lower",
+    "s": 74.54,
+    "e": 74.86,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 75.02,
+    "e": 75.32,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 75.74,
+    "e": 77.14,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 78.36,
+    "e": 78.42,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 78.5,
+    "e": 79.04,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 79.2,
+    "e": 79.26,
+    "type": "word"
+   },
+   {
+    "w": "section",
+    "s": 79.34,
+    "e": 79.86,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.94,
+    "e": 80.06,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 80.2,
+    "e": 80.58,
+    "type": "word"
+   },
+   {
+    "w": "quantity.",
+    "s": 80.7,
+    "e": 81.6,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 82.14,
+    "e": 82.2,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 82.28,
+    "e": 82.56,
+    "type": "word"
+   },
+   {
+    "w": "divided",
+    "s": 82.62,
+    "e": 83.14,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 83.18,
+    "e": 83.42,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 83.5,
+    "e": 83.74,
+    "type": "word"
+   },
+   {
+    "w": "parts,",
+    "s": 83.82,
+    "e": 84.24,
+    "type": "word"
+   },
+   {
+    "w": "x",
+    "s": 84.82,
+    "e": 84.86,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 84.96,
+    "e": 85.14,
+    "type": "word"
+   },
+   {
+    "w": "four,",
+    "s": 85.24,
+    "e": 85.5,
+    "type": "word"
+   },
+   {
+    "w": "one-fourth",
+    "s": 85.96,
+    "e": 86.56,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 86.64,
+    "e": 86.72,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 86.78,
+    "e": 86.88,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 86.94,
+    "e": 87.28,
+    "type": "word"
+   },
+   {
+    "w": "x.",
+    "s": 87.76,
+    "e": 87.84,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 88.7,
+    "e": 88.8,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 88.86,
+    "e": 88.96,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 89.02,
+    "e": 89.32,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 89.44,
+    "e": 89.88,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 90.02,
+    "e": 90.68,
+    "type": "word"
+   },
+   {
+    "w": "One-fourth,",
+    "s": 91.48,
+    "e": 92.22,
+    "type": "word"
+   },
+   {
+    "w": "one-fourth.",
+    "s": 92.86,
+    "e": 93.68,
+    "type": "word"
+   },
+   {
+    "w": "Fractions",
+    "s": 98.64,
+    "e": 99.3,
+    "type": "word"
+   },
+   {
+    "w": "play",
+    "s": 99.36,
+    "e": 99.68,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 99.76,
+    "e": 99.84,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 99.9,
+    "e": 100.5,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 100.58,
+    "e": 101.0,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 101.12,
+    "e": 101.2,
+    "type": "word"
+   },
+   {
+    "w": "our",
+    "s": 101.24,
+    "e": 101.34,
+    "type": "word"
+   },
+   {
+    "w": "daily",
+    "s": 101.4,
+    "e": 101.78,
+    "type": "word"
+   },
+   {
+    "w": "lives.",
+    "s": 101.96,
+    "e": 102.68,
+    "type": "word"
+   },
+   {
+    "w": "Share",
+    "s": 103.42,
+    "e": 103.62,
+    "type": "word"
+   },
+   {
+    "w": "that",
+    "s": 103.66,
+    "e": 103.8,
+    "type": "word"
+   },
+   {
+    "w": "yummy",
+    "s": 103.84,
+    "e": 104.12,
+    "type": "word"
+   },
+   {
+    "w": "pizza,",
+    "s": 104.2,
+    "e": 104.76,
+    "type": "word"
+   },
+   {
+    "w": "friends",
+    "s": 105.36,
+    "e": 106.0,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 106.04,
+    "e": 106.16,
+    "type": "word"
+   },
+   {
+    "w": "families.",
+    "s": 106.24,
+    "e": 106.98,
+    "type": "word"
+   },
+   {
+    "w": "Three",
+    "s": 107.24,
+    "e": 107.46,
+    "type": "word"
+   },
+   {
+    "w": "people,",
+    "s": 107.64,
+    "e": 108.1,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 108.64,
+    "e": 108.88,
+    "type": "word"
+   },
+   {
+    "w": "slices.",
+    "s": 108.96,
+    "e": 109.64,
+    "type": "word"
+   },
+   {
+    "w": "Slice",
+    "s": 109.98,
+    "e": 110.22,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 110.28,
+    "e": 110.36,
+    "type": "word"
+   },
+   {
+    "w": "apple",
+    "s": 110.46,
+    "e": 110.74,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 110.8,
+    "e": 111.02,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 111.1,
+    "e": 111.38,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 111.46,
+    "e": 111.72,
+    "type": "word"
+   },
+   {
+    "w": "parts,",
+    "s": 111.78,
+    "e": 112.22,
+    "type": "word"
+   },
+   {
+    "w": "each",
+    "s": 112.58,
+    "e": 112.76,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 112.82,
+    "e": 113.1,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 113.18,
+    "e": 113.36,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 113.54,
+    "e": 113.76,
+    "type": "word"
+   },
+   {
+    "w": "two,",
+    "s": 113.86,
+    "e": 114.1,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 114.54,
+    "e": 114.74,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 114.9,
+    "e": 115.12,
+    "type": "word"
+   },
+   {
+    "w": "two.",
+    "s": 115.22,
+    "e": 115.74,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 121.76,
+    "e": 122.22,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 122.3,
+    "e": 122.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 122.64,
+    "e": 122.72,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 122.78,
+    "e": 123.52,
+    "type": "word"
+   },
+   {
+    "w": "numerator",
+    "s": 124.52,
+    "e": 125.16,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 125.22,
+    "e": 125.32,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 125.38,
+    "e": 126.28,
+    "type": "word"
+   },
+   {
+    "w": "Numerator,",
+    "s": 127.28,
+    "e": 128.0,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 128.82,
+    "e": 128.94,
+    "type": "word"
+   },
+   {
+    "w": "upper",
+    "s": 129.039,
+    "e": 129.259,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 129.34,
+    "e": 129.66,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 130.88,
+    "e": 130.979,
+    "type": "word"
+   },
+   {
+    "w": "sections",
+    "s": 131.06,
+    "e": 131.4,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 131.48,
+    "e": 131.54,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 131.6,
+    "e": 131.68,
+    "type": "word"
+   },
+   {
+    "w": "fraction.",
+    "s": 131.76,
+    "e": 132.38,
+    "type": "word"
+   },
+   {
+    "w": "Denominator,",
+    "s": 132.62,
+    "e": 133.5,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 134.34,
+    "e": 134.44,
+    "type": "word"
+   },
+   {
+    "w": "bottom",
+    "s": 134.5,
+    "e": 134.78,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 134.86,
+    "e": 135.1,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 135.38,
+    "e": 135.46,
+    "type": "word"
+   },
+   {
+    "w": "total",
+    "s": 135.54,
+    "e": 135.82,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 135.88,
+    "e": 136.08,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 136.12,
+    "e": 136.18,
+    "type": "word"
+   },
+   {
+    "w": "which",
+    "s": 136.22,
+    "e": 136.38,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 136.42,
+    "e": 136.5,
+    "type": "word"
+   },
+   {
+    "w": "fraction",
+    "s": 136.56,
+    "e": 136.92,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 136.98,
+    "e": 137.06,
+    "type": "word"
+   },
+   {
+    "w": "divided.",
+    "s": 137.1,
+    "e": 137.84,
+    "type": "word"
+   },
+   {
+    "w": "Three",
+    "s": 138.26,
+    "e": 138.62,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 138.74,
+    "e": 139.08,
+    "type": "word"
+   },
+   {
+    "w": "four.",
+    "s": 139.18,
+    "e": 139.5,
+    "type": "word"
+   },
+   {
+    "w": "Three,",
+    "s": 140.0,
+    "e": 140.26,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 140.74,
+    "e": 141.72,
+    "type": "word"
+   },
+   {
+    "w": "Four,",
+    "s": 142.1,
+    "e": 142.36,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 142.62,
+    "e": 143.5,
+    "type": "word"
+   },
+   {
+    "w": "Fractions,",
+    "s": 146.24,
+    "e": 147.02,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 147.6,
+    "e": 148.4,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 149.0,
+    "e": 149.34,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 149.44,
+    "e": 149.52,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 149.6,
+    "e": 149.64,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 149.7,
+    "e": 150.1,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 151.74,
+    "e": 152.04,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 152.1,
+    "e": 152.4,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 152.98,
+    "e": 153.72,
+    "type": "word"
+   },
+   {
+    "w": "Bottom",
+    "s": 154.18,
+    "e": 154.46,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 154.52,
+    "e": 154.88,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 155.56,
+    "e": 156.44,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 157.14,
+    "e": 157.22,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 157.28,
+    "e": 157.84,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 158.5,
+    "e": 158.56,
+    "type": "word"
+   },
+   {
+    "w": "section",
+    "s": 158.66,
+    "e": 159.16,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 159.26,
+    "e": 159.36,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 159.46,
+    "e": 159.74,
+    "type": "word"
+   },
+   {
+    "w": "quantity.",
+    "s": 159.84,
+    "e": 161.0,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_2": {
+  "text": "[singing] Parts of a whole. Parts of a whole. The whole, an object or a group of objects. Cut a piece of cake. The portion, the fraction of the cake. Fraction, a word originated from Latin. Fractus means broken, broken. In ancient times represented using words, later introduced in numerical form. Denoted by the symbol A over B. Two over four, the upper part, numerator. The lower part, denominator. Top number, selected or shaded parts of a whole. Bottom number, the total number of parts. Fractions, fractions, parts of a whole. Top number, numerator. The lower part, denominator. A portion, a section of any quantity. A number divided into four parts. X over four, one-fourth of the number X. One in four equal parts. One-fourth, one-fourth. Fractions play an important part in our daily lives. Share that yummy pizza, friends and families. Three people, four slices. Slice an apple into two equal parts. Each part one over two, one over two. Two parts of fractions, numerator and denominator. Numerator, the upper part, the sections of the fraction. Denominator, the bottom part, the total parts in which the fraction is divided. Three over four. Three, numerator. Four, denominator. Fractions, fractions, parts of a whole. Top number, numerator. Bottom number, denominator. A portion, a section of any quantity. [singing]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[singing]",
+    "s": 1.68,
+    "e": 5.48,
+    "type": "audio_event"
+   },
+   {
+    "w": "Parts",
+    "s": 5.54,
+    "e": 5.86,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 5.92,
+    "e": 6.04,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 6.14,
+    "e": 6.24,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 6.28,
+    "e": 6.64,
+    "type": "word"
+   },
+   {
+    "w": "Parts",
+    "s": 11.1,
+    "e": 16.92,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 16.96,
+    "e": 17.08,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 21.76,
+    "e": 21.78,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 21.8,
+    "e": 21.88,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 21.96,
+    "e": 22.06,
+    "type": "word"
+   },
+   {
+    "w": "whole,",
+    "s": 22.14,
+    "e": 22.42,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 22.66,
+    "e": 22.78,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 22.88,
+    "e": 23.12,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 23.2,
+    "e": 23.32,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 23.38,
+    "e": 23.4,
+    "type": "word"
+   },
+   {
+    "w": "group",
+    "s": 23.48,
+    "e": 23.66,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 23.7,
+    "e": 23.82,
+    "type": "word"
+   },
+   {
+    "w": "objects.",
+    "s": 23.9,
+    "e": 24.16,
+    "type": "word"
+   },
+   {
+    "w": "Cut",
+    "s": 24.22,
+    "e": 24.36,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 24.4,
+    "e": 24.46,
+    "type": "word"
+   },
+   {
+    "w": "piece",
+    "s": 24.52,
+    "e": 24.68,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 24.72,
+    "e": 24.82,
+    "type": "word"
+   },
+   {
+    "w": "cake.",
+    "s": 24.9,
+    "e": 25.22,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 25.38,
+    "e": 25.48,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 25.54,
+    "e": 25.86,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 25.92,
+    "e": 26.0,
+    "type": "word"
+   },
+   {
+    "w": "fraction",
+    "s": 26.06,
+    "e": 26.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 26.66,
+    "e": 26.76,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 26.78,
+    "e": 26.88,
+    "type": "word"
+   },
+   {
+    "w": "cake.",
+    "s": 26.96,
+    "e": 27.26,
+    "type": "word"
+   },
+   {
+    "w": "Fraction,",
+    "s": 27.62,
+    "e": 28.12,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 28.22,
+    "e": 28.26,
+    "type": "word"
+   },
+   {
+    "w": "word",
+    "s": 28.34,
+    "e": 28.64,
+    "type": "word"
+   },
+   {
+    "w": "originated",
+    "s": 28.74,
+    "e": 29.46,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 29.52,
+    "e": 29.64,
+    "type": "word"
+   },
+   {
+    "w": "Latin.",
+    "s": 29.7,
+    "e": 30.08,
+    "type": "word"
+   },
+   {
+    "w": "Fractus",
+    "s": 30.36,
+    "e": 30.98,
+    "type": "word"
+   },
+   {
+    "w": "means",
+    "s": 31.08,
+    "e": 31.4,
+    "type": "word"
+   },
+   {
+    "w": "broken,",
+    "s": 31.78,
+    "e": 32.28,
+    "type": "word"
+   },
+   {
+    "w": "broken.",
+    "s": 32.46,
+    "e": 32.96,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 33.04,
+    "e": 33.12,
+    "type": "word"
+   },
+   {
+    "w": "ancient",
+    "s": 33.26,
+    "e": 33.76,
+    "type": "word"
+   },
+   {
+    "w": "times",
+    "s": 33.84,
+    "e": 34.14,
+    "type": "word"
+   },
+   {
+    "w": "represented",
+    "s": 34.2,
+    "e": 34.86,
+    "type": "word"
+   },
+   {
+    "w": "using",
+    "s": 34.92,
+    "e": 35.18,
+    "type": "word"
+   },
+   {
+    "w": "words,",
+    "s": 35.22,
+    "e": 35.54,
+    "type": "word"
+   },
+   {
+    "w": "later",
+    "s": 35.76,
+    "e": 36.22,
+    "type": "word"
+   },
+   {
+    "w": "introduced",
+    "s": 36.28,
+    "e": 36.78,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 36.84,
+    "e": 36.92,
+    "type": "word"
+   },
+   {
+    "w": "numerical",
+    "s": 36.96,
+    "e": 37.84,
+    "type": "word"
+   },
+   {
+    "w": "form.",
+    "s": 38.0,
+    "e": 39.64,
+    "type": "word"
+   },
+   {
+    "w": "Denoted",
+    "s": 45.4,
+    "e": 45.86,
+    "type": "word"
+   },
+   {
+    "w": "by",
+    "s": 45.92,
+    "e": 46.04,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 46.1,
+    "e": 46.18,
+    "type": "word"
+   },
+   {
+    "w": "symbol",
+    "s": 46.26,
+    "e": 46.68,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 47.04,
+    "e": 47.24,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 47.36,
+    "e": 47.56,
+    "type": "word"
+   },
+   {
+    "w": "B.",
+    "s": 47.66,
+    "e": 48.08,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 49.04,
+    "e": 49.3,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 49.42,
+    "e": 49.58,
+    "type": "word"
+   },
+   {
+    "w": "four,",
+    "s": 49.74,
+    "e": 49.98,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 50.22,
+    "e": 50.36,
+    "type": "word"
+   },
+   {
+    "w": "upper",
+    "s": 50.44,
+    "e": 50.68,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 50.76,
+    "e": 51.04,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 51.4,
+    "e": 52.24,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 52.28,
+    "e": 52.38,
+    "type": "word"
+   },
+   {
+    "w": "lower",
+    "s": 52.46,
+    "e": 52.78,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 52.94,
+    "e": 53.3,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 53.68,
+    "e": 55.0,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 56.24,
+    "e": 56.5,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 56.62,
+    "e": 57.24,
+    "type": "word"
+   },
+   {
+    "w": "selected",
+    "s": 57.8,
+    "e": 58.46,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 58.5,
+    "e": 58.58,
+    "type": "word"
+   },
+   {
+    "w": "shaded",
+    "s": 58.64,
+    "e": 59.1,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 59.16,
+    "e": 59.52,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 59.62,
+    "e": 59.72,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 59.84,
+    "e": 59.92,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 60.02,
+    "e": 61.02,
+    "type": "word"
+   },
+   {
+    "w": "Bottom",
+    "s": 62.82,
+    "e": 63.26,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 63.34,
+    "e": 64.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 64.7,
+    "e": 64.8,
+    "type": "word"
+   },
+   {
+    "w": "total",
+    "s": 64.879,
+    "e": 65.2,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 65.26,
+    "e": 65.54,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 65.62,
+    "e": 65.8,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 65.9,
+    "e": 66.46,
+    "type": "word"
+   },
+   {
+    "w": "Fractions,",
+    "s": 67.8,
+    "e": 68.6,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 68.82,
+    "e": 69.56,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 69.68,
+    "e": 70.02,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 70.16,
+    "e": 70.24,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 70.32,
+    "e": 70.36,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 70.42,
+    "e": 71.2,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 72.1,
+    "e": 72.38,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 72.46,
+    "e": 73.0,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 73.5,
+    "e": 74.28,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 74.36,
+    "e": 74.44,
+    "type": "word"
+   },
+   {
+    "w": "lower",
+    "s": 74.54,
+    "e": 74.86,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 75.02,
+    "e": 75.32,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 75.74,
+    "e": 77.14,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 78.36,
+    "e": 78.42,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 78.5,
+    "e": 79.04,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 79.2,
+    "e": 79.26,
+    "type": "word"
+   },
+   {
+    "w": "section",
+    "s": 79.34,
+    "e": 79.86,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.94,
+    "e": 80.06,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 80.2,
+    "e": 80.58,
+    "type": "word"
+   },
+   {
+    "w": "quantity.",
+    "s": 80.7,
+    "e": 81.6,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 82.14,
+    "e": 82.2,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 82.28,
+    "e": 82.56,
+    "type": "word"
+   },
+   {
+    "w": "divided",
+    "s": 82.62,
+    "e": 83.14,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 83.18,
+    "e": 83.42,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 83.5,
+    "e": 83.7,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 83.82,
+    "e": 84.26,
+    "type": "word"
+   },
+   {
+    "w": "X",
+    "s": 84.82,
+    "e": 84.86,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 84.96,
+    "e": 85.14,
+    "type": "word"
+   },
+   {
+    "w": "four,",
+    "s": 85.24,
+    "e": 85.44,
+    "type": "word"
+   },
+   {
+    "w": "one-fourth",
+    "s": 85.96,
+    "e": 86.56,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 86.64,
+    "e": 86.72,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 86.78,
+    "e": 86.88,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 86.94,
+    "e": 87.28,
+    "type": "word"
+   },
+   {
+    "w": "X.",
+    "s": 87.76,
+    "e": 87.84,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 88.7,
+    "e": 88.8,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 88.86,
+    "e": 88.96,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 89.02,
+    "e": 89.32,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 89.46,
+    "e": 89.88,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 90.02,
+    "e": 90.68,
+    "type": "word"
+   },
+   {
+    "w": "One-fourth,",
+    "s": 91.48,
+    "e": 92.22,
+    "type": "word"
+   },
+   {
+    "w": "one-fourth.",
+    "s": 92.86,
+    "e": 93.7,
+    "type": "word"
+   },
+   {
+    "w": "Fractions",
+    "s": 98.64,
+    "e": 99.3,
+    "type": "word"
+   },
+   {
+    "w": "play",
+    "s": 99.36,
+    "e": 99.68,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 99.76,
+    "e": 99.84,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 99.9,
+    "e": 100.5,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 100.58,
+    "e": 101.0,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 101.12,
+    "e": 101.2,
+    "type": "word"
+   },
+   {
+    "w": "our",
+    "s": 101.24,
+    "e": 101.34,
+    "type": "word"
+   },
+   {
+    "w": "daily",
+    "s": 101.4,
+    "e": 101.78,
+    "type": "word"
+   },
+   {
+    "w": "lives.",
+    "s": 101.94,
+    "e": 102.68,
+    "type": "word"
+   },
+   {
+    "w": "Share",
+    "s": 103.42,
+    "e": 103.62,
+    "type": "word"
+   },
+   {
+    "w": "that",
+    "s": 103.66,
+    "e": 103.8,
+    "type": "word"
+   },
+   {
+    "w": "yummy",
+    "s": 103.84,
+    "e": 104.12,
+    "type": "word"
+   },
+   {
+    "w": "pizza,",
+    "s": 104.2,
+    "e": 104.76,
+    "type": "word"
+   },
+   {
+    "w": "friends",
+    "s": 105.36,
+    "e": 106.0,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 106.04,
+    "e": 106.16,
+    "type": "word"
+   },
+   {
+    "w": "families.",
+    "s": 106.24,
+    "e": 106.98,
+    "type": "word"
+   },
+   {
+    "w": "Three",
+    "s": 107.22,
+    "e": 107.46,
+    "type": "word"
+   },
+   {
+    "w": "people,",
+    "s": 107.64,
+    "e": 108.1,
+    "type": "word"
+   },
+   {
+    "w": "four",
+    "s": 108.64,
+    "e": 108.88,
+    "type": "word"
+   },
+   {
+    "w": "slices.",
+    "s": 108.96,
+    "e": 109.64,
+    "type": "word"
+   },
+   {
+    "w": "Slice",
+    "s": 109.98,
+    "e": 110.22,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 110.28,
+    "e": 110.36,
+    "type": "word"
+   },
+   {
+    "w": "apple",
+    "s": 110.46,
+    "e": 110.74,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 110.8,
+    "e": 111.02,
+    "type": "word"
+   },
+   {
+    "w": "two",
+    "s": 111.1,
+    "e": 111.38,
+    "type": "word"
+   },
+   {
+    "w": "equal",
+    "s": 111.46,
+    "e": 111.72,
+    "type": "word"
+   },
+   {
+    "w": "parts.",
+    "s": 111.78,
+    "e": 112.24,
+    "type": "word"
+   },
+   {
+    "w": "Each",
+    "s": 112.58,
+    "e": 112.76,
+    "type": "word"
+   },
+   {
+    "w": "part",
+    "s": 112.82,
+    "e": 113.1,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 113.18,
+    "e": 113.36,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 113.54,
+    "e": 113.76,
+    "type": "word"
+   },
+   {
+    "w": "two,",
+    "s": 113.86,
+    "e": 114.1,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 114.58,
+    "e": 114.74,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 114.92,
+    "e": 115.12,
+    "type": "word"
+   },
+   {
+    "w": "two.",
+    "s": 115.22,
+    "e": 115.74,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 121.76,
+    "e": 122.22,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 122.28,
+    "e": 122.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 122.64,
+    "e": 122.72,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 122.78,
+    "e": 123.52,
+    "type": "word"
+   },
+   {
+    "w": "numerator",
+    "s": 124.52,
+    "e": 125.16,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 125.22,
+    "e": 125.32,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 125.38,
+    "e": 126.28,
+    "type": "word"
+   },
+   {
+    "w": "Numerator,",
+    "s": 127.28,
+    "e": 128.0,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 128.82,
+    "e": 128.96,
+    "type": "word"
+   },
+   {
+    "w": "upper",
+    "s": 129.039,
+    "e": 129.259,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 129.34,
+    "e": 129.56,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 130.88,
+    "e": 130.979,
+    "type": "word"
+   },
+   {
+    "w": "sections",
+    "s": 131.06,
+    "e": 131.4,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 131.48,
+    "e": 131.54,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 131.6,
+    "e": 131.68,
+    "type": "word"
+   },
+   {
+    "w": "fraction.",
+    "s": 131.76,
+    "e": 132.38,
+    "type": "word"
+   },
+   {
+    "w": "Denominator,",
+    "s": 132.62,
+    "e": 133.5,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 134.34,
+    "e": 134.44,
+    "type": "word"
+   },
+   {
+    "w": "bottom",
+    "s": 134.5,
+    "e": 134.78,
+    "type": "word"
+   },
+   {
+    "w": "part,",
+    "s": 134.86,
+    "e": 135.1,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 135.38,
+    "e": 135.46,
+    "type": "word"
+   },
+   {
+    "w": "total",
+    "s": 135.54,
+    "e": 135.82,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 135.88,
+    "e": 136.08,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 136.12,
+    "e": 136.18,
+    "type": "word"
+   },
+   {
+    "w": "which",
+    "s": 136.22,
+    "e": 136.38,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 136.42,
+    "e": 136.5,
+    "type": "word"
+   },
+   {
+    "w": "fraction",
+    "s": 136.56,
+    "e": 136.92,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 136.98,
+    "e": 137.06,
+    "type": "word"
+   },
+   {
+    "w": "divided.",
+    "s": 137.1,
+    "e": 137.84,
+    "type": "word"
+   },
+   {
+    "w": "Three",
+    "s": 138.26,
+    "e": 138.62,
+    "type": "word"
+   },
+   {
+    "w": "over",
+    "s": 138.74,
+    "e": 139.08,
+    "type": "word"
+   },
+   {
+    "w": "four.",
+    "s": 139.18,
+    "e": 139.5,
+    "type": "word"
+   },
+   {
+    "w": "Three,",
+    "s": 140.0,
+    "e": 140.26,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 140.72,
+    "e": 141.72,
+    "type": "word"
+   },
+   {
+    "w": "Four,",
+    "s": 142.1,
+    "e": 142.36,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 142.62,
+    "e": 143.5,
+    "type": "word"
+   },
+   {
+    "w": "Fractions,",
+    "s": 146.24,
+    "e": 147.02,
+    "type": "word"
+   },
+   {
+    "w": "fractions,",
+    "s": 147.6,
+    "e": 148.42,
+    "type": "word"
+   },
+   {
+    "w": "parts",
+    "s": 149.0,
+    "e": 149.34,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 149.44,
+    "e": 149.52,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 149.6,
+    "e": 149.64,
+    "type": "word"
+   },
+   {
+    "w": "whole.",
+    "s": 149.7,
+    "e": 150.1,
+    "type": "word"
+   },
+   {
+    "w": "Top",
+    "s": 151.74,
+    "e": 152.04,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 152.1,
+    "e": 152.4,
+    "type": "word"
+   },
+   {
+    "w": "numerator.",
+    "s": 152.98,
+    "e": 153.72,
+    "type": "word"
+   },
+   {
+    "w": "Bottom",
+    "s": 154.18,
+    "e": 154.46,
+    "type": "word"
+   },
+   {
+    "w": "number,",
+    "s": 154.52,
+    "e": 154.88,
+    "type": "word"
+   },
+   {
+    "w": "denominator.",
+    "s": 155.56,
+    "e": 156.44,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 157.14,
+    "e": 157.22,
+    "type": "word"
+   },
+   {
+    "w": "portion,",
+    "s": 157.28,
+    "e": 157.84,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 158.5,
+    "e": 158.56,
+    "type": "word"
+   },
+   {
+    "w": "section",
+    "s": 158.66,
+    "e": 159.16,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 159.26,
+    "e": 159.36,
+    "type": "word"
+   },
+   {
+    "w": "any",
+    "s": 159.44,
+    "e": 159.74,
+    "type": "word"
+   },
+   {
+    "w": "quantity.",
+    "s": 159.84,
+    "e": 161.0,
+    "type": "word"
+   },
+   {
+    "w": "[singing]",
+    "s": 161.16,
+    "e": 182.0,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "sarvam_vocals": {
+  "error": "TooManyRequestsError()"
+ },
+ "sarvam_verbatim_vocals": {
+  "text": " An object. The whole, an object or a group of objects. Cut a piece of cake. The portion, the fraction of a cake. Fraction, a word originated from Latin. Fractus means broken. Broken in ancient times represented using words, later introduced in numerical form. denoted by the symbol A over B, two over four, the upper part numerator, the lower part denominator. Top number, selected or shaded parts of a whole. Bottom number, the total number of parts. Fractions, fractions, parts of a whole. Top number, numerator, the lower part. Denominator. A portion, a section of any quantity. A number divided into four parts. X over four. One fourth of the number X. One in four equal parts. One fourth, one fourth. Fractions play an important part in our daily lives. Share that yummy pizza, friends and families, three people. Four slices. Slice an apple into two equal parts. Each part one over two, one over two. 2 parts of fractions, numerator and denominator. Numerator, the upper part, the sections of the fraction. Denominator, the bottom part, the total parts in which the fraction is divided. 3 over 4. 3, numerator, 4, denominator. Fractions, fractions, parts of a whole. Top number, numerator, bottom number, denominator. A portion, a section of any quantity. ",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 16.45,
+    "text": "",
+    "lang": "en-IN"
+   },
+   {
+    "start": 16.45,
+    "end": 41.2,
+    "text": "An object. The whole, an object or a group of objects. Cut a piece of cake. The portion, the fraction of a cake. Fraction, a word originated from Latin. Fractus means broken. Broken in ancient times represented using words, later introduced in numerical form.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 41.2,
+    "end": 55.95,
+    "text": "denoted by the symbol A over B, two over four, the upper part numerator, the lower part denominator.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 55.95,
+    "end": 78.1,
+    "text": "Top number, selected or shaded parts of a whole. Bottom number, the total number of parts. Fractions, fractions, parts of a whole. Top number, numerator, the lower part. Denominator.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 78.1,
+    "end": 91.15,
+    "text": "A portion, a section of any quantity. A number divided into four parts. X over four. One fourth of the number X. One in four equal parts.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 91.15,
+    "end": 108.3,
+    "text": "One fourth, one fourth. Fractions play an important part in our daily lives. Share that yummy pizza, friends and families, three people.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 108.3,
+    "end": 120.55,
+    "text": "Four slices. Slice an apple into two equal parts. Each part one over two, one over two.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 120.55,
+    "end": 145.1,
+    "text": "2 parts of fractions, numerator and denominator. Numerator, the upper part, the sections of the fraction. Denominator, the bottom part, the total parts in which the fraction is divided. 3 over 4. 3, numerator, 4, denominator.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 145.1,
+    "end": 169.85,
+    "text": "Fractions, fractions, parts of a whole. Top number, numerator, bottom number, denominator. A portion, a section of any quantity.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 169.85,
+    "end": 182.04,
+    "text": "",
+    "lang": null
+   }
+  ]
+ }
+}
