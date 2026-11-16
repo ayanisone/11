@@ -26,7 +26,9 @@ import sys
 
 SEC_PER_CHAR = 40 / 500          # 0.08 s per character
 MIN_SEC, MAX_SEC = 40, 240       # client table covers 40 s .. 4:00
-SYL_PER_SEC = {"melodic": 3.0, "rap": 3.8}
+SYL_PER_SEC = {"universal": 2.5, "melodic": 3.0, "rap": 3.8}
+# "universal" = one lyric sheet that fits all 10 working genres with no rushing (measured 2026-11-16:
+# thermodynamics v3 at ~2.6 syl/s passed in 9/10 genres; v2 at ~3.4 syl/s failed in 7/11). USE THIS ONE.
 END_TAIL_SEC = 2                 # last word should land ~2 s before the end
 
 
@@ -39,12 +41,12 @@ def structure_for(sec: int):
     if sec <= 45:
         return (["Hook", "Verse 1", "Verse 2", "Chorus", "Hook"], 0)
     if sec <= 80:
-        return (["Hook", "Verse 1", "Chorus", "Verse 2", "Chorus",
-                 "Instrumental break (~4 s)", "Hook"], 4)
+        return (["Chorus (opens the song = the hook)", "Verse 1",
+                 "Instrumental break (~4 s)", "Verse 2", "Final chorus"], 4)
     if sec <= 120:
-        return (["Hook", "Verse 1", "Pre-chorus", "Chorus",
-                 "Instrumental break (~6 s)", "Verse 2", "Chorus",
-                 "Bridge (change of feel)", "Final chorus"], 6)
+        return (["Chorus (opens the song = the hook)", "Verse 1",
+                 "Instrumental break (~4 s)", "Verse 2",
+                 "Bridge (change of feel)", "Final chorus"], 4)
     if sec <= 180:
         return (["Hook", "Verse 1", "Pre-chorus", "Chorus",
                  "Instrumental break (~6 s)", "Verse 2", "Chorus",

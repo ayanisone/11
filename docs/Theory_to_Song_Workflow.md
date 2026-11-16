@@ -67,3 +67,25 @@ No song is generated until the lyric sheet passes this gate and the user or clie
 ## 6. QA
 
 Use the speech-to-text check on every take, as in `Vocals_Lyrics_STT_QA_Guide.md`. For songs over 80 s, also check that each section starts within ±5 s of the planned time, so no section is silently dropped.
+
+## 7. Standing rules for every new theory (user, 2026-11-16)
+
+**Genres (10):** Reggaeton, Afrobeats, Bhangra, Funk, Jazz swing, A cappella + beatbox, Indie acoustic, Pop-punk, K-pop, Liquid DnB. (Disco removed.)
+
+**Takes:** 2 per genre = **1 male voice + 1 female voice** (two nodes per genre, 1 generation each), so the user can pick the voice they like. 20 takes per theory, ~2,100 credits each at 90 s.
+
+**One universal lyric sheet** that fits all 10 genres with no rushing:
+- Budget at the **universal rate, 2.5 syllables/s** of vocal time (`theory_budget.py` "universal" line). Never above it.
+- Open on the chorus (it is the hook). No separate hook section that an intro could eat.
+- Every unique fact finishes **before** the final chorus, so a squeezed ending only loses a repeat.
+- Any qualifier that's only in one place (e.g. "under certain conditions") must sit in a verse, not only in the opening.
+- **Double every one-word answer** ("Heat, heat!"). Single-word answers get dropped in fast genres.
+- End and internal rhymes, only theory words, Fact QC gate and user approval as in section 5.
+
+**Prompts:** "No instrumental intro at all: the first lyric word is sung within the first second, opening on the chorus." A 4 s break after Verse 1. "The song is finished by N−2 seconds."
+
+**No failed audio delivered.** After QC (section 6), any genre/voice whose take fails is fixed from our side:
+1. Regenerate that one take (same lyrics, prompt tightened for the failure seen), up to **2 retries** per genre/voice.
+2. If it still fails, report what keeps failing. A lyric change for one genre goes back for approval.
+3. Deliver **only PASS takes** (plus any REVIEW that needs a human ear, clearly marked with its clip).
+4. Always check "cooking" and similar words for profanity-like sounds in the vocal-stem slice runs.
