@@ -1,0 +1,2217 @@
+{
+ "scribe_mix": {
+  "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music] Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, reaction's chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. [upbeat music] Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music fades out]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Thermodynamics,",
+    "s": 0.2,
+    "e": 3.66,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 4.12,
+    "e": 4.86,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 4.94,
+    "e": 5.04,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 5.14,
+    "e": 5.52,
+    "type": "word"
+   },
+   {
+    "w": "transformations.",
+    "s": 6.12,
+    "e": 8.039,
+    "type": "word"
+   },
+   {
+    "w": "Not",
+    "s": 8.1,
+    "e": 8.92,
+    "type": "word"
+   },
+   {
+    "w": "how,",
+    "s": 9.08,
+    "e": 9.48,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 9.86,
+    "e": 10.18,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 10.36,
+    "e": 10.52,
+    "type": "word"
+   },
+   {
+    "w": "what",
+    "s": 10.62,
+    "e": 10.92,
+    "type": "word"
+   },
+   {
+    "w": "rate.",
+    "s": 11.04,
+    "e": 11.54,
+    "type": "word"
+   },
+   {
+    "w": "Based",
+    "s": 12.02,
+    "e": 12.54,
+    "type": "word"
+   },
+   {
+    "w": "on",
+    "s": 12.64,
+    "e": 12.8,
+    "type": "word"
+   },
+   {
+    "w": "initial",
+    "s": 12.88,
+    "e": 13.82,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 13.94,
+    "e": 14.38,
+    "type": "word"
+   },
+   {
+    "w": "final",
+    "s": 14.48,
+    "e": 14.84,
+    "type": "word"
+   },
+   {
+    "w": "state.",
+    "s": 14.96,
+    "e": 15.46,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat music]",
+    "s": 15.48,
+    "e": 23.7,
+    "type": "audio_event"
+   },
+   {
+    "w": "Chemical",
+    "s": 23.82,
+    "e": 24.2,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 24.36,
+    "e": 24.68,
+    "type": "word"
+   },
+   {
+    "w": "stored",
+    "s": 24.76,
+    "e": 25.04,
+    "type": "word"
+   },
+   {
+    "w": "by",
+    "s": 25.08,
+    "e": 25.22,
+    "type": "word"
+   },
+   {
+    "w": "molecules,",
+    "s": 25.3,
+    "e": 25.74,
+    "type": "word"
+   },
+   {
+    "w": "methane,",
+    "s": 25.82,
+    "e": 26.22,
+    "type": "word"
+   },
+   {
+    "w": "cooking",
+    "s": 26.28,
+    "e": 26.5,
+    "type": "word"
+   },
+   {
+    "w": "gas,",
+    "s": 26.56,
+    "e": 26.76,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 26.82,
+    "e": 26.92,
+    "type": "word"
+   },
+   {
+    "w": "coal",
+    "s": 27.0,
+    "e": 27.16,
+    "type": "word"
+   },
+   {
+    "w": "fuel.",
+    "s": 27.26,
+    "e": 27.58,
+    "type": "word"
+   },
+   {
+    "w": "Fuel",
+    "s": 27.76,
+    "e": 27.94,
+    "type": "word"
+   },
+   {
+    "w": "burns",
+    "s": 28.0,
+    "e": 28.18,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 28.2,
+    "e": 28.28,
+    "type": "word"
+   },
+   {
+    "w": "air,",
+    "s": 28.34,
+    "e": 28.46,
+    "type": "word"
+   },
+   {
+    "w": "reaction's",
+    "s": 28.66,
+    "e": 29.18,
+    "type": "word"
+   },
+   {
+    "w": "chemical.",
+    "s": 29.24,
+    "e": 29.68,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 30.04,
+    "e": 30.1,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 30.14,
+    "e": 30.22,
+    "type": "word"
+   },
+   {
+    "w": "engine,",
+    "s": 30.3,
+    "e": 30.64,
+    "type": "word"
+   },
+   {
+    "w": "work,",
+    "s": 30.76,
+    "e": 31.0,
+    "type": "word"
+   },
+   {
+    "w": "mechanical.",
+    "s": 31.1,
+    "e": 31.66,
+    "type": "word"
+   },
+   {
+    "w": "Galvanic",
+    "s": 31.96,
+    "e": 32.479,
+    "type": "word"
+   },
+   {
+    "w": "cell",
+    "s": 32.56,
+    "e": 32.88,
+    "type": "word"
+   },
+   {
+    "w": "like",
+    "s": 32.94,
+    "e": 33.12,
+    "type": "word"
+   },
+   {
+    "w": "dry",
+    "s": 33.18,
+    "e": 33.42,
+    "type": "word"
+   },
+   {
+    "w": "cell,",
+    "s": 33.54,
+    "e": 33.8,
+    "type": "word"
+   },
+   {
+    "w": "energy,",
+    "s": 33.96,
+    "e": 34.32,
+    "type": "word"
+   },
+   {
+    "w": "electrical.",
+    "s": 34.44,
+    "e": 35.28,
+    "type": "word"
+   },
+   {
+    "w": "Interrelated",
+    "s": 35.46,
+    "e": 36.08,
+    "type": "word"
+   },
+   {
+    "w": "forms",
+    "s": 36.14,
+    "e": 36.36,
+    "type": "word"
+   },
+   {
+    "w": "under",
+    "s": 36.42,
+    "e": 36.58,
+    "type": "word"
+   },
+   {
+    "w": "certain",
+    "s": 36.62,
+    "e": 36.88,
+    "type": "word"
+   },
+   {
+    "w": "conditions.",
+    "s": 37.0,
+    "e": 37.56,
+    "type": "word"
+   },
+   {
+    "w": "From",
+    "s": 37.74,
+    "e": 37.86,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 37.92,
+    "e": 38.0,
+    "type": "word"
+   },
+   {
+    "w": "form",
+    "s": 38.08,
+    "e": 38.24,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 38.26,
+    "e": 38.44,
+    "type": "word"
+   },
+   {
+    "w": "another,",
+    "s": 38.5,
+    "e": 38.96,
+    "type": "word"
+   },
+   {
+    "w": "transformation.",
+    "s": 39.56,
+    "e": 42.02,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat music]",
+    "s": 42.16,
+    "e": 47.34,
+    "type": "audio_event"
+   },
+   {
+    "w": "Laws",
+    "s": 47.44,
+    "e": 47.9,
+    "type": "word"
+   },
+   {
+    "w": "deal",
+    "s": 47.98,
+    "e": 48.84,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 48.96,
+    "e": 49.38,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 49.52,
+    "e": 50.24,
+    "type": "word"
+   },
+   {
+    "w": "changes.",
+    "s": 50.38,
+    "e": 51.3,
+    "type": "word"
+   },
+   {
+    "w": "Macroscopic,",
+    "s": 51.38,
+    "e": 52.84,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 53.18,
+    "e": 53.22,
+    "type": "word"
+   },
+   {
+    "w": "large",
+    "s": 53.34,
+    "e": 53.58,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 53.62,
+    "e": 54.06,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 54.14,
+    "e": 54.28,
+    "type": "word"
+   },
+   {
+    "w": "molecules,",
+    "s": 54.36,
+    "e": 55.22,
+    "type": "word"
+   },
+   {
+    "w": "rather",
+    "s": 55.34,
+    "e": 55.74,
+    "type": "word"
+   },
+   {
+    "w": "than",
+    "s": 55.82,
+    "e": 56.04,
+    "type": "word"
+   },
+   {
+    "w": "microscopic,",
+    "s": 56.3,
+    "e": 57.24,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 57.58,
+    "e": 57.66,
+    "type": "word"
+   },
+   {
+    "w": "few",
+    "s": 57.76,
+    "e": 58.14,
+    "type": "word"
+   },
+   {
+    "w": "molecules.",
+    "s": 58.26,
+    "e": 59.24,
+    "type": "word"
+   },
+   {
+    "w": "Laws",
+    "s": 61.22,
+    "e": 61.48,
+    "type": "word"
+   },
+   {
+    "w": "apply",
+    "s": 61.54,
+    "e": 62.16,
+    "type": "word"
+   },
+   {
+    "w": "only",
+    "s": 62.28,
+    "e": 62.56,
+    "type": "word"
+   },
+   {
+    "w": "when",
+    "s": 62.72,
+    "e": 62.94,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 63.0,
+    "e": 63.1,
+    "type": "word"
+   },
+   {
+    "w": "system",
+    "s": 63.18,
+    "e": 63.56,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 63.64,
+    "e": 63.8,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 63.84,
+    "e": 63.9,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 63.96,
+    "e": 64.819,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 64.92,
+    "e": 65.019,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 65.18,
+    "e": 65.519,
+    "type": "word"
+   },
+   {
+    "w": "state",
+    "s": 65.6,
+    "e": 65.84,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 65.88,
+    "e": 66.0,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 66.12,
+    "e": 66.4,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 66.72,
+    "e": 67.76,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 67.86,
+    "e": 68.06,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium.",
+    "s": 68.18,
+    "e": 69.28,
+    "type": "word"
+   },
+   {
+    "w": "Pressure,",
+    "s": 69.34,
+    "e": 69.76,
+    "type": "word"
+   },
+   {
+    "w": "temperature,",
+    "s": 70.06,
+    "e": 70.76,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 71.38,
+    "e": 71.56,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 71.64,
+    "e": 72.9,
+    "type": "word"
+   },
+   {
+    "w": "do",
+    "s": 73.02,
+    "e": 73.22,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 73.3,
+    "e": 73.66,
+    "type": "word"
+   },
+   {
+    "w": "change",
+    "s": 73.74,
+    "e": 74.22,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 74.28,
+    "e": 74.66,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 74.76,
+    "e": 75.46,
+    "type": "word"
+   },
+   {
+    "w": "Thermodynamics,",
+    "s": 76.94,
+    "e": 78.76,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 78.88,
+    "e": 79.16,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.28,
+    "e": 79.48,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 79.54,
+    "e": 79.8,
+    "type": "word"
+   },
+   {
+    "w": "transformations.",
+    "s": 79.88,
+    "e": 80.84,
+    "type": "word"
+   },
+   {
+    "w": "Not",
+    "s": 80.92,
+    "e": 81.18,
+    "type": "word"
+   },
+   {
+    "w": "how,",
+    "s": 81.42,
+    "e": 81.74,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 81.88,
+    "e": 82.12,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 82.16,
+    "e": 82.32,
+    "type": "word"
+   },
+   {
+    "w": "what",
+    "s": 82.38,
+    "e": 82.54,
+    "type": "word"
+   },
+   {
+    "w": "rate.",
+    "s": 82.64,
+    "e": 82.84,
+    "type": "word"
+   },
+   {
+    "w": "Based",
+    "s": 83.1,
+    "e": 83.36,
+    "type": "word"
+   },
+   {
+    "w": "on",
+    "s": 83.46,
+    "e": 83.62,
+    "type": "word"
+   },
+   {
+    "w": "initial",
+    "s": 83.68,
+    "e": 84.16,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 84.3,
+    "e": 84.6,
+    "type": "word"
+   },
+   {
+    "w": "final",
+    "s": 84.82,
+    "e": 85.22,
+    "type": "word"
+   },
+   {
+    "w": "state.",
+    "s": 85.28,
+    "e": 85.7,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat music fades out]",
+    "s": 85.72,
+    "e": 89.94,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "scribe_vocals_1": {
+  "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Thermodynamics,",
+    "s": 0.22,
+    "e": 3.64,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 4.14,
+    "e": 4.88,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 4.94,
+    "e": 5.06,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 5.18,
+    "e": 5.58,
+    "type": "word"
+   },
+   {
+    "w": "transformations.",
+    "s": 6.14,
+    "e": 8.0,
+    "type": "word"
+   },
+   {
+    "w": "Not",
+    "s": 8.119,
+    "e": 8.94,
+    "type": "word"
+   },
+   {
+    "w": "how,",
+    "s": 9.12,
+    "e": 9.5,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 9.88,
+    "e": 10.16,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 10.36,
+    "e": 10.56,
+    "type": "word"
+   },
+   {
+    "w": "what",
+    "s": 10.64,
+    "e": 10.94,
+    "type": "word"
+   },
+   {
+    "w": "rate.",
+    "s": 11.1,
+    "e": 11.56,
+    "type": "word"
+   },
+   {
+    "w": "Based",
+    "s": 12.06,
+    "e": 12.56,
+    "type": "word"
+   },
+   {
+    "w": "on",
+    "s": 12.64,
+    "e": 12.84,
+    "type": "word"
+   },
+   {
+    "w": "initial",
+    "s": 12.92,
+    "e": 13.84,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 14.0,
+    "e": 14.34,
+    "type": "word"
+   },
+   {
+    "w": "final",
+    "s": 14.5,
+    "e": 14.86,
+    "type": "word"
+   },
+   {
+    "w": "state.",
+    "s": 14.98,
+    "e": 15.48,
+    "type": "word"
+   },
+   {
+    "w": "Chemical",
+    "s": 23.86,
+    "e": 24.24,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 24.38,
+    "e": 24.7,
+    "type": "word"
+   },
+   {
+    "w": "stored",
+    "s": 24.82,
+    "e": 25.06,
+    "type": "word"
+   },
+   {
+    "w": "by",
+    "s": 25.1,
+    "e": 25.24,
+    "type": "word"
+   },
+   {
+    "w": "molecules,",
+    "s": 25.32,
+    "e": 25.76,
+    "type": "word"
+   },
+   {
+    "w": "methane,",
+    "s": 25.84,
+    "e": 26.24,
+    "type": "word"
+   },
+   {
+    "w": "cooking",
+    "s": 26.3,
+    "e": 26.54,
+    "type": "word"
+   },
+   {
+    "w": "gas,",
+    "s": 26.6,
+    "e": 26.78,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 26.84,
+    "e": 26.94,
+    "type": "word"
+   },
+   {
+    "w": "coal",
+    "s": 27.04,
+    "e": 27.2,
+    "type": "word"
+   },
+   {
+    "w": "fuel.",
+    "s": 27.3,
+    "e": 27.62,
+    "type": "word"
+   },
+   {
+    "w": "Fuel",
+    "s": 27.8,
+    "e": 27.96,
+    "type": "word"
+   },
+   {
+    "w": "burns",
+    "s": 28.04,
+    "e": 28.2,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 28.22,
+    "e": 28.3,
+    "type": "word"
+   },
+   {
+    "w": "air,",
+    "s": 28.36,
+    "e": 28.48,
+    "type": "word"
+   },
+   {
+    "w": "reaction's",
+    "s": 28.68,
+    "e": 29.22,
+    "type": "word"
+   },
+   {
+    "w": "chemical.",
+    "s": 29.28,
+    "e": 29.74,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 30.06,
+    "e": 30.12,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 30.16,
+    "e": 30.24,
+    "type": "word"
+   },
+   {
+    "w": "engine,",
+    "s": 30.32,
+    "e": 30.66,
+    "type": "word"
+   },
+   {
+    "w": "work,",
+    "s": 30.78,
+    "e": 31.0,
+    "type": "word"
+   },
+   {
+    "w": "mechanical.",
+    "s": 31.12,
+    "e": 31.7,
+    "type": "word"
+   },
+   {
+    "w": "Galvanic",
+    "s": 32.0,
+    "e": 32.5,
+    "type": "word"
+   },
+   {
+    "w": "cell,",
+    "s": 32.58,
+    "e": 32.84,
+    "type": "word"
+   },
+   {
+    "w": "like",
+    "s": 32.96,
+    "e": 33.14,
+    "type": "word"
+   },
+   {
+    "w": "dry",
+    "s": 33.2,
+    "e": 33.44,
+    "type": "word"
+   },
+   {
+    "w": "cell,",
+    "s": 33.58,
+    "e": 33.82,
+    "type": "word"
+   },
+   {
+    "w": "energy,",
+    "s": 33.98,
+    "e": 34.36,
+    "type": "word"
+   },
+   {
+    "w": "electrical.",
+    "s": 34.66,
+    "e": 35.32,
+    "type": "word"
+   },
+   {
+    "w": "Interrelated",
+    "s": 35.48,
+    "e": 36.12,
+    "type": "word"
+   },
+   {
+    "w": "forms",
+    "s": 36.16,
+    "e": 36.4,
+    "type": "word"
+   },
+   {
+    "w": "under",
+    "s": 36.44,
+    "e": 36.6,
+    "type": "word"
+   },
+   {
+    "w": "certain",
+    "s": 36.64,
+    "e": 36.96,
+    "type": "word"
+   },
+   {
+    "w": "conditions.",
+    "s": 37.02,
+    "e": 37.6,
+    "type": "word"
+   },
+   {
+    "w": "From",
+    "s": 37.78,
+    "e": 37.88,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 37.94,
+    "e": 38.06,
+    "type": "word"
+   },
+   {
+    "w": "form",
+    "s": 38.12,
+    "e": 38.26,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 38.3,
+    "e": 38.46,
+    "type": "word"
+   },
+   {
+    "w": "another,",
+    "s": 38.52,
+    "e": 38.94,
+    "type": "word"
+   },
+   {
+    "w": "transformation.",
+    "s": 39.58,
+    "e": 42.04,
+    "type": "word"
+   },
+   {
+    "w": "Laws",
+    "s": 47.48,
+    "e": 47.94,
+    "type": "word"
+   },
+   {
+    "w": "deal",
+    "s": 47.98,
+    "e": 48.9,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 48.98,
+    "e": 49.38,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 49.54,
+    "e": 50.28,
+    "type": "word"
+   },
+   {
+    "w": "changes.",
+    "s": 50.4,
+    "e": 51.32,
+    "type": "word"
+   },
+   {
+    "w": "Macroscopic,",
+    "s": 51.42,
+    "e": 52.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 53.2,
+    "e": 53.3,
+    "type": "word"
+   },
+   {
+    "w": "large",
+    "s": 53.36,
+    "e": 53.6,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 53.64,
+    "e": 54.06,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 54.16,
+    "e": 54.3,
+    "type": "word"
+   },
+   {
+    "w": "molecules.",
+    "s": 54.38,
+    "e": 55.26,
+    "type": "word"
+   },
+   {
+    "w": "Rather",
+    "s": 55.36,
+    "e": 55.76,
+    "type": "word"
+   },
+   {
+    "w": "than",
+    "s": 55.84,
+    "e": 56.24,
+    "type": "word"
+   },
+   {
+    "w": "microscopic,",
+    "s": 56.32,
+    "e": 57.28,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 57.62,
+    "e": 57.68,
+    "type": "word"
+   },
+   {
+    "w": "few",
+    "s": 57.8,
+    "e": 58.08,
+    "type": "word"
+   },
+   {
+    "w": "molecules.",
+    "s": 58.3,
+    "e": 59.26,
+    "type": "word"
+   },
+   {
+    "w": "Laws",
+    "s": 61.26,
+    "e": 61.52,
+    "type": "word"
+   },
+   {
+    "w": "apply",
+    "s": 61.58,
+    "e": 62.18,
+    "type": "word"
+   },
+   {
+    "w": "only",
+    "s": 62.3,
+    "e": 62.66,
+    "type": "word"
+   },
+   {
+    "w": "when",
+    "s": 62.74,
+    "e": 62.96,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 63.04,
+    "e": 63.1,
+    "type": "word"
+   },
+   {
+    "w": "system",
+    "s": 63.2,
+    "e": 63.58,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 63.68,
+    "e": 63.82,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 63.86,
+    "e": 63.92,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 63.98,
+    "e": 64.86,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 64.94,
+    "e": 65.099,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 65.2,
+    "e": 65.519,
+    "type": "word"
+   },
+   {
+    "w": "state",
+    "s": 65.62,
+    "e": 65.86,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 65.92,
+    "e": 66.02,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 66.14,
+    "e": 66.42,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 66.74,
+    "e": 67.8,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 67.9,
+    "e": 68.08,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium.",
+    "s": 68.22,
+    "e": 69.32,
+    "type": "word"
+   },
+   {
+    "w": "Pressure,",
+    "s": 69.36,
+    "e": 69.8,
+    "type": "word"
+   },
+   {
+    "w": "temperature,",
+    "s": 70.08,
+    "e": 70.78,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 71.42,
+    "e": 71.58,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 71.68,
+    "e": 72.94,
+    "type": "word"
+   },
+   {
+    "w": "do",
+    "s": 73.06,
+    "e": 73.26,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 73.34,
+    "e": 73.68,
+    "type": "word"
+   },
+   {
+    "w": "change",
+    "s": 73.76,
+    "e": 74.24,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 74.3,
+    "e": 74.66,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 74.78,
+    "e": 76.9,
+    "type": "word"
+   },
+   {
+    "w": "Thermodynamics,",
+    "s": 76.98,
+    "e": 78.78,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 78.9,
+    "e": 79.2,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.32,
+    "e": 79.5,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 79.58,
+    "e": 79.84,
+    "type": "word"
+   },
+   {
+    "w": "transformations.",
+    "s": 79.9,
+    "e": 80.88,
+    "type": "word"
+   },
+   {
+    "w": "Not",
+    "s": 80.94,
+    "e": 81.34,
+    "type": "word"
+   },
+   {
+    "w": "how,",
+    "s": 81.42,
+    "e": 81.82,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 81.9,
+    "e": 82.14,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 82.2,
+    "e": 82.34,
+    "type": "word"
+   },
+   {
+    "w": "what",
+    "s": 82.4,
+    "e": 82.58,
+    "type": "word"
+   },
+   {
+    "w": "rate.",
+    "s": 82.66,
+    "e": 82.88,
+    "type": "word"
+   },
+   {
+    "w": "Based",
+    "s": 83.12,
+    "e": 83.4,
+    "type": "word"
+   },
+   {
+    "w": "on",
+    "s": 83.48,
+    "e": 83.64,
+    "type": "word"
+   },
+   {
+    "w": "initial",
+    "s": 83.72,
+    "e": 84.24,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 84.32,
+    "e": 84.6,
+    "type": "word"
+   },
+   {
+    "w": "final",
+    "s": 84.86,
+    "e": 85.24,
+    "type": "word"
+   },
+   {
+    "w": "state.",
+    "s": 85.32,
+    "e": 85.8,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_2": {
+  "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Thermodynamics,",
+    "s": 0.22,
+    "e": 3.64,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 4.14,
+    "e": 4.88,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 4.94,
+    "e": 5.06,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 5.18,
+    "e": 5.58,
+    "type": "word"
+   },
+   {
+    "w": "transformations.",
+    "s": 6.14,
+    "e": 8.0,
+    "type": "word"
+   },
+   {
+    "w": "Not",
+    "s": 8.119,
+    "e": 8.94,
+    "type": "word"
+   },
+   {
+    "w": "how,",
+    "s": 9.12,
+    "e": 9.5,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 9.88,
+    "e": 10.16,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 10.36,
+    "e": 10.56,
+    "type": "word"
+   },
+   {
+    "w": "what",
+    "s": 10.64,
+    "e": 10.94,
+    "type": "word"
+   },
+   {
+    "w": "rate.",
+    "s": 11.1,
+    "e": 11.56,
+    "type": "word"
+   },
+   {
+    "w": "Based",
+    "s": 12.06,
+    "e": 12.56,
+    "type": "word"
+   },
+   {
+    "w": "on",
+    "s": 12.64,
+    "e": 12.84,
+    "type": "word"
+   },
+   {
+    "w": "initial",
+    "s": 12.92,
+    "e": 13.84,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 13.92,
+    "e": 14.34,
+    "type": "word"
+   },
+   {
+    "w": "final",
+    "s": 14.5,
+    "e": 14.86,
+    "type": "word"
+   },
+   {
+    "w": "state.",
+    "s": 14.98,
+    "e": 15.48,
+    "type": "word"
+   },
+   {
+    "w": "Chemical",
+    "s": 23.86,
+    "e": 24.24,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 24.38,
+    "e": 24.7,
+    "type": "word"
+   },
+   {
+    "w": "stored",
+    "s": 24.82,
+    "e": 25.06,
+    "type": "word"
+   },
+   {
+    "w": "by",
+    "s": 25.1,
+    "e": 25.24,
+    "type": "word"
+   },
+   {
+    "w": "molecules,",
+    "s": 25.32,
+    "e": 25.76,
+    "type": "word"
+   },
+   {
+    "w": "methane,",
+    "s": 25.84,
+    "e": 26.24,
+    "type": "word"
+   },
+   {
+    "w": "cooking",
+    "s": 26.3,
+    "e": 26.54,
+    "type": "word"
+   },
+   {
+    "w": "gas,",
+    "s": 26.6,
+    "e": 26.78,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 26.84,
+    "e": 26.94,
+    "type": "word"
+   },
+   {
+    "w": "coal",
+    "s": 27.04,
+    "e": 27.2,
+    "type": "word"
+   },
+   {
+    "w": "fuel.",
+    "s": 27.3,
+    "e": 27.62,
+    "type": "word"
+   },
+   {
+    "w": "Fuel",
+    "s": 27.8,
+    "e": 27.96,
+    "type": "word"
+   },
+   {
+    "w": "burns",
+    "s": 28.04,
+    "e": 28.2,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 28.22,
+    "e": 28.3,
+    "type": "word"
+   },
+   {
+    "w": "air,",
+    "s": 28.36,
+    "e": 28.48,
+    "type": "word"
+   },
+   {
+    "w": "reaction's",
+    "s": 28.68,
+    "e": 29.22,
+    "type": "word"
+   },
+   {
+    "w": "chemical.",
+    "s": 29.28,
+    "e": 29.72,
+    "type": "word"
+   },
+   {
+    "w": "In",
+    "s": 30.06,
+    "e": 30.12,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 30.16,
+    "e": 30.24,
+    "type": "word"
+   },
+   {
+    "w": "engine,",
+    "s": 30.32,
+    "e": 30.66,
+    "type": "word"
+   },
+   {
+    "w": "work,",
+    "s": 30.78,
+    "e": 31.0,
+    "type": "word"
+   },
+   {
+    "w": "mechanical.",
+    "s": 31.12,
+    "e": 31.7,
+    "type": "word"
+   },
+   {
+    "w": "Galvanic",
+    "s": 32.0,
+    "e": 32.5,
+    "type": "word"
+   },
+   {
+    "w": "cell,",
+    "s": 32.58,
+    "e": 32.84,
+    "type": "word"
+   },
+   {
+    "w": "like",
+    "s": 32.96,
+    "e": 33.14,
+    "type": "word"
+   },
+   {
+    "w": "dry",
+    "s": 33.2,
+    "e": 33.44,
+    "type": "word"
+   },
+   {
+    "w": "cell,",
+    "s": 33.58,
+    "e": 33.82,
+    "type": "word"
+   },
+   {
+    "w": "energy,",
+    "s": 33.98,
+    "e": 34.36,
+    "type": "word"
+   },
+   {
+    "w": "electrical.",
+    "s": 34.66,
+    "e": 35.32,
+    "type": "word"
+   },
+   {
+    "w": "Interrelated",
+    "s": 35.48,
+    "e": 36.12,
+    "type": "word"
+   },
+   {
+    "w": "forms",
+    "s": 36.16,
+    "e": 36.4,
+    "type": "word"
+   },
+   {
+    "w": "under",
+    "s": 36.44,
+    "e": 36.6,
+    "type": "word"
+   },
+   {
+    "w": "certain",
+    "s": 36.64,
+    "e": 36.96,
+    "type": "word"
+   },
+   {
+    "w": "conditions.",
+    "s": 37.02,
+    "e": 37.6,
+    "type": "word"
+   },
+   {
+    "w": "From",
+    "s": 37.76,
+    "e": 37.88,
+    "type": "word"
+   },
+   {
+    "w": "one",
+    "s": 37.94,
+    "e": 38.06,
+    "type": "word"
+   },
+   {
+    "w": "form",
+    "s": 38.12,
+    "e": 38.26,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 38.3,
+    "e": 38.46,
+    "type": "word"
+   },
+   {
+    "w": "another,",
+    "s": 38.52,
+    "e": 38.94,
+    "type": "word"
+   },
+   {
+    "w": "transformation.",
+    "s": 39.58,
+    "e": 42.04,
+    "type": "word"
+   },
+   {
+    "w": "Laws",
+    "s": 47.48,
+    "e": 47.94,
+    "type": "word"
+   },
+   {
+    "w": "deal",
+    "s": 47.98,
+    "e": 48.9,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 48.98,
+    "e": 49.38,
+    "type": "word"
+   },
+   {
+    "w": "energy",
+    "s": 49.54,
+    "e": 50.28,
+    "type": "word"
+   },
+   {
+    "w": "changes.",
+    "s": 50.4,
+    "e": 51.32,
+    "type": "word"
+   },
+   {
+    "w": "Macroscopic,",
+    "s": 51.42,
+    "e": 52.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 53.2,
+    "e": 53.3,
+    "type": "word"
+   },
+   {
+    "w": "large",
+    "s": 53.36,
+    "e": 53.6,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 53.64,
+    "e": 54.08,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 54.16,
+    "e": 54.3,
+    "type": "word"
+   },
+   {
+    "w": "molecules.",
+    "s": 54.38,
+    "e": 55.26,
+    "type": "word"
+   },
+   {
+    "w": "Rather",
+    "s": 55.36,
+    "e": 55.76,
+    "type": "word"
+   },
+   {
+    "w": "than",
+    "s": 55.84,
+    "e": 56.24,
+    "type": "word"
+   },
+   {
+    "w": "microscopic,",
+    "s": 56.32,
+    "e": 57.28,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 57.62,
+    "e": 57.68,
+    "type": "word"
+   },
+   {
+    "w": "few",
+    "s": 57.8,
+    "e": 58.08,
+    "type": "word"
+   },
+   {
+    "w": "molecules.",
+    "s": 58.3,
+    "e": 59.26,
+    "type": "word"
+   },
+   {
+    "w": "Laws",
+    "s": 61.26,
+    "e": 61.52,
+    "type": "word"
+   },
+   {
+    "w": "apply",
+    "s": 61.58,
+    "e": 62.18,
+    "type": "word"
+   },
+   {
+    "w": "only",
+    "s": 62.3,
+    "e": 62.66,
+    "type": "word"
+   },
+   {
+    "w": "when",
+    "s": 62.74,
+    "e": 62.96,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 63.04,
+    "e": 63.1,
+    "type": "word"
+   },
+   {
+    "w": "system",
+    "s": 63.2,
+    "e": 63.58,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 63.68,
+    "e": 63.82,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 63.86,
+    "e": 63.92,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 63.98,
+    "e": 64.86,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 64.94,
+    "e": 65.099,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 65.2,
+    "e": 65.519,
+    "type": "word"
+   },
+   {
+    "w": "state",
+    "s": 65.62,
+    "e": 65.86,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 65.92,
+    "e": 66.02,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 66.14,
+    "e": 66.42,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium",
+    "s": 66.74,
+    "e": 67.8,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 67.9,
+    "e": 68.08,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium.",
+    "s": 68.22,
+    "e": 69.32,
+    "type": "word"
+   },
+   {
+    "w": "Pressure,",
+    "s": 69.38,
+    "e": 69.8,
+    "type": "word"
+   },
+   {
+    "w": "temperature,",
+    "s": 70.08,
+    "e": 70.78,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 71.4,
+    "e": 71.58,
+    "type": "word"
+   },
+   {
+    "w": "equilibrium,",
+    "s": 71.68,
+    "e": 72.92,
+    "type": "word"
+   },
+   {
+    "w": "do",
+    "s": 73.06,
+    "e": 73.26,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 73.34,
+    "e": 73.68,
+    "type": "word"
+   },
+   {
+    "w": "change",
+    "s": 73.76,
+    "e": 74.24,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 74.32,
+    "e": 74.66,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 74.78,
+    "e": 76.9,
+    "type": "word"
+   },
+   {
+    "w": "Thermodynamics,",
+    "s": 76.98,
+    "e": 78.78,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 78.9,
+    "e": 79.2,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.32,
+    "e": 79.5,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 79.58,
+    "e": 79.84,
+    "type": "word"
+   },
+   {
+    "w": "transformations.",
+    "s": 79.9,
+    "e": 80.88,
+    "type": "word"
+   },
+   {
+    "w": "Not",
+    "s": 80.94,
+    "e": 81.34,
+    "type": "word"
+   },
+   {
+    "w": "how,",
+    "s": 81.42,
+    "e": 81.82,
+    "type": "word"
+   },
+   {
+    "w": "not",
+    "s": 81.9,
+    "e": 82.14,
+    "type": "word"
+   },
+   {
+    "w": "at",
+    "s": 82.2,
+    "e": 82.34,
+    "type": "word"
+   },
+   {
+    "w": "what",
+    "s": 82.4,
+    "e": 82.58,
+    "type": "word"
+   },
+   {
+    "w": "rate.",
+    "s": 82.66,
+    "e": 82.88,
+    "type": "word"
+   },
+   {
+    "w": "Based",
+    "s": 83.12,
+    "e": 83.4,
+    "type": "word"
+   },
+   {
+    "w": "on",
+    "s": 83.5,
+    "e": 83.64,
+    "type": "word"
+   },
+   {
+    "w": "initial",
+    "s": 83.72,
+    "e": 84.24,
+    "type": "word"
+   },
+   {
+    "w": "state,",
+    "s": 84.32,
+    "e": 84.6,
+    "type": "word"
+   },
+   {
+    "w": "final",
+    "s": 84.86,
+    "e": 85.24,
+    "type": "word"
+   },
+   {
+    "w": "state.",
+    "s": 85.32,
+    "e": 85.8,
+    "type": "word"
+   }
+  ]
+ },
+ "sarvam_vocals": {
+  "text": "Thermodynamics, study of things, just transformations, not how, not apple pie, based on initial, same final stage. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, the reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another. Transformation. Laws deal with energy changes macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 18.15,
+    "text": "Thermodynamics, study of things, just transformations, not how, not apple pie, based on initial, same final stage.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 18.15,
+    "end": 39.3,
+    "text": "Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, the reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 39.3,
+    "end": 60.45,
+    "text": "Transformation. Laws deal with energy changes macroscopic, a large number of molecules rather than microscopic, a few molecules.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 60.45,
+    "end": 76.7,
+    "text": "Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 76.7,
+    "end": 90.02,
+    "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state.",
+    "lang": "en-IN"
+   }
+  ]
+ },
+ "sarvam_verbatim_vocals": {
+  "text": "Thermodynamics, study of things, just transformations, not how, not apple pie, based on initial, same final state. Chemical energy stored by molecules, methane, cooking gas or coal fuel. Fuel burns in air, the action's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another. Transformation. Laws deal with energy changes macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 18.15,
+    "text": "Thermodynamics, study of things, just transformations, not how, not apple pie, based on initial, same final state.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 18.15,
+    "end": 39.3,
+    "text": "Chemical energy stored by molecules, methane, cooking gas or coal fuel. Fuel burns in air, the action's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 39.3,
+    "end": 60.45,
+    "text": "Transformation. Laws deal with energy changes macroscopic, a large number of molecules rather than microscopic, a few molecules.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 60.45,
+    "end": 76.7,
+    "text": "Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 76.7,
+    "end": 90.02,
+    "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state.",
+    "lang": "en-IN"
+   }
+  ]
+ }
+}

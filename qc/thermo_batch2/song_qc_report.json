@@ -1,0 +1,3078 @@
+{
+ "thermo3_reggaeton_take1": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 5.02,
+   "text": "[upbeat music] Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal fuel. Fuel burns in air. Heat, reactions, chemical. In an engine, work, mechanical. Galvanic cell like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. [music fades]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 5.02,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal fuel. Fuel burns in air, heat. Reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 5.02,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal fuel. Fuel burns in air, heat. Reactions chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9745762711864406,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "damage",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "that",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "break",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "rate",
+     "",
+     14.85,
+     "Not how, not at what rate,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "thermodynamics",
+     "thermal",
+     0.0,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "at",
+     "",
+     0.0,
+     "Not how, not at what rate,"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "is",
+     0.0
+    ]
+   ],
+   "onset": null,
+   "text": "Thermal damage is study of these transformations. Not how, not that what break. Based on initial state, final state. Chemical energy stored by molecules, methane cooking gas or coal fuel. Fuel burns in air, heat, reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions from one form into another transformation. Laws deal with energy changes, microscopic. A large number of molecules rather than microscopic. A few molecules. Laws apply only when a system is in equilibrium or moves state to state. Equilibrium to equilibrium, pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_reggaeton_take2": {
+  "scribe_mix": {
+   "coverage": 0.9491525423728814,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "coal",
+     "",
+     25.28,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "being",
+     25.54,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "in air heat reactions",
+     "",
+     26.56,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     27.52,
+     "In an engine? Work, mechanical!"
+    ],
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "and",
+     70.06,
+     ""
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "in",
+     24.36
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     25.76
+    ]
+   ],
+   "onset": 0.6,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane in cooking gas or fuel being a fuel. Burning's chemical. In engine work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure and temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9491525423728814,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "coal",
+     "",
+     25.3,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "re",
+     25.56,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "since",
+     26.38,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "in air heat reactions",
+     "",
+     26.58,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     25.78,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     27.54,
+     "In an engine? Work, mechanical!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "in",
+     25.68
+    ]
+   ],
+   "onset": 0.6,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or fuel. Re in the fuel burns since chemical. In engine work, mechanical. Galvanic cell like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9491525423728814,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "coal",
+     "",
+     25.3,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "radiant",
+     25.56,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "since",
+     26.38,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "in air heat reactions",
+     "",
+     26.58,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     27.54,
+     "In an engine? Work, mechanical!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.6,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or fuel. Radiant fuel burns since chemical. In engine work, mechanical. Galvanic cell like dry cell energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9152542372881356,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "rate",
+     "",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "coal",
+     "",
+     12.15,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "being",
+     12.15,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "version",
+     12.15,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "burns in",
+     "",
+     12.15,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat reactions",
+     "",
+     12.15,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "at",
+     "",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "what",
+     "why",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "air",
+     "is",
+     12.15,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     12.15,
+     "In an engine? Work, mechanical!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "a",
+     12.15
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations, not how, not why, based on initial state, final state. Chemical energy stored by molecules. Methanol, cooking gas, or fuel being a fuel version is chemical. In engine work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions, from one form into another, transformations. Laws deal with energy changes microscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state. Equilibrium to equilibrium, pressure, temperature in equilibrium, do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_afrobeats_take1": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 9.4,
+   "text": "[upbeat music] Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energies stored by molecules. Methane, cooking gas or coal fuel. Fuel burns in air, heat reactions chemical. In an engine, work mechanical. Galvanic cell, like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9830508474576272,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "these",
+     "",
+     12.0,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "these",
+     "",
+     81.88,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "heat",
+     11.76
+    ],
+    [
+     "repeat/harmony",
+     "heat",
+     81.64
+    ]
+   ],
+   "onset": 9.42,
+   "text": "Thermodynamics, study of heat transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal fuel. Fuel burns in air, heat reactions chemical. In an engine work mechanical. Galvanic cell, like dry cell energy electrical. Interrelated forms under certain conditions. From one form into another transformations. Laws deal with energy changes. Macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of heat transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9830508474576272,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "these",
+     "",
+     12.0,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "these",
+     "",
+     81.88,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "heat",
+     11.76
+    ],
+    [
+     "repeat/harmony",
+     "heat",
+     81.64
+    ]
+   ],
+   "onset": 9.42,
+   "text": "Thermodynamics, study of heat transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal fuel. Fuel burns in air, heat reactions chemical. In an engine work mechanical. Galvanic cell, like dry cell energy electrical. Interrelated forms under certain conditions. From one form into another transformations. Laws deal with energy changes. Macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of heat transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9745762711864406,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "initial",
+     "",
+     63.55,
+     "Based on initial state, final state!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "these",
+     "its",
+     0.0,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "methane",
+     "meeting",
+     21.85,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     63.55,
+     ""
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "is",
+     21.85
+    ],
+    [
+     "repeat/harmony",
+     "laws",
+     63.55
+    ],
+    [
+     "repeat/harmony",
+     "show",
+     63.55
+    ]
+   ],
+   "onset": null,
+   "text": "Demodynamics, study of its transformations, not how, not at what rate, based on initial state, final state. Chemical energy is stored by molecules. Meeting, cooking gas or coal fuel. Fuel burns in air, heat reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another, transformations. Laws deal with energy changes, macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state equilibrium. To equilibrium, pressure, temperature in equilibrium do not change with time. Thermodynamic study of these transformations, not how, not at what rate, based on the laws show state final slate. "
+  }
+ },
+ "thermo3_afrobeats_take2": {
+  "scribe_mix": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "set",
+     33.4,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "thus",
+     46.04,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "laws",
+     "",
+     46.34,
+     "Laws deal with energy changes: macroscopic,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "certain",
+     "",
+     33.56,
+     "Interrelated forms, under certain conditions,"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "transformations",
+     77.02
+    ]
+   ],
+   "onset": 0.0,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal, fuel. Fuel burns in air, heat, reactions chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical. Interrelated forms under set conditions. From one form into another, transformations. Thus deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Transformations. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "set",
+     33.44,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "thus",
+     46.06,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "laws",
+     "",
+     46.36,
+     "Laws deal with energy changes: macroscopic,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "certain",
+     "",
+     33.58,
+     "Interrelated forms, under certain conditions,"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "transformations",
+     77.04
+    ]
+   ],
+   "onset": 0.04,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal. Fuel. Fuel burns in air. Heat. Reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical. Interrelated forms under set conditions. From one form into another. Transformations. Thus deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Transformations. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state"
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "set",
+     33.44,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "thus",
+     46.06,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "laws",
+     "",
+     46.36,
+     "Laws deal with energy changes: macroscopic,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "certain",
+     "",
+     33.58,
+     "Interrelated forms, under certain conditions,"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "transformations",
+     76.9
+    ]
+   ],
+   "onset": 0.04,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal, fuel. Fuel burns in air, heat. Reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical. Interrelated forms under set conditions. From one form into another. Transformations. Thus deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Transformations. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music]"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.940677966101695,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "quivers",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "rate",
+     "",
+     0.0,
+     "Not how, not at what rate,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "how",
+     "a",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "not",
+     "thought",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "at",
+     "",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "what",
+     "that",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "laws",
+     "thats",
+     36.1,
+     "Laws deal with energy changes: macroscopic,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "or",
+     "all",
+     68.0,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "transformation",
+     68.0
+    ],
+    [
+     "repeat/harmony",
+     "chemical",
+     68.0
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations. Not a thought that quivers, based on initial state, final state. Chemical energy stored by molecules, methane cooking gas or coal fuel. Fuel burns in air, heat reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical, interrelated forms under certain conditions. From one form into another, transformations. That's deal with energy changes, macroscopic, a large number of molecules. Rather than microscopy, a few molecules. Laws apply only when a system is in equilibrium. All moves, state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium, do not change with time. Transformation, chemical dynamics, study of these transformations, not how, not at what rate, based on initial states, final states."
+  }
+ },
+ "thermo3_bhangra_take1": {
+  "scribe_mix": {
+   "coverage": 0.9915254237288136,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "these",
+     "this",
+     80.72,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.86,
+   "text": "Thermodynamics study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music] Chemical energy stored by molecules, methane, cooking gas or coal, fuel. Fuel burns in air, heat, reactions chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another, transformations. [upbeat music] Laws deal with energy changes, macroscopic, a large number of molecules rather than microscopic, a few molecules. [upbeat music] Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. [upbeat music] Study of this transformation. Not how, not at what rate. Based on initial state, final state. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9915254237288136,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "these",
+     "this",
+     80.74,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.88,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal. Fuel, fuel burns in air, heat, reactions chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another, transformations. Laws deal with energy changes, macroscopic. A large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of this transformation. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9915254237288136,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "these",
+     "this",
+     80.74,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.88,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal, fuel. Fuel burns in air, heat, reactions chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another, transformations. Laws deal with energy changes, macroscopic. A large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of this transformation. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9745762711864406,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "or",
+     "all",
+     60.75,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "these",
+     "this",
+     79.4,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "not",
+     "",
+     79.4,
+     "Not how, not at what rate,"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Thermodynamic study of these transformations, not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal. Fuel, fuel burns in air, heat. Reactions chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical. Interrelated forms under certain conditions, from one form into another, transformations. Laws deal with energy changes macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium. All moves state to state equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of this transformation, how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_bhangra_take2": {
+  "scribe_mix": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "true",
+     75.58,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     41.86,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "another",
+     "",
+     42.0,
+     "From one form into another: transformations!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "to",
+     "",
+     75.94,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "to",
+     18.56
+    ]
+   ],
+   "onset": 9.64,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state to final state. Chemical energy stored by molecules, methane, cooking gas or coal fuel. Fuel burns in air, heat, reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions, from one form into the transformations. Laws deal with energy changes. Macroscopic. A large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium, or moves state to state, equilibrium. True equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state. Final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9915254237288136,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     41.88,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "another",
+     "",
+     42.02,
+     "From one form into another: transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "to",
+     18.46
+    ],
+    [
+     "repeat/harmony",
+     "fuel",
+     27.96
+    ]
+   ],
+   "onset": 9.62,
+   "text": "[singing] Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state to final state. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel, fuel burns in air. Heat, reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into the transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state"
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     30.02,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     41.88,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "another",
+     "",
+     42.02,
+     "From one form into another: transformations!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 9.62,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into the transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9067796610169492,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics",
+     "",
+     0.0,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     22.45,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "equilibrium",
+     "",
+     67.95,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "these",
+     "this",
+     0.0,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "at",
+     "the",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "what",
+     "",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "rate",
+     "portrait",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "based",
+     "",
+     0.0,
+     "Based on initial state, final state!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "on",
+     "is",
+     0.0,
+     "Based on initial state, final state!"
+    ],
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     22.45,
+     ""
+    ],
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     22.45,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "another",
+     "",
+     22.45,
+     "From one form into another: transformations!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "a",
+     "the",
+     67.95,
+     "Laws apply only when a system is in equilibrium,"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "a",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "from",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "to",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "from",
+     67.95
+    ]
+   ],
+   "onset": null,
+   "text": "A study of this transformation, not how not the portrait, is from initial state to final state. Chemical energy stored by molecules, methane cooking gas or coal fuel. Fuel burns in air, reactions chemical, in an engine, work mechanical. Galvanic cell like dry cell, energy electrical. The related forms under certain conditions, from one form into the transformations. Laws deal with energy changes, macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when the system is in equilibrium or moves from state to state to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_funk_take1": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.82,
+   "text": "[upbeat music] Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "liquid",
+     28.42,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "cooking",
+     "",
+     28.68,
+     "Methane, cooking gas or coal: fuel!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "like",
+     "light",
+     35.66,
+     "Galvanic cell, like dry cell? Energy, electrical!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 8.88,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, liquid gas, or coal. Fuel. Fuel burns in air. Heat. Reactions, chemical. In an engine, work, mechanical. Galvanic cell, light, dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.88,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat. Reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9915254237288136,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     0.0,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "into",
+     "",
+     20.05,
+     "From one form into another: transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "to",
+     20.05
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on the initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal. Fuel, fuel burns in air, heat reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy electrical. Interrelated forms under certain conditions, from one format to another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to stay equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_funk_take2": {
+  "scribe_mix": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "scheduled",
+     32.92,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "circ",
+     33.2,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "certain",
+     "",
+     33.34,
+     "Interrelated forms, under certain conditions,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "from",
+     "",
+     33.78,
+     "From one form into another: transformations!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.0,
+   "text": "Thermodynamics (thermodynamics). Study of these transformations (transformations). Not how, not at what rate. Based on initial state, final state (final state). Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air, heat. Reactions chemical. In an engine, work, mechanical (mechanical). Galvanic cell, like dry cell. Energy electrical. Interrelated forms under scheduled circ conditions. One form into another. Transformations (transformations, transformations). Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics (thermodynamics). Study of these transformations (transformations). Not how, not at what rate. Based on initial state, final state (final state)."
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "next",
+     37.06,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "patience",
+     37.54,
+     ""
+    ]
+   ],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "thermodynamics",
+     0.04
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     5.38
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     12.44
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     13.38
+    ],
+    [
+     "repeat/harmony",
+     "mechanical",
+     26.68
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     35.08
+    ],
+    [
+     "repeat/harmony",
+     "one",
+     37.3
+    ],
+    [
+     "repeat/harmony",
+     "thermodynamics",
+     73.68
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     78.24
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     84.06
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     84.4
+    ]
+   ],
+   "onset": 2.96,
+   "text": "Thermodynamics, thermodynamics. Study of these transformations, transformations. Not how, not at what rate. Based on initial state, final state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal. Fuel, fuel burns in air, heat. Reactions chemical. In an engine, work, mechanical, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms, under certain conditions, from one form into another. Transformations, transformations. Next one, patience. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, thermodynamics. Study of these transformations, transformations. Not how, not at what rate. Based on initial state, final state, final state"
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "next",
+     37.04,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "patience",
+     37.54,
+     ""
+    ]
+   ],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "thermodynamics",
+     0.04
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     5.38
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     12.44
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     13.38
+    ],
+    [
+     "repeat/harmony",
+     "mechanical",
+     26.68
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     35.08
+    ],
+    [
+     "repeat/harmony",
+     "one",
+     37.3
+    ],
+    [
+     "repeat/harmony",
+     "thermodynamics",
+     73.68
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     78.24
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     84.06
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     84.4
+    ]
+   ],
+   "onset": 2.96,
+   "text": "Thermodynamics, thermodynamics. Study of these transformations, transformations. Not how, not at what rate. Based on initial state, final state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal. Fuel, fuel burns in air, heat. Reactions chemical. In an engine, work, mechanical, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms, under certain conditions, from one form into another. Transformations, transformations. Next one, patience. Laws deal with energy changes, macroscopic. A large number of molecules rather than microscopic. A few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, thermodynamics. Study of these transformations, transformations. Not how, not at what rate. Based on initial state, final state, final state"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9576271186440678,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "auto",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "circumstances",
+     16.85,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "conditions from one",
+     "",
+     16.85,
+     "Interrelated forms, under certain conditions,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "or",
+     "a",
+     16.85,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "form",
+     "transform",
+     16.85,
+     "From one form into another: transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "stutter",
+     "the",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     16.85
+    ],
+    [
+     "repeat/harmony",
+     "thermodynamics",
+     72.9
+    ],
+    [
+     "repeat/harmony",
+     "transformations",
+     72.9
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     72.9
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     72.9
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics, the study of these transformations, transformations not how, not at what rate, based on initial state, final state, auto state. Chemical energy stored by molecules, methane cooking gas, a coal fuel. Fuel burns in air, heat. Reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain circumstances, transform into another. Transformations. Transformations. Laws deal with energy changes microscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium, or moves state to state equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, thermodynamics, study of these transformations, transformations, not how, not at what rate, based on initial state, final state, final state."
+  }
+ },
+ "thermo3_jazz_take1": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.28,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal, fuel. Fuel burns in air, heat. Reactions chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.28,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal. Fuel. Fuel burns in air. Heat. Reactions chemical. In an engine. Work, mechanical. Galvanic cell like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another. Transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic. A few molecules. Laws apply only when a system is in equilibrium or moves state to state. Equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.28,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal. Fuel. Fuel burns in air. Heat. Reactions chemical. In an engine. Work, mechanical. Galvanic cell like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another. Transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic. A few molecules. Laws apply only when a system is in equilibrium or moves state to state. Equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9915254237288136,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "work",
+     "",
+     31.1,
+     "In an engine? Work, mechanical!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal fuel. Fuel burns in air, heat. Reaction's chemical. In an engine, mechanical, galvanic cell like dry cell, energy, electrical, interrelated forms under certain conditions, from one form into another, transformations. Laws deal with energy changes, macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_jazz_take2": {
+  "scribe_mix": {
+   "coverage": 0.9322033898305084,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "methane cooking",
+     "",
+     24.98,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "gas",
+     "air",
+     24.98,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "fuel",
+     "",
+     27.66,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "reactions chemical",
+     "",
+     29.2,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "or",
+     "are",
+     26.58,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "of",
+     "",
+     81.04,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "oh",
+     41.46
+    ],
+    [
+     "repeat/harmony",
+     "fuel",
+     24.22
+    ],
+    [
+     "repeat/harmony",
+     "burns",
+     24.58
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     24.84
+    ],
+    [
+     "repeat/harmony",
+     "heat",
+     25.44
+    ],
+    [
+     "repeat/harmony",
+     "reactions",
+     25.98
+    ]
+   ],
+   "onset": 0.18,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Fuel burns in air, heat. Reactions are cold. Fuel burns in air, heat. In an engine, work, mechanical. Galvanic cell like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Oh. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9322033898305084,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "methane cooking",
+     "",
+     25.0,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "gas",
+     "air",
+     25.0,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "fuel",
+     "",
+     27.68,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "reactions chemical",
+     "",
+     29.22,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "or",
+     "are",
+     26.6,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "of",
+     "",
+     81.06,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "oh",
+     41.5
+    ],
+    [
+     "repeat/harmony",
+     "fuel",
+     24.24
+    ],
+    [
+     "repeat/harmony",
+     "burns",
+     24.62
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     24.88
+    ],
+    [
+     "repeat/harmony",
+     "heat",
+     25.46
+    ],
+    [
+     "repeat/harmony",
+     "reactions",
+     26.0
+    ]
+   ],
+   "onset": 0.22,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Fuel burns in air, heat. Reactions are cold. Fuel burns in air, heat. In an engine, work, mechanical. Galvanic cell like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Oh. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9322033898305084,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "methane cooking",
+     "",
+     25.0,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "gas",
+     "air",
+     25.0,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "fuel",
+     "",
+     27.68,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "reactions chemical",
+     "",
+     29.22,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "or",
+     "are",
+     26.6,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "of",
+     "",
+     81.06,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "oh",
+     41.5
+    ],
+    [
+     "repeat/harmony",
+     "fuel",
+     24.24
+    ],
+    [
+     "repeat/harmony",
+     "burns",
+     24.62
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     24.88
+    ],
+    [
+     "repeat/harmony",
+     "heat",
+     25.46
+    ],
+    [
+     "repeat/harmony",
+     "reactions",
+     26.0
+    ]
+   ],
+   "onset": 0.22,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Fuel burns in air, heat. Reactions are cold. Fuel burns in air, heat. In an engine, work, mechanical. Galvanic cell like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Oh. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.940677966101695,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "methane cooking",
+     "",
+     19.05,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "gas",
+     "air",
+     19.05,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "fuel",
+     "",
+     19.05,
+     "Methane, cooking gas or coal: fuel!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "reactions chemical",
+     "",
+     19.05,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "fall",
+     36.1,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "or",
+     "are",
+     19.05,
+     "Methane, cooking gas or coal: fuel!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "fuel",
+     19.05
+    ],
+    [
+     "repeat/harmony",
+     "burns",
+     19.05
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     19.05
+    ],
+    [
+     "repeat/harmony",
+     "heat",
+     19.05
+    ],
+    [
+     "repeat/harmony",
+     "reactions",
+     19.05
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     19.05
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules. Fuel burns in air, heat. Reactions are cold. Fuel burns in air, heat in an engine, work mechanical. Galvanic cell like dry cell, energy electrical. In interrelated forms. Under certain conditions, from one form into another, transformations fall. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_acappella_take1": {
+  "scribe_mix": {
+   "coverage": 0.9576271186440678,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "microscopic a few molecules",
+     "",
+     60.28,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "than",
+     "state",
+     59.4,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "ooh",
+     44.26
+    ],
+    [
+     "vocable",
+     "ooh",
+     51.5
+    ],
+    [
+     "vocable",
+     "ooh",
+     56.94
+    ],
+    [
+     "vocable",
+     "ooh",
+     60.22
+    ],
+    [
+     "vocable",
+     "ooh",
+     75.34
+    ],
+    [
+     "vocable",
+     "ooh",
+     77.32
+    ],
+    [
+     "vocable",
+     "ooh",
+     79.86
+    ],
+    [
+     "vocable",
+     "ooh",
+     82.58
+    ],
+    [
+     "vocable",
+     "ooh",
+     84.06
+    ],
+    [
+     "vocable",
+     "ooh",
+     86.58
+    ],
+    [
+     "repeat/harmony",
+     "at",
+     54.44
+    ],
+    [
+     "repeat/harmony",
+     "what",
+     54.8
+    ],
+    [
+     "repeat/harmony",
+     "based",
+     57.0
+    ],
+    [
+     "repeat/harmony",
+     "on",
+     57.38
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     57.62
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     58.32
+    ],
+    [
+     "repeat/harmony",
+     "final",
+     58.78
+    ]
+   ],
+   "onset": 0.5,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat reactions, chemical. In an engine, work, mechanical. Galvanic cell like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Ooh. Laws deal with energy changes. Macroscopic. Ooh. A large number of molecules. At what rate. Ooh. Based on initial state, final state. Ooh. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Ooh. Thermodynamics. Ooh. Study of these transformations. Ooh. Not how. Ooh. Not at what rate. Ooh. Based on initial state. Ooh. Final state"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9491525423728814,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "microscopic a few molecules",
+     "",
+     60.3,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "molecules",
+     "molars",
+     53.94,
+     "A large number of molecules,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "than",
+     "state",
+     59.42,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "ooh",
+     44.28
+    ],
+    [
+     "repeat/harmony",
+     "at",
+     54.46
+    ],
+    [
+     "repeat/harmony",
+     "what",
+     54.82
+    ],
+    [
+     "repeat/harmony",
+     "based",
+     57.02
+    ],
+    [
+     "repeat/harmony",
+     "on",
+     57.42
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     57.66
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     58.34
+    ],
+    [
+     "repeat/harmony",
+     "final",
+     58.8
+    ]
+   ],
+   "onset": 0.54,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat reactions, chemical. In an engine, work, mechanical. Galvanic cell like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Ooh. Laws deal with energy changes. Macroscopic. A large number of molars. At what rate? Based on initial state, final state. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how. Not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9491525423728814,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "microscopic a few molecules",
+     "",
+     60.3,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "molecules",
+     "molars",
+     53.94,
+     "A large number of molecules,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "than",
+     "state",
+     59.42,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "ooh",
+     44.28
+    ],
+    [
+     "repeat/harmony",
+     "at",
+     54.46
+    ],
+    [
+     "repeat/harmony",
+     "what",
+     54.82
+    ],
+    [
+     "repeat/harmony",
+     "based",
+     57.02
+    ],
+    [
+     "repeat/harmony",
+     "on",
+     57.42
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     57.66
+    ],
+    [
+     "repeat/harmony",
+     "state",
+     58.34
+    ],
+    [
+     "repeat/harmony",
+     "final",
+     58.8
+    ]
+   ],
+   "onset": 0.52,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat reactions, chemical. In an engine, work, mechanical. Galvanic cell like dry cell. Energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Ooh. Laws deal with energy changes. Macroscopic. A large number of molars. At what rate? Based on initial state, final state. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics. Study of these transformations. Not how. Not at what rate. Based on initial state, final state"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9576271186440678,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "scale",
+     52.55,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "microscopic a few molecules",
+     "",
+     52.55,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     37.6,
+     ""
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "than",
+     "state",
+     52.55,
+     "Rather than microscopic: a few molecules!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "ooh",
+     37.6
+    ],
+    [
+     "repeat/harmony",
+     "at",
+     52.55
+    ],
+    [
+     "repeat/harmony",
+     "work",
+     52.55
+    ],
+    [
+     "repeat/harmony",
+     "based",
+     52.55
+    ],
+    [
+     "repeat/harmony",
+     "on",
+     52.55
+    ],
+    [
+     "repeat/harmony",
+     "initial",
+     52.55
+    ],
+    [
+     "repeat/harmony",
+     "final",
+     52.55
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state.\nChemical energy stored by molecules, methane, cooking gas or coal.\nFuel.\nFuel burns in air, heat reactions, chemical.\nIn an engine, work, mechanical.\nGalvanic cell, like dry cell, energy, electrical.\nInterrelated forms under certain conditions, from one form into another, transformations. Ooh, laws deal with the energy changes macroscopic. A large number of molecules at work rate. Based on initial state, final scale. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature. In equilibrium, do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_acappella_take2": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.04,
+   "text": "[upbeat music] Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat. Reactions chemical. In an engine. Work mechanical. Galvanic cell like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. [upbeat music] Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.06,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal fuel. Fuel burns in air, heat. Reactions chemical. In an engine, work mechanical. Galvanic cell, like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.06,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat. Reactions chemical. In an engine. Work mechanical. Galvanic cell. Like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "work",
+     "",
+     13.95,
+     "In an engine? Work, mechanical!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "dry",
+     "tri",
+     13.95,
+     "Galvanic cell, like dry cell? Energy, electrical!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": "Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state.\nChemical energy stored by molecules. Methane, cooking gas or coal fuel. Fuel burns in air, heat reactions chemical. In an engine, mechanical. Organic cell, like tri-cell. Energy, electrical. Interrelated forms, under certain conditions. From one form into another, transformations. Laws deal with energy changes, macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamic study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_indie_take1": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.04,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal, fuel. Fuel burns in air, heat. Reactions, chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium. Or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.06,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal. Fuel. Fuel burns in air. Heat. Reactions chemical. In an engine. Work. Mechanical. Galvanic cell like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.06,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal. Fuel. Fuel burns in air. Heat reactions. Chemical. In an engine. Work. Mechanical. Galvanic cell like dry cell. Energy. Electrical. Interrelated forms under certain conditions. From one form into another. Transformations. Laws deal with energy changes. Macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  }
+ },
+ "thermo3_indie_take2": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 5.3,
+   "text": "[upbeat music] Thermodynamics, study of these transformations. Not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal. Fuel, fuel burns in air, heat. Reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms. Under certain conditions, from one form into another, transformations. Laws deal with energy changes, macroscopic. A large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate, based on initial state, final state. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "into",
+     34.32
+    ]
+   ],
+   "onset": 5.3,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel, fuel burns in air, heat. Reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell. Energy electrical. Into related forms. Under certain conditions. From one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 5.3,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel, fuel burns in air, heat. Reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell. Energy electrical. Interrelated forms. Under certain conditions, from one form into another, transformations. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal, fuel, fuel burns in air, heat, reaction's chemical. In an engine, work mechanical, galvanic cell like dry cell, energy electrical, interrelated forms, under certain conditions from one form into another transformations. Laws deal with energy changes macroscopic, a large number of molecules rather than microscopic a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_punk_take1": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.18,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal. Fuel, fuel burns in air. Heat, reactions chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy, changes macroscopic. A large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "state to",
+     "",
+     63.74,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.2,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy, stored by molecules. Methane, cooking gas, or coal. Fuel, fuel burns in air. Heat, reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy, changes macroscopic. A large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state disequilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9830508474576272,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "state to",
+     "",
+     63.74,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.2,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy, stored by molecules. Methane, cooking gas, or coal. Fuel, fuel burns in air. Heat, reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell. Energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes macroscopic. A large number of molecules rather than microscopic. A few molecules. Laws apply only when a system is in equilibrium or moves state disequilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9661016949152542,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "still",
+     43.35,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "still",
+     43.35,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "much",
+     73.55,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "break",
+     73.55,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "what rate",
+     "",
+     73.55,
+     "Not how, not at what rate,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "deal",
+     "",
+     43.35,
+     "Laws deal with energy changes: macroscopic,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "at",
+     "one",
+     73.55,
+     "Not how, not at what rate,"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "with",
+     43.35
+    ],
+    [
+     "repeat/harmony",
+     "air",
+     43.35
+    ],
+    [
+     "repeat/harmony",
+     "how",
+     73.55
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules, methane cooking gas or coal fuel, fuel burns in air, heat. Reactions chemical in an engine, work mechanical, galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions, from one form into another, transformations. Law still with air, still with energy, changes macroscopic, a large number of molecules. Rather than microscopic, a few molecules laws apply only when a system is in equilibrium or moves state to state equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how much, not how one break, based on initial state, final state."
+  }
+ },
+ "thermo3_punk_take2": {
+  "scribe_mix": {
+   "coverage": 0.9915254237288136,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "equilibrium",
+     "",
+     70.7,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.76,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal, fuel. Fuel burns in air, heat, reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9915254237288136,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "equilibrium",
+     "",
+     70.72,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.76,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal, fuel. Fuel burns in air, heat, reaction's chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium. Or moves state to state to equilibrium. Pressure, temperature in equilibrium. Do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9915254237288136,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "equilibrium",
+     "",
+     70.72,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.76,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal. Fuel. Fuel burns in air, heat. Reaction's chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9661016949152542,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "tricom",
+     33.2,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "dry cell",
+     "",
+     33.2,
+     "Galvanic cell, like dry cell? Energy, electrical!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "equilibrium",
+     "",
+     64.1,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "at",
+     "in",
+     0.0,
+     "Not how, not at what rate,"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations. Not how, not in what rate, based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas or coal fuel. Fuel burns in air, heat. Reaction's chemical. In an engine, work mechanical. Galvanic cell, like tricom energy electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes macroscopic. A large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state. "
+  }
+ },
+ "thermo3_kpop_take1": {
+  "scribe_mix": {
+   "coverage": 0.9661016949152542,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "ends",
+     27.6,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "burns",
+     "",
+     27.84,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     28.44,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "air",
+     "e",
+     28.0,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "in",
+     "and",
+     72.6,
+     "Pressure, temperature, in equilibrium:"
+    ]
+   ],
+   "allowed": [],
+   "onset": 1.92,
+   "text": "[upbeat music] Thermodynamics. Study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music] Chemical energy stored by molecules. Methane, cooking gas, or coal fuel. Fuel ends in \"e.\" Reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions from one form into another, transformations. [upbeat music] Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. [upbeat music] Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, and equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9745762711864406,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "ends",
+     27.64,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "burns",
+     "",
+     27.86,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     28.46,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "air",
+     "e",
+     28.1,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 1.94,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal fuel. Fuel ends in E, reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions from one form into another, transformations. Laws deal with energy changes, macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9745762711864406,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "ends",
+     27.64,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "burns",
+     "",
+     27.86,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     28.46,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "air",
+     "e",
+     28.1,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 1.94,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal fuel. Fuel ends in E, reactions chemical. In an engine, work mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions from one form into another, transformations. Laws deal with energy changes, macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9661016949152542,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "ends",
+     16.95,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "burns",
+     "",
+     16.95,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     16.95,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "air",
+     "e",
+     16.95,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "in",
+     "and",
+     62.15,
+     "Pressure, temperature, in equilibrium:"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal fuel, fuel ends in e, reactions chemical, in an engine, work, mechanical, galvanic cell, like dry cell, energy, electrical. Interrelated forms, under certain conditions, from one form into another, transformations. Laws deal with energy changes macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, and equilibrium do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_kpop_take2": {
+  "scribe_mix": {
+   "coverage": 0.9915254237288136,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     28.66,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.2,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music] Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, reaction's chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. [upbeat music] Laws deal with energy changes. Macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. [upbeat music fades out]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9915254237288136,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     28.68,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.22,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9915254237288136,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     28.68,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.22,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformation. Laws deal with energy changes. Macroscopic, a large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9576271186440678,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "things",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "just",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "what rate",
+     "",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "heat",
+     "",
+     18.15,
+     "Fuel burns in air? Heat! Reactions, chemical!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "these",
+     "",
+     0.0,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "at",
+     "pie",
+     0.0,
+     "Not how, not at what rate,"
+    ],
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     18.15,
+     ""
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "apple",
+     0.0
+    ]
+   ],
+   "onset": null,
+   "text": "Thermodynamics, study of things, just transformations, not how, not apple pie, based on initial, same final stage. Chemical energy stored by molecules, methane, cooking gas, or coal fuel. Fuel burns in air, the reaction's chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions, from one form into another. Transformation. Laws deal with energy changes macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_dnb_take1": {
+  "scribe_mix": {
+   "coverage": 0.9830508474576272,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "or",
+     "",
+     68.84,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "to",
+     "in",
+     71.36,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.04,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules. Methane, cooking gas, or coal, fuel. Fuel burns in air, heat, reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes, macroscopic. A large number of molecules. Rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium. Move state to state. Equilibrium. In equilibrium. Pressure, temperature, in equilibrium. Do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9830508474576272,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     49.56,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "or",
+     "",
+     68.86,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "to",
+     "in",
+     71.38,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.06,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal, fuel. Fuel burns in air, heat, reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. The laws deal with energy changes, macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium. Move state to state, equilibrium. In equilibrium. Pressure, temperature, in equilibrium. Do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9830508474576272,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     49.56,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "or",
+     "",
+     68.86,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "to",
+     "in",
+     71.38,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.06,
+   "text": "Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal, fuel. Fuel burns in air, heat, reactions, chemical. In an engine, work, mechanical. Galvanic cell, like dry cell, energy, electrical. Interrelated forms under certain conditions. From one form into another, transformations. The laws deal with energy changes, macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium. Move state to state, equilibrium. In equilibrium. Pressure, temperature, in equilibrium. Do not change with time. Thermodynamics, study of these transformations. Not how, not at what rate. Based on initial state, final state."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.940677966101695,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "equilibrium or moves state to state",
+     "",
+     64.0,
+     "Laws apply only when a system is in equilibrium,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "the",
+     48.45,
+     ""
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "to",
+     "",
+     64.0,
+     "Or moves, state to state, equilibrium to equilibrium!"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Thermodynamics, study of these transformations, not how, not at what rate, based on initial state, final state. Chemical energy stored by molecules, methane, cooking gas or coal, fuel, fuel burns in air, heat, reactions, chemical, in an engine work. Mechanical, galvanic cell, like dry cell, energy electrical, interrelated forms under certain conditions, from one form into another, transformations. The laws deal with energy changes macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium. Equilibrium. Pressure, temperature in equilibrium. Do not change with time. Thermodynamics. Study of these transformations. Not how, not at what rate, based on initial state, final state."
+  }
+ },
+ "thermo3_dnb_take2": {
+  "scribe_mix": {
+   "coverage": 0.711864406779661,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     22.08,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     null,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 22.08,
+   "text": "Chemical energy stored by molecules, methane, cooking gas or coal, fuel. Fuel burns in air, heat, reactions chemical. In an engine work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time. [outro music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.711864406779661,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     22.1,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     null,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 22.1,
+   "text": "Chemical energy stored by molecules, methane, cooking gas, or coal, fuel. Fuel burns in air, heat, reactions chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions. From one form into another, transformations. Laws deal with energy changes, macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium do not change with time!"
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.711864406779661,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     22.1,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     null,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 22.1,
+   "text": "Chemical energy stored by molecules, methane, cooking gas, or coal, fuel. Fuel burns in air, heat, reactions chemical. In an engine, work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions from one form into another, transformations. Laws deal with energy changes, macroscopic, a large number of molecules rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature in equilibrium do not change with time"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.711864406779661,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     19.15,
+     "Thermodynamics! Study of these transformations!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "thermodynamics study of these transformations not how not at what rate based on initial state final state",
+     "",
+     null,
+     "Thermodynamics! Study of these transformations!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": " Chemical energy stored by molecules, methane, cooking gas or coal fuel. Fuel burns in air, heat. Reactions chemical, in an engine work, mechanical. Galvanic cell like dry cell, energy electrical. Interrelated forms under certain conditions, from one form into another, transformations. Laws deal with energy changes macroscopic, a large number of molecules, rather than microscopic, a few molecules. Laws apply only when a system is in equilibrium or moves state to state, equilibrium to equilibrium. Pressure, temperature, in equilibrium, do not change with time. "
+  }
+ }
+}
