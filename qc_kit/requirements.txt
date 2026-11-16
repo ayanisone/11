@@ -1,0 +1,9 @@
+# Tested 2026-11 on macOS arm64, Python 3.14. Python 3.11+ should work.
+demucs==4.1.0
+torch
+httpx
+numpy
+sarvamai==0.1.35
+indic_transliteration==2.3.82
+openpyxl
+python-docx

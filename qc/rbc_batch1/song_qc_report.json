@@ -1,0 +1,632 @@
+{
+ "rbc_reggaeton_rhyming_take1": {
+  "scribe_mix": {
+   "coverage": 0.97,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     26.34,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     30.64,
+     "Life span? One hundred twenty days!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "the",
+     "",
+     33.48,
+     "Destroyed in? The spleen! Graveyard of RBCs!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "cells",
+     47.38
+    ],
+    [
+     "repeat/harmony",
+     "most",
+     48.22
+    ],
+    [
+     "repeat/harmony",
+     "abundant",
+     48.56
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     49.18
+    ],
+    [
+     "repeat/harmony",
+     "all",
+     49.34
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     49.62
+    ]
+   ],
+   "onset": 0.12,
+   "text": "Erythrocytes, red blood cells. Most abundant of all the cells. Adult man on an average has five to five point five millions of RBCs per cubic millimeter are these. Formed in the red bone marrow. Nucleus devoid in most mammals. Biconcave in shape. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Hemoglobin, grams. Every hundred ml, twelve to sixteen. Role, transport of respiratory gases. Lifespan, one hundred twenty days. Destroyed in spleen, graveyard of RBCs. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Erythrocytes, red blood cells. Most abundant of all the cells."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.95,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "three",
+     26.38,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in every",
+     "",
+     26.54,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "role",
+     "",
+     28.44,
+     "Role? Transport of respiratory gases!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     30.64,
+     "Life span? One hundred twenty days!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "the",
+     "",
+     33.46,
+     "Destroyed in? The spleen! Graveyard of RBCs!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "cells",
+     47.38
+    ],
+    [
+     "repeat/harmony",
+     "most",
+     48.2
+    ],
+    [
+     "repeat/harmony",
+     "abundant",
+     48.54
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     49.18
+    ],
+    [
+     "repeat/harmony",
+     "all",
+     49.34
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     49.62
+    ]
+   ],
+   "onset": 0.0,
+   "text": "Erythrocytes, red blood cells. Most abundant of all the cells. Adult man on an average has five to five point five millions of RBCs per cubic milliliter. Are these formed in the red bone marrow. Nucleus devoid in most mammals. Biconcave in shape. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name hemoglobin. Gram, three hundred ml, twelve to sixteen. Transport of respiratory gases. Lifespan, one hundred twenty days. Destroyed in spleen, graveyard of RBC. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Erythrocytes, red blood cells. Most abundant of all the cells."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.95,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "three",
+     26.38,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in every",
+     "",
+     26.54,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "role",
+     "",
+     28.44,
+     "Role? Transport of respiratory gases!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     30.64,
+     "Life span? One hundred twenty days!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "the",
+     "",
+     33.46,
+     "Destroyed in? The spleen! Graveyard of RBCs!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "cells",
+     47.38
+    ],
+    [
+     "repeat/harmony",
+     "most",
+     48.2
+    ],
+    [
+     "repeat/harmony",
+     "abundant",
+     48.56
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     49.18
+    ],
+    [
+     "repeat/harmony",
+     "all",
+     49.34
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     49.62
+    ]
+   ],
+   "onset": 0.0,
+   "text": "Erythrocytes, red blood cells, most abundant of all the cells. Adult man on an average has five to five point five millions of RBCs per cubic milliliter. Are these formed in the red bone marrow. Nucleus devoid in most mammals. Biconcave in shape. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name hemoglobin. Gram, three hundred ml, twelve to sixteen. Transport of respiratory gases. Lifespan, one hundred twenty days. Destroyed in spleen, graveyard of RBC. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Erythrocytes, red blood cells, most abundant of all the cells."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.88,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "by",
+     12.75,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "three",
+     25.1,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission",
+     "grams in every",
+     "",
+     25.1,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "rich",
+     25.1,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "source",
+     25.1,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "r",
+     25.1,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "d",
+     25.1,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "rbcs",
+     "",
+     25.1,
+     "Destroyed in? The spleen! Graveyard of RBCs!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "point",
+     "",
+     0.0,
+     "Five to five point five millions of RBCs,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "are",
+     "",
+     0.0,
+     "Per cubic millimetre are these!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "formed",
+     "found",
+     12.75,
+     "Formed in? The red bone marrow!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "red",
+     "",
+     12.75,
+     "Red coloured, hence the colour, hence the name!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "role transport",
+     "",
+     25.1,
+     "Role? Transport of respiratory gases!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     25.1,
+     "Life span? One hundred twenty days!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "the",
+     "",
+     25.1,
+     "Destroyed in? The spleen! Graveyard of RBCs!"
+    ]
+   ],
+   "allowed": [
+    [
+     "stutter",
+     "c",
+     25.1
+    ],
+    [
+     "repeat/harmony",
+     "cells",
+     41.65
+    ],
+    [
+     "repeat/harmony",
+     "most",
+     41.65
+    ],
+    [
+     "repeat/harmony",
+     "abundant",
+     41.65
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     41.65
+    ],
+    [
+     "repeat/harmony",
+     "all",
+     41.65
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     41.65
+    ]
+   ],
+   "onset": null,
+   "text": "Erythrocytes, red blood cells, most abundant of all the cells. Adult man on an average has 5 to 5.5 millions of RBCs per cubic millimeter. These. Found in the red bone marrow, nucleus, devoid in most mammals, by concave in shape. Hemoglobin, iron-containing complex protein, colored hence the color, hence the name. Hemoglobin, 300 ml, 12 to 16. Rich source of respiratory gases. Lifespan, 120 days, destroyed in spleen, graveyard of R. D. C. Hemoglobin, iron-containing complex protein, red color, hence the color, hence the name. Erythrocytes, red blood cells, most abundant of all the cells."
+  }
+ },
+ "rbc_reggaeton_rhyming_take2": {
+  "scribe_mix": {
+   "coverage": 0.95,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "100l",
+     28.78,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     9.22,
+     "Adult man, on an average, has"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "point",
+     "",
+     10.8,
+     "Five to five point five millions of RBCs,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "hundred ml",
+     "",
+     29.34,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     32.84,
+     "Life span? One hundred twenty days!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 1.26,
+   "text": "Erythrocytes, red blood cells. Most abundant of all the cells. Adult man on average has five to 5.5 millions of RBCs per cubic millimeter. Are these formed in the red bone marrow. Nucleus devoid in most mammals. Biconcave in shape. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Hemoglobin grams in every 100L, 12 to 16. Role, transport of respiratory gases. Lifespan, one hundred twenty days. Destroyed in the spleen, graveyard of RBCs. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Erythrocytes, red blood cells."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.95,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "100l",
+     28.78,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     9.22,
+     "Adult man, on an average, has"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "point",
+     "",
+     10.78,
+     "Five to five point five millions of RBCs,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "hundred ml",
+     "",
+     29.34,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     32.84,
+     "Life span? One hundred twenty days!"
+    ],
+    [
+     "REVIEW",
+     "function word inserted",
+     "",
+     "and",
+     33.96,
+     ""
+    ]
+   ],
+   "allowed": [],
+   "onset": 1.26,
+   "text": "Erythrocyte, red blood cells. Most abundant of all the cell. Adult man on average has five to 5.5 millions of RBCs per cubic millimeter. Are these formed in the red bone marrow. Nucleus devoid in most mammals. Biconcave in shape. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Hemoglobin grams in every 100L, twelve to sixteen. Role, transport of respiratory gases. Lifespan, one hundred and twenty days. Destroyed in the spleen, graveyard of RBCs. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Erythrocytes, red blood cells."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.95,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "100l",
+     28.78,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     9.22,
+     "Adult man, on an average, has"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "point",
+     "",
+     10.78,
+     "Five to five point five millions of RBCs,"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "hundred ml",
+     "",
+     29.34,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     32.84,
+     "Life span? One hundred twenty days!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 1.26,
+   "text": "Erythrocyte, red blood cells. Most abundant of all the cell. Adult man on average has five to 5.5 millions of RBCs per cubic millimeter. Are these formed in the red bone marrow. Nucleus devoid in most mammals. Biconcave in shape. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Hemoglobin grams in every 100L, twelve to sixteen. Role, transport of respiratory gases. Lifespan, one hundred twenty days. Destroyed in the spleen, graveyard of RBCs. Hemoglobin, iron-containing complex protein. Red colored, hence the color, hence the name. Erythrocyte, red blood cells."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.93,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     0.0,
+     "Adult man, on an average, has"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "point",
+     "",
+     0.0,
+     "Five to five point five millions of RBCs,"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "are",
+     "of",
+     0.0,
+     "Per cubic millimetre are these!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "ml",
+     "l",
+     24.45,
+     "Haemoglobin grams? In every hundred ml, twelve to sixteen!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "life",
+     "",
+     24.45,
+     "Life span? One hundred twenty days!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "hence",
+     "",
+     38.9,
+     "Red coloured, hence the colour, hence the name!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "hence",
+     "",
+     38.9,
+     "Red coloured, hence the colour, hence the name!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "has",
+     38.9
+    ],
+    [
+     "repeat/harmony",
+     "has",
+     38.9
+    ]
+   ],
+   "onset": null,
+   "text": "Erythrocyte, red blood cells, most abundant of all the cell. Adult man on average has 5 to 5.5 millions of RBCs per cubic millimeter of these formed in the red bone marrow. Nucleus devoid in most mammals, biconcave in shape, hemoglobin, iron containing complex protein. Red colored hence the color hence the name. Hemoglobin grams in every hundred L, twelve to sixteen. Rule. Transport of respiratory gases. Lifespan, one hundred twenty days. Destroyed in the spleen. Graveyard of RBCs. Hemoglobin, iron-containing complex protein. Red color has the color has the name. Erythrocytes, red blood cells."
+  }
+ }
+}

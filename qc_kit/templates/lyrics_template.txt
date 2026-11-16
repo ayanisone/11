@@ -1,0 +1,8 @@
+# Lines starting with # are notes. Write the lyrics exactly as sent to the music model.
+# protected: words that must be sung exactly (brand names, numbers, formulas, technical terms)
+[Verse 1]
+First sung line
+Second sung line
+[Chorus]
+Chorus line
+# Section tags like [Chorus] are not scored. Text in ( ) is not scored either.
