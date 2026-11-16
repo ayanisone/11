@@ -1,0 +1,13 @@
+# Song lyric QC summary
+
+Verdict uses only items that more than half of the engine runs agree on. Minority items are listed separately: confirm them with slice_check.py before dismissing them.
+
+| Song | Verdict | Lyric coverage (vocal runs) | Vocal onset | Agreed items | Minority items |
+|---|---|---|---|---|---|
+| trig_bhangra_male_r1 | **PASS** | 99%-100% | 4.82 s | - | FAIL protected term changed: lyric 'odd' heard 'all' (1/4)<br>REVIEW inflection / sound-alike: lyric 'or' heard 'of' (1/4) |
+| trig_jazz_male_r1 | **PASS** | 99%-100% | 7.14 s | - | FAIL new word inserted: lyric '' heard 'necessary' (1/4)<br>FAIL omission (protected): lyric 'missing' heard '' (1/4)<br>FAIL protected term changed: lyric 'two' heard 'to' (1/4)<br>REVIEW sound-alike on protected term: lyric 'sine' heard 'find' (1/4) |
+| trig_acappella_male_r1 | **FAIL** | 97%-99% | 8.14 s | FAIL omission (protected): lyric 'unknown' heard '' @39.4s (4/4)<br>REVIEW sound-alike on protected term: lyric 'tan' heard 'tangent' @88.4s (4/4)<br>FAIL omission (protected): lyric 'find' heard '' @41.5s (3/4) | FAIL omission (protected): lyric 'sides' heard '' @40.4s (1/4)<br>FAIL protected term changed: lyric 'two' heard 'to' (1/4)<br>FAIL omission (protected): lyric 'hypotenuse hypotenuse' heard '' (1/4) |
+| trig_acappella_female_r1 | **PASS** | 100%-100% | 1.06 s | - | - |
+| trig_dnb_male_r1 | **FAIL** | 87%-88% | 24.84 s | FAIL omission (protected): lyric 'trigonometry trigonometry sides and angles of the right angle triangle sine cosine tangent sin cos tan' heard '' @24.8s (4/4)<br>FAIL omission (protected): lyric 'trigonometry' heard '' @155.8s (3/4)<br>FAIL omission (protected): lyric 'sides and angles of the right angle triangle' heard '' @158.0s (3/4) | FAIL new word inserted: lyric '' heard 'number' (1/4)<br>FAIL omission (protected): lyric 'trigonometry sides and angles of the right angle' heard '' (1/4)<br>REVIEW sound-alike on protected term: lyric 'trigonometry' heard 'trigger' (1/4)<br>REVIEW sound-alike on protected term: lyric 'triangle' heard 'three' (1/4) |
+| trig_dnb_female_r1 | **FAIL** | 83%-83% | 22.1 s | FAIL omission (protected): lyric 'trigonometry trigonometry sides and angles of the right angle triangle sine cosine tangent sin cos tan' heard '' @22.1s (3/3)<br>FAIL omission (protected): lyric 'to the y axis' heard '' @136.7s (3/3)<br>FAIL omission (protected): lyric 'sides and angles of the right angle triangle sine cosine tangent sin cos tan' heard '' (3/3)<br>REVIEW sound-alike on protected term: lyric 'find' heard 'sine' @33.4s (2/3) | - |
+| trig_kpop_female_r1 | **PASS** | 100%-100% | 7.82 s | - | - |

@@ -1,0 +1,3663 @@
+{
+ "scribe_mix": {
+  "text": "[singing] Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan. One of the most important branches in mathematics. Huge application in diverse fields. The study of the relationship between sides and angles. Missing unknown angles or sides find, find. Using formulas, functions or trigonometric identities. [instrumental music] Angles measured in either degrees or radians. Commonly used zero, thirty, forty-five, sixty, ninety degrees. Two sub-branches, plane and spherical. Two different types of trigonometry. Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan. Trigonometric ratios also called trigonometric functions. Sine, cosine, and tangent, three important functions. Right-angled triangle, the longest side hypotenuse, hypotenuse. The sides referred to as the adjacent and opposite sides. [instrumental music] Odd function, f of minus x equals minus f of x. Symmetric with respect to the origin. Even function, f of minus x equals f of x. Symmetric to the y-axis. [instrumental music] Sine, cosine, tangent of these angles easy to memorize. The table all the ratios, all the values. Draw a right-angled triangle. One of the acute angles, the corresponding angle. Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[singing]",
+    "s": 0.3,
+    "e": 7.06,
+    "type": "audio_event"
+   },
+   {
+    "w": "Trigonometry,",
+    "s": 7.12,
+    "e": 8.46,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 8.86,
+    "e": 10.14,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 10.56,
+    "e": 11.02,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 11.06,
+    "e": 11.18,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 11.28,
+    "e": 11.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 11.7,
+    "e": 11.84,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 11.9,
+    "e": 11.96,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 12.06,
+    "e": 12.62,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 12.72,
+    "e": 13.4,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 13.62,
+    "e": 14.3,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 14.88,
+    "e": 15.84,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 16.32,
+    "e": 16.84,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 17.0,
+    "e": 17.3,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 18.28,
+    "e": 18.6,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 18.72,
+    "e": 19.28,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 20.94,
+    "e": 21.08,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 21.18,
+    "e": 21.28,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 21.32,
+    "e": 21.4,
+    "type": "word"
+   },
+   {
+    "w": "most",
+    "s": 21.48,
+    "e": 21.74,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 21.8,
+    "e": 22.24,
+    "type": "word"
+   },
+   {
+    "w": "branches",
+    "s": 22.32,
+    "e": 22.78,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 22.82,
+    "e": 22.94,
+    "type": "word"
+   },
+   {
+    "w": "mathematics.",
+    "s": 23.0,
+    "e": 23.92,
+    "type": "word"
+   },
+   {
+    "w": "Huge",
+    "s": 24.26,
+    "e": 24.48,
+    "type": "word"
+   },
+   {
+    "w": "application",
+    "s": 24.58,
+    "e": 25.34,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 25.42,
+    "e": 25.66,
+    "type": "word"
+   },
+   {
+    "w": "diverse",
+    "s": 25.74,
+    "e": 26.32,
+    "type": "word"
+   },
+   {
+    "w": "fields.",
+    "s": 26.46,
+    "e": 27.28,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 27.74,
+    "e": 27.84,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 27.92,
+    "e": 28.3,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 28.42,
+    "e": 28.54,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 28.6,
+    "e": 28.66,
+    "type": "word"
+   },
+   {
+    "w": "relationship",
+    "s": 28.74,
+    "e": 29.4,
+    "type": "word"
+   },
+   {
+    "w": "between",
+    "s": 29.44,
+    "e": 29.98,
+    "type": "word"
+   },
+   {
+    "w": "sides",
+    "s": 30.04,
+    "e": 30.32,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 30.36,
+    "e": 30.48,
+    "type": "word"
+   },
+   {
+    "w": "angles.",
+    "s": 30.58,
+    "e": 31.0,
+    "type": "word"
+   },
+   {
+    "w": "Missing",
+    "s": 31.2,
+    "e": 31.78,
+    "type": "word"
+   },
+   {
+    "w": "unknown",
+    "s": 31.86,
+    "e": 32.58,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 32.7,
+    "e": 33.06,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 33.1,
+    "e": 33.22,
+    "type": "word"
+   },
+   {
+    "w": "sides",
+    "s": 33.3,
+    "e": 33.84,
+    "type": "word"
+   },
+   {
+    "w": "find,",
+    "s": 33.94,
+    "e": 34.14,
+    "type": "word"
+   },
+   {
+    "w": "find.",
+    "s": 34.26,
+    "e": 34.86,
+    "type": "word"
+   },
+   {
+    "w": "Using",
+    "s": 35.48,
+    "e": 35.84,
+    "type": "word"
+   },
+   {
+    "w": "formulas,",
+    "s": 36.02,
+    "e": 36.7,
+    "type": "word"
+   },
+   {
+    "w": "functions",
+    "s": 36.9,
+    "e": 37.36,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 37.42,
+    "e": 37.62,
+    "type": "word"
+   },
+   {
+    "w": "trigonometric",
+    "s": 38.0,
+    "e": 39.08,
+    "type": "word"
+   },
+   {
+    "w": "identities.",
+    "s": 39.42,
+    "e": 41.86,
+    "type": "word"
+   },
+   {
+    "w": "[instrumental music]",
+    "s": 41.98,
+    "e": 55.1,
+    "type": "audio_event"
+   },
+   {
+    "w": "Angles",
+    "s": 55.24,
+    "e": 55.72,
+    "type": "word"
+   },
+   {
+    "w": "measured",
+    "s": 55.78,
+    "e": 56.2,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 56.26,
+    "e": 56.44,
+    "type": "word"
+   },
+   {
+    "w": "either",
+    "s": 56.52,
+    "e": 56.82,
+    "type": "word"
+   },
+   {
+    "w": "degrees",
+    "s": 56.9,
+    "e": 57.32,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 57.36,
+    "e": 57.42,
+    "type": "word"
+   },
+   {
+    "w": "radians.",
+    "s": 57.5,
+    "e": 58.24,
+    "type": "word"
+   },
+   {
+    "w": "Commonly",
+    "s": 58.58,
+    "e": 59.14,
+    "type": "word"
+   },
+   {
+    "w": "used",
+    "s": 59.22,
+    "e": 59.44,
+    "type": "word"
+   },
+   {
+    "w": "zero,",
+    "s": 59.46,
+    "e": 59.66,
+    "type": "word"
+   },
+   {
+    "w": "thirty,",
+    "s": 59.76,
+    "e": 59.94,
+    "type": "word"
+   },
+   {
+    "w": "forty-five,",
+    "s": 60.02,
+    "e": 60.42,
+    "type": "word"
+   },
+   {
+    "w": "sixty,",
+    "s": 60.5,
+    "e": 60.84,
+    "type": "word"
+   },
+   {
+    "w": "ninety",
+    "s": 60.92,
+    "e": 61.26,
+    "type": "word"
+   },
+   {
+    "w": "degrees.",
+    "s": 61.36,
+    "e": 61.94,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 62.04,
+    "e": 62.22,
+    "type": "word"
+   },
+   {
+    "w": "sub-branches,",
+    "s": 62.36,
+    "e": 63.34,
+    "type": "word"
+   },
+   {
+    "w": "plane",
+    "s": 63.72,
+    "e": 64.04,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 64.08,
+    "e": 64.18,
+    "type": "word"
+   },
+   {
+    "w": "spherical.",
+    "s": 64.319,
+    "e": 65.099,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 65.42,
+    "e": 65.56,
+    "type": "word"
+   },
+   {
+    "w": "different",
+    "s": 65.62,
+    "e": 65.98,
+    "type": "word"
+   },
+   {
+    "w": "types",
+    "s": 66.08,
+    "e": 66.38,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 66.5,
+    "e": 66.66,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 66.72,
+    "e": 68.0,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometry,",
+    "s": 71.44,
+    "e": 72.84,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 74.86,
+    "e": 76.28,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 78.3,
+    "e": 78.66,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 78.7,
+    "e": 78.9,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 79.0,
+    "e": 79.6,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.7,
+    "e": 80.14,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 80.48,
+    "e": 80.74,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 80.9,
+    "e": 81.94,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 82.02,
+    "e": 83.04,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 83.88,
+    "e": 84.3,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 84.9,
+    "e": 85.5,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 85.64,
+    "e": 86.48,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 87.3,
+    "e": 87.58,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 87.74,
+    "e": 88.06,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 88.2,
+    "e": 88.58,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometric",
+    "s": 91.14,
+    "e": 92.18,
+    "type": "word"
+   },
+   {
+    "w": "ratios",
+    "s": 92.24,
+    "e": 93.1,
+    "type": "word"
+   },
+   {
+    "w": "also",
+    "s": 93.42,
+    "e": 93.84,
+    "type": "word"
+   },
+   {
+    "w": "called",
+    "s": 93.92,
+    "e": 94.26,
+    "type": "word"
+   },
+   {
+    "w": "trigonometric",
+    "s": 94.32,
+    "e": 95.1,
+    "type": "word"
+   },
+   {
+    "w": "functions.",
+    "s": 95.2,
+    "e": 95.7,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 95.86,
+    "e": 96.2,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 96.3,
+    "e": 96.74,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 96.76,
+    "e": 96.86,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 96.94,
+    "e": 97.38,
+    "type": "word"
+   },
+   {
+    "w": "three",
+    "s": 97.56,
+    "e": 97.98,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 98.06,
+    "e": 98.5,
+    "type": "word"
+   },
+   {
+    "w": "functions.",
+    "s": 98.64,
+    "e": 99.28,
+    "type": "word"
+   },
+   {
+    "w": "Right-angled",
+    "s": 99.78,
+    "e": 100.3,
+    "type": "word"
+   },
+   {
+    "w": "triangle,",
+    "s": 100.38,
+    "e": 101.36,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 101.46,
+    "e": 101.54,
+    "type": "word"
+   },
+   {
+    "w": "longest",
+    "s": 101.6,
+    "e": 101.98,
+    "type": "word"
+   },
+   {
+    "w": "side",
+    "s": 102.06,
+    "e": 102.42,
+    "type": "word"
+   },
+   {
+    "w": "hypotenuse,",
+    "s": 102.74,
+    "e": 104.12,
+    "type": "word"
+   },
+   {
+    "w": "hypotenuse.",
+    "s": 104.44,
+    "e": 105.66,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 105.74,
+    "e": 105.84,
+    "type": "word"
+   },
+   {
+    "w": "sides",
+    "s": 105.9,
+    "e": 106.16,
+    "type": "word"
+   },
+   {
+    "w": "referred",
+    "s": 106.22,
+    "e": 106.58,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 106.64,
+    "e": 106.76,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 106.88,
+    "e": 107.02,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 107.06,
+    "e": 107.14,
+    "type": "word"
+   },
+   {
+    "w": "adjacent",
+    "s": 107.22,
+    "e": 107.88,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 107.92,
+    "e": 108.06,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 108.18,
+    "e": 108.64,
+    "type": "word"
+   },
+   {
+    "w": "sides.",
+    "s": 108.76,
+    "e": 110.0,
+    "type": "word"
+   },
+   {
+    "w": "[instrumental music]",
+    "s": 110.12,
+    "e": 116.46,
+    "type": "audio_event"
+   },
+   {
+    "w": "Odd",
+    "s": 116.62,
+    "e": 116.84,
+    "type": "word"
+   },
+   {
+    "w": "function,",
+    "s": 117.02,
+    "e": 117.6,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 118.32,
+    "e": 118.34,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 118.44,
+    "e": 118.52,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 118.6,
+    "e": 118.96,
+    "type": "word"
+   },
+   {
+    "w": "x",
+    "s": 118.98,
+    "e": 119.18,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 119.24,
+    "e": 119.56,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 119.62,
+    "e": 119.84,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 120.04,
+    "e": 120.06,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 120.14,
+    "e": 120.3,
+    "type": "word"
+   },
+   {
+    "w": "x.",
+    "s": 120.5,
+    "e": 120.56,
+    "type": "word"
+   },
+   {
+    "w": "Symmetric",
+    "s": 120.72,
+    "e": 121.28,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 121.34,
+    "e": 121.48,
+    "type": "word"
+   },
+   {
+    "w": "respect",
+    "s": 121.56,
+    "e": 121.96,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 122.02,
+    "e": 122.12,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 122.2,
+    "e": 122.32,
+    "type": "word"
+   },
+   {
+    "w": "origin.",
+    "s": 122.46,
+    "e": 123.0,
+    "type": "word"
+   },
+   {
+    "w": "Even",
+    "s": 123.34,
+    "e": 123.6,
+    "type": "word"
+   },
+   {
+    "w": "function,",
+    "s": 123.76,
+    "e": 124.36,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 125.18,
+    "e": 125.22,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 125.28,
+    "e": 125.38,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 125.46,
+    "e": 125.84,
+    "type": "word"
+   },
+   {
+    "w": "x",
+    "s": 126.12,
+    "e": 126.16,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 126.34,
+    "e": 126.7,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 126.92,
+    "e": 126.94,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 127.04,
+    "e": 127.18,
+    "type": "word"
+   },
+   {
+    "w": "x.",
+    "s": 127.52,
+    "e": 127.56,
+    "type": "word"
+   },
+   {
+    "w": "Symmetric",
+    "s": 127.58,
+    "e": 128.12,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 128.199,
+    "e": 128.4,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 128.46,
+    "e": 128.56,
+    "type": "word"
+   },
+   {
+    "w": "y-axis.",
+    "s": 129.36,
+    "e": 130.1,
+    "type": "word"
+   },
+   {
+    "w": "[instrumental music]",
+    "s": 130.1,
+    "e": 136.94,
+    "type": "audio_event"
+   },
+   {
+    "w": "Sine,",
+    "s": 137.02,
+    "e": 137.34,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 137.44,
+    "e": 137.94,
+    "type": "word"
+   },
+   {
+    "w": "tangent",
+    "s": 138.06,
+    "e": 138.46,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 138.56,
+    "e": 138.7,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 138.76,
+    "e": 138.9,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 139.02,
+    "e": 139.32,
+    "type": "word"
+   },
+   {
+    "w": "easy",
+    "s": 139.36,
+    "e": 139.56,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 139.6,
+    "e": 139.7,
+    "type": "word"
+   },
+   {
+    "w": "memorize.",
+    "s": 139.76,
+    "e": 140.4,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 140.46,
+    "e": 140.56,
+    "type": "word"
+   },
+   {
+    "w": "table",
+    "s": 140.64,
+    "e": 141.04,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 141.12,
+    "e": 141.28,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 141.32,
+    "e": 141.4,
+    "type": "word"
+   },
+   {
+    "w": "ratios,",
+    "s": 141.48,
+    "e": 142.28,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 142.82,
+    "e": 142.98,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 143.02,
+    "e": 143.1,
+    "type": "word"
+   },
+   {
+    "w": "values.",
+    "s": 143.2,
+    "e": 143.92,
+    "type": "word"
+   },
+   {
+    "w": "Draw",
+    "s": 144.28,
+    "e": 144.66,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 144.76,
+    "e": 144.8,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 144.92,
+    "e": 146.22,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 146.36,
+    "e": 147.06,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 147.34,
+    "e": 147.48,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 147.56,
+    "e": 147.68,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 147.74,
+    "e": 147.88,
+    "type": "word"
+   },
+   {
+    "w": "acute",
+    "s": 147.96,
+    "e": 148.32,
+    "type": "word"
+   },
+   {
+    "w": "angles,",
+    "s": 148.44,
+    "e": 148.82,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 149.02,
+    "e": 149.12,
+    "type": "word"
+   },
+   {
+    "w": "corresponding",
+    "s": 149.18,
+    "e": 150.02,
+    "type": "word"
+   },
+   {
+    "w": "angle.",
+    "s": 150.14,
+    "e": 150.84,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometry,",
+    "s": 154.26,
+    "e": 155.5,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 156.0,
+    "e": 157.28,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 157.96,
+    "e": 158.44,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 158.48,
+    "e": 158.6,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 158.7,
+    "e": 159.04,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 159.14,
+    "e": 159.26,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 159.3,
+    "e": 159.38,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 159.48,
+    "e": 160.06,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 160.12,
+    "e": 160.78,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 161.14,
+    "e": 161.48,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 161.6,
+    "e": 161.96,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 162.06,
+    "e": 162.52,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 162.9,
+    "e": 163.14,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 163.3,
+    "e": 163.6,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 163.74,
+    "e": 164.18,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_1": {
+  "text": "Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan. One of the most important branches in mathematics. Huge application in diverse fields. The study of the relationship between sides and angles. Missing un-unknown angles or sides, find, find. Using formulas, functions, or trigonometric identities. Angles measured in either degrees or radians. Commonly used zero, thirty, forty-five, sixty, ninety degrees. Two sub-branches, plane and spherical. Two different types of trigonometry. Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan. Trigonometric ratios, also called trigonometric functions. Sine, cosine, and tangent, three important functions. Right-angled triangle, the longest side hypotenuse, hypotenuse. The sides referred to as the adjacent and opposite sides. Odd function, f of minus x equals minus f of x. Symmetric with respect to the origin. Even function, f of minus x equals f of x. Symmetric to the y-axis. Sine, cosine, tangent of these angles easy to memorize. The table, all the ratios, all the values. Draw a right-angled triangle. One of the acute angles, the corresponding angle. Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Trigonometry,",
+    "s": 7.14,
+    "e": 8.48,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 8.88,
+    "e": 10.16,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 10.58,
+    "e": 11.04,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 11.08,
+    "e": 11.2,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 11.3,
+    "e": 11.62,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 11.74,
+    "e": 11.88,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 11.92,
+    "e": 11.98,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 12.08,
+    "e": 12.64,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 12.74,
+    "e": 13.48,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 13.64,
+    "e": 14.42,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 14.9,
+    "e": 15.9,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 16.32,
+    "e": 16.9,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 17.04,
+    "e": 17.44,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 18.3,
+    "e": 18.62,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 18.74,
+    "e": 19.38,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 20.92,
+    "e": 21.08,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 21.2,
+    "e": 21.3,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 21.34,
+    "e": 21.42,
+    "type": "word"
+   },
+   {
+    "w": "most",
+    "s": 21.5,
+    "e": 21.76,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 21.82,
+    "e": 22.28,
+    "type": "word"
+   },
+   {
+    "w": "branches",
+    "s": 22.34,
+    "e": 22.8,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 22.86,
+    "e": 22.96,
+    "type": "word"
+   },
+   {
+    "w": "mathematics.",
+    "s": 23.04,
+    "e": 23.96,
+    "type": "word"
+   },
+   {
+    "w": "Huge",
+    "s": 24.3,
+    "e": 24.5,
+    "type": "word"
+   },
+   {
+    "w": "application",
+    "s": 24.62,
+    "e": 25.38,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 25.44,
+    "e": 25.7,
+    "type": "word"
+   },
+   {
+    "w": "diverse",
+    "s": 25.78,
+    "e": 26.34,
+    "type": "word"
+   },
+   {
+    "w": "fields.",
+    "s": 26.48,
+    "e": 27.32,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 27.76,
+    "e": 27.86,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 27.94,
+    "e": 28.34,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 28.46,
+    "e": 28.58,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 28.62,
+    "e": 28.7,
+    "type": "word"
+   },
+   {
+    "w": "relationship",
+    "s": 28.78,
+    "e": 29.42,
+    "type": "word"
+   },
+   {
+    "w": "between",
+    "s": 29.46,
+    "e": 30.02,
+    "type": "word"
+   },
+   {
+    "w": "sides",
+    "s": 30.08,
+    "e": 30.36,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 30.4,
+    "e": 30.5,
+    "type": "word"
+   },
+   {
+    "w": "angles.",
+    "s": 30.62,
+    "e": 31.02,
+    "type": "word"
+   },
+   {
+    "w": "Missing",
+    "s": 31.24,
+    "e": 31.8,
+    "type": "word"
+   },
+   {
+    "w": "un-unknown",
+    "s": 31.88,
+    "e": 32.6,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 32.72,
+    "e": 33.06,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 33.12,
+    "e": 33.24,
+    "type": "word"
+   },
+   {
+    "w": "sides,",
+    "s": 33.32,
+    "e": 33.86,
+    "type": "word"
+   },
+   {
+    "w": "find,",
+    "s": 33.96,
+    "e": 34.18,
+    "type": "word"
+   },
+   {
+    "w": "find.",
+    "s": 34.28,
+    "e": 34.9,
+    "type": "word"
+   },
+   {
+    "w": "Using",
+    "s": 35.52,
+    "e": 35.96,
+    "type": "word"
+   },
+   {
+    "w": "formulas,",
+    "s": 36.06,
+    "e": 36.72,
+    "type": "word"
+   },
+   {
+    "w": "functions,",
+    "s": 36.94,
+    "e": 37.38,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 37.46,
+    "e": 37.64,
+    "type": "word"
+   },
+   {
+    "w": "trigonometric",
+    "s": 38.04,
+    "e": 39.32,
+    "type": "word"
+   },
+   {
+    "w": "identities.",
+    "s": 39.48,
+    "e": 41.98,
+    "type": "word"
+   },
+   {
+    "w": "Angles",
+    "s": 55.46,
+    "e": 55.74,
+    "type": "word"
+   },
+   {
+    "w": "measured",
+    "s": 55.8,
+    "e": 56.22,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 56.3,
+    "e": 56.48,
+    "type": "word"
+   },
+   {
+    "w": "either",
+    "s": 56.56,
+    "e": 56.86,
+    "type": "word"
+   },
+   {
+    "w": "degrees",
+    "s": 56.92,
+    "e": 57.34,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 57.38,
+    "e": 57.46,
+    "type": "word"
+   },
+   {
+    "w": "radians.",
+    "s": 57.52,
+    "e": 58.28,
+    "type": "word"
+   },
+   {
+    "w": "Commonly",
+    "s": 58.6,
+    "e": 59.16,
+    "type": "word"
+   },
+   {
+    "w": "used",
+    "s": 59.28,
+    "e": 59.46,
+    "type": "word"
+   },
+   {
+    "w": "zero,",
+    "s": 59.48,
+    "e": 59.7,
+    "type": "word"
+   },
+   {
+    "w": "thirty,",
+    "s": 59.78,
+    "e": 59.96,
+    "type": "word"
+   },
+   {
+    "w": "forty-five,",
+    "s": 60.06,
+    "e": 60.44,
+    "type": "word"
+   },
+   {
+    "w": "sixty,",
+    "s": 60.54,
+    "e": 60.86,
+    "type": "word"
+   },
+   {
+    "w": "ninety",
+    "s": 60.96,
+    "e": 61.32,
+    "type": "word"
+   },
+   {
+    "w": "degrees.",
+    "s": 61.38,
+    "e": 61.98,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 62.06,
+    "e": 62.22,
+    "type": "word"
+   },
+   {
+    "w": "sub-branches,",
+    "s": 62.38,
+    "e": 63.36,
+    "type": "word"
+   },
+   {
+    "w": "plane",
+    "s": 63.76,
+    "e": 64.06,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 64.099,
+    "e": 64.2,
+    "type": "word"
+   },
+   {
+    "w": "spherical.",
+    "s": 64.34,
+    "e": 65.16,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 65.459,
+    "e": 65.58,
+    "type": "word"
+   },
+   {
+    "w": "different",
+    "s": 65.64,
+    "e": 66.04,
+    "type": "word"
+   },
+   {
+    "w": "types",
+    "s": 66.1,
+    "e": 66.4,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 66.52,
+    "e": 66.68,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 66.76,
+    "e": 68.1,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometry,",
+    "s": 71.46,
+    "e": 74.78,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 74.88,
+    "e": 76.18,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 78.32,
+    "e": 78.68,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 78.76,
+    "e": 78.92,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 79.04,
+    "e": 79.62,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.88,
+    "e": 80.38,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 80.5,
+    "e": 80.76,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 80.94,
+    "e": 81.96,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 82.04,
+    "e": 83.2,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 83.9,
+    "e": 84.34,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 84.92,
+    "e": 85.56,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 85.66,
+    "e": 86.52,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 87.32,
+    "e": 87.68,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 87.76,
+    "e": 88.1,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 88.22,
+    "e": 88.54,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometric",
+    "s": 91.18,
+    "e": 92.18,
+    "type": "word"
+   },
+   {
+    "w": "ratios,",
+    "s": 92.26,
+    "e": 93.12,
+    "type": "word"
+   },
+   {
+    "w": "also",
+    "s": 93.46,
+    "e": 93.88,
+    "type": "word"
+   },
+   {
+    "w": "called",
+    "s": 93.94,
+    "e": 94.28,
+    "type": "word"
+   },
+   {
+    "w": "trigonometric",
+    "s": 94.34,
+    "e": 95.16,
+    "type": "word"
+   },
+   {
+    "w": "functions.",
+    "s": 95.22,
+    "e": 95.8,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 95.9,
+    "e": 96.22,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 96.32,
+    "e": 96.76,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 96.8,
+    "e": 96.9,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 96.96,
+    "e": 97.4,
+    "type": "word"
+   },
+   {
+    "w": "three",
+    "s": 97.58,
+    "e": 98.0,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 98.1,
+    "e": 98.56,
+    "type": "word"
+   },
+   {
+    "w": "functions.",
+    "s": 98.66,
+    "e": 99.36,
+    "type": "word"
+   },
+   {
+    "w": "Right-angled",
+    "s": 99.8,
+    "e": 100.32,
+    "type": "word"
+   },
+   {
+    "w": "triangle,",
+    "s": 100.4,
+    "e": 101.4,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 101.48,
+    "e": 101.56,
+    "type": "word"
+   },
+   {
+    "w": "longest",
+    "s": 101.62,
+    "e": 102.0,
+    "type": "word"
+   },
+   {
+    "w": "side",
+    "s": 102.08,
+    "e": 102.7,
+    "type": "word"
+   },
+   {
+    "w": "hypotenuse,",
+    "s": 102.76,
+    "e": 104.16,
+    "type": "word"
+   },
+   {
+    "w": "hypotenuse.",
+    "s": 104.46,
+    "e": 105.68,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 105.76,
+    "e": 105.86,
+    "type": "word"
+   },
+   {
+    "w": "sides",
+    "s": 105.92,
+    "e": 106.2,
+    "type": "word"
+   },
+   {
+    "w": "referred",
+    "s": 106.24,
+    "e": 106.6,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 106.66,
+    "e": 106.78,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 106.9,
+    "e": 107.04,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 107.08,
+    "e": 107.18,
+    "type": "word"
+   },
+   {
+    "w": "adjacent",
+    "s": 107.24,
+    "e": 107.9,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 107.98,
+    "e": 108.08,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 108.2,
+    "e": 108.7,
+    "type": "word"
+   },
+   {
+    "w": "sides.",
+    "s": 108.78,
+    "e": 111.56,
+    "type": "word"
+   },
+   {
+    "w": "Odd",
+    "s": 116.64,
+    "e": 116.92,
+    "type": "word"
+   },
+   {
+    "w": "function,",
+    "s": 117.04,
+    "e": 117.7,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 118.34,
+    "e": 118.38,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 118.46,
+    "e": 118.56,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 118.62,
+    "e": 119.0,
+    "type": "word"
+   },
+   {
+    "w": "x",
+    "s": 119.18,
+    "e": 119.22,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 119.3,
+    "e": 119.58,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 119.64,
+    "e": 119.88,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 120.04,
+    "e": 120.08,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 120.18,
+    "e": 120.32,
+    "type": "word"
+   },
+   {
+    "w": "x.",
+    "s": 120.64,
+    "e": 120.66,
+    "type": "word"
+   },
+   {
+    "w": "Symmetric",
+    "s": 120.76,
+    "e": 121.32,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 121.36,
+    "e": 121.5,
+    "type": "word"
+   },
+   {
+    "w": "respect",
+    "s": 121.58,
+    "e": 121.98,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 122.04,
+    "e": 122.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 122.22,
+    "e": 122.4,
+    "type": "word"
+   },
+   {
+    "w": "origin.",
+    "s": 122.52,
+    "e": 123.02,
+    "type": "word"
+   },
+   {
+    "w": "Even",
+    "s": 123.38,
+    "e": 123.7,
+    "type": "word"
+   },
+   {
+    "w": "function,",
+    "s": 123.78,
+    "e": 124.44,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 125.2,
+    "e": 125.24,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 125.3,
+    "e": 125.42,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 125.48,
+    "e": 125.86,
+    "type": "word"
+   },
+   {
+    "w": "x",
+    "s": 126.14,
+    "e": 126.26,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 126.38,
+    "e": 126.72,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 126.94,
+    "e": 126.96,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 127.06,
+    "e": 127.2,
+    "type": "word"
+   },
+   {
+    "w": "x.",
+    "s": 127.56,
+    "e": 127.58,
+    "type": "word"
+   },
+   {
+    "w": "Symmetric",
+    "s": 127.6,
+    "e": 128.139,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 128.199,
+    "e": 128.419,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 128.5,
+    "e": 128.58,
+    "type": "word"
+   },
+   {
+    "w": "y-axis.",
+    "s": 129.38,
+    "e": 130.18,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 137.06,
+    "e": 137.36,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 137.46,
+    "e": 137.96,
+    "type": "word"
+   },
+   {
+    "w": "tangent",
+    "s": 138.08,
+    "e": 138.5,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 138.6,
+    "e": 138.72,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 138.78,
+    "e": 138.94,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 139.04,
+    "e": 139.34,
+    "type": "word"
+   },
+   {
+    "w": "easy",
+    "s": 139.4,
+    "e": 139.58,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 139.62,
+    "e": 139.72,
+    "type": "word"
+   },
+   {
+    "w": "memorize.",
+    "s": 139.78,
+    "e": 140.44,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 140.48,
+    "e": 140.58,
+    "type": "word"
+   },
+   {
+    "w": "table,",
+    "s": 140.66,
+    "e": 141.04,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 141.16,
+    "e": 141.3,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 141.34,
+    "e": 141.44,
+    "type": "word"
+   },
+   {
+    "w": "ratios,",
+    "s": 141.5,
+    "e": 142.32,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 142.84,
+    "e": 143.0,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 143.06,
+    "e": 143.16,
+    "type": "word"
+   },
+   {
+    "w": "values.",
+    "s": 143.22,
+    "e": 143.96,
+    "type": "word"
+   },
+   {
+    "w": "Draw",
+    "s": 144.32,
+    "e": 144.68,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 144.8,
+    "e": 144.86,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 144.94,
+    "e": 146.3,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 146.38,
+    "e": 147.08,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 147.4,
+    "e": 147.5,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 147.62,
+    "e": 147.7,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 147.78,
+    "e": 147.9,
+    "type": "word"
+   },
+   {
+    "w": "acute",
+    "s": 148.02,
+    "e": 148.34,
+    "type": "word"
+   },
+   {
+    "w": "angles,",
+    "s": 148.46,
+    "e": 148.84,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 149.06,
+    "e": 149.14,
+    "type": "word"
+   },
+   {
+    "w": "corresponding",
+    "s": 149.2,
+    "e": 150.06,
+    "type": "word"
+   },
+   {
+    "w": "angle.",
+    "s": 150.16,
+    "e": 150.8,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometry,",
+    "s": 154.3,
+    "e": 155.58,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 156.02,
+    "e": 157.32,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 158.0,
+    "e": 158.46,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 158.52,
+    "e": 158.64,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 158.74,
+    "e": 159.06,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 159.16,
+    "e": 159.28,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 159.34,
+    "e": 159.44,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 159.5,
+    "e": 160.08,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 160.14,
+    "e": 160.84,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 161.18,
+    "e": 161.5,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 161.62,
+    "e": 161.98,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 162.08,
+    "e": 162.54,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 162.92,
+    "e": 163.16,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 163.32,
+    "e": 163.64,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 163.76,
+    "e": 164.18,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_2": {
+  "text": "Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan. One of the most important branches in mathematics. Huge application in diverse fields. The study of the relationship between sides and angles. Missing un-unknown angles or sides, find, find. Using formulas, functions, or trigonometric identities. Angles measured in either degrees or radians. Commonly used zero, thirty, forty-five, sixty, ninety degrees. Two sub-branches, plane and spherical. Two different types of trigonometry. Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan. Trigonometric ratios, also called trigonometric functions. Sine, cosine, and tangent, three important functions. Right-angled triangle, the longest side hypotenuse, hypotenuse. The sides referred to as the adjacent and opposite sides. Odd function, f of minus x equals minus f of x. Symmetric with respect to the origin. Even function, f of minus x equals f of x. Symmetric to the y-axis. Sine, cosine, tangent of these angles easy to memorize. The table, all the ratios, all the values. Draw a right-angled triangle. One of the acute angles, the corresponding angle. Trigonometry, trigonometry. Sides and angles of the right-angled triangle. Sine, cosine, tangent, sin, cos, tan.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Trigonometry,",
+    "s": 7.14,
+    "e": 8.48,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 8.88,
+    "e": 10.16,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 10.58,
+    "e": 11.04,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 11.08,
+    "e": 11.2,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 11.3,
+    "e": 11.62,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 11.74,
+    "e": 11.88,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 11.92,
+    "e": 11.98,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 12.08,
+    "e": 12.64,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 12.74,
+    "e": 13.48,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 13.64,
+    "e": 14.42,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 14.9,
+    "e": 15.9,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 16.32,
+    "e": 16.9,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 17.04,
+    "e": 17.44,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 18.3,
+    "e": 18.62,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 18.74,
+    "e": 19.38,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 20.92,
+    "e": 21.08,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 21.2,
+    "e": 21.3,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 21.34,
+    "e": 21.42,
+    "type": "word"
+   },
+   {
+    "w": "most",
+    "s": 21.5,
+    "e": 21.76,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 21.82,
+    "e": 22.28,
+    "type": "word"
+   },
+   {
+    "w": "branches",
+    "s": 22.34,
+    "e": 22.8,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 22.86,
+    "e": 22.96,
+    "type": "word"
+   },
+   {
+    "w": "mathematics.",
+    "s": 23.04,
+    "e": 23.96,
+    "type": "word"
+   },
+   {
+    "w": "Huge",
+    "s": 24.3,
+    "e": 24.5,
+    "type": "word"
+   },
+   {
+    "w": "application",
+    "s": 24.62,
+    "e": 25.38,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 25.44,
+    "e": 25.7,
+    "type": "word"
+   },
+   {
+    "w": "diverse",
+    "s": 25.78,
+    "e": 26.34,
+    "type": "word"
+   },
+   {
+    "w": "fields.",
+    "s": 26.48,
+    "e": 27.32,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 27.76,
+    "e": 27.86,
+    "type": "word"
+   },
+   {
+    "w": "study",
+    "s": 27.94,
+    "e": 28.34,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 28.46,
+    "e": 28.58,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 28.62,
+    "e": 28.7,
+    "type": "word"
+   },
+   {
+    "w": "relationship",
+    "s": 28.78,
+    "e": 29.42,
+    "type": "word"
+   },
+   {
+    "w": "between",
+    "s": 29.46,
+    "e": 30.02,
+    "type": "word"
+   },
+   {
+    "w": "sides",
+    "s": 30.08,
+    "e": 30.36,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 30.4,
+    "e": 30.5,
+    "type": "word"
+   },
+   {
+    "w": "angles.",
+    "s": 30.62,
+    "e": 31.02,
+    "type": "word"
+   },
+   {
+    "w": "Missing",
+    "s": 31.24,
+    "e": 31.8,
+    "type": "word"
+   },
+   {
+    "w": "un-unknown",
+    "s": 31.88,
+    "e": 32.6,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 32.72,
+    "e": 33.06,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 33.12,
+    "e": 33.24,
+    "type": "word"
+   },
+   {
+    "w": "sides,",
+    "s": 33.32,
+    "e": 33.86,
+    "type": "word"
+   },
+   {
+    "w": "find,",
+    "s": 33.96,
+    "e": 34.18,
+    "type": "word"
+   },
+   {
+    "w": "find.",
+    "s": 34.28,
+    "e": 34.9,
+    "type": "word"
+   },
+   {
+    "w": "Using",
+    "s": 35.52,
+    "e": 35.96,
+    "type": "word"
+   },
+   {
+    "w": "formulas,",
+    "s": 36.06,
+    "e": 36.72,
+    "type": "word"
+   },
+   {
+    "w": "functions,",
+    "s": 36.94,
+    "e": 37.38,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 37.46,
+    "e": 37.64,
+    "type": "word"
+   },
+   {
+    "w": "trigonometric",
+    "s": 38.04,
+    "e": 39.32,
+    "type": "word"
+   },
+   {
+    "w": "identities.",
+    "s": 39.48,
+    "e": 41.98,
+    "type": "word"
+   },
+   {
+    "w": "Angles",
+    "s": 55.46,
+    "e": 55.74,
+    "type": "word"
+   },
+   {
+    "w": "measured",
+    "s": 55.8,
+    "e": 56.22,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 56.3,
+    "e": 56.48,
+    "type": "word"
+   },
+   {
+    "w": "either",
+    "s": 56.56,
+    "e": 56.86,
+    "type": "word"
+   },
+   {
+    "w": "degrees",
+    "s": 56.92,
+    "e": 57.34,
+    "type": "word"
+   },
+   {
+    "w": "or",
+    "s": 57.38,
+    "e": 57.46,
+    "type": "word"
+   },
+   {
+    "w": "radians.",
+    "s": 57.52,
+    "e": 58.28,
+    "type": "word"
+   },
+   {
+    "w": "Commonly",
+    "s": 58.6,
+    "e": 59.16,
+    "type": "word"
+   },
+   {
+    "w": "used",
+    "s": 59.28,
+    "e": 59.46,
+    "type": "word"
+   },
+   {
+    "w": "zero,",
+    "s": 59.48,
+    "e": 59.7,
+    "type": "word"
+   },
+   {
+    "w": "thirty,",
+    "s": 59.78,
+    "e": 59.96,
+    "type": "word"
+   },
+   {
+    "w": "forty-five,",
+    "s": 60.06,
+    "e": 60.44,
+    "type": "word"
+   },
+   {
+    "w": "sixty,",
+    "s": 60.54,
+    "e": 60.86,
+    "type": "word"
+   },
+   {
+    "w": "ninety",
+    "s": 60.96,
+    "e": 61.32,
+    "type": "word"
+   },
+   {
+    "w": "degrees.",
+    "s": 61.38,
+    "e": 61.98,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 62.06,
+    "e": 62.22,
+    "type": "word"
+   },
+   {
+    "w": "sub-branches,",
+    "s": 62.38,
+    "e": 63.36,
+    "type": "word"
+   },
+   {
+    "w": "plane",
+    "s": 63.76,
+    "e": 64.06,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 64.099,
+    "e": 64.2,
+    "type": "word"
+   },
+   {
+    "w": "spherical.",
+    "s": 64.34,
+    "e": 65.16,
+    "type": "word"
+   },
+   {
+    "w": "Two",
+    "s": 65.459,
+    "e": 65.58,
+    "type": "word"
+   },
+   {
+    "w": "different",
+    "s": 65.64,
+    "e": 66.04,
+    "type": "word"
+   },
+   {
+    "w": "types",
+    "s": 66.1,
+    "e": 66.4,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 66.52,
+    "e": 66.68,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 66.76,
+    "e": 68.1,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometry,",
+    "s": 71.46,
+    "e": 74.78,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 74.88,
+    "e": 76.18,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 78.32,
+    "e": 78.68,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 78.76,
+    "e": 78.92,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 79.04,
+    "e": 79.62,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 79.88,
+    "e": 80.38,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 80.5,
+    "e": 80.76,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 80.94,
+    "e": 81.96,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 82.04,
+    "e": 83.2,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 83.9,
+    "e": 84.34,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 84.92,
+    "e": 85.56,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 85.66,
+    "e": 86.52,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 87.32,
+    "e": 87.68,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 87.76,
+    "e": 88.1,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 88.22,
+    "e": 88.54,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometric",
+    "s": 91.18,
+    "e": 92.18,
+    "type": "word"
+   },
+   {
+    "w": "ratios,",
+    "s": 92.26,
+    "e": 93.12,
+    "type": "word"
+   },
+   {
+    "w": "also",
+    "s": 93.46,
+    "e": 93.88,
+    "type": "word"
+   },
+   {
+    "w": "called",
+    "s": 93.94,
+    "e": 94.28,
+    "type": "word"
+   },
+   {
+    "w": "trigonometric",
+    "s": 94.34,
+    "e": 95.16,
+    "type": "word"
+   },
+   {
+    "w": "functions.",
+    "s": 95.22,
+    "e": 95.8,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 95.9,
+    "e": 96.22,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 96.32,
+    "e": 96.76,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 96.8,
+    "e": 96.9,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 96.96,
+    "e": 97.4,
+    "type": "word"
+   },
+   {
+    "w": "three",
+    "s": 97.58,
+    "e": 98.0,
+    "type": "word"
+   },
+   {
+    "w": "important",
+    "s": 98.1,
+    "e": 98.56,
+    "type": "word"
+   },
+   {
+    "w": "functions.",
+    "s": 98.66,
+    "e": 99.36,
+    "type": "word"
+   },
+   {
+    "w": "Right-angled",
+    "s": 99.8,
+    "e": 100.32,
+    "type": "word"
+   },
+   {
+    "w": "triangle,",
+    "s": 100.4,
+    "e": 101.4,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 101.48,
+    "e": 101.56,
+    "type": "word"
+   },
+   {
+    "w": "longest",
+    "s": 101.62,
+    "e": 102.0,
+    "type": "word"
+   },
+   {
+    "w": "side",
+    "s": 102.08,
+    "e": 102.7,
+    "type": "word"
+   },
+   {
+    "w": "hypotenuse,",
+    "s": 102.76,
+    "e": 104.16,
+    "type": "word"
+   },
+   {
+    "w": "hypotenuse.",
+    "s": 104.46,
+    "e": 105.68,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 105.76,
+    "e": 105.86,
+    "type": "word"
+   },
+   {
+    "w": "sides",
+    "s": 105.92,
+    "e": 106.2,
+    "type": "word"
+   },
+   {
+    "w": "referred",
+    "s": 106.24,
+    "e": 106.6,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 106.66,
+    "e": 106.78,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 106.9,
+    "e": 107.04,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 107.08,
+    "e": 107.18,
+    "type": "word"
+   },
+   {
+    "w": "adjacent",
+    "s": 107.24,
+    "e": 107.9,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 107.98,
+    "e": 108.08,
+    "type": "word"
+   },
+   {
+    "w": "opposite",
+    "s": 108.2,
+    "e": 108.7,
+    "type": "word"
+   },
+   {
+    "w": "sides.",
+    "s": 108.78,
+    "e": 111.56,
+    "type": "word"
+   },
+   {
+    "w": "Odd",
+    "s": 116.64,
+    "e": 116.92,
+    "type": "word"
+   },
+   {
+    "w": "function,",
+    "s": 117.04,
+    "e": 117.7,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 118.34,
+    "e": 118.38,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 118.46,
+    "e": 118.56,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 118.62,
+    "e": 119.0,
+    "type": "word"
+   },
+   {
+    "w": "x",
+    "s": 119.18,
+    "e": 119.22,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 119.3,
+    "e": 119.58,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 119.64,
+    "e": 119.88,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 120.04,
+    "e": 120.08,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 120.18,
+    "e": 120.32,
+    "type": "word"
+   },
+   {
+    "w": "x.",
+    "s": 120.64,
+    "e": 120.66,
+    "type": "word"
+   },
+   {
+    "w": "Symmetric",
+    "s": 120.76,
+    "e": 121.32,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 121.36,
+    "e": 121.5,
+    "type": "word"
+   },
+   {
+    "w": "respect",
+    "s": 121.58,
+    "e": 121.98,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 122.04,
+    "e": 122.16,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 122.22,
+    "e": 122.4,
+    "type": "word"
+   },
+   {
+    "w": "origin.",
+    "s": 122.52,
+    "e": 123.02,
+    "type": "word"
+   },
+   {
+    "w": "Even",
+    "s": 123.38,
+    "e": 123.7,
+    "type": "word"
+   },
+   {
+    "w": "function,",
+    "s": 123.78,
+    "e": 124.44,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 125.2,
+    "e": 125.24,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 125.3,
+    "e": 125.42,
+    "type": "word"
+   },
+   {
+    "w": "minus",
+    "s": 125.48,
+    "e": 125.86,
+    "type": "word"
+   },
+   {
+    "w": "x",
+    "s": 126.14,
+    "e": 126.26,
+    "type": "word"
+   },
+   {
+    "w": "equals",
+    "s": 126.38,
+    "e": 126.72,
+    "type": "word"
+   },
+   {
+    "w": "f",
+    "s": 126.94,
+    "e": 126.96,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 127.06,
+    "e": 127.2,
+    "type": "word"
+   },
+   {
+    "w": "x.",
+    "s": 127.56,
+    "e": 127.58,
+    "type": "word"
+   },
+   {
+    "w": "Symmetric",
+    "s": 127.6,
+    "e": 128.139,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 128.199,
+    "e": 128.419,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 128.5,
+    "e": 128.58,
+    "type": "word"
+   },
+   {
+    "w": "y-axis.",
+    "s": 129.38,
+    "e": 130.18,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 137.06,
+    "e": 137.36,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 137.46,
+    "e": 137.96,
+    "type": "word"
+   },
+   {
+    "w": "tangent",
+    "s": 138.08,
+    "e": 138.5,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 138.6,
+    "e": 138.72,
+    "type": "word"
+   },
+   {
+    "w": "these",
+    "s": 138.78,
+    "e": 138.94,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 139.04,
+    "e": 139.34,
+    "type": "word"
+   },
+   {
+    "w": "easy",
+    "s": 139.4,
+    "e": 139.58,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 139.62,
+    "e": 139.72,
+    "type": "word"
+   },
+   {
+    "w": "memorize.",
+    "s": 139.78,
+    "e": 140.44,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 140.48,
+    "e": 140.58,
+    "type": "word"
+   },
+   {
+    "w": "table,",
+    "s": 140.66,
+    "e": 141.04,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 141.16,
+    "e": 141.3,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 141.34,
+    "e": 141.44,
+    "type": "word"
+   },
+   {
+    "w": "ratios,",
+    "s": 141.5,
+    "e": 142.32,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 142.84,
+    "e": 143.0,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 143.06,
+    "e": 143.16,
+    "type": "word"
+   },
+   {
+    "w": "values.",
+    "s": 143.22,
+    "e": 143.96,
+    "type": "word"
+   },
+   {
+    "w": "Draw",
+    "s": 144.32,
+    "e": 144.68,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 144.8,
+    "e": 144.86,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 144.94,
+    "e": 146.3,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 146.38,
+    "e": 147.08,
+    "type": "word"
+   },
+   {
+    "w": "One",
+    "s": 147.4,
+    "e": 147.5,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 147.62,
+    "e": 147.7,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 147.78,
+    "e": 147.9,
+    "type": "word"
+   },
+   {
+    "w": "acute",
+    "s": 148.02,
+    "e": 148.34,
+    "type": "word"
+   },
+   {
+    "w": "angles,",
+    "s": 148.46,
+    "e": 148.84,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 149.06,
+    "e": 149.14,
+    "type": "word"
+   },
+   {
+    "w": "corresponding",
+    "s": 149.2,
+    "e": 150.06,
+    "type": "word"
+   },
+   {
+    "w": "angle.",
+    "s": 150.16,
+    "e": 150.8,
+    "type": "word"
+   },
+   {
+    "w": "Trigonometry,",
+    "s": 154.3,
+    "e": 155.58,
+    "type": "word"
+   },
+   {
+    "w": "trigonometry.",
+    "s": 156.02,
+    "e": 157.32,
+    "type": "word"
+   },
+   {
+    "w": "Sides",
+    "s": 158.0,
+    "e": 158.46,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 158.52,
+    "e": 158.64,
+    "type": "word"
+   },
+   {
+    "w": "angles",
+    "s": 158.74,
+    "e": 159.06,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 159.16,
+    "e": 159.28,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 159.34,
+    "e": 159.44,
+    "type": "word"
+   },
+   {
+    "w": "right-angled",
+    "s": 159.5,
+    "e": 160.08,
+    "type": "word"
+   },
+   {
+    "w": "triangle.",
+    "s": 160.14,
+    "e": 160.84,
+    "type": "word"
+   },
+   {
+    "w": "Sine,",
+    "s": 161.18,
+    "e": 161.5,
+    "type": "word"
+   },
+   {
+    "w": "cosine,",
+    "s": 161.62,
+    "e": 161.98,
+    "type": "word"
+   },
+   {
+    "w": "tangent,",
+    "s": 162.08,
+    "e": 162.54,
+    "type": "word"
+   },
+   {
+    "w": "sin,",
+    "s": 162.92,
+    "e": 163.16,
+    "type": "word"
+   },
+   {
+    "w": "cos,",
+    "s": 163.32,
+    "e": 163.64,
+    "type": "word"
+   },
+   {
+    "w": "tan.",
+    "s": 163.76,
+    "e": 164.18,
+    "type": "word"
+   }
+  ]
+ },
+ "sarvam_vocals": {
+  "text": "Trigonometry, trigonometry, sides and angles of the right angle triangle, sine, cosine, tangent, sin, cos, tan. One of the most important branches in mathematics, huge application in diverse fields. The study of the relationship between sides and angles, necessary to know angles or sides, fine find, using formulas, functions, or trigonometric identities. Angles measured in either degrees or radians, commonly use 0, 30, 45, 60, 90 degrees to sub-branches. Plain and spherical, two different types of trigonometry tree. Trigonometry tree. Trigonometry tree. Sides and angles of the right angle triangle. Sine, cosine, tangent. sin, cos, tan. Trigonometric ratios, also called trigonometric functions, sine, cosine, and tangent, 3 important functions. Right-angled triangle, the longest side, hypotenuse, hypotenuse, the sides referred to as the adjacent and opposite side. Odd function: f of minus x equals minus f of x, symmetric with respect to the origin. Even function: f of minus x equals f of x, symmetric to the y-axis. Find cosine, tangent of these angles, easy to memorize the table, all the ratios, all the values. Draw a right angle triangle, one of the acute angles, the corresponding angle. Trigonometry, trigonometry. Sides and angles of the right angle triangle sine cosine tangent sin cos tan.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 20.25,
+    "text": "Trigonometry, trigonometry, sides and angles of the right angle triangle, sine, cosine, tangent, sin, cos, tan.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 20.25,
+    "end": 43.1,
+    "text": "One of the most important branches in mathematics, huge application in diverse fields. The study of the relationship between sides and angles, necessary to know angles or sides, fine find, using formulas, functions, or trigonometric identities.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 43.1,
+    "end": 63.55,
+    "text": "Angles measured in either degrees or radians, commonly use 0, 30, 45, 60, 90 degrees to sub-branches.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 63.55,
+    "end": 86.8,
+    "text": "Plain and spherical, two different types of trigonometry tree. Trigonometry tree. Trigonometry tree. Sides and angles of the right angle triangle. Sine, cosine, tangent.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 86.8,
+    "end": 111.35,
+    "text": "sin, cos, tan. Trigonometric ratios, also called trigonometric functions, sine, cosine, and tangent, 3 important functions. Right-angled triangle, the longest side, hypotenuse, hypotenuse, the sides referred to as the adjacent and opposite side.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 111.35,
+    "end": 135.7,
+    "text": "Odd function: f of minus x equals minus f of x, symmetric with respect to the origin. Even function: f of minus x equals f of x, symmetric to the y-axis.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 135.7,
+    "end": 157.65,
+    "text": "Find cosine, tangent of these angles, easy to memorize the table, all the ratios, all the values. Draw a right angle triangle, one of the acute angles, the corresponding angle. Trigonometry, trigonometry.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 157.65,
+    "end": 165.02,
+    "text": "Sides and angles of the right angle triangle sine cosine tangent sin cos tan.",
+    "lang": "en-IN"
+   }
+  ]
+ },
+ "sarvam_verbatim_vocals": {
+  "text": "Trigonometry, trigonometry, sides and angles of the right angle triangle. Sine, cosine, tangent, sin, cos, tan. One of the most important branches in mathematics, huge application in diverse fields. The study of the relationship between sides and angles, necessary to know angles or sides, fine find, using formulas, functions, or trigonometric identities. Angles measured in either degrees or radians, commonly use zero, thirty, forty-five, sixty, ninety degrees to sub-branches. Plain and spherical, two different types of trigonometry tree. Trigonometry tree. Trigonometry tree. Sides and angles of the right angle triangle. Sine, cosine, tangent. sin, cos, tan. Trigonometric ratios, also called trigonometric functions, sine, cosine, and tangent, 3 important functions. Right-angled triangle, the longest side, hypotenuse, hypotenuse, the sides referred to as the adjacent and opposite side. Odd function, f of minus x equals minus f of x, symmetric with respect to the origin. Even function, f of minus x equals f of x, symmetric to the y-axis. Find cosine, tangent of these angles. Easy to memorize the table, all the ratios, all the values. Draw a right angle triangle, one of the acute angles, the corresponding angle. Trigonometry, trigonometry. sides and angles of the right angle triangle sine cosine tangent sin cos tan",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 20.25,
+    "text": "Trigonometry, trigonometry, sides and angles of the right angle triangle. Sine, cosine, tangent, sin, cos, tan.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 20.25,
+    "end": 43.1,
+    "text": "One of the most important branches in mathematics, huge application in diverse fields. The study of the relationship between sides and angles, necessary to know angles or sides, fine find, using formulas, functions, or trigonometric identities.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 43.1,
+    "end": 63.55,
+    "text": "Angles measured in either degrees or radians, commonly use zero, thirty, forty-five, sixty, ninety degrees to sub-branches.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 63.55,
+    "end": 86.8,
+    "text": "Plain and spherical, two different types of trigonometry tree. Trigonometry tree. Trigonometry tree. Sides and angles of the right angle triangle. Sine, cosine, tangent.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 86.8,
+    "end": 111.35,
+    "text": "sin, cos, tan. Trigonometric ratios, also called trigonometric functions, sine, cosine, and tangent, 3 important functions. Right-angled triangle, the longest side, hypotenuse, hypotenuse, the sides referred to as the adjacent and opposite side.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 111.35,
+    "end": 135.7,
+    "text": "Odd function, f of minus x equals minus f of x, symmetric with respect to the origin. Even function, f of minus x equals f of x, symmetric to the y-axis.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 135.7,
+    "end": 157.65,
+    "text": "Find cosine, tangent of these angles. Easy to memorize the table, all the ratios, all the values. Draw a right angle triangle, one of the acute angles, the corresponding angle. Trigonometry, trigonometry.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 157.65,
+    "end": 165.02,
+    "text": "sides and angles of the right angle triangle sine cosine tangent sin cos tan",
+    "lang": "en-IN"
+   }
+  ]
+ }
+}
