@@ -95,7 +95,8 @@ def main():
     fails = 0
 
     print("## 1. Numbers")
-    tn, ln = theory_numbers(theory), lyric_numbers(lyrics)
+    # numbers the theory states with digits OR words ("from one form into another" counts as 1)
+    tn, ln = sorted(set(theory_numbers(theory)) | set(lyric_numbers(theory))), lyric_numbers(lyrics)
     fmt = lambda x: f"{x:g}"
     print("| Number | In theory | In lyrics | Result |\n|---|---|---|---|")
     for n in sorted(set(tn) | set(ln)):
