@@ -1,7 +1,9 @@
 # Final QC report: all theories since the character-length rule (2026-11-16)
 
 **Length rule:** theory characters with spaces, 500 chars = 40 s (0.08 s per char), capped at 240 s.
+
 **QC chain per take:** demucs vocal stem → ElevenLabs Scribe ×3 (mix + 2 vocal runs) + Sarvam → majority-vote scorer → slice checks (10 engine runs on doubtful spots) → key-phrase check (from trigonometry on) → transcript read of every flagged take.
+
 **Verdicts:** **PASS** = every fact sung correctly. **PASS (minor)** = a small slip, no fact lost. **REVIEW** = deliverable, but a person should listen at the time given. **FAIL** = a fact was lost, changed, or outside words were added. FAILs are retried up to 2 times with prompt fixes only; after that the take is **held back**.
 
 ## 1. Summary
@@ -13,7 +15,7 @@
 | 3 | Motion | 1,406 → **112 s** | universal v1 | **19 PASS** of 20 | 1 (a cappella F) | **70,551** | `music/motion/` |
 | 4 | Trigonometry | 2,059 → **165 s** | universal v1 | **17 PASS** + 2 DnB REVIEW (full + intro-trimmed edits) | 1 (a cappella M) | **115,500** | `music/trig/` |
 | 5 | Fractions | 2,275 → **182 s** | universal v1 | **15 PASS + 2 REVIEW** | 3 (funk F, K-pop F, DnB F) | **135,904** | `music/frac/` |
-| 6 | Waves | 2,822 → **226 s** | universal v1 | **15 PASS + 2 REVIEW** so far | 3 still in progress (see §6) | **137,098** so far | `music/waves/` |
+| 6 | Waves | 2,822 → **226 s** | universal v1 | **15 PASS + 2 REVIEW** so far | 3 still in progress (see §7) | **137,098** so far | `music/waves/` |
 
 From motion onwards the standing rules apply: 10 genres (Reggaeton, Afrobeats, Bhangra, Funk, Jazz, A cappella + beatbox, Indie acoustic, Pop-punk, K-pop, Liquid DnB) × male + female, one universal lyric sheet at about 2.2-2.5 syllables/s, chorus first.
 
@@ -103,7 +105,7 @@ Client theory notes: the pond example is printed under "Matter waves" but it's a
 2. **Short call-and-response words drop** ("Heat!", "Top number?", "Numerator?", T/v/c). Double one-word answers and name each question tag in the prompt; spell letters phonetically ("tee", "vee", "see").
 3. **Long technical phrases at a line end get garbled** ("trigonometric identities"). Give them room or their own line.
 4. **The scorer alone misses merged lines.** The key-phrase check plus a transcript read caught 5 wrong-fact takes the scorer had passed.
-5. **Genre risks:** female a cappella loses words after the beatbox break; DnB at 165 s+ builds a 22 s intro (trim it in post); K-pop at 122 BPM swaps letters and garbles V1, so slowing to 118 BPM helped.
+5. **Genre risks:** female a cappella loses words after the beatbox break; DnB at 165 s+ builds a 22 s intro (trim it in post); K-pop at 122 BPM swaps letters and garbles V1; retries at 118 BPM fixed waves K-pop M but not fractions K-pop F.
 6. **ElevenLabs render failures** (3 in the waves batch) are re-run once; failed renders are normally not charged (not checked on the account).
 
 ## 9. Open items
