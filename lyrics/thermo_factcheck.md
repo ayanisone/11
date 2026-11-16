@@ -68,3 +68,38 @@
 - **Factual errors:** none (3 were caught and fixed in drafting).
 - **Every section of the theory is covered:** forms of energy, examples (heat, work, electricity), interrelation and transformation, the definition, macroscopic vs microscopic, state-based and not rate-based, equilibrium, and P/T constant at equilibrium.
 - **Status:** ☐ Approved as is ☐ Approved with fixes ☐ Rejected. **Generation waits until one box is ticked.**
+
+---
+
+# v3 UNIVERSAL (one sheet for all genres): `lyrics/thermo_lyrics_90s_v3_universal.txt`
+
+Why: in the v2 batch (`qc/thermo_batch1/QC_FINDINGS.md`) 7 of 11 genres failed both takes, mostly by dropping
+bridge or final-chorus words in the last 12 s (281 syllables in 90 s, ~3.4/s) or by adding an intro and skipping the hook.
+v3 is cut to **217 syllables** (−23%), ~2.6 syllables/s of vocal time with a 4 s break: room for the slower genres.
+
+| Check | Result |
+|---|---|
+| Automatic: numbers | ✅ "one" only, in the theory |
+| Automatic: lyric words outside the theory | ✅ None |
+| Structure | Opens on the chorus (hook-first); all unique facts end before the final chorus, so a squeezed ending only loses a repeat |
+
+## Rhyme map (v3)
+
+| Section | End rhymes | Rhymes inside the lines |
+|---|---|---|
+| Chorus | r**ate** / st**ate** | "not how / not at what rate"; "initial state, final state" |
+| Verse 1 | mole**cules** / **fuel**; chem**ical** / mechan**ical** / electr**ical**; condi**tions** / transforma**tions** | "**Fuel burns** … **Fuel**"; "l**i**ke dr**y** cell"; "one **form** … **forms**" |
+| Verse 2 | **macro**scopic / **micro**scopic; mole**cules** / mole**cules** | "a large number / a few" contrast |
+| Bridge | equilib**rium** ×3 | pres**sure** / tempera**ture**; "state to state, equilibrium to equilibrium" |
+
+## Claim changes vs v2 (all other claims B1–B14 unchanged)
+
+| # | v3 line | Change | Result |
+|---|---|---|---|
+| B2/B8 | "Interrelated forms, under certain conditions, from one form into another: transformations!" | Hook and pre-chorus merged into Verse 1. Keeps "interrelated", the qualifier "under certain conditions" and "one form into another" | PASS |
+| B6 | "In an engine? Work, mechanical!" | Subject "Fuel burns" carried over from the line before ("Fuel burns in air?") | PASS |
+| B11 | "Laws deal with energy changes: macroscopic, a large number of molecules, rather than microscopic: a few molecules!" | Merged; claim unchanged | PASS |
+| B12 | (removed) "of a system undergoing the change" | The chorus still says "based on initial state, final state"; "a system" is still sung in the bridge | PASS (minor: phrase dropped, meaning held) |
+| — | Middle chorus removed | Chorus is now sung 2× (start and end) instead of 3× | No fact lost |
+
+**Gate status (v3): PASS, waiting for user approval.** ☐ Approved as is ☐ Approved with fixes ☐ Rejected.
