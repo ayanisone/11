@@ -7,7 +7,7 @@
 | Subject | Mathematics: Introduction to Trigonometry (Class 10/11 level) |
 | Budget | **370 sung syllables**, 2.42 syllables/s over 153 s of vocal time (universal budget 344-382) |
 | Structure | Chorus · V1 · break · V2 · Chorus · V3 · Bridge · break · V4 · Final chorus (all unique facts before the final chorus) |
-| **Gate status** | **PASS with 2 notes for the client: waiting for user approval** |
+| **Gate status** | **APPROVED (user, 2026-11-16); 2 theory notes go to the client** |
 
 ## A. Automatic checks
 
@@ -64,4 +64,4 @@
 ## E. Verdict
 - **Factual errors in the lyric:** none. **2 notes on the theory text** go to the client (C1 matters, C2 is minor).
 - **Every section is covered:** importance, definition, finding unknowns, degrees/radians, standard angles, plane/spherical, ratios = functions, sin/cos/tan, hypotenuse/adjacent/opposite, odd/even with symmetry, memorizing the table, the right-triangle method.
-- **Status:** ☐ Approved as is ☐ Approved with fixes ☐ Rejected.
+- **Status:** ☑ Approved as is ☐ Approved with fixes ☐ Rejected.
