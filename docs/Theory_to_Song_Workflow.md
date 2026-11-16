@@ -89,3 +89,4 @@ Use the speech-to-text check on every take, as in `Vocals_Lyrics_STT_QA_Guide.md
 2. If it still fails, report what keeps failing. A lyric change for one genre goes back for approval.
 3. Deliver **only PASS takes** (plus any REVIEW that needs a human ear, clearly marked with its clip).
 4. Always check "cooking" and similar words for profanity-like sounds in the vocal-stem slice runs.
+5. Before delivering any PASS take, read its full-mix transcript end to end: the majority-vote scorer can miss a merged-line omission split into small spans (motion a cappella female, 2026-11-16).
