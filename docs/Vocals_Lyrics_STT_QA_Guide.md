@@ -227,3 +227,21 @@ Extend per language: Hindi/Bollywood (`haan, arre, aaja, o re, ho ho`); Tamil/Te
 ## 6. One-paragraph position statement (for sharing)
 
 > In AI-generated songs, the vocal is a musical performance of the lyric sheet, not a word-for-word reading. Vocables ("oh", "yeah"), echo repeats, extra hook repetitions, stutter-restarts, harmonies and call-and-response lines are standard parts of a sung vocal; they add no new meaning and should not be scored as hallucinations. When we check songs with speech-to-text, we first normalise both texts, remove allow-listed vocables, and collapse repeats and restarts. We then count as hallucinations only: (a) inserted content words that appear neither in the lyrics nor on the vocable list, (b) any change to protected technical terms, numbers or formulas, (c) changes in meaning, and (d) omitted lyric lines. An empty or garbled transcript is treated as an STT limitation until confirmed on an isolated vocal stem and by ear.
+
+## 7. Second STT opinion: Sarvam (saarika:v2.5)
+
+`tools/sarvam_stt.py` sends a song to Sarvam speech-to-text (key read from the `SARVAM_API_KEY` environment variable; never committed). The synchronous endpoint takes clips of about 30 s, so the song is split into equal chunks of at most 28 s.
+
+First comparison (RBC reggaeton, rhyming lyrics, both takes):
+
+| Line | Scribe | Sarvam |
+|---|---|---|
+| Hook, verse 1, chorus | Word for word | Word for word, except "by concave" for "biconcave" (word split) and "RDs, found" for "are these, formed" in take 1 |
+| "every hundred M-L, twelve to sixteen" | Correct in both takes | Garbled at the chunk boundary ("216", "121 grams") |
+| Tail | Correct | A 5 s music-only tail chunk produced invented words ("Plus", "Mitochondria"); fixed by splitting into equal chunks with no short tail |
+
+How to use it:
+- **Scribe stays the primary check.** Sarvam is the second opinion on lines Scribe flags as missing or garbled.
+- **Ignore Sarvam errors that fall within about 1 s of a chunk boundary** (27.5 s, 55 s, …). These are cut-point artifacts, not the song.
+- Both engines agreeing on a line = confirmed. Disagreeing = a human listen at that timestamp.
+- For Hindi and other regional songs, run Sarvam with `--lang hi-IN` (ta-IN, te-IN, bn-IN, mr-IN, gu-IN, kn-IN, ml-IN). This is where it should beat Scribe.
