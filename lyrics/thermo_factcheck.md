@@ -102,4 +102,4 @@ v3 is cut to **217 syllables** (−23%), ~2.6 syllables/s of vocal time with a 4
 | B12 | (removed) "of a system undergoing the change" | The chorus still says "based on initial state, final state"; "a system" is still sung in the bridge | PASS (minor: phrase dropped, meaning held) |
 | — | Middle chorus removed | Chorus is now sung 2× (start and end) instead of 3× | No fact lost |
 
-**Gate status (v3): PASS, waiting for user approval.** ☐ Approved as is ☐ Approved with fixes ☐ Rejected.
+**Gate status (v3): APPROVED (user, 2026-11-16).** ☑ Approved as is ☐ Approved with fixes ☐ Rejected.
