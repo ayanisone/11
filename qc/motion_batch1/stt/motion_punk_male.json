@@ -1,0 +1,2931 @@
+{
+ "scribe_mix": {
+  "text": "[upbeat rock music] Motion, motion. A change in position of an object with time. Velocity, acceleration along a straight line. [upbeat rock music] Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. [upbeat rock music] Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. [upbeat rock music] Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat rock music]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[upbeat rock music]",
+    "s": 0.38,
+    "e": 2.7,
+    "type": "audio_event"
+   },
+   {
+    "w": "Motion,",
+    "s": 2.8,
+    "e": 4.1,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 4.3,
+    "e": 5.24,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 5.64,
+    "e": 5.72,
+    "type": "word"
+   },
+   {
+    "w": "change",
+    "s": 5.78,
+    "e": 6.38,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 6.4,
+    "e": 6.48,
+    "type": "word"
+   },
+   {
+    "w": "position",
+    "s": 6.56,
+    "e": 7.52,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 7.6,
+    "e": 7.9,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 7.94,
+    "e": 8.26,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 8.32,
+    "e": 8.6,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 8.64,
+    "e": 8.76,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 8.82,
+    "e": 9.46,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 9.6,
+    "e": 10.5,
+    "type": "word"
+   },
+   {
+    "w": "acceleration",
+    "s": 11.1,
+    "e": 13.24,
+    "type": "word"
+   },
+   {
+    "w": "along",
+    "s": 13.34,
+    "e": 13.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 13.9,
+    "e": 14.1,
+    "type": "word"
+   },
+   {
+    "w": "straight",
+    "s": 14.18,
+    "e": 14.54,
+    "type": "word"
+   },
+   {
+    "w": "line.",
+    "s": 14.6,
+    "e": 15.44,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat rock music]",
+    "s": 15.44,
+    "e": 20.92,
+    "type": "audio_event"
+   },
+   {
+    "w": "Common",
+    "s": 21.0,
+    "e": 21.34,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 21.38,
+    "e": 21.54,
+    "type": "word"
+   },
+   {
+    "w": "everything",
+    "s": 21.66,
+    "e": 22.14,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 22.22,
+    "e": 22.3,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 22.36,
+    "e": 22.42,
+    "type": "word"
+   },
+   {
+    "w": "universe,",
+    "s": 22.58,
+    "e": 23.16,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 23.26,
+    "e": 23.56,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 23.64,
+    "e": 24.24,
+    "type": "word"
+   },
+   {
+    "w": "We",
+    "s": 24.42,
+    "e": 24.64,
+    "type": "word"
+   },
+   {
+    "w": "walk,",
+    "s": 24.76,
+    "e": 25.1,
+    "type": "word"
+   },
+   {
+    "w": "we",
+    "s": 25.34,
+    "e": 25.42,
+    "type": "word"
+   },
+   {
+    "w": "ride",
+    "s": 25.52,
+    "e": 25.72,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 25.78,
+    "e": 25.84,
+    "type": "word"
+   },
+   {
+    "w": "bicycle,",
+    "s": 25.88,
+    "e": 26.4,
+    "type": "word"
+   },
+   {
+    "w": "we",
+    "s": 26.48,
+    "e": 26.56,
+    "type": "word"
+   },
+   {
+    "w": "run.",
+    "s": 26.66,
+    "e": 27.04,
+    "type": "word"
+   },
+   {
+    "w": "Sleeping,",
+    "s": 27.34,
+    "e": 28.12,
+    "type": "word"
+   },
+   {
+    "w": "air",
+    "s": 28.34,
+    "e": 28.46,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 28.5,
+    "e": 28.7,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 28.76,
+    "e": 29.06,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 29.14,
+    "e": 29.26,
+    "type": "word"
+   },
+   {
+    "w": "out",
+    "s": 29.34,
+    "e": 29.46,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 29.52,
+    "e": 29.62,
+    "type": "word"
+   },
+   {
+    "w": "our",
+    "s": 29.66,
+    "e": 29.78,
+    "type": "word"
+   },
+   {
+    "w": "lungs.",
+    "s": 29.86,
+    "e": 30.28,
+    "type": "word"
+   },
+   {
+    "w": "Blood",
+    "s": 30.36,
+    "e": 30.64,
+    "type": "word"
+   },
+   {
+    "w": "flows",
+    "s": 30.72,
+    "e": 31.14,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 31.26,
+    "e": 31.5,
+    "type": "word"
+   },
+   {
+    "w": "arteries",
+    "s": 31.62,
+    "e": 32.439,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 32.479,
+    "e": 32.58,
+    "type": "word"
+   },
+   {
+    "w": "veins.",
+    "s": 32.64,
+    "e": 33.26,
+    "type": "word"
+   },
+   {
+    "w": "Carry",
+    "s": 33.36,
+    "e": 33.66,
+    "type": "word"
+   },
+   {
+    "w": "people,",
+    "s": 33.78,
+    "e": 34.22,
+    "type": "word"
+   },
+   {
+    "w": "automobiles",
+    "s": 34.58,
+    "e": 35.42,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 35.46,
+    "e": 35.58,
+    "type": "word"
+   },
+   {
+    "w": "planes.",
+    "s": 35.62,
+    "e": 36.24,
+    "type": "word"
+   },
+   {
+    "w": "Water",
+    "s": 36.4,
+    "e": 36.66,
+    "type": "word"
+   },
+   {
+    "w": "flowing",
+    "s": 36.76,
+    "e": 37.1,
+    "type": "word"
+   },
+   {
+    "w": "down",
+    "s": 37.14,
+    "e": 37.34,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 37.4,
+    "e": 37.48,
+    "type": "word"
+   },
+   {
+    "w": "dam,",
+    "s": 37.54,
+    "e": 37.84,
+    "type": "word"
+   },
+   {
+    "w": "leaves",
+    "s": 37.92,
+    "e": 38.2,
+    "type": "word"
+   },
+   {
+    "w": "falling",
+    "s": 38.28,
+    "e": 38.58,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 38.62,
+    "e": 38.78,
+    "type": "word"
+   },
+   {
+    "w": "trees.",
+    "s": 38.84,
+    "e": 39.44,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat rock music]",
+    "s": 39.44,
+    "e": 50.58,
+    "type": "audio_event"
+   },
+   {
+    "w": "Earth",
+    "s": 50.66,
+    "e": 50.94,
+    "type": "word"
+   },
+   {
+    "w": "rotates",
+    "s": 51.04,
+    "e": 51.7,
+    "type": "word"
+   },
+   {
+    "w": "once",
+    "s": 51.8,
+    "e": 52.1,
+    "type": "word"
+   },
+   {
+    "w": "every",
+    "s": 52.18,
+    "e": 52.4,
+    "type": "word"
+   },
+   {
+    "w": "twenty-four",
+    "s": 52.48,
+    "e": 53.2,
+    "type": "word"
+   },
+   {
+    "w": "hours.",
+    "s": 53.28,
+    "e": 53.62,
+    "type": "word"
+   },
+   {
+    "w": "Revolves",
+    "s": 53.84,
+    "e": 54.34,
+    "type": "word"
+   },
+   {
+    "w": "round",
+    "s": 54.4,
+    "e": 54.56,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 54.6,
+    "e": 54.7,
+    "type": "word"
+   },
+   {
+    "w": "sun",
+    "s": 54.76,
+    "e": 55.06,
+    "type": "word"
+   },
+   {
+    "w": "once",
+    "s": 55.16,
+    "e": 55.5,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 55.62,
+    "e": 55.88,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 55.94,
+    "e": 56.02,
+    "type": "word"
+   },
+   {
+    "w": "year.",
+    "s": 56.12,
+    "e": 56.36,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 56.48,
+    "e": 56.68,
+    "type": "word"
+   },
+   {
+    "w": "sun",
+    "s": 56.8,
+    "e": 57.34,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 57.48,
+    "e": 57.68,
+    "type": "word"
+   },
+   {
+    "w": "motion",
+    "s": 57.76,
+    "e": 58.14,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 58.2,
+    "e": 58.3,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 58.34,
+    "e": 58.46,
+    "type": "word"
+   },
+   {
+    "w": "Milky",
+    "s": 58.5,
+    "e": 58.82,
+    "type": "word"
+   },
+   {
+    "w": "Way,",
+    "s": 58.9,
+    "e": 59.06,
+    "type": "word"
+   },
+   {
+    "w": "Milky",
+    "s": 59.24,
+    "e": 59.56,
+    "type": "word"
+   },
+   {
+    "w": "Way.",
+    "s": 59.64,
+    "e": 60.06,
+    "type": "word"
+   },
+   {
+    "w": "Moving",
+    "s": 60.38,
+    "e": 60.72,
+    "type": "word"
+   },
+   {
+    "w": "within",
+    "s": 60.76,
+    "e": 61.32,
+    "type": "word"
+   },
+   {
+    "w": "its",
+    "s": 61.36,
+    "e": 61.48,
+    "type": "word"
+   },
+   {
+    "w": "local",
+    "s": 61.52,
+    "e": 61.8,
+    "type": "word"
+   },
+   {
+    "w": "group",
+    "s": 61.86,
+    "e": 62.06,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 62.1,
+    "e": 62.16,
+    "type": "word"
+   },
+   {
+    "w": "galaxies.",
+    "s": 62.26,
+    "e": 63.46,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat rock music]",
+    "s": 63.46,
+    "e": 68.54,
+    "type": "audio_event"
+   },
+   {
+    "w": "Rectilinear",
+    "s": 68.66,
+    "e": 69.66,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 69.74,
+    "e": 70.34,
+    "type": "word"
+   },
+   {
+    "w": "uniform",
+    "s": 70.58,
+    "e": 71.06,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 71.12,
+    "e": 72.22,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 72.44,
+    "e": 72.56,
+    "type": "word"
+   },
+   {
+    "w": "set",
+    "s": 72.72,
+    "e": 73.1,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 73.22,
+    "e": 73.4,
+    "type": "word"
+   },
+   {
+    "w": "simple",
+    "s": 73.5,
+    "e": 73.86,
+    "type": "word"
+   },
+   {
+    "w": "equations.",
+    "s": 73.94,
+    "e": 74.94,
+    "type": "word"
+   },
+   {
+    "w": "Relative",
+    "s": 75.04,
+    "e": 75.52,
+    "type": "word"
+   },
+   {
+    "w": "nature",
+    "s": 75.58,
+    "e": 75.9,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 75.98,
+    "e": 76.08,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 76.12,
+    "e": 76.44,
+    "type": "word"
+   },
+   {
+    "w": "relative",
+    "s": 76.54,
+    "e": 77.04,
+    "type": "word"
+   },
+   {
+    "w": "velocity.",
+    "s": 77.08,
+    "e": 78.0,
+    "type": "word"
+   },
+   {
+    "w": "Point",
+    "s": 78.38,
+    "e": 78.72,
+    "type": "word"
+   },
+   {
+    "w": "objects",
+    "s": 78.92,
+    "e": 79.42,
+    "type": "word"
+   },
+   {
+    "w": "valid",
+    "s": 79.5,
+    "e": 79.82,
+    "type": "word"
+   },
+   {
+    "w": "so",
+    "s": 79.9,
+    "e": 80.1,
+    "type": "word"
+   },
+   {
+    "w": "far",
+    "s": 80.26,
+    "e": 80.48,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 80.56,
+    "e": 80.74,
+    "type": "word"
+   },
+   {
+    "w": "size",
+    "s": 80.82,
+    "e": 81.2,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 81.26,
+    "e": 81.36,
+    "type": "word"
+   },
+   {
+    "w": "much",
+    "s": 81.42,
+    "e": 81.66,
+    "type": "word"
+   },
+   {
+    "w": "smaller",
+    "s": 81.74,
+    "e": 82.1,
+    "type": "word"
+   },
+   {
+    "w": "than",
+    "s": 82.16,
+    "e": 82.3,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 82.34,
+    "e": 82.48,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 82.54,
+    "e": 83.1,
+    "type": "word"
+   },
+   {
+    "w": "it",
+    "s": 83.2,
+    "e": 83.4,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 83.48,
+    "e": 84.08,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 84.46,
+    "e": 84.58,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 84.66,
+    "e": 84.7,
+    "type": "word"
+   },
+   {
+    "w": "reasonable",
+    "s": 84.8,
+    "e": 85.78,
+    "type": "word"
+   },
+   {
+    "w": "duration",
+    "s": 85.9,
+    "e": 86.66,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 86.74,
+    "e": 86.88,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 87.02,
+    "e": 88.74,
+    "type": "word"
+   },
+   {
+    "w": "Real",
+    "s": 90.4,
+    "e": 90.66,
+    "type": "word"
+   },
+   {
+    "w": "life,",
+    "s": 90.76,
+    "e": 91.04,
+    "type": "word"
+   },
+   {
+    "w": "good",
+    "s": 91.14,
+    "e": 91.4,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 91.52,
+    "e": 91.86,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 91.92,
+    "e": 92.0,
+    "type": "word"
+   },
+   {
+    "w": "situations.",
+    "s": 92.08,
+    "e": 93.04,
+    "type": "word"
+   },
+   {
+    "w": "Size",
+    "s": 93.36,
+    "e": 93.56,
+    "type": "word"
+   },
+   {
+    "w": "neglected",
+    "s": 93.6,
+    "e": 94.18,
+    "type": "word"
+   },
+   {
+    "w": "without",
+    "s": 94.36,
+    "e": 94.82,
+    "type": "word"
+   },
+   {
+    "w": "much",
+    "s": 94.88,
+    "e": 95.2,
+    "type": "word"
+   },
+   {
+    "w": "error.",
+    "s": 95.32,
+    "e": 95.78,
+    "type": "word"
+   },
+   {
+    "w": "Motion,",
+    "s": 96.38,
+    "e": 97.4,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 97.9,
+    "e": 98.88,
+    "type": "word"
+   },
+   {
+    "w": "Change",
+    "s": 98.98,
+    "e": 99.38,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 99.44,
+    "e": 99.54,
+    "type": "word"
+   },
+   {
+    "w": "position",
+    "s": 99.58,
+    "e": 100.14,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 100.24,
+    "e": 100.32,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 100.42,
+    "e": 100.52,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 100.64,
+    "e": 101.06,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 101.12,
+    "e": 101.38,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 101.46,
+    "e": 102.0,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 102.2,
+    "e": 103.1,
+    "type": "word"
+   },
+   {
+    "w": "acceleration",
+    "s": 103.74,
+    "e": 106.04,
+    "type": "word"
+   },
+   {
+    "w": "along",
+    "s": 106.4,
+    "e": 106.72,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 106.8,
+    "e": 106.92,
+    "type": "word"
+   },
+   {
+    "w": "straight",
+    "s": 107.0,
+    "e": 107.38,
+    "type": "word"
+   },
+   {
+    "w": "line.",
+    "s": 107.46,
+    "e": 108.18,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat rock music]",
+    "s": 108.18,
+    "e": 111.96,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "scribe_vocals_1": {
+  "text": "[rapping] Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music fading]",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[rapping]",
+    "s": 0.0,
+    "e": 2.72,
+    "type": "audio_event"
+   },
+   {
+    "w": "Motion.",
+    "s": 2.8,
+    "e": 4.12,
+    "type": "word"
+   },
+   {
+    "w": "Motion.",
+    "s": 4.32,
+    "e": 5.64,
+    "type": "word"
+   },
+   {
+    "w": "Change",
+    "s": 5.8,
+    "e": 6.4,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 6.42,
+    "e": 6.54,
+    "type": "word"
+   },
+   {
+    "w": "position",
+    "s": 6.58,
+    "e": 7.56,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 7.62,
+    "e": 7.92,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 7.96,
+    "e": 8.28,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 8.34,
+    "e": 8.62,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 8.66,
+    "e": 8.78,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 8.84,
+    "e": 9.46,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 9.62,
+    "e": 10.56,
+    "type": "word"
+   },
+   {
+    "w": "acceleration",
+    "s": 11.12,
+    "e": 13.26,
+    "type": "word"
+   },
+   {
+    "w": "along",
+    "s": 13.38,
+    "e": 13.9,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 13.94,
+    "e": 14.1,
+    "type": "word"
+   },
+   {
+    "w": "straight",
+    "s": 14.2,
+    "e": 14.54,
+    "type": "word"
+   },
+   {
+    "w": "line.",
+    "s": 14.62,
+    "e": 15.54,
+    "type": "word"
+   },
+   {
+    "w": "Common",
+    "s": 21.02,
+    "e": 21.34,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 21.42,
+    "e": 21.54,
+    "type": "word"
+   },
+   {
+    "w": "everything",
+    "s": 21.68,
+    "e": 22.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 22.22,
+    "e": 22.32,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 22.38,
+    "e": 22.46,
+    "type": "word"
+   },
+   {
+    "w": "universe,",
+    "s": 22.6,
+    "e": 23.18,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 23.28,
+    "e": 23.58,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 23.66,
+    "e": 24.26,
+    "type": "word"
+   },
+   {
+    "w": "We",
+    "s": 24.44,
+    "e": 24.64,
+    "type": "word"
+   },
+   {
+    "w": "walk,",
+    "s": 24.78,
+    "e": 25.14,
+    "type": "word"
+   },
+   {
+    "w": "we",
+    "s": 25.36,
+    "e": 25.48,
+    "type": "word"
+   },
+   {
+    "w": "ride",
+    "s": 25.54,
+    "e": 25.72,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 25.8,
+    "e": 25.86,
+    "type": "word"
+   },
+   {
+    "w": "bicycle,",
+    "s": 25.9,
+    "e": 26.42,
+    "type": "word"
+   },
+   {
+    "w": "we",
+    "s": 26.5,
+    "e": 26.62,
+    "type": "word"
+   },
+   {
+    "w": "run.",
+    "s": 26.7,
+    "e": 27.06,
+    "type": "word"
+   },
+   {
+    "w": "Sleeping,",
+    "s": 27.38,
+    "e": 28.16,
+    "type": "word"
+   },
+   {
+    "w": "air",
+    "s": 28.36,
+    "e": 28.48,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 28.52,
+    "e": 28.72,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 28.78,
+    "e": 29.1,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 29.16,
+    "e": 29.3,
+    "type": "word"
+   },
+   {
+    "w": "out",
+    "s": 29.36,
+    "e": 29.48,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 29.54,
+    "e": 29.64,
+    "type": "word"
+   },
+   {
+    "w": "our",
+    "s": 29.68,
+    "e": 29.8,
+    "type": "word"
+   },
+   {
+    "w": "lungs.",
+    "s": 29.88,
+    "e": 30.3,
+    "type": "word"
+   },
+   {
+    "w": "Blood",
+    "s": 30.38,
+    "e": 30.66,
+    "type": "word"
+   },
+   {
+    "w": "flows",
+    "s": 30.76,
+    "e": 31.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 31.28,
+    "e": 31.54,
+    "type": "word"
+   },
+   {
+    "w": "arteries",
+    "s": 31.64,
+    "e": 32.46,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 32.5,
+    "e": 32.6,
+    "type": "word"
+   },
+   {
+    "w": "veins.",
+    "s": 32.68,
+    "e": 33.3,
+    "type": "word"
+   },
+   {
+    "w": "Carry",
+    "s": 33.4,
+    "e": 33.68,
+    "type": "word"
+   },
+   {
+    "w": "people,",
+    "s": 33.8,
+    "e": 34.24,
+    "type": "word"
+   },
+   {
+    "w": "automobiles",
+    "s": 34.62,
+    "e": 35.46,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 35.5,
+    "e": 35.6,
+    "type": "word"
+   },
+   {
+    "w": "planes.",
+    "s": 35.66,
+    "e": 36.28,
+    "type": "word"
+   },
+   {
+    "w": "Water",
+    "s": 36.42,
+    "e": 36.68,
+    "type": "word"
+   },
+   {
+    "w": "flowing",
+    "s": 36.78,
+    "e": 37.12,
+    "type": "word"
+   },
+   {
+    "w": "down",
+    "s": 37.18,
+    "e": 37.36,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 37.42,
+    "e": 37.5,
+    "type": "word"
+   },
+   {
+    "w": "dam,",
+    "s": 37.56,
+    "e": 37.86,
+    "type": "word"
+   },
+   {
+    "w": "leaves",
+    "s": 37.94,
+    "e": 38.24,
+    "type": "word"
+   },
+   {
+    "w": "falling",
+    "s": 38.3,
+    "e": 38.62,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 38.64,
+    "e": 38.8,
+    "type": "word"
+   },
+   {
+    "w": "trees.",
+    "s": 38.86,
+    "e": 39.48,
+    "type": "word"
+   },
+   {
+    "w": "Earth",
+    "s": 50.72,
+    "e": 51.0,
+    "type": "word"
+   },
+   {
+    "w": "rotates",
+    "s": 51.08,
+    "e": 51.76,
+    "type": "word"
+   },
+   {
+    "w": "once",
+    "s": 51.9,
+    "e": 52.14,
+    "type": "word"
+   },
+   {
+    "w": "every",
+    "s": 52.24,
+    "e": 52.46,
+    "type": "word"
+   },
+   {
+    "w": "twenty-four",
+    "s": 52.52,
+    "e": 53.22,
+    "type": "word"
+   },
+   {
+    "w": "hours.",
+    "s": 53.32,
+    "e": 53.78,
+    "type": "word"
+   },
+   {
+    "w": "Revolves",
+    "s": 53.88,
+    "e": 54.36,
+    "type": "word"
+   },
+   {
+    "w": "round",
+    "s": 54.42,
+    "e": 54.58,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 54.62,
+    "e": 54.72,
+    "type": "word"
+   },
+   {
+    "w": "sun",
+    "s": 54.8,
+    "e": 55.1,
+    "type": "word"
+   },
+   {
+    "w": "once",
+    "s": 55.18,
+    "e": 55.54,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 55.7,
+    "e": 55.92,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 56.02,
+    "e": 56.06,
+    "type": "word"
+   },
+   {
+    "w": "year.",
+    "s": 56.14,
+    "e": 56.4,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 56.48,
+    "e": 56.68,
+    "type": "word"
+   },
+   {
+    "w": "sun",
+    "s": 56.84,
+    "e": 57.4,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 57.54,
+    "e": 57.74,
+    "type": "word"
+   },
+   {
+    "w": "motion",
+    "s": 57.78,
+    "e": 58.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 58.24,
+    "e": 58.32,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 58.36,
+    "e": 58.46,
+    "type": "word"
+   },
+   {
+    "w": "Milky",
+    "s": 58.54,
+    "e": 58.84,
+    "type": "word"
+   },
+   {
+    "w": "Way,",
+    "s": 58.94,
+    "e": 59.2,
+    "type": "word"
+   },
+   {
+    "w": "Milky",
+    "s": 59.28,
+    "e": 59.6,
+    "type": "word"
+   },
+   {
+    "w": "Way.",
+    "s": 59.68,
+    "e": 60.12,
+    "type": "word"
+   },
+   {
+    "w": "Moving",
+    "s": 60.4,
+    "e": 60.74,
+    "type": "word"
+   },
+   {
+    "w": "within",
+    "s": 60.8,
+    "e": 61.34,
+    "type": "word"
+   },
+   {
+    "w": "its",
+    "s": 61.38,
+    "e": 61.5,
+    "type": "word"
+   },
+   {
+    "w": "local",
+    "s": 61.56,
+    "e": 61.84,
+    "type": "word"
+   },
+   {
+    "w": "group",
+    "s": 61.9,
+    "e": 62.1,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 62.14,
+    "e": 62.22,
+    "type": "word"
+   },
+   {
+    "w": "galaxies.",
+    "s": 62.3,
+    "e": 63.52,
+    "type": "word"
+   },
+   {
+    "w": "Rectilinear",
+    "s": 68.68,
+    "e": 69.72,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 69.78,
+    "e": 70.36,
+    "type": "word"
+   },
+   {
+    "w": "uniform",
+    "s": 70.68,
+    "e": 71.08,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 71.14,
+    "e": 72.26,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 72.48,
+    "e": 72.64,
+    "type": "word"
+   },
+   {
+    "w": "set",
+    "s": 72.76,
+    "e": 73.12,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 73.3,
+    "e": 73.42,
+    "type": "word"
+   },
+   {
+    "w": "simple",
+    "s": 73.52,
+    "e": 73.9,
+    "type": "word"
+   },
+   {
+    "w": "equations.",
+    "s": 73.96,
+    "e": 74.98,
+    "type": "word"
+   },
+   {
+    "w": "Relative",
+    "s": 75.06,
+    "e": 75.56,
+    "type": "word"
+   },
+   {
+    "w": "nature",
+    "s": 75.6,
+    "e": 75.94,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 76.04,
+    "e": 76.1,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 76.16,
+    "e": 76.48,
+    "type": "word"
+   },
+   {
+    "w": "relative",
+    "s": 76.56,
+    "e": 77.04,
+    "type": "word"
+   },
+   {
+    "w": "velocity.",
+    "s": 77.1,
+    "e": 78.08,
+    "type": "word"
+   },
+   {
+    "w": "Point",
+    "s": 78.4,
+    "e": 78.74,
+    "type": "word"
+   },
+   {
+    "w": "objects",
+    "s": 78.96,
+    "e": 79.46,
+    "type": "word"
+   },
+   {
+    "w": "valid",
+    "s": 79.54,
+    "e": 79.84,
+    "type": "word"
+   },
+   {
+    "w": "so",
+    "s": 79.94,
+    "e": 80.14,
+    "type": "word"
+   },
+   {
+    "w": "far",
+    "s": 80.28,
+    "e": 80.5,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 80.6,
+    "e": 80.78,
+    "type": "word"
+   },
+   {
+    "w": "size",
+    "s": 80.86,
+    "e": 81.22,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 81.3,
+    "e": 81.38,
+    "type": "word"
+   },
+   {
+    "w": "much",
+    "s": 81.44,
+    "e": 81.7,
+    "type": "word"
+   },
+   {
+    "w": "smaller",
+    "s": 81.76,
+    "e": 82.12,
+    "type": "word"
+   },
+   {
+    "w": "than",
+    "s": 82.18,
+    "e": 82.32,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 82.36,
+    "e": 82.5,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 82.56,
+    "e": 83.12,
+    "type": "word"
+   },
+   {
+    "w": "it",
+    "s": 83.24,
+    "e": 83.42,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 83.5,
+    "e": 84.12,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 84.48,
+    "e": 84.6,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 84.68,
+    "e": 84.74,
+    "type": "word"
+   },
+   {
+    "w": "reasonable",
+    "s": 84.82,
+    "e": 85.82,
+    "type": "word"
+   },
+   {
+    "w": "duration",
+    "s": 85.92,
+    "e": 86.68,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 86.78,
+    "e": 86.94,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 87.04,
+    "e": 88.78,
+    "type": "word"
+   },
+   {
+    "w": "Real",
+    "s": 90.42,
+    "e": 90.72,
+    "type": "word"
+   },
+   {
+    "w": "life,",
+    "s": 90.8,
+    "e": 91.06,
+    "type": "word"
+   },
+   {
+    "w": "good",
+    "s": 91.16,
+    "e": 91.46,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 91.54,
+    "e": 91.88,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 91.94,
+    "e": 92.02,
+    "type": "word"
+   },
+   {
+    "w": "situations.",
+    "s": 92.1,
+    "e": 93.08,
+    "type": "word"
+   },
+   {
+    "w": "Size",
+    "s": 93.38,
+    "e": 93.58,
+    "type": "word"
+   },
+   {
+    "w": "neglected",
+    "s": 93.64,
+    "e": 94.3,
+    "type": "word"
+   },
+   {
+    "w": "without",
+    "s": 94.38,
+    "e": 94.84,
+    "type": "word"
+   },
+   {
+    "w": "much",
+    "s": 94.92,
+    "e": 95.22,
+    "type": "word"
+   },
+   {
+    "w": "error.",
+    "s": 95.34,
+    "e": 95.82,
+    "type": "word"
+   },
+   {
+    "w": "Motion.",
+    "s": 96.4,
+    "e": 97.46,
+    "type": "word"
+   },
+   {
+    "w": "Motion.",
+    "s": 97.92,
+    "e": 98.9,
+    "type": "word"
+   },
+   {
+    "w": "Change",
+    "s": 99.0,
+    "e": 99.4,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 99.46,
+    "e": 99.56,
+    "type": "word"
+   },
+   {
+    "w": "position",
+    "s": 99.6,
+    "e": 100.18,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 100.26,
+    "e": 100.34,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 100.46,
+    "e": 100.54,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 100.72,
+    "e": 101.08,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 101.14,
+    "e": 101.38,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 101.48,
+    "e": 102.04,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 102.22,
+    "e": 103.66,
+    "type": "word"
+   },
+   {
+    "w": "acceleration",
+    "s": 103.76,
+    "e": 106.06,
+    "type": "word"
+   },
+   {
+    "w": "along",
+    "s": 106.42,
+    "e": 106.74,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 106.82,
+    "e": 106.9,
+    "type": "word"
+   },
+   {
+    "w": "straight",
+    "s": 107.04,
+    "e": 107.42,
+    "type": "word"
+   },
+   {
+    "w": "line.",
+    "s": 107.48,
+    "e": 108.1,
+    "type": "word"
+   },
+   {
+    "w": "[upbeat music fading]",
+    "s": 108.1,
+    "e": 111.98,
+    "type": "audio_event"
+   }
+  ]
+ },
+ "scribe_vocals_2": {
+  "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line.",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "Motion,",
+    "s": 2.8,
+    "e": 4.08,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 4.34,
+    "e": 5.64,
+    "type": "word"
+   },
+   {
+    "w": "Change",
+    "s": 5.8,
+    "e": 6.4,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 6.42,
+    "e": 6.54,
+    "type": "word"
+   },
+   {
+    "w": "position",
+    "s": 6.58,
+    "e": 7.56,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 7.62,
+    "e": 7.94,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 7.96,
+    "e": 8.28,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 8.34,
+    "e": 8.62,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 8.66,
+    "e": 8.78,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 8.84,
+    "e": 9.46,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 9.62,
+    "e": 10.56,
+    "type": "word"
+   },
+   {
+    "w": "acceleration",
+    "s": 11.12,
+    "e": 13.26,
+    "type": "word"
+   },
+   {
+    "w": "along",
+    "s": 13.38,
+    "e": 13.9,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 13.94,
+    "e": 14.1,
+    "type": "word"
+   },
+   {
+    "w": "straight",
+    "s": 14.2,
+    "e": 14.54,
+    "type": "word"
+   },
+   {
+    "w": "line.",
+    "s": 14.62,
+    "e": 15.54,
+    "type": "word"
+   },
+   {
+    "w": "Common",
+    "s": 21.02,
+    "e": 21.34,
+    "type": "word"
+   },
+   {
+    "w": "to",
+    "s": 21.42,
+    "e": 21.54,
+    "type": "word"
+   },
+   {
+    "w": "everything",
+    "s": 21.68,
+    "e": 22.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 22.24,
+    "e": 22.32,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 22.38,
+    "e": 22.48,
+    "type": "word"
+   },
+   {
+    "w": "universe,",
+    "s": 22.62,
+    "e": 23.2,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 23.28,
+    "e": 23.58,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 23.66,
+    "e": 24.26,
+    "type": "word"
+   },
+   {
+    "w": "We",
+    "s": 24.44,
+    "e": 24.64,
+    "type": "word"
+   },
+   {
+    "w": "walk,",
+    "s": 24.78,
+    "e": 25.14,
+    "type": "word"
+   },
+   {
+    "w": "we",
+    "s": 25.36,
+    "e": 25.48,
+    "type": "word"
+   },
+   {
+    "w": "ride",
+    "s": 25.54,
+    "e": 25.72,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 25.8,
+    "e": 25.86,
+    "type": "word"
+   },
+   {
+    "w": "bicycle,",
+    "s": 25.9,
+    "e": 26.42,
+    "type": "word"
+   },
+   {
+    "w": "we",
+    "s": 26.5,
+    "e": 26.62,
+    "type": "word"
+   },
+   {
+    "w": "run.",
+    "s": 26.7,
+    "e": 27.08,
+    "type": "word"
+   },
+   {
+    "w": "Sleeping,",
+    "s": 27.38,
+    "e": 28.16,
+    "type": "word"
+   },
+   {
+    "w": "air",
+    "s": 28.36,
+    "e": 28.48,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 28.52,
+    "e": 28.72,
+    "type": "word"
+   },
+   {
+    "w": "into",
+    "s": 28.78,
+    "e": 29.1,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 29.16,
+    "e": 29.3,
+    "type": "word"
+   },
+   {
+    "w": "out",
+    "s": 29.36,
+    "e": 29.48,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 29.54,
+    "e": 29.64,
+    "type": "word"
+   },
+   {
+    "w": "our",
+    "s": 29.68,
+    "e": 29.8,
+    "type": "word"
+   },
+   {
+    "w": "lungs.",
+    "s": 29.88,
+    "e": 30.32,
+    "type": "word"
+   },
+   {
+    "w": "Blood",
+    "s": 30.38,
+    "e": 30.66,
+    "type": "word"
+   },
+   {
+    "w": "flows",
+    "s": 30.76,
+    "e": 31.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 31.28,
+    "e": 31.54,
+    "type": "word"
+   },
+   {
+    "w": "arteries",
+    "s": 31.64,
+    "e": 32.46,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 32.5,
+    "e": 32.619,
+    "type": "word"
+   },
+   {
+    "w": "veins.",
+    "s": 32.68,
+    "e": 33.3,
+    "type": "word"
+   },
+   {
+    "w": "Carry",
+    "s": 33.4,
+    "e": 33.68,
+    "type": "word"
+   },
+   {
+    "w": "people,",
+    "s": 33.8,
+    "e": 34.24,
+    "type": "word"
+   },
+   {
+    "w": "automobiles",
+    "s": 34.62,
+    "e": 35.46,
+    "type": "word"
+   },
+   {
+    "w": "and",
+    "s": 35.5,
+    "e": 35.6,
+    "type": "word"
+   },
+   {
+    "w": "planes.",
+    "s": 35.66,
+    "e": 36.28,
+    "type": "word"
+   },
+   {
+    "w": "Water",
+    "s": 36.42,
+    "e": 36.68,
+    "type": "word"
+   },
+   {
+    "w": "flowing",
+    "s": 36.78,
+    "e": 37.12,
+    "type": "word"
+   },
+   {
+    "w": "down",
+    "s": 37.18,
+    "e": 37.36,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 37.42,
+    "e": 37.5,
+    "type": "word"
+   },
+   {
+    "w": "dam,",
+    "s": 37.56,
+    "e": 37.86,
+    "type": "word"
+   },
+   {
+    "w": "leaves",
+    "s": 37.94,
+    "e": 38.24,
+    "type": "word"
+   },
+   {
+    "w": "falling",
+    "s": 38.3,
+    "e": 38.62,
+    "type": "word"
+   },
+   {
+    "w": "from",
+    "s": 38.64,
+    "e": 38.8,
+    "type": "word"
+   },
+   {
+    "w": "trees.",
+    "s": 38.86,
+    "e": 39.48,
+    "type": "word"
+   },
+   {
+    "w": "Earth",
+    "s": 50.72,
+    "e": 51.0,
+    "type": "word"
+   },
+   {
+    "w": "rotates",
+    "s": 51.08,
+    "e": 51.76,
+    "type": "word"
+   },
+   {
+    "w": "once",
+    "s": 51.9,
+    "e": 52.14,
+    "type": "word"
+   },
+   {
+    "w": "every",
+    "s": 52.26,
+    "e": 52.46,
+    "type": "word"
+   },
+   {
+    "w": "twenty-four",
+    "s": 52.52,
+    "e": 53.24,
+    "type": "word"
+   },
+   {
+    "w": "hours.",
+    "s": 53.32,
+    "e": 53.78,
+    "type": "word"
+   },
+   {
+    "w": "Revolves",
+    "s": 53.88,
+    "e": 54.36,
+    "type": "word"
+   },
+   {
+    "w": "round",
+    "s": 54.42,
+    "e": 54.58,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 54.62,
+    "e": 54.72,
+    "type": "word"
+   },
+   {
+    "w": "sun",
+    "s": 54.8,
+    "e": 55.1,
+    "type": "word"
+   },
+   {
+    "w": "once",
+    "s": 55.18,
+    "e": 55.54,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 55.7,
+    "e": 55.92,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 56.02,
+    "e": 56.06,
+    "type": "word"
+   },
+   {
+    "w": "year.",
+    "s": 56.14,
+    "e": 56.4,
+    "type": "word"
+   },
+   {
+    "w": "The",
+    "s": 56.48,
+    "e": 56.68,
+    "type": "word"
+   },
+   {
+    "w": "sun",
+    "s": 56.84,
+    "e": 57.4,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 57.54,
+    "e": 57.74,
+    "type": "word"
+   },
+   {
+    "w": "motion",
+    "s": 57.78,
+    "e": 58.16,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 58.24,
+    "e": 58.32,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 58.36,
+    "e": 58.46,
+    "type": "word"
+   },
+   {
+    "w": "Milky",
+    "s": 58.54,
+    "e": 58.84,
+    "type": "word"
+   },
+   {
+    "w": "Way,",
+    "s": 58.92,
+    "e": 59.2,
+    "type": "word"
+   },
+   {
+    "w": "Milky",
+    "s": 59.28,
+    "e": 59.6,
+    "type": "word"
+   },
+   {
+    "w": "Way.",
+    "s": 59.68,
+    "e": 60.12,
+    "type": "word"
+   },
+   {
+    "w": "Moving",
+    "s": 60.4,
+    "e": 60.74,
+    "type": "word"
+   },
+   {
+    "w": "within",
+    "s": 60.8,
+    "e": 61.34,
+    "type": "word"
+   },
+   {
+    "w": "its",
+    "s": 61.38,
+    "e": 61.5,
+    "type": "word"
+   },
+   {
+    "w": "local",
+    "s": 61.56,
+    "e": 61.84,
+    "type": "word"
+   },
+   {
+    "w": "group",
+    "s": 61.9,
+    "e": 62.1,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 62.12,
+    "e": 62.22,
+    "type": "word"
+   },
+   {
+    "w": "galaxies.",
+    "s": 62.3,
+    "e": 63.52,
+    "type": "word"
+   },
+   {
+    "w": "Rectilinear",
+    "s": 68.68,
+    "e": 69.72,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 69.78,
+    "e": 70.36,
+    "type": "word"
+   },
+   {
+    "w": "uniform",
+    "s": 70.68,
+    "e": 71.08,
+    "type": "word"
+   },
+   {
+    "w": "acceleration.",
+    "s": 71.14,
+    "e": 72.26,
+    "type": "word"
+   },
+   {
+    "w": "A",
+    "s": 72.48,
+    "e": 72.64,
+    "type": "word"
+   },
+   {
+    "w": "set",
+    "s": 72.76,
+    "e": 73.12,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 73.3,
+    "e": 73.42,
+    "type": "word"
+   },
+   {
+    "w": "simple",
+    "s": 73.52,
+    "e": 73.9,
+    "type": "word"
+   },
+   {
+    "w": "equations.",
+    "s": 73.96,
+    "e": 74.98,
+    "type": "word"
+   },
+   {
+    "w": "Relative",
+    "s": 75.06,
+    "e": 75.56,
+    "type": "word"
+   },
+   {
+    "w": "nature",
+    "s": 75.6,
+    "e": 75.94,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 76.04,
+    "e": 76.1,
+    "type": "word"
+   },
+   {
+    "w": "motion,",
+    "s": 76.16,
+    "e": 76.48,
+    "type": "word"
+   },
+   {
+    "w": "relative",
+    "s": 76.56,
+    "e": 77.04,
+    "type": "word"
+   },
+   {
+    "w": "velocity.",
+    "s": 77.1,
+    "e": 78.08,
+    "type": "word"
+   },
+   {
+    "w": "Point",
+    "s": 78.4,
+    "e": 78.74,
+    "type": "word"
+   },
+   {
+    "w": "objects",
+    "s": 78.96,
+    "e": 79.46,
+    "type": "word"
+   },
+   {
+    "w": "valid",
+    "s": 79.54,
+    "e": 79.84,
+    "type": "word"
+   },
+   {
+    "w": "so",
+    "s": 79.94,
+    "e": 80.14,
+    "type": "word"
+   },
+   {
+    "w": "far",
+    "s": 80.28,
+    "e": 80.5,
+    "type": "word"
+   },
+   {
+    "w": "as",
+    "s": 80.6,
+    "e": 80.78,
+    "type": "word"
+   },
+   {
+    "w": "size",
+    "s": 80.86,
+    "e": 81.22,
+    "type": "word"
+   },
+   {
+    "w": "is",
+    "s": 81.3,
+    "e": 81.38,
+    "type": "word"
+   },
+   {
+    "w": "much",
+    "s": 81.44,
+    "e": 81.7,
+    "type": "word"
+   },
+   {
+    "w": "smaller",
+    "s": 81.76,
+    "e": 82.12,
+    "type": "word"
+   },
+   {
+    "w": "than",
+    "s": 82.18,
+    "e": 82.32,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 82.36,
+    "e": 82.5,
+    "type": "word"
+   },
+   {
+    "w": "distance",
+    "s": 82.56,
+    "e": 83.12,
+    "type": "word"
+   },
+   {
+    "w": "it",
+    "s": 83.24,
+    "e": 83.42,
+    "type": "word"
+   },
+   {
+    "w": "moves",
+    "s": 83.5,
+    "e": 84.34,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 84.48,
+    "e": 84.6,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 84.68,
+    "e": 84.74,
+    "type": "word"
+   },
+   {
+    "w": "reasonable",
+    "s": 84.82,
+    "e": 85.82,
+    "type": "word"
+   },
+   {
+    "w": "duration",
+    "s": 85.92,
+    "e": 86.68,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 86.78,
+    "e": 86.94,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 87.04,
+    "e": 88.78,
+    "type": "word"
+   },
+   {
+    "w": "Real",
+    "s": 90.42,
+    "e": 90.72,
+    "type": "word"
+   },
+   {
+    "w": "life,",
+    "s": 90.8,
+    "e": 91.06,
+    "type": "word"
+   },
+   {
+    "w": "good",
+    "s": 91.16,
+    "e": 91.46,
+    "type": "word"
+   },
+   {
+    "w": "number",
+    "s": 91.54,
+    "e": 91.88,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 91.94,
+    "e": 92.02,
+    "type": "word"
+   },
+   {
+    "w": "situations.",
+    "s": 92.1,
+    "e": 93.08,
+    "type": "word"
+   },
+   {
+    "w": "Size",
+    "s": 93.38,
+    "e": 93.58,
+    "type": "word"
+   },
+   {
+    "w": "neglected",
+    "s": 93.62,
+    "e": 94.3,
+    "type": "word"
+   },
+   {
+    "w": "without",
+    "s": 94.38,
+    "e": 94.84,
+    "type": "word"
+   },
+   {
+    "w": "much",
+    "s": 94.92,
+    "e": 95.22,
+    "type": "word"
+   },
+   {
+    "w": "error.",
+    "s": 95.34,
+    "e": 95.84,
+    "type": "word"
+   },
+   {
+    "w": "Motion,",
+    "s": 96.42,
+    "e": 97.42,
+    "type": "word"
+   },
+   {
+    "w": "motion.",
+    "s": 97.92,
+    "e": 98.94,
+    "type": "word"
+   },
+   {
+    "w": "Change",
+    "s": 99.02,
+    "e": 99.4,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 99.46,
+    "e": 99.54,
+    "type": "word"
+   },
+   {
+    "w": "position",
+    "s": 99.6,
+    "e": 100.18,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 100.26,
+    "e": 100.34,
+    "type": "word"
+   },
+   {
+    "w": "an",
+    "s": 100.46,
+    "e": 100.54,
+    "type": "word"
+   },
+   {
+    "w": "object",
+    "s": 100.72,
+    "e": 101.08,
+    "type": "word"
+   },
+   {
+    "w": "with",
+    "s": 101.14,
+    "e": 101.4,
+    "type": "word"
+   },
+   {
+    "w": "time.",
+    "s": 101.48,
+    "e": 102.04,
+    "type": "word"
+   },
+   {
+    "w": "Velocity,",
+    "s": 102.22,
+    "e": 103.66,
+    "type": "word"
+   },
+   {
+    "w": "acceleration",
+    "s": 103.76,
+    "e": 106.3,
+    "type": "word"
+   },
+   {
+    "w": "along",
+    "s": 106.42,
+    "e": 106.74,
+    "type": "word"
+   },
+   {
+    "w": "a",
+    "s": 106.88,
+    "e": 106.94,
+    "type": "word"
+   },
+   {
+    "w": "straight",
+    "s": 107.04,
+    "e": 107.42,
+    "type": "word"
+   },
+   {
+    "w": "line.",
+    "s": 107.48,
+    "e": 108.1,
+    "type": "word"
+   }
+  ]
+ },
+ "sarvam_vocals": {
+  "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Coming to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaks, falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration, along a straight line.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 18.05,
+    "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 18.05,
+    "end": 42.1,
+    "text": "Coming to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaks, falling from trees.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 42.1,
+    "end": 66.25,
+    "text": "Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 66.25,
+    "end": 89.8,
+    "text": "Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 89.8,
+    "end": 112.03,
+    "text": "Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration, along a straight line.",
+    "lang": "en-IN"
+   }
+  ]
+ },
+ "sarvam_verbatim_vocals": {
+  "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Coming to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins, carrying people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours, revolves from the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration, along a straight line.",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 18.05,
+    "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 18.05,
+    "end": 42.1,
+    "text": "Coming to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins, carrying people, automobiles and planes. Water flowing down a dam, leaves falling from trees.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 42.1,
+    "end": 66.25,
+    "text": "Earth rotates once every twenty-four hours, revolves from the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 66.25,
+    "end": 89.8,
+    "text": "Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time.",
+    "lang": "en-IN"
+   },
+   {
+    "start": 89.8,
+    "end": 112.03,
+    "text": "Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration, along a straight line.",
+    "lang": "en-IN"
+   }
+  ]
+ }
+}

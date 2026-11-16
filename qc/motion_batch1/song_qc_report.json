@@ -1,0 +1,2862 @@
+{
+ "motion_reggaeton_male": {
+  "scribe_mix": {
+   "coverage": 0.9871794871794872,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "ewade",
+     68.08,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "api",
+     68.48,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "ditizis",
+     68.98,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     13.08,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     101.52,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 10.08,
+   "text": "[upbeat music] Motion, motion. Changing position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. [upbeat music] Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Ewade api ditizis. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. [upbeat music] Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Changing position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9871794871794872,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "deep",
+     69.02,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "seas",
+     69.34,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     13.1,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     101.54,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "the",
+     68.06
+    ],
+    [
+     "repeat/harmony",
+     "water",
+     68.24
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     68.74
+    ]
+   ],
+   "onset": 10.14,
+   "text": "[singing] Motion. Motion. Changing position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. The water, the deep seas. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Changing position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9871794871794872,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "deep",
+     69.02,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "seas",
+     69.34,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     13.1,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     101.54,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "the",
+     68.06
+    ],
+    [
+     "repeat/harmony",
+     "water",
+     68.24
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     68.74
+    ]
+   ],
+   "onset": 10.14,
+   "text": "[singing] Motion. Motion. Changing position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. The water, the deep seas. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Changing position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9807692307692307,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "on",
+     12.45,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "leech",
+     26.7,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "leaves",
+     "",
+     26.7,
+     "Water flowing down a dam, leaves falling from trees!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "deep",
+     60.1,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "seas",
+     60.1,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     12.45,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "common",
+     "come",
+     12.45,
+     "Common to everything in the universe? Motion, motion!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "in",
+     26.7
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     60.1
+    ],
+    [
+     "repeat/harmony",
+     "milky",
+     60.1
+    ],
+    [
+     "repeat/harmony",
+     "way",
+     60.1
+    ]
+   ],
+   "onset": null,
+   "text": "Motion motion. Changing position of an object with time, velocity, acceleration along a straight line. Come on to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleep in air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles and planes. Water flowing down a dam, leech falling from trees. Earth rotates once every 24 hours, revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies, the Milky Way deep seas. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Points, objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time, velocity, acceleration along a straight line. "
+  }
+ },
+ "motion_reggaeton_female": {
+  "scribe_mix": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "valid",
+     "solid",
+     80.22,
+     "Point objects! Valid so far as"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "in",
+     19.02
+    ]
+   ],
+   "onset": 5.0,
+   "text": "[upbeat music] Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in, in the universe. Motion, motion. We walk, we ride a bicycle, we run, sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours, revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations. Relative nature of motion, relative velocity. Point objects, solid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "in",
+     19.04
+    ]
+   ],
+   "onset": 5.08,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration, along a straight line. Common to everything in, in the universe. Motion, motion. We walk, we ride a bicycle, we run, sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration, along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 5.08,
+   "text": "Motion, motion Change in position of an object with time Velocity, acceleration Along a straight line Common to everything in the universe Motion, motion We walk, we ride a bicycle, we run, sleeping Air moves into and out of our lungs Blood flows in arteries and veins Carry people, automobiles and planes Water flowing down a dam Leaves falling from trees Earth rotates once every twenty-four hours Revolves round the sun once in a year The sun in motion in the Milky Way, Milky Way Moving within its local group of galaxies Rectilinear motion Uniform acceleration A set of simple equations Relative nature of motion Relative velocity Point objects valid so far as Size is much smaller than the distance it moves In a reasonable duration of time Real life, good number of situations Size neglected without much error Motion, motion Change in position of an object with time Velocity, acceleration Along a straight line"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9807692307692307,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "thats",
+     78.8,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "valid",
+     "",
+     78.8,
+     "Point objects! Valid so far as"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "common",
+     "come",
+     17.05,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "to",
+     "",
+     17.05,
+     "Common to everything in the universe? Motion, motion!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "into",
+     17.05
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     17.05
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Come into everything in in the universe motion, motion. We walk, we ride a bicycle, we run, sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects, that's so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected. Without much error, motion, motion, change in position of an object with time, velocity, acceleration along a straight line."
+  }
+ },
+ "motion_afrobeats_male": {
+  "scribe_mix": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     20.02,
+     "Common to everything in the universe? Motion, motion!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     2.14,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     2.82,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     89.56,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.0,
+   "text": "Motion, motion. Changing position of object with time. Velocity, acceleration. Along a straight line. Common to everything in the universe, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the Sun once in a year. The Sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Changing position of an object with time. Velocity, acceleration. Along a straight line. [outro music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     20.04,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "think",
+     23.6,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     2.16,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     2.84,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "sleeping",
+     "",
+     24.08,
+     "Sleeping? Air moves into and out of our lungs!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "we",
+     23.38
+    ]
+   ],
+   "onset": 0.04,
+   "text": "Motion, motion. Changing position of object with time. Velocity, acceleration. Along a straight line. Common to everything in the universe, motion. We walk, we ride a bicycle, we run, we think. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The Sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time, velocity, acceleration along a straight line"
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     20.04,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "think",
+     23.6,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     2.16,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "an",
+     "",
+     2.84,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "sleeping",
+     "",
+     24.08,
+     "Sleeping? Air moves into and out of our lungs!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "we",
+     23.38
+    ]
+   ],
+   "onset": 0.06,
+   "text": "Motion, motion. Changing position of object with time. Velocity, acceleration, along a straight line. Common to everything in the universe, motion. We walk, we ride a bicycle, we run, we think. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The Sun, in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time, velocity, acceleration along a straight line"
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9615384615384616,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "on",
+     12.15,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     12.15,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "play",
+     12.15,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "fall",
+     36.9,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "revolves",
+     "",
+     36.9,
+     "Revolves round the sun, once in a year!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "with",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "common",
+     "come",
+     12.15,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "sleeping",
+     "",
+     12.15,
+     "Sleeping? Air moves into and out of our lungs!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "in",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "we",
+     12.15
+    ],
+    [
+     "repeat/harmony",
+     "we",
+     36.9
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, changing position of an object in time, velocity, acceleration, along a straight line. Come on to everything in the universe motion. We walk, we ride a bicycle, we run, we play. Air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every 24 hours. We fall round the sun once in a year. The sun, in motion in the Milky Way. Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, sides neglected, without much error. Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. "
+  }
+ },
+ "motion_afrobeats_female": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.0,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carried people, automobiles, and planes. Water flowing, down a dam, leaves falling from trees. Earth rotates once every twenty-four hours, revolves round the sun once in a year. The sun, in motion in the Milky Way. Milky Way, moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     5.02,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.06,
+   "text": "Motion, motion. Changing position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing, down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun, in motion in the Milky Way. Milky Way, moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     5.02,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.04,
+   "text": "Motion, motion. Changing position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing, down a dam, leaves falling from trees. Earth rotates once every twenty-four hours, revolves round the sun. Once in a year, the sun, in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Motion. Motion. Changing position of an object with time. Velocity. Acceleration. Along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing. Down a dam, leaks falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies, rectilinear motion. Uniform acceleration, a set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error.\nMotion, motion, change in position of an object with time.\nVelocity, acceleration along a straight line."
+  }
+ },
+ "motion_bhangra_male": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "and",
+     7.22
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     38.44
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     39.02
+    ],
+    [
+     "repeat/harmony",
+     "change",
+     39.52
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     39.88
+    ],
+    [
+     "repeat/harmony",
+     "position",
+     40.06
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     40.84
+    ],
+    [
+     "repeat/harmony",
+     "an",
+     41.06
+    ],
+    [
+     "repeat/harmony",
+     "object",
+     41.38
+    ],
+    [
+     "repeat/harmony",
+     "with",
+     41.76
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     42.04
+    ],
+    [
+     "repeat/harmony",
+     "velocity",
+     42.92
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     44.3
+    ],
+    [
+     "repeat/harmony",
+     "and",
+     45.62
+    ],
+    [
+     "repeat/harmony",
+     "along",
+     45.92
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     46.34
+    ],
+    [
+     "repeat/harmony",
+     "straight",
+     46.48
+    ],
+    [
+     "repeat/harmony",
+     "line",
+     46.84
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     60.46
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     78.92
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     79.82
+    ],
+    [
+     "repeat/harmony",
+     "change",
+     80.32
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     80.64
+    ]
+   ],
+   "onset": 0.0,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration, and along a straight line. [upbeat music] Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Motion, motion, change in position of an object with time. Velocity, acceleration, and along a straight line. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, the Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Motion, motion, change in-- Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. [upbeat music] Velocity, acceleration, along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "motion",
+     38.46
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     39.0
+    ],
+    [
+     "repeat/harmony",
+     "change",
+     39.54
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     39.9
+    ],
+    [
+     "repeat/harmony",
+     "position",
+     40.08
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     40.88
+    ],
+    [
+     "repeat/harmony",
+     "an",
+     41.1
+    ],
+    [
+     "repeat/harmony",
+     "object",
+     41.42
+    ],
+    [
+     "repeat/harmony",
+     "with",
+     41.78
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     42.04
+    ],
+    [
+     "repeat/harmony",
+     "velocity",
+     42.94
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     44.32
+    ],
+    [
+     "repeat/harmony",
+     "along",
+     45.68
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     46.36
+    ],
+    [
+     "repeat/harmony",
+     "straight",
+     46.54
+    ],
+    [
+     "repeat/harmony",
+     "line",
+     46.86
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     78.94
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     79.8
+    ],
+    [
+     "repeat/harmony",
+     "change",
+     81.12
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     81.26
+    ]
+   ],
+   "onset": 0.06,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Motion, motion. Change in point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "motion",
+     38.46
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     39.0
+    ],
+    [
+     "repeat/harmony",
+     "change",
+     39.54
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     39.9
+    ],
+    [
+     "repeat/harmony",
+     "position",
+     40.08
+    ],
+    [
+     "repeat/harmony",
+     "of",
+     40.88
+    ],
+    [
+     "repeat/harmony",
+     "an",
+     41.1
+    ],
+    [
+     "repeat/harmony",
+     "object",
+     41.42
+    ],
+    [
+     "repeat/harmony",
+     "with",
+     41.78
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     42.04
+    ],
+    [
+     "repeat/harmony",
+     "velocity",
+     42.94
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     44.32
+    ],
+    [
+     "repeat/harmony",
+     "along",
+     45.68
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     46.36
+    ],
+    [
+     "repeat/harmony",
+     "straight",
+     46.54
+    ],
+    [
+     "repeat/harmony",
+     "line",
+     46.86
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     78.94
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     79.82
+    ],
+    [
+     "repeat/harmony",
+     "change",
+     81.14
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     81.26
+    ]
+   ],
+   "onset": 0.06,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Motion, motion. Change in point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life. Good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.967948717948718,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "social",
+     31.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "social",
+     31.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "taking",
+     31.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "up",
+     31.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "not",
+     31.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "then",
+     31.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "off",
+     31.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     82.65,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "change in",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "a",
+     "",
+     0.0,
+     "Velocity, acceleration, along a straight line!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "a",
+     "the",
+     103.5,
+     "Velocity, acceleration, along a straight line!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "and",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "position",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "and",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "velocity",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "acceleration",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "and",
+     31.0
+    ],
+    [
+     "stutter",
+     "on",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "straight",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "line",
+     31.0
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     51.95
+    ],
+    [
+     "repeat/harmony",
+     "velocity",
+     66.7
+    ],
+    [
+     "repeat/harmony",
+     "velocity",
+     66.7
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     66.7
+    ]
+   ],
+   "onset": null,
+   "text": "Position, position, position of an object with time, velocity, acceleration, and the longest straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Social, social, taking position, up and not in time. Velocity, acceleration, and then off on a straight line. Earth rotates once every 24 hours. Revolves round the sun once in a year. The sun, in motion in the Milky Way. Milky Way, moving with in its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, velocity, velocity in point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, change in position of an object with time. Velocity, acceleration along the straight line."
+  }
+ },
+ "motion_bhangra_female": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.2,
+   "text": "[upbeat music] Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music] Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. [upbeat music] Earth rotates once every twenty-four hours, revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. [upbeat music] Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far, as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "or",
+     35.36
+    ]
+   ],
+   "onset": 1.22,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion, we walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in our arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "or",
+     35.38
+    ]
+   ],
+   "onset": 1.22,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in our arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours, revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9871794871794872,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "relative",
+     "latin",
+     69.9,
+     "Relative nature of motion? Relative velocity!"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "relative",
+     "latin",
+     69.9,
+     "Relative nature of motion? Relative velocity!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "the",
+     69.9
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     69.9
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleeping, air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves round the sun once in a year. The sun in motion, in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, the Latin nature of motion, the Latin velocity. Point objects valid so far, as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  }
+ },
+ "motion_funk_male": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "vocable",
+     "hey",
+     68.02
+    ]
+   ],
+   "onset": 8.56,
+   "text": "[funky music] Motion, motion. Change in position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carried people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies, hey. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration, along a straight line. [funky music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "we",
+     "",
+     30.16,
+     "We walk, we ride a bicycle, we run!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "hey",
+     68.04
+    ]
+   ],
+   "onset": 8.58,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, ride a bicycle, we run. Sleeping, air moves into and out of our lung. Blood flows in arteries and veins. Carried people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Hey. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "vocable",
+     "hey",
+     68.04
+    ]
+   ],
+   "onset": 8.58,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lung. Blood flows in arteries and veins. Carried people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Hey. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life. Good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9807692307692307,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "a",
+     "the",
+     0.0,
+     "Velocity, acceleration, along a straight line!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "common",
+     "motion",
+     24.75,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "we",
+     "",
+     24.75,
+     "We walk, we ride a bicycle, we run!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "hey",
+     59.55
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along the straight line. Motion to everything in the universe. Motion, motion. We walk, ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles and planes. Water flows down a dam, leaves falling from trees. Earth rotates once every 24 hours. Revolves around the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Hey! Rectilinear motion, uniform acceleration, a set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected, without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration, along a straight line."
+  }
+ },
+ "motion_funk_female": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.58,
+   "text": "[upbeat music] Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. [upbeat music] Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.58,
+   "text": "Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carried people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life. Good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 8.58,
+   "text": "Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life. Good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9807692307692307,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "free",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "chat",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "acceleration",
+     "",
+     0.0,
+     "Velocity, acceleration, along a straight line!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "in",
+     "the",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "with",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "for",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "its",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     24.05
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion. Change the position of an object for time. Velocity, it's a free chat along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flows in down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves around the sun. Once in a year, the sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion. Relative velocity. Point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  }
+ },
+ "motion_jazz_male": {
+  "scribe_mix": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "as",
+     "",
+     87.38,
+     "Point objects! Valid so far as"
+    ]
+   ],
+   "allowed": [],
+   "onset": 6.88,
+   "text": "[singing] Motion. Motion. Change in position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe, motion. Motion, we walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours, revolves round the sun once in a year. The sun, in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far. Size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration, along a straight line. [instrumental music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "as",
+     "",
+     87.4,
+     "Point objects! Valid so far as"
+    ]
+   ],
+   "allowed": [],
+   "onset": 6.9,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion. Motion, we walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far. Size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "as",
+     "",
+     87.4,
+     "Point objects! Valid so far as"
+    ]
+   ],
+   "allowed": [],
+   "onset": 6.9,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion. Motion, we walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far. Size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "as",
+     "",
+     84.2,
+     "Point objects! Valid so far as"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Common to everything in the universe, motion. Motion, we walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects, valid so far. Size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected, without much error. Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. "
+  }
+ },
+ "motion_jazz_female": {
+  "scribe_mix": {
+   "coverage": 0.967948717948718,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "automobiles and planes",
+     "",
+     31.12,
+     "Carry people? Automobiles and planes!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     41.16,
+     "Earth rotates once, every twenty-four hours,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "carry",
+     "",
+     30.06,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "every",
+     29.78
+    ]
+   ],
+   "onset": 0.06,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Every people. Water flowing down a dam. Leaves falling from trees. Rotates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way. Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [instrumental music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9487179487179487,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "carry people automobiles and planes",
+     "",
+     31.14,
+     "Carry people? Automobiles and planes!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     41.18,
+     "Earth rotates once, every twenty-four hours,"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "milky way",
+     "",
+     49.76,
+     "The Sun, in motion in the Milky Way,"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.06,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Water flowing down a dam. Leaves falling from trees. Rotates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9487179487179487,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "carry people automobiles and planes",
+     "",
+     31.14,
+     "Carry people? Automobiles and planes!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     41.18,
+     "Earth rotates once, every twenty-four hours,"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "milky way",
+     "",
+     49.76,
+     "The Sun, in motion in the Milky Way,"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.06,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Water flowing down a dam. Leaves falling from trees. Rotates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real-life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9358974358974359,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "invading",
+     13.75,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "cell",
+     13.75,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "and veins carry people automobiles and planes",
+     "",
+     13.75,
+     "Blood flows in arteries and veins!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     38.5,
+     "Earth rotates once, every twenty-four hours,"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "milky way",
+     "",
+     38.5,
+     "The Sun, in motion in the Milky Way,"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "every",
+     13.75
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration, along a straight line. Coming to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries invading every cell. Water flowing down a dam, leaves falling from trees. Rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, moving with its Local Group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  }
+ },
+ "motion_acappella_male": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.08,
+   "text": "Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.12,
+   "text": "Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.12,
+   "text": "Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion. Motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "rec",
+     42.0,
+     ""
+    ]
+   ],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "to",
+     62.55
+    ]
+   ],
+   "onset": null,
+   "text": "Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion! Motion! We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies, Rec. To linear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration, along a straight line."
+  }
+ },
+ "motion_acappella_female": {
+  "scribe_mix": {
+   "coverage": 0.9935897435897436,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     44.0,
+     "Earth rotates once, every twenty-four hours,"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "common",
+     43.66
+    ],
+    [
+     "repeat/harmony",
+     "milky",
+     54.58
+    ],
+    [
+     "repeat/harmony",
+     "way",
+     55.12
+    ]
+   ],
+   "onset": 0.54,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Common takes once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects. Valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9871794871794872,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     44.02,
+     "Earth rotates once, every twenty-four hours,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "carry",
+     "ferry",
+     32.42,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "common",
+     43.68
+    ],
+    [
+     "repeat/harmony",
+     "milky",
+     54.6
+    ],
+    [
+     "repeat/harmony",
+     "way",
+     55.14
+    ]
+   ],
+   "onset": 0.58,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Ferry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Common tates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way, Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9871794871794872,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     44.02,
+     "Earth rotates once, every twenty-four hours,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "carry",
+     "ferry",
+     32.42,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "common",
+     43.68
+    ],
+    [
+     "repeat/harmony",
+     "milky",
+     54.6
+    ],
+    [
+     "repeat/harmony",
+     "way",
+     55.14
+    ]
+   ],
+   "onset": 0.58,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Ferry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Common tates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way, Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "veins",
+     "",
+     16.95,
+     "Blood flows in arteries and veins!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "earth",
+     "",
+     41.7,
+     "Earth rotates once, every twenty-four hours,"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "as",
+     "",
+     81.0,
+     "Point objects! Valid so far as"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     98.45,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "milky",
+     41.7
+    ],
+    [
+     "repeat/harmony",
+     "way",
+     41.7
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Coming to everything in the universe motion. Motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Commentates once every 24 hours, revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects, valid so far, size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, changing position of an object with time, velocity, acceleration along a straight line."
+  }
+ },
+ "motion_indie_male": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "and",
+     24.94
+    ]
+   ],
+   "onset": 4.78,
+   "text": "[upbeat music] Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleep, and air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "and",
+     24.98
+    ]
+   ],
+   "onset": 4.84,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleep, and air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "and",
+     24.98
+    ]
+   ],
+   "onset": 4.84,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleep, and air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "in",
+     15.75
+    ],
+    [
+     "repeat/harmony",
+     "to",
+     15.75
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleep in air moves. Into, to, and out of our lungs, blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion change in position of an object with time. Velocity acceleration along a straight line."
+  }
+ },
+ "motion_indie_female": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "vocable",
+     "oh",
+     17.5
+    ],
+    [
+     "vocable",
+     "oh",
+     43.32
+    ],
+    [
+     "vocable",
+     "oh",
+     44.24
+    ],
+    [
+     "vocable",
+     "oh",
+     51.24
+    ],
+    [
+     "vocable",
+     "oh",
+     51.3
+    ],
+    [
+     "vocable",
+     "oh",
+     51.4
+    ],
+    [
+     "vocable",
+     "oh",
+     51.46
+    ],
+    [
+     "vocable",
+     "oh",
+     68.94
+    ],
+    [
+     "vocable",
+     "oh",
+     71.72
+    ],
+    [
+     "vocable",
+     "oh",
+     79.16
+    ],
+    [
+     "vocable",
+     "oh",
+     79.24
+    ],
+    [
+     "repeat/harmony",
+     "and",
+     26.6
+    ]
+   ],
+   "onset": 8.56,
+   "text": "[upbeat music] Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Oh. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run, sleep, and air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Oh, oh. Oh, oh. Oh, oh. Earth rotates once every twenty-four hours. Revolves 'round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Oh, oh. Rectilinear motion, uniform acceleration. A set of simple equations. Oh, oh. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "vocable",
+     "oh",
+     17.5
+    ],
+    [
+     "vocable",
+     "oh",
+     43.26
+    ],
+    [
+     "vocable",
+     "oh",
+     44.3
+    ],
+    [
+     "vocable",
+     "oh",
+     51.32
+    ],
+    [
+     "vocable",
+     "oh",
+     51.34
+    ],
+    [
+     "vocable",
+     "oh",
+     68.98
+    ],
+    [
+     "vocable",
+     "oh",
+     71.72
+    ],
+    [
+     "vocable",
+     "oh",
+     79.24
+    ],
+    [
+     "repeat/harmony",
+     "and",
+     26.64
+    ]
+   ],
+   "onset": 8.6,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Oh. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleep, and air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Oh, oh, oh, oh. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Oh, oh. Rectilinear motion, uniform acceleration. A set of simple equations. Oh. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. [singing]"
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "vocable",
+     "oh",
+     17.52
+    ],
+    [
+     "vocable",
+     "oh",
+     43.28
+    ],
+    [
+     "vocable",
+     "oh",
+     44.3
+    ],
+    [
+     "vocable",
+     "oh",
+     51.3
+    ],
+    [
+     "vocable",
+     "oh",
+     51.34
+    ],
+    [
+     "vocable",
+     "oh",
+     68.98
+    ],
+    [
+     "vocable",
+     "oh",
+     71.74
+    ],
+    [
+     "vocable",
+     "oh",
+     79.24
+    ],
+    [
+     "repeat/harmony",
+     "and",
+     26.64
+    ]
+   ],
+   "onset": 8.6,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Oh. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run, sleep, and air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Oh, oh, oh, oh. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Oh, oh. Rectilinear motion, uniform acceleration. A set of simple equations. Oh. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "these",
+     33.7,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "leaves",
+     "",
+     33.7,
+     "Water flowing down a dam, leaves falling from trees!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "common",
+     "come",
+     17.25,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "to",
+     "and",
+     17.25,
+     "Common to everything in the universe? Motion, motion!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "nature",
+     "",
+     71.1,
+     "Relative nature of motion? Relative velocity!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "do",
+     17.25
+    ],
+    [
+     "repeat/harmony",
+     "and",
+     17.25
+    ],
+    [
+     "repeat/harmony",
+     "motion",
+     71.1
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. Come and do everything in the universe motion, motion. We walk, we ride a bicycle, we run, sleep and air moves into and out of our lungs, blood flows in arteries and veins. Carry people, automobiles and planes, water flowing down a dam, these falling from trees. Earth rotates once every 24 hours, revolves 'round the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations. Relative motion of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time, velocity, acceleration along a straight line."
+  }
+ },
+ "motion_punk_male": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "a",
+     5.64
+    ]
+   ],
+   "onset": 2.8,
+   "text": "[upbeat rock music] Motion, motion. A change in position of an object with time. Velocity, acceleration along a straight line. [upbeat rock music] Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. [upbeat rock music] Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. [upbeat rock music] Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat rock music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 2.8,
+   "text": "[rapping] Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music fading]"
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 2.8,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Coming to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaks, falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration, along a straight line."
+  }
+ },
+ "motion_punk_female": {
+  "scribe_mix": {
+   "coverage": 0.9807692307692307,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "breathing",
+     24.7,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     96.78,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     2.82,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "sleeping",
+     "",
+     25.24,
+     "Sleeping? Air moves into and out of our lungs!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.72,
+   "text": "[upbeat music] Motion, motion, changing position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Breathing air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9871794871794872,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     96.8,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     2.84,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.72,
+   "text": "Motion, motion, changing position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9807692307692307,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "breathing",
+     24.72,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     96.8,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     2.84,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "sleeping",
+     "",
+     25.26,
+     "Sleeping? Air moves into and out of our lungs!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 0.72,
+   "text": "Motion, motion, changing position of an object with time. Velocity, acceleration, along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Breathing air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9487179487179487,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "track",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "object",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion",
+     "",
+     81.8,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "of",
+     "bit",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "an",
+     "off",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "a",
+     "the",
+     0.0,
+     "Velocity, acceleration, along a straight line!"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "motion",
+     "most",
+     81.8,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     81.8,
+     "Motion, motion! Change in position of an object with time!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "a",
+     0.0
+    ]
+   ],
+   "onset": null,
+   "text": "Motion, motion, changing position, a bit off track with time. Velocity, acceleration, along the straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins, carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours. Revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity, point objects valid so far as size is much smaller than the distance it moves. In a reasonable duration of time, real life good number of situations, size neglected without much error. Most changing position of an object with time, velocity, acceleration along a straight line. "
+  }
+ },
+ "motion_kpop_male": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 7.84,
+   "text": "[upbeat music] Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 7.86,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [outro jingle]"
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 7.86,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours, revolves round the sun once in a year. The sun, in motion in the Milky Way. Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9935897435897436,
+   "fails": [],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "it",
+     "and",
+     80.9,
+     "Size is much smaller than the distance it moves"
+    ]
+   ],
+   "allowed": [],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies, rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance and moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time. Velocity, acceleration, along a straight line. "
+  }
+ },
+ "motion_kpop_female": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.96,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.0,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 1.0,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping. Air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way. Milky Way moving within its local group of galaxies. Rectilinear motion. Uniform acceleration. A set of simple equations. Relative nature of motion. Relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every 24 hours, revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations. Size neglected without much error. Motion. Motion. Change in position of an object with time, velocity, acceleration along a straight line."
+  }
+ },
+ "motion_dnb_male": {
+  "scribe_mix": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.04,
+   "text": "Motion, motion Change in position of an object with time Velocity, acceleration Along a straight line Common to everything in the universe Motion, motion We walk, we ride a bicycle, we run Sleeping air moves into and out of our lungs Blood flows in arteries and veins Carry people, automobiles, and planes Water flowing down a dam, leaves falling from trees Earth rotates once every twenty-four hours Revolves 'round the Sun once in a year The Sun in motion in the Milky Way Milky Way moving within its local group of galaxies Rectilinear motion Uniform acceleration A set of simple equations Relative nature of motion Relative velocity Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time Real life, good number of situations Size neglected without much error Motion, motion Change in position of an object with time Velocity, acceleration Along a straight line"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.06,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. [echoing]"
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [],
+   "onset": 0.06,
+   "text": "Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping, air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Points, objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9935897435897436,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "needs",
+     16.55,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "leaves",
+     "",
+     16.55,
+     "Water flowing down a dam, leaves falling from trees!"
+    ]
+   ],
+   "reviews": [],
+   "allowed": [],
+   "onset": null,
+   "text": "Motion, motion, change in position of an object with time, velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Carry people, automobiles, and planes. Water flowing down a dam, needs falling from trees. Earth rotates once every 24 hours, revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Points, objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion, change in position of an object with time, velocity, acceleration, along a straight line."
+  }
+ },
+ "motion_dnb_female": {
+  "scribe_mix": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion motion",
+     "",
+     3.42,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "hairy",
+     32.08,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "planes",
+     "",
+     33.48,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "carry",
+     "",
+     32.42,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "allowed": [],
+   "onset": 3.42,
+   "text": "[upbeat music] Change in position of an object with time, velocity, acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Hairy people, automobiles and water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the sun once in a year. The sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time, velocity, acceleration along a straight line. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion motion",
+     "",
+     3.44,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "planes",
+     "",
+     33.5,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "carry",
+     "ferry",
+     32.119,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "time",
+     5.4
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     6.06
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     6.76
+    ]
+   ],
+   "onset": 3.44,
+   "text": "Change in position of an object with time, time, time, time. Velocity, acceleration along a straight line. Common to everything in the universe. Motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Ferry people, automobiles, and water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the Sun once in a year. The Sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.9743589743589743,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion motion",
+     "",
+     3.44,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "planes",
+     "",
+     33.5,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "carry",
+     "ferry",
+     32.119,
+     "Carry people? Automobiles and planes!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "time",
+     5.4
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     6.06
+    ],
+    [
+     "repeat/harmony",
+     "time",
+     7.46
+    ]
+   ],
+   "onset": 3.44,
+   "text": "Change in position of an object with time, time, time, time. Velocity, acceleration along a straight line. Common to everything in the universe: motion, motion. We walk, we ride a bicycle, we run. Sleeping air moves into and out of our lungs. Blood flows in arteries and veins. Ferry people, automobiles, and water flowing down a dam. Leaves falling from trees. Earth rotates once every twenty-four hours. Revolves round the Sun once in a year. The Sun in motion in the Milky Way, Milky Way. Moving within its local group of galaxies. Rectilinear motion, uniform acceleration. A set of simple equations. Relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time. Velocity, acceleration along a straight line."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9294871794871795,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "motion motion",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "inside",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "inside",
+     0.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "with time",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "loops",
+     18.75,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "wheels",
+     18.75,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "planes",
+     "",
+     18.75,
+     "Carry people? Automobiles and planes!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "dam",
+     "",
+     18.75,
+     "Water flowing down a dam, leaves falling from trees!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "in",
+     "",
+     0.0,
+     "Motion, motion! Change in position of an object with time!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "moves",
+     "",
+     18.75,
+     "Sleeping? Air moves into and out of our lungs!"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "automobiles",
+     "automatic",
+     18.75,
+     "Carry people? Automobiles and planes!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "and",
+     "of",
+     18.75,
+     "Carry people? Automobiles and planes!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "a",
+     "the",
+     18.75,
+     "Water flowing down a dam, leaves falling from trees!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "the",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "down",
+     18.75
+    ]
+   ],
+   "onset": null,
+   "text": "Changing position of an object inside the inside velocity acceleration along a straight line. Common to everything in the universe, motion, motion. We walk, we ride a bicycle, we run. Sleeping air loops into and out of our lungs. Blood flows in arteries and veins, carry people, automatic wheels of water flowing down the down, leaves falling from trees. Earth rotates once every 24 hours. Revolves around the sun once in a year. The sun in motion in the Milky Way, Milky Way, moving within its local group of galaxies. Rectilinear motion, uniform acceleration, a set of simple equations, relative nature of motion, relative velocity. Point objects, valid so far as size is much smaller than the distance it moves in a reasonable duration of time. Real life, good number of situations, size neglected without much error. Motion, motion. Change in position of an object with time, velocity, acceleration along a straight line."
+  }
+ }
+}
