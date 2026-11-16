@@ -6,7 +6,7 @@
 | Lyric sheet | `lyrics/motion_lyrics_112s_v1.txt` (universal sheet for all 10 genres) |
 | Subject | Physics: Motion in a Straight Line, introduction (NCERT Class 11, Ch. 2) |
 | Budget | **261 sung syllables**, 2.46 syllables/s over 106 s of vocal time (universal budget 238-265) |
-| **Gate status** | **PASS: waiting for user approval** |
+| **Gate status** | **APPROVED (user, 2026-11-16)** |
 
 ## A. Automatic checks
 
@@ -61,4 +61,4 @@
 ## D. Verdict
 - **Factual errors:** none (3 caught in drafting).
 - **Every section of the theory is covered:** motion everywhere (everyday, body, nature, transport, earth, sun, galaxy), definition, velocity and acceleration, rectilinear motion, uniform acceleration → equations, relative velocity, point objects and when that's valid.
-- **Status:** ☐ Approved as is ☐ Approved with fixes ☐ Rejected.
+- **Status:** ☑ Approved as is ☐ Approved with fixes ☐ Rejected.
