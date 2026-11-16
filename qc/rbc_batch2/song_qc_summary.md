@@ -1,0 +1,8 @@
+# Song lyric QC summary
+
+Verdict uses only items that more than half of the engine runs agree on. Minority items are listed separately: confirm them with slice_check.py before dismissing them.
+
+| Song | Verdict | Lyric coverage (vocal runs) | Vocal onset | Agreed items | Minority items |
+|---|---|---|---|---|---|
+| rbc_reggaeton_v3_take1 | **REVIEW** | 97%-98% | 0.22 s | REVIEW single word dropped: lyric 'are' heard '' @13.3s (4/4)<br>REVIEW single word dropped: lyric 'role' heard '' @29.4s (4/4) | FAIL new word inserted: lyric '' heard 'global' @29.4s (2/4)<br>FAIL new word inserted: lyric '' heard 'male' (1/4)<br>FAIL new word inserted: lyric '' heard 'gas' (1/4)<br>REVIEW single word dropped: lyric 'point' heard '' (1/4) |
+| rbc_reggaeton_v3_take2 | **FAIL** | 10%-11% | 40.72 s | FAIL omission (protected): lyric 'in blood healthy adult man on an average has five to five point five millions of rbcs per cubic millimetre are these formed in the red bone marrow nucleus devoid in most mammals biconcave in shape haemoglobin iron containing complex protein red coloured hence the colour hence the name haemoglobin grams in every hundred ml twelve to sixteen role transport of respiratory gases lifespan one hundred twenty days destroyed' heard '' @49.5s (4/4)<br>FAIL omission (protected): lyric 'the spleen graveyard of rbcs haemoglobin iron containing complex protein red coloured hence the colour hence' heard '' @49.7s (4/4)<br>FAIL omission (protected): lyric 'name erythrocytes red blood cells' heard '' (4/4)<br>REVIEW single word dropped: lyric 'the' heard '' @49.1s (3/4) | FAIL omission (protected): lyric 'erythrocytes' heard '' (1/4) |

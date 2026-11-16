@@ -1,0 +1,291 @@
+{
+ "scribe_mix": {
+  "text": "[outro jingle] Erythrocytes. Red blood cells. Most abundant of all the cells in the",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[outro jingle]",
+    "s": 0.92,
+    "e": 40.62,
+    "type": "audio_event"
+   },
+   {
+    "w": "Erythrocytes.",
+    "s": 40.72,
+    "e": 41.98,
+    "type": "word"
+   },
+   {
+    "w": "Red",
+    "s": 45.44,
+    "e": 46.0,
+    "type": "word"
+   },
+   {
+    "w": "blood",
+    "s": 46.12,
+    "e": 46.5,
+    "type": "word"
+   },
+   {
+    "w": "cells.",
+    "s": 46.58,
+    "e": 46.98,
+    "type": "word"
+   },
+   {
+    "w": "Most",
+    "s": 47.52,
+    "e": 47.84,
+    "type": "word"
+   },
+   {
+    "w": "abundant",
+    "s": 47.86,
+    "e": 48.5,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 48.52,
+    "e": 48.66,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 48.7,
+    "e": 48.9,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 48.92,
+    "e": 49.02,
+    "type": "word"
+   },
+   {
+    "w": "cells",
+    "s": 49.1,
+    "e": 49.44,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 49.48,
+    "e": 49.66,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 49.72,
+    "e": 49.88,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_1": {
+  "text": "[instrumental music] Erythrocytes. Red blood cells. Most abundant of all cells in the",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[instrumental music]",
+    "s": 0.44,
+    "e": 40.62,
+    "type": "audio_event"
+   },
+   {
+    "w": "Erythrocytes.",
+    "s": 40.72,
+    "e": 42.08,
+    "type": "word"
+   },
+   {
+    "w": "Red",
+    "s": 45.46,
+    "e": 45.98,
+    "type": "word"
+   },
+   {
+    "w": "blood",
+    "s": 46.12,
+    "e": 46.52,
+    "type": "word"
+   },
+   {
+    "w": "cells.",
+    "s": 46.6,
+    "e": 47.0,
+    "type": "word"
+   },
+   {
+    "w": "Most",
+    "s": 47.54,
+    "e": 47.86,
+    "type": "word"
+   },
+   {
+    "w": "abundant",
+    "s": 47.88,
+    "e": 48.52,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 48.56,
+    "e": 48.66,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 48.72,
+    "e": 48.92,
+    "type": "word"
+   },
+   {
+    "w": "cells",
+    "s": 49.12,
+    "e": 49.46,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 49.5,
+    "e": 49.68,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 49.74,
+    "e": 49.94,
+    "type": "word"
+   }
+  ]
+ },
+ "scribe_vocals_2": {
+  "text": "[instrumental music] Erythrocytes, red blood cells, most abundant of all cells in the",
+  "lang": "eng",
+  "lang_prob": 1.0,
+  "words": [
+   {
+    "w": "[instrumental music]",
+    "s": 0.44,
+    "e": 40.64,
+    "type": "audio_event"
+   },
+   {
+    "w": "Erythrocytes,",
+    "s": 40.72,
+    "e": 42.08,
+    "type": "word"
+   },
+   {
+    "w": "red",
+    "s": 45.48,
+    "e": 46.02,
+    "type": "word"
+   },
+   {
+    "w": "blood",
+    "s": 46.12,
+    "e": 46.52,
+    "type": "word"
+   },
+   {
+    "w": "cells,",
+    "s": 46.6,
+    "e": 46.96,
+    "type": "word"
+   },
+   {
+    "w": "most",
+    "s": 47.56,
+    "e": 47.86,
+    "type": "word"
+   },
+   {
+    "w": "abundant",
+    "s": 47.88,
+    "e": 48.52,
+    "type": "word"
+   },
+   {
+    "w": "of",
+    "s": 48.56,
+    "e": 48.66,
+    "type": "word"
+   },
+   {
+    "w": "all",
+    "s": 48.72,
+    "e": 48.92,
+    "type": "word"
+   },
+   {
+    "w": "cells",
+    "s": 49.12,
+    "e": 49.46,
+    "type": "word"
+   },
+   {
+    "w": "in",
+    "s": 49.5,
+    "e": 49.68,
+    "type": "word"
+   },
+   {
+    "w": "the",
+    "s": 49.74,
+    "e": 49.94,
+    "type": "word"
+   }
+  ]
+ },
+ "sarvam_vocals": {
+  "text": "  Red blood cells, red blood cells, most abundant of all cells in the",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 13.45,
+    "text": "",
+    "lang": "en-IN"
+   },
+   {
+    "start": 13.45,
+    "end": 31.9,
+    "text": "",
+    "lang": "en-IN"
+   },
+   {
+    "start": 31.9,
+    "end": 55.03,
+    "text": "Red blood cells, red blood cells, most abundant of all cells in the",
+    "lang": "en-IN"
+   }
+  ]
+ },
+ "sarvam_verbatim_vocals": {
+  "text": "  Red blood cells, red blood cells, most abundant of all cells in the",
+  "chunks": [
+   {
+    "start": 0.0,
+    "end": 13.45,
+    "text": "",
+    "lang": "en-IN"
+   },
+   {
+    "start": 13.45,
+    "end": 31.9,
+    "text": "",
+    "lang": "en-IN"
+   },
+   {
+    "start": 31.9,
+    "end": 55.03,
+    "text": "Red blood cells, red blood cells, most abundant of all cells in the",
+    "lang": "en-IN"
+   }
+  ]
+ }
+}

@@ -3,10 +3,10 @@
 | | |
 |---|---|
 | Theory | `lyrics/rbc_theory.txt` (688 characters → 55 s) |
-| Lyric sheet | `lyrics/rbc_lyrics_55s_v2_rhyming.txt` |
+| Lyric sheet | `lyrics/rbc_lyrics_55s_v2_rhyming.txt` → fixed as `lyrics/rbc_lyrics_55s_v3_factfixed.txt` |
 | Subject | Biology: blood, erythrocytes (NCERT Class 11, Body Fluids and Circulation) |
 | Automatic checks | `python3 tools/lyric_fact_check.py lyrics/rbc_theory.txt lyrics/rbc_lyrics_55s_v2_rhyming.txt` |
-| **Gate status** | **APPROVED WITH NOTES: waiting for client/user sign-off** |
+| **Gate status** | **APPROVED WITH FIXES (user, 2026-11-16): both REVIEW fixes applied in v3** |
 
 ## A. Automatic checks
 
@@ -50,4 +50,4 @@ Each claim the song makes, compared with the theory (**source match**) and with 
 - **2 qualifiers dropped (REVIEW):** B2 "in blood" and B3 "healthy". Both make the claim slightly broader than the theory. Recommended fix (+3 syllables, fits the 55 s budget):
   - Hook: "Most abundant of all the cells **in blood**!"
   - Verse 1: "**Healthy** adult man, on an average, has…"
-- **Status:** ☐ Approved as is ☐ Approved with fixes ☐ Rejected. **Generation waits until one box is ticked.**
+- **Status:** ☐ Approved as is ☑ **Approved with fixes** ☐ Rejected. Fixes applied in v3 (B2: "in blood", B3: "Healthy"); re-check found no FAIL, 173 syllables.
