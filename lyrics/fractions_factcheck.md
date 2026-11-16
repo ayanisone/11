@@ -6,7 +6,7 @@
 | Lyric sheet | `lyrics/fractions_lyrics_182s_v1.txt` (universal sheet for all 10 genres) |
 | Budget | **386 sung syllables**, 2.27 syllables/s over 170 s of vocal time (universal budget 382-425) |
 | Structure | Chorus · V1 · break · V2 · Chorus · V3 · Bridge · break · V4 · Final chorus |
-| **Gate status** | **PASS with 3 notes for the client: waiting for user approval** |
+| **Gate status** | **APPROVED (user, 2026-11-16); 3 theory notes go to the client** |
 
 ## A. Automatic checks
 | Check | Result |
@@ -62,4 +62,4 @@
 ## E. Verdict
 - **Factual errors in the lyric:** none. **3 notes on the theory** for the client.
 - **Every section is covered:** definition, the whole, cake example, Latin origin, history, portion/section, a/b notation, numerator and denominator (upper/lower, top/bottom, meaning), x/4 and one-fourth, daily life (pizza, apple ½), parts of a fraction, the 3/4 example.
-- **Status:** ☐ Approved as is ☐ Approved with fixes ☐ Rejected.
+- **Status:** ☑ Approved as is ☐ Approved with fixes ☐ Rejected.
