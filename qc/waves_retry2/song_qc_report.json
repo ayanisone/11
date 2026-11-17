@@ -1,0 +1,667 @@
+{
+ "waves_kpop_female_r2": {
+  "scribe_mix": {
+   "coverage": 0.9921875,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "c",
+     "",
+     85.96,
+     "The speed of a light wave? c! c!"
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "the",
+     "a",
+     36.06,
+     "Amplitude? Maximum displacement from the neutral position!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "waves",
+     84.9
+    ]
+   ],
+   "onset": 1.14,
+   "text": "[upbeat music] Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carry greater energy. [upbeat music] Amplitude, maximum displacement from a neutral position. Displacement of a particular point in the medium, the position. Wavelength, two successive identical parts, the distance between. Amplitude represents the energy, the energy. [upbeat music] Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, F, repetitions per second in hertz. The speed of a light wave, C. Waves, waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. [upbeat music] Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves, examples, examples. [upbeat music] A stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric fields. [upbeat music] Wave speed formula, distance covered over time taken. Speed, how fast the distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds, or minutes. [singing] Frequency, hertz, one wave per second. [upbeat music] Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "waves",
+     84.94
+    ]
+   ],
+   "onset": 0.16,
+   "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, maximum displacement from the neutral position. Placement of a particular point in the medium, the position. Wavelength, two successive identical parts, the distance between. Amplitude represents the energy, the energy. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, F, repetitions per second in hertz. The speed of a light wave, C, C. Waves, waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves, examples, examples. A stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric fields. Wave speed formula, distance covered over time taken. Speed, how fast the distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds, or minutes. [singing] Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy."
+  },
+  "scribe_vocals_2": {
+   "coverage": 1.0,
+   "fails": [],
+   "reviews": [],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "waves",
+     84.94
+    ]
+   ],
+   "onset": 0.16,
+   "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, maximum displacement from the neutral position. Placement of a particular point in the medium, the position. Wavelength, two successive identical parts, the distance between. Amplitude represents the energy, the energy. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, F, repetitions per second in hertz. The speed of a light wave, C, C. Waves, waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves, examples, examples. A stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electromagnetic waves, not any medium. Travel through the vacuum, periodic changes in magnetic and electric fields. Wave speed formula, distance covered over time taken. Speed, how fast. The distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds, or minutes. [singing] Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.97265625,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "way",
+     40.4,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "clear",
+     40.4,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "wavelength",
+     "",
+     40.4,
+     "Wavelength? Two successive identical parts, the distance between!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "waves",
+     "",
+     122.9,
+     "Sound waves, waves in a slinky, water waves: examples, examples!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "home",
+     198.5,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "neatly",
+     198.5,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "cruising",
+     198.5,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "cab",
+     198.5,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "an",
+     "and",
+     0.0,
+     "Waves, waves! An energy transport phenomenon!"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "greater",
+     "crest",
+     0.0,
+     "Greater amplitude carries greater energy!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "an",
+     "and",
+     83.8,
+     "Waves, waves! An energy transport phenomenon!"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "hertz",
+     "hurts",
+     198.5,
+     "Frequency? Hertz: one wave per second!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "per",
+     "a",
+     198.5,
+     "Frequency? Hertz: one wave per second!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "wave",
+     0.0
+    ],
+    [
+     "repeat/harmony",
+     "waves",
+     83.8
+    ],
+    [
+     "repeat/harmony",
+     "in",
+     198.5
+    ],
+    [
+     "repeat/harmony",
+     "fast",
+     198.5
+    ],
+    [
+     "repeat/harmony",
+     "second",
+     198.5
+    ],
+    [
+     "repeat/harmony",
+     "for",
+     198.5
+    ],
+    [
+     "repeat/harmony",
+     "a",
+     198.5
+    ]
+   ],
+   "onset": null,
+   "text": "Waves, waves and energy transport phenomenon, amplitude, wavelength, period, frequency, speed, crest, wave amplitude, carries greater energy. Amplitude: maximum displacement from the neutral position. Displacement of a particular point in the medium. The positions way clear, two successive identical parts, the distance between, amplitude represents the energy, the energy. Period T, the time for one wavelength to pass a point. Velocity, v, the speed a specific part passes a point. Frequency, f, repetitions per second in hertz, the speed of a light wave. C, c. Waves, waves, waves and energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, waterways, examples, examples. A stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum, periodic changes in magnetic and electric fields. Wave speed formula: distance covered over time taken. Speed: how fast. The distance a crest traveled in an interval of time. Amplitude: the height of the wave, measured in meters. Wavelength: identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Home, neatly cruising in fast second cab, for a frequency, hurts one wake a second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy."
+  }
+ },
+ "waves_punk_female_r2": {
+  "scribe_mix": {
+   "coverage": 0.984375,
+   "fails": [
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "en",
+     44.22,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "osolving",
+     45.02,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "dream",
+     45.68,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "f",
+     "",
+     67.92,
+     "Frequency, f? Repetitions per second, in hertz!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "c",
+     "tvn",
+     74.72,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "osolving",
+     76.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "dream",
+     76.66,
+     ""
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "c",
+     "",
+     77.44,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "when",
+     118.96,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "from",
+     "",
+     26.14,
+     "Amplitude? Maximum displacement from the neutral position!"
+    ]
+   ],
+   "allowed": [
+    [
+     "vocable",
+     "hey",
+     53.04
+    ],
+    [
+     "repeat/harmony",
+     "amplitude",
+     22.08
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     43.96
+    ],
+    [
+     "repeat/harmony",
+     "greater",
+     74.32
+    ]
+   ],
+   "onset": 0.0,
+   "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, amplitude, maximum displacement, the neutral position. Displacement of a particular point in the medium, the position. Wavelength, two successive identical parts, the distance between. Amplitude represents the energy, the energy, the en- osolving dream. Hey. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, repetitions per second in hertz. The speed of a light wave, greater TVN, osolving dream. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves. Examples, examples. When a stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric field. Wave speed formula, distance covered over time taken. Speed, how fast, the distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. [upbeat music]"
+  },
+  "scribe_vocals_1": {
+   "coverage": 0.984375,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "f",
+     "",
+     67.96,
+     "Frequency, f? Repetitions per second, in hertz!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "c",
+     "tv",
+     74.74,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "c",
+     "and",
+     75.84,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "also",
+     75.98,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "please",
+     76.42,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "read",
+     76.72,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "when",
+     119.04,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "from",
+     "",
+     26.16,
+     "Amplitude? Maximum displacement from the neutral position!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "amplitude",
+     22.14
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     42.44
+    ],
+    [
+     "repeat/harmony",
+     "energy",
+     42.7
+    ],
+    [
+     "repeat/harmony",
+     "greater",
+     74.34
+    ]
+   ],
+   "onset": 0.06,
+   "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, amplitude, maximum displacement, the neutral position. Displacement of a particular point in the medium, the position. Wavelength, two successive identical parts, the distance between. Amplitude represents the energy, the energy, the energy. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, repetitions per second in hertz. The speed of a light wave, greater TV and also please read. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves. Examples, examples. When a stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric field. Wave speed formula, distance covered over time taken. Speed, how fast? The distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. [singing]"
+  },
+  "scribe_vocals_2": {
+   "coverage": 0.984375,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "f",
+     "",
+     67.96,
+     "Frequency, f? Repetitions per second, in hertz!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "c",
+     "tv",
+     74.74,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "c",
+     "and",
+     75.84,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "also",
+     76.0,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "please",
+     76.42,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "read",
+     76.72,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "when",
+     119.04,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "single word dropped",
+     "from",
+     "",
+     26.16,
+     "Amplitude? Maximum displacement from the neutral position!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "amplitude",
+     22.14
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     42.44
+    ],
+    [
+     "repeat/harmony",
+     "energy",
+     42.7
+    ],
+    [
+     "repeat/harmony",
+     "greater",
+     74.34
+    ]
+   ],
+   "onset": 0.06,
+   "text": "Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, amplitude, maximum displacement, the neutral position. Displacement of a particular point in the medium, the position. Wavelength, two successive identical parts, the distance between. Amplitude represents the energy, the energy, the energy. Period, T, the time for one wavelength to pass a point. Velocity, V, the speed a specific part passes a point. Frequency, repetitions per second in hertz. The speed of a light wave. Greater TV and also please read. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky, water waves. Examples, examples. When a stone dropped into a pond, the water is disturbed as the wave passes. Equilibrium position, it returns after the wave has passed. Matter waves, any moving object can be described as a wave. Electromagnetic waves, not any medium, travel through the vacuum. Periodic changes in magnetic and electric field. Wave speed formula, distance covered over time taken. Speed, how fast? The distance a crest traveled in an interval of time. Amplitude, the height of the wave measured in meters. Wavelength, identical points of adjacent crests in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second. Waves, waves, an energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy."
+  },
+  "sarvam_vocals": {
+   "coverage": 0.9609375,
+   "fails": [
+    [
+     "FAIL",
+     "omission (protected)",
+     "f",
+     "",
+     49.95,
+     "Frequency, f? Repetitions per second, in hertz!"
+    ],
+    [
+     "FAIL",
+     "omission (protected)",
+     "wave",
+     "",
+     72.9,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "c",
+     "tpn",
+     72.9,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "protected term changed",
+     "c",
+     "not",
+     72.9,
+     "The speed of a light wave? c! c!"
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "saltly",
+     72.9,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "stream",
+     72.9,
+     ""
+    ],
+    [
+     "FAIL",
+     "new word inserted",
+     "",
+     "like",
+     85.95,
+     ""
+    ]
+   ],
+   "reviews": [
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "an",
+     "and",
+     0.0,
+     "Waves, waves! An energy transport phenomenon!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "from",
+     "",
+     20.95,
+     "Amplitude? Maximum displacement from the neutral position!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "in",
+     "it",
+     49.95,
+     "Frequency, f? Repetitions per second, in hertz!"
+    ],
+    [
+     "REVIEW",
+     "sound-alike on protected term",
+     "wavelength",
+     "wave",
+     85.95,
+     "Amplitude, wavelength, period, frequency, speed!"
+    ],
+    [
+     "REVIEW",
+     "single word dropped",
+     "can",
+     "",
+     125.65,
+     "Matter waves? Any moving object can be described as a wave!"
+    ],
+    [
+     "REVIEW",
+     "inflection / sound-alike",
+     "an",
+     "and",
+     182.1,
+     "Waves, waves! An energy transport phenomenon!"
+    ]
+   ],
+   "allowed": [
+    [
+     "repeat/harmony",
+     "amplitude",
+     20.95
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     35.7
+    ],
+    [
+     "repeat/harmony",
+     "energy",
+     35.7
+    ],
+    [
+     "repeat/harmony",
+     "the",
+     35.7
+    ],
+    [
+     "repeat/harmony",
+     "energy",
+     35.7
+    ],
+    [
+     "repeat/harmony",
+     "weather",
+     72.9
+    ],
+    [
+     "repeat/harmony",
+     "from",
+     108.8
+    ]
+   ],
+   "onset": null,
+   "text": "Waves, waves, and energy transport phenomenon, amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy. Amplitude, amplitude, maximum displacement, the neutral position, displacement of a particular point in the medium, the position, wavelength. Two successive identical parts, the distance between amplitude represents the energy, the energy, the energy, the energy. Period T, the time for one wavelength to pass a point. Velocity V, the speed a specific part passes a point. Frequency, repetitions per second, it hertz, the speed. Of a lightweight, weather TPN, not saltly stream. Waves, wave, an energy transport phenomenon. Amplitude. Wave-like period, frequency, speed. Greater amplitude carries greater energy. Transverse waves, the medium moves at right angles to the direction. Longitudinal, movement of particles in the same dimension as the direction. Mechanical waves need a medium for propagation. Sound waves, waves in a slinky water wave. Examples, examples from a stone dropped into a pond. The water is disturbed as the wave passes. Equilibrium position. It returns after the wave has passed. Matter waves. Any moving object be described as a wave. Electromagnetic waves. Not any medium travel through the vacuum. Periodic changes in magnetic and electric fields. Wave speed formula: distance covered over time taken. Speed: how fast the distance a crest traveled in an interval of time. Amplitude, the height of the wave, measured in meters. Wavelength, identical points of adjacent crests, in meters. Period, one complete vibrational cycle, seconds or minutes. Frequency, hertz, one wave per second. Waves, waves and energy transport phenomenon. Amplitude, wavelength, period, frequency, speed. Greater amplitude carries greater energy."
+  }
+ }
+}
