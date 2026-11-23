@@ -15,3 +15,8 @@
 | hiphop_female_r1 | PASS (minor) | opening chorus + blood line fixed; tiny "అ-అనే" at the end |
 | hiphop_male_r1 | PASS (minor) | ad-libs gone; "సరళ రేఖీయ" a bit slurred; 7 s intro |
 | folk_male_r1 | RETRY 2 | bridge fixed, but verse 1 mixes lines ("…గాలి పరుగెత్తుతాం"), "విశ్వంలో"→"ఉన్నంలో" |
+
+## Retry 2 (qc/motion_te_retry2)
+| take | status | note |
+|---|---|---|
+| folk_male_r2 | REVIEW 0:05 | verse 1 and bridge now correct; opening shout "చలనం!" skipped in both choruses (word still sung in the verses); 5 s intro |
