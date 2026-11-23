@@ -7,3 +7,9 @@
 | folk_male | REVIEW 0:35 | "വായു" not sung before "ശ്വാസകോശങ്ങളിലേക്ക്" |
 | mollywood_female | RETRY | "നേർരേഖീയ ചലനം" sung "നെറുകിയ ചലനം" |
 | rnb_female | RETRY | ends "വലിയ പിഴവ് വരണം" (meaning flipped); "ഒരിക്കൽ അക്ഷത്തിൽ" garbled; 10 s intro |
+
+## Retry 1 (qc/motion_ml_retry1)
+| take | status | note |
+|---|---|---|
+| rnb_female_r1 | REVIEW 1:48 | "വരില്ല" now correct, axis line fixed; outro adds "ത്വരണം" ×3 after the final chorus |
+| mollywood_female_r1 | RETRY 2 | നേർരേഖീയ fixed, but bridge answer "ആപേക്ഷിക പ്രവേഗം" dropped (~1:18) |
