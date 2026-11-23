@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from common import read_songs  # noqa: E402
 
 LANG = {"hi": "Hindi", "en": "English", "ta": "Tamil", "te": "Telugu", "kn": "Kannada", "ml": "Malayalam",
-        "mr": "Marathi", "bn": "Bengali", "gu": "Gujarati", "pa": "Punjabi", "or": "Odia"}
+        "mr": "Marathi", "bn": "Bengali", "gu": "Gujarati", "pa": "Punjabi", "or": "Odia", "as": "Assamese"}
 
 project = Path(sys.argv[1])
 out_dir = project / "lyric_docs"

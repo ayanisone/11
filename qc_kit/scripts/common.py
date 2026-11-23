@@ -37,7 +37,7 @@ def read_songs(project):
 
 
 SARVAM_LANG = {"hi": "hi-IN", "en": "en-IN", "bn": "bn-IN", "kn": "kn-IN", "ml": "ml-IN", "mr": "mr-IN",
-               "or": "od-IN", "od": "od-IN", "pa": "pa-IN", "ta": "ta-IN", "te": "te-IN", "gu": "gu-IN"}
+               "or": "od-IN", "od": "od-IN", "pa": "pa-IN", "ta": "ta-IN", "te": "te-IN", "gu": "gu-IN", "as": "as-IN"}
 
 _ONES = "zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen " \
         "sixteen seventeen eighteen nineteen".split()
