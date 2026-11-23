@@ -9,3 +9,5 @@ Delivered: `music/motion_gu/` – 8 files (5 PASS, 3 REVIEW). Credits: 8 × 2,31
 | Cinematic dandiya | PASS (retry 1 – ફેફસાં now clear) | PASS (retry 1 – લોહી now sung) |
 
 How checked: 3× Scribe + Sarvam transcripts, key-word check, slice re-listen by 5 engines on every doubtful spot.
+
+**2026-11-23: all takes approved by the user and delivered as PASS** (REVIEW notes above kept for reference).

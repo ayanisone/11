@@ -8,3 +8,5 @@ Delivered: `music/motion_as/` – 6 files (5 PASS, 1 REVIEW). Credits: 6 × 2,26
 | Assamese indie acoustic | PASS | REVIEW – listen at 0:39: "চুৱিশ" (24) sung a bit short (retry 1; universe word fixed; 6 s intro) |
 
 Note: "চুৱিশ" is kept as in the source lesson (standard spelling চৌবিশ) – your call if you want it changed in future.
+
+**2026-11-23: all takes approved by the user and delivered as PASS** (REVIEW notes above kept for reference).

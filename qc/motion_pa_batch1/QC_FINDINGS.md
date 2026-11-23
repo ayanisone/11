@@ -10,3 +10,7 @@ Delivered: `music/motion_pa/` – 7 files (6 PASS, 1 REVIEW). 1 take held back. 
 
 Nearest usable hip-hop male take, if you want to hear it: `qc/motion_gupa_retry1/input/motion_pa_hiphop_male_r1.mp3` (complete song, but "ਤਵਰਣ" in both choruses is not clear).
 Note: Scribe often writes ਸ਼ਿਰਾਵਾਂ as "ਸ਼ਰਾਬਾਂ"; slice checks show it is sung correctly.
+
+**2026-11-23: all takes approved by the user and delivered as PASS** (REVIEW notes above kept for reference).
+
+Hip-hop male: previously held back; delivered as PASS from retry 1 (`qc/motion_gupa_retry1/input/motion_pa_hiphop_male_r1.mp3`).

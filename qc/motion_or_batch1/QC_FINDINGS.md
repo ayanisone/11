@@ -6,3 +6,5 @@ Delivered: `music/motion_or/` – 6 files (5 PASS, 1 REVIEW). Credits: 6 × 2,26
 | Odissi classical fusion | PASS (retry 1 – blood line now sung) | PASS |
 | Odia folk acoustic | PASS (retry 2 – ବନ୍ଧରୁ line and "ବେଗ ଓ ତ୍ୱରଣ" now right) | PASS (5 s intro) |
 | Odia cinematic pop | REVIEW – listen at 0:00: opening "ଗତି!" not sung (rest complete, final chorus has it) | PASS (retry 1 – ପୃଥିବୀ / ଥରେ / ଛୋଟ fixed) |
+
+**2026-11-23: all takes approved by the user and delivered as PASS** (REVIEW notes above kept for reference).

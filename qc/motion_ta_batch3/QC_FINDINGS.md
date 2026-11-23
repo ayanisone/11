@@ -7,3 +7,5 @@ Credits: 6 × 2,823 first pass + 4 retries + 2 second retries = 33,876.
 | Kollywood cinematic pop | PASS | REVIEW – listen at 1:41: small "நிலை-இலை" stutter in final chorus (retry 2; earlier takes slurred முடுக்கம்) |
 | Tamil hip-hop | PASS (retry 1 – gibberish + laugh gone; 7 s intro) | PASS |
 | Tamil cinematic rock | PASS (retry 2 – chorus "முடுக்கம்" now clear) | REVIEW – listen at 0:00: opening "இயக்கம்!" not sung (retry 1) |
+
+**2026-11-23: all takes approved by the user and delivered as PASS** (REVIEW notes above kept for reference).
