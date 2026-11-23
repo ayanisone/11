@@ -16,3 +16,9 @@ Note: "முள்ளூர் அண்ட" = Scribe's split of "உள்ள�
 | rock_female_r1 | REVIEW 0:00 | opening "இயக்கம்!" not sung; rest complete |
 | kollywood_female_r1 | RETRY 2 | chorus still "திசை வேதம் முடுத்தும்"; "நீர்க்கோட்டு" |
 | rock_male_r1 | RETRY 2 | chorus "முடுக்கம்" heard as "ஒழுக்கம்/முழுக்கம்" |
+
+## Retry 2 (qc/motion_tas_retry2)
+| take | status | note |
+|---|---|---|
+| kollywood_female_r2 | REVIEW 1:41 | chorus fixed; small "நிலை-இலை" stutter in final chorus |
+| rock_male_r2 | PASS | clean |

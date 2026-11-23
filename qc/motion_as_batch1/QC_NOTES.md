@@ -13,3 +13,6 @@
 |---|---|---|
 | indie_female_r1 | REVIEW 0:39 | universe fixed; "চুৱিশ" still short ("চুই/চুইশ"); 5.7 s intro |
 | bihu_female_r1 | RETRY 2 | axis line fixed, but "তেজ" now dropped (3/3) |
+
+## Retry 2 (qc/motion_tas_retry2)
+| bihu_female_r2 | PASS | তেজ and axis line both correct |

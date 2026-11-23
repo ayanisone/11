@@ -14,3 +14,6 @@
 | odissi_male_r1 | PASS | blood line now sung |
 | cinepop_female_r1 | PASS | complete and clean |
 | folk_male_r1 | RETRY 2 | ବନ୍ଧରୁ fixed, but chorus "ବେଗ ଓ ତ୍ୱରଣ" sung "ଏ ଗୋ ତୋରଣ" (B dropped) |
+
+## Retry 2
+| folk_male_r2 | PASS (minor) | chorus "ବେଗ ଓ ତ୍ୱରଣ" now has the B; bridge and ବନ୍ଧରୁ complete |
