@@ -13,3 +13,8 @@
 |---|---|---|
 | rnb_female_r1 | REVIEW 1:48 | "വരില്ല" now correct, axis line fixed; outro adds "ത്വരണം" ×3 after the final chorus |
 | mollywood_female_r1 | RETRY 2 | നേർരേഖീയ fixed, but bridge answer "ആപേക്ഷിക പ്രവേഗം" dropped (~1:18) |
+
+## Retry 2 (qc/motion_ml_retry2)
+| take | status | note |
+|---|---|---|
+| mollywood_female_r2 | PASS | all lines complete, bridge answer "ആപേക്ഷിക പ്രവേഗം" present, starts at 0.7 s |
