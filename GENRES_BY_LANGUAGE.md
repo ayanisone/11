@@ -76,6 +76,13 @@ Earlier Tamil genres the user asked for (names only; prompts written by Claude):
 | Malayalam Folk Acoustic | Malayalam folk acoustic, acoustic strings, light percussion, Malayalam male vocals, nature-inspired, 85 BPM, Kerala folk tradition, earthy, poetic, organic warm sound |
 | Malayalam R&B Indie | Malayalam R&B indie, smooth production, warm bass, Malayalam vocals, melodic hooks, 92 BPM, modern commercial sound, acoustic guitar, emotional, contemporary Kerala sound |
 
+## Marathi
+| Genre | Style prompt |
+|---|---|
+| Lavani Folk Pop | Marathi Lavani folk pop, dholki percussion, harmonium, Marathi female vocals, energetic dance rhythm, 120 BPM, traditional Maharashtra folk energy, melodic hooks, vibrant, celebratory |
+| Marathi Cinematic Soul | Marathi cinematic soul, lush orchestral strings, piano, Marathi male vocals, emotional melodic hooks, 95 BPM, Marathi film music inspired, soulful, intimate, deeply emotive production |
+| Marathi Hip-Hop / Rap | Marathi hip hop, trap beats, 808 bass, Marathi rap vocals, hard-hitting, street energy, urban Pune sound, 138 BPM, dense lyrical phrasing, dark atmospheric, aggressive |
+
 ## Hindi (user gave names; prompts written by Claude)
 | Genre | Style prompt used |
 |---|---|
