@@ -1,5 +1,5 @@
-# Motion ("गति / Motion") – final QC report, 11 languages
-Date: 2026-11-24 · Model: ElevenLabs Music v2.5 · Marathi (12th language) is in progress, see the end.
+# Motion ("गति / Motion") – final QC report, 11 languages + Marathi
+Date: 2026-11-24 · Model: ElevenLabs Music v2.5
 
 ## How every take was checked
 1. Lyrics written only from the theory text, then fact-checked against it.
@@ -25,7 +25,8 @@ Date: 2026-11-24 · Model: ElevenLabs Music v2.5 · Marathi (12th language) is i
 | 9 | Telugu | `music/motion_te/` | 3 | 6 | 5 | 1 → approved | 0 | 27,975 |
 | 10 | Kannada | `music/motion_kn/` | 3 | 6 | 2 | 4 → approved | 0 | 32,484 |
 | 11 | Malayalam | `music/motion_ml/` | 3 | 6 | 4 | 2 → approved | 0 | 24,780 |
-| | **Total** | | **49** | **96** | **71** | **24 (+1 held, now approved)** | **2** | **≈384,000** |
+| 12 | Marathi | `music/motion_mr/` | 3 | 6 | 2 | 4 | 0 | 32,760 |
+| | **Total** | | **52** | **102** | **73** | **28 (+1 held, now approved)** | **2** | **≈416,800** |
 
 "→ approved": the user approved these REVIEW takes on 2026-11-23; the files are named `_PASS`. For Hindi, Bengali and the 68 s Tamil set the REVIEW takes still carry `_REVIEW` in the file name.
 
@@ -62,6 +63,10 @@ Date: 2026-11-24 · Model: ElevenLabs Music v2.5 · Marathi (12th language) is i
 | Kannada | Indie rock F | 1:37 | "ವೇ-ವೇ-ವೇಗೋತ್ಕರ್ಷ" stutter |
 | Malayalam | R&B F | 1:48 | three extra "ത്വരണം" after the final chorus |
 | Malayalam | Folk M | 0:35 | "വായു" (air) skipped once |
+| Marathi | Cinematic soul F | 0:50 | "फिरते" clipped to "फिर" |
+| Marathi | Hip-hop M | 0:57 | "दीर्घ-दीर्घिका" stutter |
+| Marathi | Lavani F | 0:23, 1:10 | "सायकल चालवतो" sung "चालतो"; "सरळरेषीय" slurred |
+| Marathi | Hip-hop F | 0:33 | "धमन्या" blurred; 7 s intro |
 
 None of these changes a fact. Every meaning-flip found during QC (dropped "not" in Gujarati/Malayalam, "air goes into arteries" in English, "water" → "you" in Tamil) was fixed by a retry or kept out of delivery.
 
@@ -72,6 +77,5 @@ None of these changes a fact. Every meaning-flip found during QC (dropped "not" 
 - **Fast styles are the weak spot:** EDM, hip-hop and a cappella needed the most retries in every language; folk and cinematic were cleanest.
 - **The automatic scorer is a first pass only.** Spelling variants (numbers as digits, English loanwords) trigger false fails, and merged lines can slip through, so every take is also read by hand.
 
-## In progress: Marathi (12th language)
-Lyrics approved; 3 genres (Lavani folk pop, Marathi cinematic soul, Marathi hip-hop) × male + female.
-Lavani male: **PASS**, every line correct first try. The other five timed out on the ElevenLabs server and were re-run once (07:54 UTC); QC follows. Credits so far: 11 × 2,520 = 27,720 (if the timed-out renders were charged).
+## Marathi (12th language)
+Delivered 2026-11-24: 2 PASS, 4 REVIEW (see table above). 5 of the first 6 renders timed out on the ElevenLabs server and were re-run once; 2 takes needed one prompt retry. The negation "मोठी चूक होत नाही" is correct in all six.
